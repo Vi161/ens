@@ -28,9 +28,11 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="60" column="16" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.32288036" vertical-offset="487" max-vertical-offset="2176">
+                <state line="402" column="53" selection-start="18648" selection-end="18674" vertical-scroll-proportion="0.80255514" vertical-offset="805" max-vertical-offset="3774">
                   <folding>
+                    <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -42,6 +44,7 @@
                     <element signature="tag#div#9;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#10;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#11;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#div#12;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -54,11 +57,21 @@
           <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="395" column="0" selection-start="8078" selection-end="8078" vertical-scroll-proportion="0.9796651" vertical-offset="3992" max-vertical-offset="8738">
+                <state line="646" column="21" selection-start="13826" selection-end="13826" vertical-scroll-proportion="0.67464113" vertical-offset="3346" max-vertical-offset="4556">
                   <folding>
                     <element signature="e#3343#4063#0" expanded="false" />
                     <element signature="e#4079#4865#0" expanded="false" />
                     <element signature="e#4881#5958#0" expanded="false" />
+                    <element signature="e#5974#6525#0" expanded="false" />
+                    <element signature="e#6541#7169#0" expanded="false" />
+                    <element signature="e#7185#7896#0" expanded="false" />
+                    <element signature="e#7912#9155#0" expanded="false" />
+                    <element signature="e#9171#9631#0" expanded="false" />
+                    <element signature="e#9647#10200#0" expanded="false" />
+                    <element signature="e#10217#10776#0" expanded="false" />
+                    <element signature="e#10793#11629#0" expanded="false" />
+                    <element signature="e#11646#12093#0" expanded="false" />
+                    <element signature="e#12110#13012#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -285,13 +298,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13957">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1156" column="7" selection-start="17347" selection-end="17347" vertical-scroll-proportion="-0.017162472" vertical-offset="19667" max-vertical-offset="64821">
@@ -306,11 +312,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="529" column="113" selection-start="17654" selection-end="17654" vertical-scroll-proportion="0.7860412" vertical-offset="8306" max-vertical-offset="9180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="16" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.32288036" vertical-offset="487" max-vertical-offset="2176">
+        <state line="402" column="53" selection-start="18648" selection-end="18674" vertical-scroll-proportion="0.80255514" vertical-offset="805" max-vertical-offset="3774">
           <folding>
+            <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -322,17 +337,28 @@
             <element signature="tag#div#9;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#10;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#11;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#12;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="395" column="0" selection-start="8078" selection-end="8078" vertical-scroll-proportion="0.9796651" vertical-offset="3992" max-vertical-offset="8738">
+        <state line="646" column="21" selection-start="13826" selection-end="13826" vertical-scroll-proportion="0.67464113" vertical-offset="3346" max-vertical-offset="4556">
           <folding>
             <element signature="e#3343#4063#0" expanded="false" />
             <element signature="e#4079#4865#0" expanded="false" />
             <element signature="e#4881#5958#0" expanded="false" />
+            <element signature="e#5974#6525#0" expanded="false" />
+            <element signature="e#6541#7169#0" expanded="false" />
+            <element signature="e#7185#7896#0" expanded="false" />
+            <element signature="e#7912#9155#0" expanded="false" />
+            <element signature="e#9171#9631#0" expanded="false" />
+            <element signature="e#9647#10200#0" expanded="false" />
+            <element signature="e#10217#10776#0" expanded="false" />
+            <element signature="e#10793#11629#0" expanded="false" />
+            <element signature="e#11646#12093#0" expanded="false" />
+            <element signature="e#12110#13012#0" expanded="false" />
           </folding>
         </state>
       </provider>

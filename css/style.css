@@ -265,7 +265,6 @@ header {
         padding: 0 42px; }
 
 .product-block5 {
-  height: 290px;
   width: 100%;
   background-color: #fffaf0; }
   .product-block5 .content__container {
@@ -277,6 +276,7 @@ header {
       text-align: left;
       align-items: center;
       height: 33%;
+      padding: 28px 0;
       border-bottom: 1px solid black; }
       .product-block5 .content__container .product-block5__txt .product-block5__title {
         font-size: 30px;
@@ -322,8 +322,7 @@ header {
   width: 100%;
   background-color: white;
   background: url("../images/readings.jpg") no-repeat;
-  background-position: 825px;
-  background-size: cover; }
+  background-position: 825px; }
   .product-block7 .content__container {
     display: flex;
     justify-content: flex-start;
@@ -361,9 +360,7 @@ header {
 .product-block8 {
   height: 500px;
   width: 100%;
-  background: url("../images/results.jpg") no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background: url("../images/results.jpg") no-repeat; }
   .product-block8 .content__container {
     display: flex;
     justify-content: flex-end;
@@ -384,8 +381,7 @@ header {
   width: 100%;
   background: url("../images/silver_electrodes.jpg") no-repeat;
   background-color: black;
-  background-position: 936px 2px;
-  background-size: cover; }
+  background-position: 936px 2px; }
   .product-block9 .content__container {
     display: flex;
     justify-content: flex-start;
@@ -501,5 +497,54 @@ header {
           color: #555;
           padding-top: 5px;
           margin: 0; }
+
+.product-block14 {
+  width: 100%;
+  background-color: white; }
+  .product-block14 .content__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    .product-block14 .content__container .product-block14__title1 {
+      font-size: 58px;
+      text-align: center; }
+    .product-block14 .content__container .product-block14__txt {
+      display: flex;
+      text-align: left;
+      align-items: flex-start;
+      height: 33%;
+      padding: 28px 0;
+      border-bottom: 1px solid #ccc; }
+      .product-block14 .content__container .product-block14__txt .product-block14__title {
+        margin: 0;
+        padding-left: 25px;
+        width: 34%;
+        font-size: 28px;
+        color: #444; }
+      .product-block14 .content__container .product-block14__txt .product-block14__p1 {
+        font-size: 18px;
+        margin: 0;
+        width: 94%; }
+        .product-block14 .content__container .product-block14__txt .product-block14__p1 .product-block14__list {
+          margin: 0; }
+          .product-block14 .content__container .product-block14__txt .product-block14__p1 .product-block14__list .product-block14__item {
+            list-style: none;
+            margin: 5px 0; }
+      .product-block14 .content__container .product-block14__txt .product-block14__p2 {
+        display: flex; }
+        .product-block14 .content__container .product-block14__txt .product-block14__p2 .product-block14__list {
+          display: inline-block;
+          width: 50%; }
+          .product-block14 .content__container .product-block14__txt .product-block14__p2 .product-block14__list .product-block14__item {
+            color: #999; }
+            .product-block14 .content__container .product-block14__txt .product-block14__p2 .product-block14__list .product-block14__item .product-block14__list1 {
+              padding: 0; }
+              .product-block14 .content__container .product-block14__txt .product-block14__p2 .product-block14__list .product-block14__item .product-block14__list1 .product-block14__item1 {
+                color: black;
+                list-style: none;
+                padding: 0;
+                padding: 5px 0; }
+        .product-block14 .content__container .product-block14__txt .product-block14__p2 .product-block14__list-bord {
+          border-right: 1px solid #ccc; }
 
 /*# sourceMappingURL=style.css.map */

@@ -324,7 +324,6 @@ header{
   }
 }
 .product-block5{
-  height: 290px;
   width: 100%;
   background-color:#fffaf0;
   .content__container{
@@ -336,6 +335,7 @@ header{
       text-align: left;
       align-items: center;
       height: 33%;
+      padding: 28px 0;
       border-bottom: 1px solid black;
       .product-block5__title{
         font-size: 30px;
@@ -392,7 +392,6 @@ header{
   background-color: white;
   background: url('../images/readings.jpg') no-repeat;
   background-position: 825px;
-  background-size: cover;
 
   .content__container{
     display: flex;
@@ -441,8 +440,6 @@ header{
   height: 500px;
   width: 100%;
   background: url('../images/results.jpg') no-repeat;
-  background-position: center;
-  background-size: cover;
 
   .content__container{
     display: flex;
@@ -469,8 +466,6 @@ header{
   background: url('../images/silver_electrodes.jpg') no-repeat;
   background-color: black;
   background-position: 936px 2px;
-  background-size: cover;
-
   .content__container{
     display: flex;
     justify-content: flex-start;
@@ -616,5 +611,68 @@ header{
     }
   }
 }
+.product-block14{
+  width: 100%;
+  background-color:white;
+  .content__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .product-block14__title1{
+      font-size: 58px;
+      text-align: center;
+    }
+    .product-block14__txt{
+      display: flex;
+      text-align: left;
+      align-items: flex-start;
+      height: 33%;
+      padding: 28px 0;
+      border-bottom: 1px solid #ccc;
+      .product-block14__title{
+        margin: 0;
+        padding-left: 25px;
+        width: 34%;
+        font-size: 28px;
+        color: #444;
+      }
+      .product-block14__p1{
+        font-size: 18px;
+        margin: 0;
+        width: 94%;
+        .product-block14__list{
+          margin: 0;
+          .product-block14__item{
+            list-style: none;
+            margin: 5px 0;
+          }
+        }
+      }
+      .product-block14__p2{
+        display: flex;
+        .product-block14__list{
+          display: inline-block;
+          width: 50%;
+          .product-block14__item{
+            color:#999;
+            .product-block14__list1{
+              padding:0;
+              .product-block14__item1{
+                color:black;
+                list-style: none;
+                padding:0;
+                padding:5px 0
+              }
+            }
+          }
+        }
+        .product-block14__list-bord{
+          border-right: 1px solid #ccc;
+        }
+      }
+    }
+  }
+}
+
 
 
