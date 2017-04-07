@@ -29,8 +29,6 @@ $header-height:55px;
   font-family: MYRIADPRO-REGULAR;
   src: url('../fonts/MYRIADPRO-REGULAR.OTF');
 }
-
-
 body{
   margin: 0;
   @extend .font-MYRIADPRO-LIGHT;
@@ -164,7 +162,7 @@ header{
 }
 .products-nav-fixed {
 
-//  position:fixed;     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ВЕРНУТЬ!!!!!!!!!!!!!!!!!!
+  position:fixed;     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ВЕРНУТЬ!!!!!!!!!!!!!!!!!!
   top:0px;
   width: 100%;
   transition: top 1s;
@@ -188,6 +186,7 @@ header{
   height: 500px;
   width: 100%;
   background: url('../images/banner.png') no-repeat;
+  background-position: center;
   .content__container{
     display: flex;
     justify-content: flex-end;
@@ -301,6 +300,7 @@ header{
   height: 800px;
   width: 100%;
   background: url('../images/indication.jpg') no-repeat;
+  background-position: center;
   .content__container{
     display: flex;
     align-items: flex-start;
@@ -356,6 +356,7 @@ header{
   height: 700px;
   width: 100%;
   background: url('../images/control.jpg') no-repeat;
+  background-position: center;
   .content__container{
     display: flex;
     align-items: flex-start;
@@ -436,6 +437,8 @@ header{
   height: 500px;
   width: 100%;
   background: url('../images/results.jpg') no-repeat;
+  background-position: center;
+
   .content__container{
     display: flex;
     justify-content: flex-end;
@@ -485,6 +488,8 @@ header{
   height: 650px;
   width: 100%;
   background: url('../images/detachable_electrodes.jpg') no-repeat;
+  background-position: center;
+
   .content__container{
     display: flex;
     justify-content: flex-end;
@@ -505,4 +510,101 @@ header{
     }
   }
 }
+.product-block11{
+  height: 760px;
+  width: 100%;
+  background-color: white;
+  .content__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    padding-top: 50px;
+    .product-block11__txt{
+      width: 50%;
+      .product-block11__title{
+        font-size: 45px;
+        margin: 0;
+        padding: 0 10px;
+      }
+      .product-block11__img1{
+        width: 525px;
+        height: 300px;
+        background: url('../images/copper_electrodes.jpg') no-repeat;
+      }
+      .product-block11__img2{
+        width: 525px;
+        height: 300px;
+        background: url('../images/gold_electrodes.jpg') no-repeat;
+      }
+      .product-block11__p1{
+        font-size: 18px;
+        padding: 0 55px;
+      }
+    }
+    .product-block11__txt2{
+      border-left:1px solid #CCC;
+    }
+  }
+}
+.product-block12{
+  height: 700px;
+  width: 100%;
+  background: url('../images/connecting.jpg') no-repeat;
+  background-position: center;
+
+  .content__container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    .product-block12__txt{
+      text-align: center;
+      padding-top: 100px;
+      .product-block12__title{
+        color: #fffaf0;
+        font-size: 58px;
+        margin: 0;
+      }
+
+    }
+  }
+}
+.product-block13{
+  height: 350px;
+  width: 100%;
+  background: url('../images/connecting2.jpg') no-repeat;
+  background-position: center;
+
+  .content__container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    .product-block13__icons{
+      padding-right: 141px;
+      .product-block13__ico-wrap{
+        display: inline-block;
+        .product-block13__ico{
+          width: 150px;
+          height: 133px;
+          background: url(../images/sprite.png) no-repeat;
+          margin: 0 29px;
+        }
+        .product-block13__ico1{
+          background-position: -6px -460px;
+        }
+        .product-block13__ico2{
+          background-position: -177px -460px;
+        }
+        .product-block13__txt{
+          font-size: 18px;
+          color: #555;
+          padding-top: 5px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
 

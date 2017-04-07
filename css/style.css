@@ -128,6 +128,7 @@ header {
     color: #666; }
 
 .products-nav-fixed {
+  position: fixed;
   top: 0px;
   width: 100%;
   transition: top 1s; }
@@ -149,7 +150,8 @@ header {
 .product-block1 {
   height: 500px;
   width: 100%;
-  background: url("../images/banner.png") no-repeat; }
+  background: url("../images/banner.png") no-repeat;
+  background-position: center; }
   .product-block1 .content__container {
     display: flex;
     justify-content: flex-end;
@@ -242,7 +244,8 @@ header {
 .product-block4 {
   height: 800px;
   width: 100%;
-  background: url("../images/indication.jpg") no-repeat; }
+  background: url("../images/indication.jpg") no-repeat;
+  background-position: center; }
   .product-block4 .content__container {
     display: flex;
     align-items: flex-start;
@@ -288,7 +291,8 @@ header {
 .product-block6 {
   height: 700px;
   width: 100%;
-  background: url("../images/control.jpg") no-repeat; }
+  background: url("../images/control.jpg") no-repeat;
+  background-position: center; }
   .product-block6 .content__container {
     display: flex;
     align-items: flex-start;
@@ -354,7 +358,8 @@ header {
 .product-block8 {
   height: 500px;
   width: 100%;
-  background: url("../images/results.jpg") no-repeat; }
+  background: url("../images/results.jpg") no-repeat;
+  background-position: center; }
   .product-block8 .content__container {
     display: flex;
     justify-content: flex-end;
@@ -395,7 +400,8 @@ header {
 .product-block10 {
   height: 650px;
   width: 100%;
-  background: url("../images/detachable_electrodes.jpg") no-repeat; }
+  background: url("../images/detachable_electrodes.jpg") no-repeat;
+  background-position: center; }
   .product-block10 .content__container {
     display: flex;
     justify-content: flex-end;
@@ -411,5 +417,81 @@ header {
       .product-block10 .content__container .product-block10__txt .product-block10__p1 {
         font-size: 26px;
         padding: 0 55px; }
+
+.product-block11 {
+  height: 760px;
+  width: 100%;
+  background-color: white; }
+  .product-block11 .content__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    padding-top: 50px; }
+    .product-block11 .content__container .product-block11__txt {
+      width: 50%; }
+      .product-block11 .content__container .product-block11__txt .product-block11__title {
+        font-size: 45px;
+        margin: 0;
+        padding: 0 10px; }
+      .product-block11 .content__container .product-block11__txt .product-block11__img1 {
+        width: 525px;
+        height: 300px;
+        background: url("../images/copper_electrodes.jpg") no-repeat; }
+      .product-block11 .content__container .product-block11__txt .product-block11__img2 {
+        width: 525px;
+        height: 300px;
+        background: url("../images/gold_electrodes.jpg") no-repeat; }
+      .product-block11 .content__container .product-block11__txt .product-block11__p1 {
+        font-size: 18px;
+        padding: 0 55px; }
+    .product-block11 .content__container .product-block11__txt2 {
+      border-left: 1px solid #CCC; }
+
+.product-block12 {
+  height: 700px;
+  width: 100%;
+  background: url("../images/connecting.jpg") no-repeat;
+  background-position: center; }
+  .product-block12 .content__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+    .product-block12 .content__container .product-block12__txt {
+      text-align: center;
+      padding-top: 100px; }
+      .product-block12 .content__container .product-block12__txt .product-block12__title {
+        color: #fffaf0;
+        font-size: 58px;
+        margin: 0; }
+
+.product-block13 {
+  height: 350px;
+  width: 100%;
+  background: url("../images/connecting2.jpg") no-repeat;
+  background-position: center; }
+  .product-block13 .content__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center; }
+    .product-block13 .content__container .product-block13__icons {
+      padding-right: 141px; }
+      .product-block13 .content__container .product-block13__icons .product-block13__ico-wrap {
+        display: inline-block; }
+        .product-block13 .content__container .product-block13__icons .product-block13__ico-wrap .product-block13__ico {
+          width: 150px;
+          height: 133px;
+          background: url(../images/sprite.png) no-repeat;
+          margin: 0 29px; }
+        .product-block13 .content__container .product-block13__icons .product-block13__ico-wrap .product-block13__ico1 {
+          background-position: -6px -460px; }
+        .product-block13 .content__container .product-block13__icons .product-block13__ico-wrap .product-block13__ico2 {
+          background-position: -177px -460px; }
+        .product-block13 .content__container .product-block13__icons .product-block13__ico-wrap .product-block13__txt {
+          font-size: 18px;
+          color: #555;
+          padding-top: 5px;
+          margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
