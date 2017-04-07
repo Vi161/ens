@@ -54,20 +54,11 @@
           <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="576" column="0" selection-start="12153" selection-end="12153" vertical-scroll-proportion="0.5400697" vertical-offset="2952" max-vertical-offset="4097">
+                <state line="395" column="0" selection-start="8078" selection-end="8078" vertical-scroll-proportion="0.9796651" vertical-offset="3992" max-vertical-offset="8738">
                   <folding>
-                    <element signature="e#3343#4037#0" expanded="false" />
-                    <element signature="e#4053#4839#0" expanded="false" />
-                    <element signature="e#4855#5932#0" expanded="false" />
-                    <element signature="e#5948#6473#0" expanded="false" />
-                    <element signature="e#6489#7111#0" expanded="false" />
-                    <element signature="e#7127#7838#0" expanded="false" />
-                    <element signature="e#7854#9096#0" expanded="false" />
-                    <element signature="e#9112#9603#0" expanded="false" />
-                    <element signature="e#9619#10172#0" expanded="false" />
-                    <element signature="e#10189#10722#0" expanded="false" />
-                    <element signature="e#10739#11575#0" expanded="false" />
-                    <element signature="e#11592#12013#0" expanded="false" />
+                    <element signature="e#3343#4063#0" expanded="false" />
+                    <element signature="e#4079#4865#0" expanded="false" />
+                    <element signature="e#4881#5958#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -337,20 +328,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="576" column="0" selection-start="12153" selection-end="12153" vertical-scroll-proportion="0.5400697" vertical-offset="2952" max-vertical-offset="4097">
+        <state line="395" column="0" selection-start="8078" selection-end="8078" vertical-scroll-proportion="0.9796651" vertical-offset="3992" max-vertical-offset="8738">
           <folding>
-            <element signature="e#3343#4037#0" expanded="false" />
-            <element signature="e#4053#4839#0" expanded="false" />
-            <element signature="e#4855#5932#0" expanded="false" />
-            <element signature="e#5948#6473#0" expanded="false" />
-            <element signature="e#6489#7111#0" expanded="false" />
-            <element signature="e#7127#7838#0" expanded="false" />
-            <element signature="e#7854#9096#0" expanded="false" />
-            <element signature="e#9112#9603#0" expanded="false" />
-            <element signature="e#9619#10172#0" expanded="false" />
-            <element signature="e#10189#10722#0" expanded="false" />
-            <element signature="e#10739#11575#0" expanded="false" />
-            <element signature="e#11592#12013#0" expanded="false" />
+            <element signature="e#3343#4063#0" expanded="false" />
+            <element signature="e#4079#4865#0" expanded="false" />
+            <element signature="e#4881#5958#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -151,7 +151,8 @@ header {
   height: 500px;
   width: 100%;
   background: url("../images/banner.png") no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
   .product-block1 .content__container {
     display: flex;
     justify-content: flex-end;
@@ -245,7 +246,8 @@ header {
   height: 800px;
   width: 100%;
   background: url("../images/indication.jpg") no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
   .product-block4 .content__container {
     display: flex;
     align-items: flex-start;
@@ -320,7 +322,8 @@ header {
   width: 100%;
   background-color: white;
   background: url("../images/readings.jpg") no-repeat;
-  background-position: 825px; }
+  background-position: 825px;
+  background-size: cover; }
   .product-block7 .content__container {
     display: flex;
     justify-content: flex-start;
@@ -359,7 +362,8 @@ header {
   height: 500px;
   width: 100%;
   background: url("../images/results.jpg") no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
   .product-block8 .content__container {
     display: flex;
     justify-content: flex-end;
@@ -380,7 +384,8 @@ header {
   width: 100%;
   background: url("../images/silver_electrodes.jpg") no-repeat;
   background-color: black;
-  background-position: 936px 2px; }
+  background-position: 936px 2px;
+  background-size: cover; }
   .product-block9 .content__container {
     display: flex;
     justify-content: flex-start;
@@ -401,7 +406,8 @@ header {
   height: 650px;
   width: 100%;
   background: url("../images/detachable_electrodes.jpg") no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
   .product-block10 .content__container {
     display: flex;
     justify-content: flex-end;
@@ -452,7 +458,8 @@ header {
   height: 700px;
   width: 100%;
   background: url("../images/connecting.jpg") no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
   .product-block12 .content__container {
     display: flex;
     align-items: flex-start;
@@ -469,7 +476,8 @@ header {
   height: 350px;
   width: 100%;
   background: url("../images/connecting2.jpg") no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
   .product-block13 .content__container {
     display: flex;
     justify-content: flex-end;
