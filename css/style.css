@@ -1,4 +1,4 @@
-.width-lg, header, .products-nav, .content, .header-nav, .products-nav__container, .content__container {
+.width-lg, header, .products-nav, .content, footer, .header-nav, .products-nav__container, .content__container, .footer-container {
   max-width: 100%;
   width: 1060px; }
 
@@ -17,11 +17,11 @@
 body {
   margin: 0; }
 
-header, .products-nav, .content {
+header, .products-nav, .content, footer {
   width: 100%;
   margin: 0 auto; }
 
-.header-nav, .products-nav__container, .content__container {
+.header-nav, .products-nav__container, .content__container, .footer-container {
   margin: 0 auto; }
 
 .content__container {
@@ -151,8 +151,7 @@ header {
   height: 500px;
   width: 100%;
   background: url("../images/banner.png") no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-position: center; }
   .product-block1 .content__container {
     display: flex;
     justify-content: flex-end;
@@ -176,7 +175,7 @@ header {
         font-style: italic; }
 
 .product-block2 {
-  height: 660px;
+  height: 500px;
   width: 100%; }
   .product-block2 .content__container {
     display: flex;
@@ -246,8 +245,7 @@ header {
   height: 800px;
   width: 100%;
   background: url("../images/indication.jpg") no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-position: center; }
   .product-block4 .content__container {
     display: flex;
     align-items: flex-start;
@@ -360,7 +358,8 @@ header {
 .product-block8 {
   height: 500px;
   width: 100%;
-  background: url("../images/results.jpg") no-repeat; }
+  background: url("../images/results.jpg") no-repeat;
+  background-position: center; }
   .product-block8 .content__container {
     display: flex;
     justify-content: flex-end;
@@ -402,8 +401,7 @@ header {
   height: 650px;
   width: 100%;
   background: url("../images/detachable_electrodes.jpg") no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-position: center; }
   .product-block10 .content__container {
     display: flex;
     justify-content: flex-end;
@@ -454,8 +452,7 @@ header {
   height: 700px;
   width: 100%;
   background: url("../images/connecting.jpg") no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-position: center; }
   .product-block12 .content__container {
     display: flex;
     align-items: flex-start;
@@ -472,8 +469,7 @@ header {
   height: 350px;
   width: 100%;
   background: url("../images/connecting2.jpg") no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-position: center; }
   .product-block13 .content__container {
     display: flex;
     justify-content: flex-end;
@@ -530,6 +526,14 @@ header {
           .product-block14 .content__container .product-block14__txt .product-block14__p1 .product-block14__list .product-block14__item {
             list-style: none;
             margin: 5px 0; }
+        .product-block14 .content__container .product-block14__txt .product-block14__p1 .product-block14__img1 {
+          width: 630px;
+          height: 400px;
+          background: url("../images/color.jpg") no-repeat; }
+        .product-block14 .content__container .product-block14__txt .product-block14__p1 .product-block14__img2 {
+          width: 630px;
+          height: 400px;
+          background: url("../images/size.png") no-repeat; }
       .product-block14 .content__container .product-block14__txt .product-block14__p2 {
         display: flex; }
         .product-block14 .content__container .product-block14__txt .product-block14__p2 .product-block14__list {
@@ -546,5 +550,196 @@ header {
                 padding: 5px 0; }
         .product-block14 .content__container .product-block14__txt .product-block14__p2 .product-block14__list-bord {
           border-right: 1px solid #ccc; }
+
+.product-block15 {
+  height: 600px;
+  width: 100%;
+  background: url("../images/accessories.jpg") no-repeat;
+  background-position: center; }
+  .product-block15 .content__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; }
+    .product-block15 .content__container .product-block15__txt {
+      text-align: center;
+      padding-top: 119px;
+      padding-left: 101px; }
+      .product-block15 .content__container .product-block15__txt .product-block15__title {
+        color: #2d343c;
+        font-size: 58px;
+        margin: 0; }
+
+.product-block16 {
+  width: 100%; }
+
+.product-block16__wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between; }
+  .product-block16__wrap .product-block16__wrap1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33.33%; }
+
+.product-block16 .product-block16__link {
+  background-color: #f9f9f9;
+  text-decoration: none;
+  text-align: center;
+  margin: 5px; }
+
+.product-block16__link1 {
+  height: 400px;
+  background: url(../images/acc/accessories_dx1.png); }
+  .product-block16__link1 .product-block16__link__txt .product-block16__link__txt2 {
+    padding: 5px 113px; }
+
+.product-block16__link2 {
+  height: 230px;
+  background: url(../images/acc/accessories_tablet02.png); }
+
+.product-block16__link3 {
+  height: 230px;
+  background: url(../images/acc/accessories_ec01.png);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; }
+  .product-block16__link3 .product-block16__link__txt {
+    margin-bottom: 20px; }
+
+.product-block16__link4 {
+  height: 400px;
+  background: url(../images/acc/accessories_electrodes735cu.png);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; }
+  .product-block16__link4 .product-block16__link__txt {
+    margin-bottom: 20px; }
+
+.product-block16__link5 {
+  height: 640px;
+  background: url(../images/acc/accessories_case_smart_l.png);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; }
+  .product-block16__link5 .product-block16__link__txt {
+    margin-bottom: 20px; }
+
+.product-block16__link6 {
+  width: 100%;
+  height: 230px;
+  background: url(../images/acc/accessories_dx2.png);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
+  .product-block16__link6 .product-block16__link__txt {
+    margin-top: 0;
+    width: 175px;
+    padding-left: 7%; }
+
+.product-block16__link7 {
+  width: 49%;
+  height: 230px;
+  background: url(../images/acc/accessories_ent01.png); }
+
+.product-block16__link8 {
+  width: 49%;
+  height: 230px;
+  background: url(../images/acc/accessories_ev01z.png);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; }
+  .product-block16__link8 .product-block16__link__txt {
+    margin-bottom: 20px; }
+
+.product-block16__link__txt {
+  margin-top: 20px; }
+  .product-block16__link__txt .product-block16__link__txt1 {
+    font-size: 20px;
+    color: black; }
+  .product-block16__link__txt .product-block16__link__txt2 {
+    font-size: 16px;
+    padding-top: 5px;
+    color: #999; }
+
+.product-block17 {
+  height: 500px;
+  width: 100%;
+  background: url("../images/ens.jpg") no-repeat;
+  background-position: center;
+  margin-top: 5px; }
+
+.footer-top {
+  width: 100%;
+  height: 269px;
+  background-color: #222;
+  color: #999;
+  border-top: #ffd335 solid 4px; }
+  .footer-top .footer-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center; }
+    .footer-top .footer-container .footer-top__block {
+      width: 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .footer-top .footer-container .footer-top__block .footer-top__block1__ico {
+        width: 55px;
+        height: 46px;
+        background: url("../images/letmedical_777.png") no-repeat; }
+      .footer-top .footer-container .footer-top__block .footer-top__block1__txt {
+        text-align: center; }
+    .footer-top .footer-container .footer-top__block1 {
+      font-size: 15px; }
+    .footer-top .footer-container .footer-top__block2 {
+      font-size: 15px;
+      color: #999;
+      letter-spacing: 2.7px;
+      height: 108px;
+      border-left: 2px #999 solid;
+      border-right: 2px #999 solid; }
+      .footer-top .footer-container .footer-top__block2 .footer-top__block2__txt {
+        padding: 0 76px;
+        text-align: center; }
+    .footer-top .footer-container .footer-top__block3 .footer-top__block3__txt1 {
+      font-size: 27px;
+      margin-top: 0; }
+    .footer-top .footer-container .footer-top__block3 .footer-top__block3__txt2 {
+      font-size: 15px;
+      text-decoration: none;
+      color: #777; }
+
+.footer-bottom {
+  width: 100%;
+  height: 97px;
+  background-color: #111;
+  color: #666; }
+  .footer-bottom .footer-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center; }
+    .footer-bottom .footer-container .footer-bottom__block {
+      margin: 0;
+      width: 38%;
+      text-align: left;
+      padding-left: 30px; }
+
+@media screen and (max-width: 1060px) {
+  .product-block1 {
+    height: auto;
+    font-size: 3vw;
+    background-size: 181.13% auto;
+    background-position: 50% 100%; }
+    .product-block1 .content__container .product-block1__txt .product-block1__title {
+      font-size: 5vw; }
+    .product-block1 .content__container .product-block1__txt .product-block1__p1 {
+      font-size: 1.8vw; }
+    .product-block1 .content__container .product-block1__txt .product-block1__p2 {
+      font-size: 1.8vw; } }
 
 /*# sourceMappingURL=style.css.map */

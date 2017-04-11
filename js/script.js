@@ -1,11 +1,7 @@
 $(document).ready(function(){
-        $("#shmutton").click(function(){
-            var val = $("#shmimput").val();
-        $('.content').append('<a href="#" id="hua">'+val+' </a>');
-    });
-    $(document).on("click","a",function(){
-        alert($('a').html()
-        );
+    $("#description a").click(function(){
+        var selected = $(this).attr('href');
+        $.scrollTo(selected, 500);
+        return false;
     });
 });
-
