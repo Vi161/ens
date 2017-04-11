@@ -655,6 +655,7 @@
 </footer>
 <!-- скрипт для прилипания products-nav-->
 <script>
+
     $(function(){
         $('header, .products-nav').wrapAll('<div class="header-wrap">');
         var iScrollPos = 0;
@@ -679,6 +680,23 @@
         });
     });
 
+</script>
+<!-----скрипт для изменения высоты блоков------------->
+<script>
+    $(function(){
+        $(window).resize(function(){
+            $('.product-block16__link1').height($('.product-block16__link1').width()*1.165);
+            $('.product-block16__link2').height($('.product-block16__link2').width()*0.67);
+            $('.product-block16__link3').height($('.product-block16__link3').width()*0.67);
+            $('.product-block16__link4').height($('.product-block16__link4').width()*1.165);
+            $('.product-block16__link5').height($('.product-block16__link5').width()*1.864);
+            $('.product-block16__link6').height($('.product-block16__link6').width()*0.219);
+            $('.product-block16__link7').height($('.product-block16__link7').width()*0.442);
+            $('.product-block16__link8').height($('.product-block16__link8').width()*0.442);
+
+        });
+
+    });
 </script>
 </body>
 </html>
