@@ -824,6 +824,11 @@ header {
     font-size: 2.5vw; }
 
   .footer-bottom .footer-container .footer-bottom__block {
-    font-size: 1.5vw; } }
+    font-size: 1.5vw; }
+
+  .product-block1, .product-block4, .product-block6, .product-block8, .product-block10, .product-block12,
+  .product-block13, .product-block15, .product-block17 {
+    background-size: 181.13% auto;
+    background-position: 50% 100%; } }
 
 /*# sourceMappingURL=style.css.map */
