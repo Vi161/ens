@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +33,7 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="126" column="44" selection-start="5962" selection-end="5962" vertical-scroll-proportion="0.7614679" vertical-offset="1478" max-vertical-offset="11509">
+                <state line="64" column="45" selection-start="2450" selection-end="2450" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="11560">
                   <folding>
                     <element signature="tag#div#0;tag#div#0;tag#div#4;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#0;tag#div#0;tag#div#6;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -51,7 +50,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1023" column="54" selection-start="24372" selection-end="24372" vertical-scroll-proportion="0.6880734" vertical-offset="15652" max-vertical-offset="16626">
+                <state line="1008" column="34" selection-start="24203" selection-end="24203" vertical-scroll-proportion="0.8830275" vertical-offset="15227" max-vertical-offset="17425">
                   <folding>
                     <element signature="e#7231#7791#0" expanded="false" />
                     <element signature="e#8836#9909#0" expanded="false" />
@@ -75,8 +74,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
   </component>
@@ -250,7 +249,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1023" column="54" selection-start="24372" selection-end="24372" vertical-scroll-proportion="0.6880734" vertical-offset="15652" max-vertical-offset="16626">
+        <state line="1008" column="34" selection-start="24203" selection-end="24203" vertical-scroll-proportion="0.8830275" vertical-offset="15227" max-vertical-offset="17425">
           <folding>
             <element signature="e#7231#7791#0" expanded="false" />
             <element signature="e#8836#9909#0" expanded="false" />
@@ -260,7 +259,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="44" selection-start="5962" selection-end="5962" vertical-scroll-proportion="0.7614679" vertical-offset="1478" max-vertical-offset="11509">
+        <state line="64" column="45" selection-start="2450" selection-end="2450" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="11560">
           <folding>
             <element signature="tag#div#0;tag#div#0;tag#div#4;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#div#0;tag#div#6;tag#div#0;tag#body#0;tag#html#0" expanded="false" />

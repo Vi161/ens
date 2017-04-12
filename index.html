@@ -695,6 +695,8 @@
         var content_width = 1060;
         var h1 = parseInt($('.product-block1').css('height'), 10);
         var newh1 = h1/ content_width ;
+        var h4 = parseInt($('.product-block4').css('height'), 10);
+        var newh4 = h4/ content_width ;
         var h6 = parseInt($('.product-block6').css('height'), 10);
         var newh6 = h6/ content_width ;
         var h8 = parseInt($('.product-block8').css('height'), 10);
@@ -722,6 +724,7 @@
             $('.product-block16__link8').height($('.product-block16__link8').width()*0.442);
             if($(window).width() < content_width) {
                 $('.product-block1').height($('.product-block1').width()*newh1);
+                $('.product-block4').height($('.product-block4').width()*newh4);
                 $('.product-block6').height($('.product-block6').width()*newh6);
                 $('.product-block8').height($('.product-block8').width()*newh8);
                 $('.product-block10').height($('.product-block10').width()*newh10);
