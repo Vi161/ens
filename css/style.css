@@ -50,13 +50,13 @@ header {
 .header-nav__container {
   margin: 0 auto;
   display: flex;
-  align-items: center;
   justify-content: space-between; }
 
 .header-nav__logo {
   background-color: #556B2F;
   display: flex;
-  padding-left: 23px; }
+  padding-left: 23px;
+  height: 100%; }
   .header-nav__logo .header-nav__logo1, .header-nav__logo .header-nav__logo2 {
     height: 55px;
     display: inline-flex;
@@ -71,31 +71,34 @@ header {
 .header-nav__wrap {
   display: flex;
   align-items: center;
-  padding-right: 18px;
-  justify-content: space-between;
-  width: 59%; }
-  .header-nav__wrap a, .header-nav__wrap b {
-    font-size: 20px;
-    color: #111;
-    text-decoration: none; }
-  .header-nav__wrap b {
-    font-weight: 800; }
-  .header-nav__wrap a:hover {
-    color: #06F; }
-
-.header-nav__lang-wrap .header-nav__lang {
-  text-transform: uppercase;
-  text-decoration: none;
-  border: 1px #CCC solid;
-  border-radius: 4px;
-  padding: 4px 6px;
-  margin-left: 5px;
-  font-size: 14px; }
-.header-nav__lang-wrap a:hover {
-  color: #06F;
-  background: #f9f9f9; }
-.header-nav__lang-wrap a:active {
-  background: #f0f0f0; }
+  padding: 0; }
+  .header-nav__wrap .header-nav__item {
+    list-style: none;
+    padding: 0 20px; }
+    .header-nav__wrap .header-nav__item a, .header-nav__wrap .header-nav__item b {
+      white-space: nowrap;
+      font-size: 20px;
+      color: #111;
+      text-decoration: none; }
+    .header-nav__wrap .header-nav__item b {
+      font-weight: 800; }
+    .header-nav__wrap .header-nav__item a:hover {
+      color: #06F; }
+  .header-nav__wrap .header-nav__lang-wrap {
+    white-space: nowrap; }
+    .header-nav__wrap .header-nav__lang-wrap .header-nav__lang {
+      text-transform: uppercase;
+      text-decoration: none;
+      border: 1px #CCC solid;
+      border-radius: 4px;
+      padding: 4px 6px;
+      margin-left: 5px;
+      font-size: 14px; }
+    .header-nav__wrap .header-nav__lang-wrap a:hover {
+      color: #06F;
+      background: #f9f9f9; }
+    .header-nav__wrap .header-nav__lang-wrap a:active {
+      background: #f0f0f0; }
 
 .products-nav {
   height: 30px;
@@ -110,14 +113,18 @@ header {
   align-items: center; }
 
 .products-nav__right {
-  padding-right: 31px;
-  width: 65%;
+  padding-right: 8%;
   display: flex;
   justify-content: space-around; }
-  .products-nav__right a {
-    font-size: 17px;
-    text-decoration: none;
-    color: #666; }
+  .products-nav__right .products-nav__item {
+    list-style: none;
+    padding: 0 0.73vw; }
+    .products-nav__right .products-nav__item a {
+      font-size: 17px;
+      text-decoration: none;
+      color: #666; }
+    .products-nav__right .products-nav__item a:hover {
+      color: #06F; }
 
 .products-nav__left {
   position: relative;
@@ -750,6 +757,9 @@ header {
       padding-left: 30px; }
 
 @media (min-width: 768px) and (max-width: 1060px) {
+  .header-nav__wrap .header-nav__item a, .header-nav__wrap .header-nav__item b {
+    font-size: 1.9vw; }
+
   .product-block1 {
     background-size: 181.13% auto;
     background-position: 50% 100%; }
@@ -821,6 +831,9 @@ header {
     background-size: 181.13% auto;
     background-position: 50% 100%; } }
 @media screen and (max-width: 767px) {
+  .header-nav__wrap .header-nav__item a, .header-nav__wrap .header-nav__item b {
+    font-size: 14.44px; }
+
   .product-block1 .content__container .product-block1__txt .product-block1__p1,
   .product-block16__link__txt.product-block16__link__txt2 {
     font-size: 13.7px; }
@@ -881,6 +894,22 @@ header {
     font-size: 19.5px; }
 
   .footer-bottom .footer-container .footer-bottom__block {
-    font-size: 11.5px; } }
+    font-size: 11.5px; }
+
+  .products-nav__right:after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -3px -593px; }
+
+  .products-nav__right:active:after {
+    background-position: -33px -593px; }
+    .products-nav__right:active:after .products-nav__right .products-nav__item {
+      display: block; }
+
+  .products-nav__right .products-nav__item {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

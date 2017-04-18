@@ -10,8 +10,10 @@
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js" type="text/javascript"></script>
     <script src="js/scrollto.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 
+    <link rel="stylesheet/less" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet/less" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -28,16 +30,16 @@
                     <img src="images/letmedical_white-small.png" alt="let medical">
                 </a>
             </div>
-            <div class="header-nav__wrap">
-                <b >R&D Products</b>
-                <a href="#">About Technology</a>
-                <a href="#">History</a>
-                <a href="#">About Us</a>
-                <div class="header-nav__lang-wrap">
+            <ul class="header-nav__wrap">
+                <li class="header-nav__item"><b >R&D Products</b></li>
+                <li class="header-nav__item"><a href="#">About Technology</a></li>
+                <li class="header-nav__item"><a href="#">History</a></li>
+                <li class="header-nav__item"><a href="#">About Us</a></li>
+                <li class="header-nav__item header-nav__lang-wrap">
                     <a class="header-nav__lang" href="#">en</a>
                     <a class="header-nav__lang" href="#">ru</a>
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
     </nav>
 </header>
@@ -47,15 +49,15 @@
         <div class="products-nav__left">
             <a href="#">ENS</a>
         </div>
-        <div id="description" class="products-nav__right">
-            <a href="#technology">Technology</a>
-            <a href="#indication">Indication</a>
-            <a href="#control">Control</a>
-            <a href="#readings">Readings</a>
-            <a href="#electrodes">Electrodes</a>
-            <a href="#features">Main features</a>
-            <a href="#accessories">Accessories</a>
-        </div>
+        <ul id="description" class="products-nav__right">
+            <li class="products-nav__item"><a href="#technology">Technology</a></li>
+            <li class="products-nav__item"><a href="#indication">Indication</a></li>
+            <li class="products-nav__item"><a href="#control">Control</a></li>
+            <li class="products-nav__item"><a href="#readings">Readings</a></li>
+            <li class="products-nav__item"><a href="#electrodes">Electrodes</a></li>
+            <li class="products-nav__item"><a href="#features">Main features</a></li>
+            <li class="products-nav__item"><a href="#accessories">Accessories</a></li>
+        </ul>
     </div>
 </nav>
 
@@ -730,7 +732,7 @@
                 $('.product-block10').height($('.product-block10').width()*newh10);
                 $('.product-block12').height($('.product-block12').width()*newh12);
                 $('.product-block13').height($('.product-block13').width()*newh13);
-                $('.product-block15').height($('.product-block15').width()*newh14);
+                $('.product-block15').height($('.product-block15').width()*newh15);
                 $('.product-block17').height($('.product-block17').width()*newh17);
             }
         });
