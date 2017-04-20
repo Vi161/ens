@@ -36,7 +36,10 @@
                     <img src="images/letmedical_white-small.png" alt="let medical">
                 </a>
             </div>
-            <ul class="header-nav__wrap">
+            <div class="slicknav-menu1">
+                <div class="slicknav-menu1__but">menu</div>
+            </div>
+            <ul id="header-nav__list" class="header-nav__wrap">
                 <li class="header-nav__item"><b >R&D Products</b></li>
                 <li class="header-nav__item"><a href="#">About Technology</a></li>
                 <li class="header-nav__item"><a href="#">History</a></li>
@@ -58,7 +61,7 @@
         <div class="slicknav-menu">
             <div class="slicknav-menu__but">menu</div>
         </div>
-        <ul id="description" class="products-nav__right">
+        <ul id="products-nav__list" class="products-nav__right">
             <li class="products-nav__item"><a href="#technology">Technology</a></li>
             <li class="products-nav__item"><a href="#indication">Indication</a></li>
             <li class="products-nav__item"><a href="#control">Control</a></li>
@@ -751,22 +754,41 @@
 <script>
     $(document).ready(function(){
         var mibile_width = 767;
+//--------header-menu----------
         $(window).resize(function(){
             if($(window).width() > mibile_width) {
-                $('#description').removeClass('active');
-                $('#description').css("display","flex")
+                $('#header-nav__list').removeClass('active');
+                $('#header-nav__list').css("display","flex")
             }else{
-                $('#description').addClass('active');
-                $('#description').css("display","none")
+                $('#header-nav__list').addClass('active');
+                $('#header-nav__list').css("display","none")
+            };
+        });
+        $('.slicknav-menu1__but').click(function(){
+            $(  "#header-nav__list").slideToggle("slow");
+        });
+        $('.products-nav__item a').click(function(){
+            $(  "#header-nav__list").slideToggle("slow");
+//            $(  "#header-nav__list").css("display","none");
+        });
+//--------product-menu-----------
+        $(window).resize(function(){
+            if($(window).width() > mibile_width) {
+                $('#products-nav__list').removeClass('active');
+                $('#products-nav__list').css("display","flex")
+            }else{
+                $('#products-nav__list').addClass('active');
+                $('#products-nav__list').css("display","none")
             };
         });
         $('.slicknav-menu__but').click(function(){
-            $(  "#description").slideToggle("slow");
+            $(  "#products-nav__list").slideToggle("slow");
         });
         $('.products-nav__item a').click(function(){
-            $(  "#description").slideToggle("slow");
-//            $(  "#description").css("display","none");
+            $(  "#products-nav__list").slideToggle("slow");
+//            $(  "#products-nav__list").css("display","none");
         });
+
 
 
     });

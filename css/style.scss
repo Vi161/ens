@@ -20,6 +20,7 @@ $product-block17-height:500px;
 
 
 $header-height:56px;
+$header-height-mobile:30px;
 $products-nav-height:30px;
 
 //------------расширения-------------
@@ -85,6 +86,7 @@ header{
   margin:0 auto;
   display: flex;
   justify-content:space-between;
+  position: relative;
 }
 .header-nav__logo{
   background-color: #556B2F;
@@ -105,6 +107,18 @@ header{
     padding-right: 16px;
   }
 }
+#header-nav__list{
+  display:flex;
+  flex-direction:row;
+  margin:0;
+}
+.slicknav-menu1 {
+  display:none;
+}
+.slicknav-menu1__but{
+
+}
+
 .header-nav__wrap{
   display: flex;
   align-items: center;
@@ -186,7 +200,7 @@ header{
     list-style: none;
   }
 }
-#description{
+#products-nav__list{
   display:flex;
   flex-direction:row;
   margin:0;
@@ -210,7 +224,7 @@ header{
 }
 .products-nav-fixed {
 
-  position:fixed;     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ВЕРНУТЬ!!!!!!!!!!!!!!!!!!
+  position:fixed;
   top:0px;
   width: 100%;
   transition: top 1s;
@@ -1112,35 +1126,39 @@ header{
   .footer-bottom .footer-container .footer-bottom__block{
     font-size: 11.5px; //16px;
   }
-//  .products-nav__right:after{
-//      content: '';
-//      width: 30px;
-//      height: 30px;
-//      background-image: url("../images/sprite.png");
-//      background-repeat: no-repeat;
-//      background-position: -3px -593px;
-//  }
-//  .products-nav__right:active:after{
-//    background-position: -33px -593px;
-//    .products-nav__right .products-nav__item{
-//      display: block;
-//    }
-//  }
-//    .products-nav__right{
-//    .products-nav__item{
-//      display:none;
-//
-//      a{
-//      }
-//      a:hover{
-//      }
-//    }
-//  }
-  .products-nav{
-    border-radius:0;
-    padding:0;
+
+  .header-nav__logo, .header-nav__lang-wrap{
+    display: none
   }
-  #description{
+  header{
+    height:$header-height-mobile;
+  }
+  .header-nav{
+    height:$header-height-mobile;
+  }
+  #header-nav__list{
+    display:none;
+    position: absolute;
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top:$header-height-mobile;
+    border-top:1px solid grey;
+    padding: 0;
+    .header-nav__item{
+      border-bottom:1px solid grey;
+    }
+  }
+  #header-nav__list.active {
+    //    display:flex;
+    flex-direction: column;
+  }
+  .slicknav-menu1 {
+    display:flex;
+    
+  }
+
+  #products-nav__list{
     display:none;
     position: absolute;
     background-color: rgb(249, 249, 249);
@@ -1153,7 +1171,7 @@ header{
       border-bottom:1px solid grey;
     }
   }
-  #description.active {
+  #products-nav__list.active {
     //    display:flex;
     flex-direction: column;
   }
