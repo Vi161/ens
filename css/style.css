@@ -28,7 +28,7 @@ header, .products-nav, .content, footer {
   height: 100%; }
 
 header {
-  height: 55px;
+  height: 56px;
   position: relative;
   background-color: white;
   border-bottom: 1px solid black; }
@@ -58,7 +58,7 @@ header {
   padding-left: 23px;
   height: 100%; }
   .header-nav__logo .header-nav__logo1, .header-nav__logo .header-nav__logo2 {
-    height: 55px;
+    height: 56px;
     display: inline-flex;
     align-items: center; }
   .header-nav__logo .header-nav__logo1 {
@@ -71,7 +71,8 @@ header {
 .header-nav__wrap {
   display: flex;
   align-items: center;
-  padding: 0; }
+  padding: 0;
+  margin: 0; }
   .header-nav__wrap .header-nav__item {
     list-style: none;
     padding: 0 20px; }
@@ -110,10 +111,11 @@ header {
   display: flex;
   justify-content: space-between;
   height: 100%;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
 
 .products-nav__right {
-  padding-right: 8%;
+  padding-right: 3%;
   display: flex;
   justify-content: space-around; }
   .products-nav__right .products-nav__item {
@@ -125,6 +127,20 @@ header {
       color: #666; }
     .products-nav__right .products-nav__item a:hover {
       color: #06F; }
+
+.products-nav__right {
+  display: flex;
+  justify-content: space-around; }
+  .products-nav__right .products-nav__item {
+    list-style: none; }
+
+#description {
+  display: flex;
+  flex-direction: row;
+  margin: 0; }
+
+.slicknav-menu {
+  display: none; }
 
 .products-nav__left {
   position: relative;
@@ -896,20 +912,27 @@ header {
   .footer-bottom .footer-container .footer-bottom__block {
     font-size: 11.5px; }
 
-  .products-nav__right:after {
-    content: '';
-    width: 30px;
-    height: 30px;
-    background-image: url("../images/sprite.png");
-    background-repeat: no-repeat;
-    background-position: -3px -593px; }
+  .products-nav {
+    border-radius: 0;
+    padding: 0; }
 
-  .products-nav__right:active:after {
-    background-position: -33px -593px; }
-    .products-nav__right:active:after .products-nav__right .products-nav__item {
-      display: block; }
+  #description {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    border-top: 1px solid grey;
+    padding: 0; }
+    #description .products-nav__item {
+      border-bottom: 1px solid grey; }
 
-  .products-nav__right .products-nav__item {
-    display: none; } }
+  #description.active {
+    flex-direction: column; }
+
+  .slicknav-menu {
+    display: flex;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=style.css.map */

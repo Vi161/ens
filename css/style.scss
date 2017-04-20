@@ -19,7 +19,8 @@ $product-block15-height:600px;
 $product-block17-height:500px;
 
 
-$header-height:55px;
+$header-height:56px;
+$products-nav-height:30px;
 
 //------------расширения-------------
 .width-lg{
@@ -78,7 +79,7 @@ header{
   z-index: 10;
   position: relative;
   background-color: white;
-  height: $header-height;
+  height: $header-height - 1px;
 }
 .header-nav__container {
   margin:0 auto;
@@ -108,6 +109,7 @@ header{
   display: flex;
   align-items: center;
   padding: 0;
+  margin: 0;
   .header-nav__item{
     list-style: none;
     padding: 0 20px;
@@ -146,7 +148,7 @@ header{
   }
 }
 .products-nav{
-  height: 30px;
+  height: $products-nav-height;
   z-index: 1000;
   background-color: rgb(249, 249, 249);
   opacity: 0.95;
@@ -158,10 +160,10 @@ header{
   justify-content:space-between;
   height: 100%;
   align-items: center;
-
+  position: relative;
 }
 .products-nav__right{
-  padding-right: 8%;
+  padding-right: 3%;
   display: flex;
   justify-content:space-around;
   .products-nav__item{
@@ -176,6 +178,25 @@ header{
       color: #06F;
     }
   }
+}
+.products-nav__right{
+  display: flex;
+  justify-content: space-around;
+  .products-nav__item{
+    list-style: none;
+  }
+}
+#description{
+  display:flex;
+  flex-direction:row;
+  margin:0;
+
+}
+.slicknav-menu {
+  display:none;
+}
+.slicknav-menu__but{
+
 }
 .products-nav__left{
   position: relative;
@@ -946,6 +967,7 @@ header{
   }
 }
 
+
 @media (min-width: 768px)and (max-width: 1060px) {
   .header-nav__wrap .header-nav__item a, .header-nav__wrap .header-nav__item b{
     font-size: 1.9vw; //20px;
@@ -1090,30 +1112,54 @@ header{
   .footer-bottom .footer-container .footer-bottom__block{
     font-size: 11.5px; //16px;
   }
-  .products-nav__right:after{
-      content: '';
-      width: 30px;
-      height: 30px;
-      background-image: url("../images/sprite.png");
-      background-repeat: no-repeat;
-      background-position: -3px -593px;
+//  .products-nav__right:after{
+//      content: '';
+//      width: 30px;
+//      height: 30px;
+//      background-image: url("../images/sprite.png");
+//      background-repeat: no-repeat;
+//      background-position: -3px -593px;
+//  }
+//  .products-nav__right:active:after{
+//    background-position: -33px -593px;
+//    .products-nav__right .products-nav__item{
+//      display: block;
+//    }
+//  }
+//    .products-nav__right{
+//    .products-nav__item{
+//      display:none;
+//
+//      a{
+//      }
+//      a:hover{
+//      }
+//    }
+//  }
+  .products-nav{
+    border-radius:0;
+    padding:0;
   }
-  .products-nav__right:active:after{
-    background-position: -33px -593px;
-    .products-nav__right .products-nav__item{
-      display: block;
-    }
-  }
-
-    .products-nav__right{
+  #description{
+    display:none;
+    position: absolute;
+    background-color: rgb(249, 249, 249);
+    position: absolute;
+    width: 100%;
+    top:$products-nav-height;
+    border-top:1px solid grey;
+    padding: 0;
     .products-nav__item{
-      display:none;
-
-      a{
-      }
-      a:hover{
-      }
+      border-bottom:1px solid grey;
     }
+  }
+  #description.active {
+    //    display:flex;
+    flex-direction: column;
+  }
+  .slicknav-menu {
+    display:flex;
+    margin: 0 auto;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {}
