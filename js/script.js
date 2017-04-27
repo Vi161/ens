@@ -9,29 +9,34 @@
     });
 <!-- скрипт для прилипания products-nav-->
 
-$(function(){
-    $('header, .products-nav').wrapAll('<div class="header-wrap">');
+var navmenu = function(class1){
+    var two_classes = 'header, ' + class1;
+//    alert(two_classes);
+    $(two_classes).wrapAll('<div class="header-wrap">');
     var iScrollPos = 0;
     $(window).scroll(function () {
-    var iCurScrollPos = $(this).scrollTop();
-    if($(this).scrollTop() >= 55) {
-    $('.products-nav').addClass('products-nav-fixed'); //add2
-    }
-else if ($(this).scrollTop() < 55){
-    $('.header-wrap').removeClass('header-wrap-fixed');//rem1
-    }
-if ((iCurScrollPos < iScrollPos) &&  ($(this).scrollTop() >= 55)) {
-        $('.header-wrap').addClass('header-wrap-fixed');//add1
-        $('.products-nav').removeClass('products-nav-fixed');//rem2
+        var iCurScrollPos = $(this).scrollTop();
+        if($(this).scrollTop() >= 55) {
+            $(class1).addClass('nav-fixed'); //add2
         }
-    else if (iCurScrollPos > iScrollPos){
-        $('.header-wrap').removeClass('header-wrap-fixed');//rem1
+        else if ($(this).scrollTop() < 85){
+            $('.header-wrap').removeClass('header-wrap-fixed');//rem1
         }
-    var lastScrollTop = 0;
-    iScrollPos = iCurScrollPos;
+        if ((iCurScrollPos < iScrollPos) &&  ($(this).scrollTop() >= 55)) {
+            $('.header-wrap').addClass('header-wrap-fixed');//add1
+            $(class1).removeClass('nav-fixed');//rem2
+        }
+        else if (iCurScrollPos > iScrollPos){
+            $('.header-wrap').removeClass('header-wrap-fixed');//rem1
+        }
+        var lastScrollTop = 0;
+        iScrollPos = iCurScrollPos;
     });
-});
-
+};
+//$(document).ready(function(){
+//    navmenu('.products-nav');
+//    navmenu('.tech-nav');
+//});
 
 //    ----адаптивное меню----------
 
