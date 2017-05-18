@@ -18,10 +18,13 @@ $product-block13-height:350px;
 $product-block15-height:600px;
 $product-block17-height:500px;
 $tech-block2-height:400px;
+$hyst-block-bigimg-height:600px;
+$hyst-block11-height:500px;
 
-$header-height:56px;
+$header-height:55px;
 $header-height-mobile:30px;
 $products-nav-height:30px;
+$hyst-nav-height:30px;
 $tech-nav-height:60px;
 $transf-block1-height:985px;
 $transf-block3-height:500px;
@@ -61,12 +64,12 @@ body{
   margin: 0;
   @extend .font-MYRIADPRO-LIGHT;
 }
-header, .products-nav, .content, footer{
+header, .products-nav, .hyst-nav, .content, footer{
   width:100%;
   @extend .width-lg;
   margin: 0 auto;
 }
-.header-nav, .products-nav__container, .tech-nav__container, .content__container, .footer-container{
+.header-nav, .products-nav__container, .hyst-nav__container, .tech-nav__container, .content__container, .footer-container{
   @extend .width-lg;
   margin: 0 auto;
 }
@@ -812,7 +815,6 @@ header{
       margin: 0;
     }
   }
-
 }
 .product-block16__link1{
 //  width: 348px;
@@ -1411,6 +1413,312 @@ header{
   background-image: url("../images/technology/ens-side.png");
   background-position: center;
 }
+.hyst-nav{
+  height: $hyst-nav-height;
+  z-index: 1000;
+  background-color: rgb(249, 249, 249);
+  opacity: 0.95;
+  //  transition: top 1s;
+
+}
+.hyst-nav__container{
+  display: flex;
+  justify-content:space-between;
+  height: 100%;
+  align-items: center;
+  position: relative;
+}
+.hyst-nav__right{
+  padding-right: 3%;
+  display: flex;
+  justify-content:space-around;
+}
+.hyst-nav__item{
+  list-style: none;
+  padding: 0 0.73vw;
+  a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #666;
+  }
+  a:hover{
+    color: #06F;
+  }
+}
+#hyst-nav__list{
+  display:flex;
+  flex-direction:row;
+  margin:0;
+
+}
+.hyst-nav__left{
+  position: relative;
+  left:8%;
+  a{
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #666;
+  }
+}
+.hyst-block-bigimg{
+  height: $hyst-block-bigimg-height;
+  width: 100%;
+  background-position: center;
+  .content__container {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+  .hyst-block1__txt{
+    font-size:30px;
+    margin-bottom: 42px;
+    margin-left: 68px;
+    .hyst-block1__txt1{
+      color:#FFF;
+    }
+    .hyst-block1__txt2{
+      color:#999
+    }
+  }
+}
+.hyst-block1{
+  background: url('../images/hystory/2010s-ens.png') no-repeat;
+}
+.hyst-block3{
+  background: url('../images/hystory/2000s-vx735.png') no-repeat;
+}
+.hyst-block5{
+  background: url('../images/hystory/1990s-scenar035.png') no-repeat;
+}
+.hyst-block7{
+  background: url('../images/hystory/1980s-ens03_2.png') no-repeat;
+}
+.hyst-block9{
+  background: url('../images/hystory/1970s-ens01_3.png') no-repeat;
+}
+.hyst-block11{
+  height: $hyst-block11-height;
+  background: url('../images/ens.jpg') no-repeat;
+}
+.block-buttons{
+  width: 100%;
+  padding: 5px 0;
+ .block-buttons__link{
+    background-color: #f9f9f9;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+   .block-buttons__link__txt{
+     display: flex;
+     flex-direction: column;
+     .block-buttons__link__txt1, .block-buttons__link__txt2{
+       margin: 0;
+       font-size: 15px;
+       padding:3px;
+     }
+     .block-buttons__link__txt1{
+       color: #000;
+     }
+     .block-buttons__link__txt2{
+       color: #999;
+     }
+   }
+ }
+  .block-buttons__link:hover{
+    background-color: #F0F0F0;
+  }
+
+}
+.hyst-block2__wrap{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  .hyst-block2__link1{
+    width: 33.33%;
+    height: 230px;
+    background-color: #fff;
+    background-image: url(../images/hystory/2010s.png);
+    background-position: center;
+  }
+  .hyst-block2__link2{
+    width: 66.66%;
+    height: 230px;
+    background-image: url(../images/hystory/2016-dx2.png);
+    background-position: center;
+    justify-content: flex-end;
+    .block-buttons__link__txt{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 3vw;
+    }
+  }
+  .hyst-block2__link3, .hyst-block2__link4, .hyst-block2__link5{
+    height: 470px;
+    width: 33.33%;
+    .block-buttons__link__txt{
+      justify-content: flex-end;
+      padding-bottom: 1vw;
+    }
+  }
+  .hyst-block2__link3{
+    background-image: url(../images/hystory/2011-ex735slider.png);
+    background-position: center;
+
+  }
+  .hyst-block2__link4{
+    background-image: url(../images/hystory/2013-ex735x2.png);
+    background-position: center;
+  }
+  .hyst-block2__link5{
+    background-image: url(../images/hystory/2016-ens.png);
+    background-position: center;
+  }
+  .hyst-block2__link6{
+    .block-buttons__link__txt{
+    }
+    .hyst-block2__link__txt11{
+      justify-content: flex-start;
+      padding-left: 4.2vw;
+      padding-top: 2.2vw;
+    }
+    .hyst-block2__link__txt12{
+      justify-content: flex-end;
+      width: 10vw;
+      padding-bottom: 1.2vw;
+      padding-right: 1.3vw;
+    }
+    justify-content: space-between;
+    height: 230px;
+    width: 66.66%;
+    background-image: url(../images/hystory/2016-emc01-ent01_0.png);
+    background-position: center;
+  }
+  .hyst-block2__link7{
+    .block-buttons__link__txt{
+      justify-content: flex-end;
+      padding-bottom: 1vw;
+    }
+    height: 230px;
+    width: 33.33%;
+    background-image: url(../images/hystory/2010s-ec01.png);
+    background-position: center;
+  }
+  .hyst-block2__link8, .hyst-block2__link9, .hyst-block2__link10, .hyst-block2__link11{
+    height: 470px;
+    width: 25%;
+
+  }
+  .hyst-block2__link8{
+    background-image: url(../images/hystory/2016-dx1_0.png);
+    .block-buttons__link__txt{
+      justify-content: flex-start;
+      padding-top: 2.5vw;
+    }
+  }
+  .hyst-block2__link9{
+    background-image: url(../images/hystory/2014-myoscen_led_0.png);
+    .block-buttons__link__txt{
+      justify-content: flex-end;
+      padding-bottom: 2.5vw;
+    }
+  }
+  .hyst-block2__link10{
+    background-image: url(../images/hystory/2014-myoscen_display_0.png);
+    .block-buttons__link__txt{
+      justify-content: flex-end;
+      padding-bottom: 2.5vw;
+    }
+  }
+  .hyst-block2__link11{
+    background-image: url(../images/hystory/2010s-electrode_0.png);
+    .block-buttons__link__txt{
+      justify-content: flex-start;
+      padding-top: 2.5vw;
+    }
+  }
+  .hyst-block2__link12, .hyst-block2__link13{
+    height: 230px;
+    width: 50%;
+    .block-buttons__link__txt{
+      justify-content: flex-end;
+      padding-bottom: 1vw;
+    }
+  }
+  .hyst-block2__link12{
+    background-image: url(../images/hystory/2012-ev01au.png);
+  }
+    .hyst-block2__link13{
+    background-image: url(../images/hystory/2012-ex715.png);
+  }
+}
+.hyst-block4__wrap{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  .block-buttons__link__txt{
+    justify-content: flex-end;
+    padding-bottom: 1vw;
+  }
+  .hyst-block4__wrap1{
+    flex-direction: column;
+    width: 33.33%;
+    display: flex;
+  }
+  .block-buttons__link{
+    height: 230px;
+  }
+  .hyst-block4__link1{
+    background-image: url(../images/hystory/2000s.png);
+  }
+  .hyst-block4__link2{
+    background-image: url(../images/hystory/cosmodictechnology.png);
+  }
+  .hyst-block4__link3{
+    height: 470px;
+    background-image: url(../images/hystory/2007-patent_scenar-therapy.png);
+  }
+  .hyst-block4__link4{
+    background-image: url(../images/hystory/2009-tablet03.png);
+  }
+  .hyst-block4__link5{
+    background-image: url(../images/hystory/2002-ps704.png);
+  }
+  .hyst-block4__link6{
+    background-image: url(../images/hystory/2002-vx735.png);
+    width: 50%;
+  }
+  .hyst-block4__link7{
+    background-image: url(../images/hystory/2007-ex735.png);
+    width: 50%;
+  }
+  .hyst-block4__link8{
+    background-image: url(../images/hystory/2006-ps705ag.png);
+    width: 33.33%;
+  }
+  .hyst-block4__link9{
+    background-image: url(../images/hystory/2006-ps705mini.png);
+    width: 33.33%;
+  }
+  .hyst-block4__link10{
+    background-image: url(../images/hystory/2005-ex715.png);
+    width: 33.33%;
+  }
+  .hyst-block4__link11{
+    background-image: url(../images/hystory/2004-ev01.png);
+    width: 50%;
+  }
+  .hyst-block4__link12{
+    background-image: url(../images/hystory/2004-er01.png);
+    width: 50%;
+  }
+}
 
 
 @media (min-width: 768px)and (max-width: 1060px) {
@@ -1586,7 +1894,7 @@ header{
   }
   .slicknav-menu1 {
     display:flex;
-    
+
   }
 
   #products-nav__list{

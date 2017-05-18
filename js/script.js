@@ -1,12 +1,12 @@
 //  ---------перелистывание к якорям-------------
-
-    $(document).ready(function(){
-        $("#description a").click(function(){
-            var selected = $(this).attr('href');
-            $.scrollTo(selected, 500);
-            return false;
-        });
+$(document).ready(function() {
+    $('a[href^="#"]').click(function(){
+        var el = $(this).attr('href');
+        $('body').animate({
+            scrollTop: $(el).offset().top}, 500);
+        return false;
     });
+});
 <!-- скрипт для прилипания products-nav-->
 
 var navmenu = function(class1){
@@ -33,10 +33,7 @@ var navmenu = function(class1){
         iScrollPos = iCurScrollPos;
     });
 };
-//$(document).ready(function(){
-//    navmenu('.products-nav');
-//    navmenu('.tech-nav');
-//});
+
 
 //    ----адаптивное меню----------
 
@@ -52,13 +49,13 @@ var navmenu = function(class1){
                 $('#header-nav__list').css("display","none")
             };
         });
-        $('.slicknav-menu1__but').click(function(){
-            $(  "#header-nav__list").slideToggle("slow");
-        });
-        $('.products-nav__item a').click(function(){
-            $(  "#header-nav__list").slideToggle("slow");
+//        $('.slicknav-menu1__but').click(function(){
+//            $(  "#header-nav__list").slideToggle("slow");
+//        });
+//        $('.products-nav__item a').click(function(){
+//            $(  "#header-nav__list").slideToggle("slow");
 //            $(  "#header-nav__list").css("display","none");
-        });
+//        });
 //--------product-menu-----------
         $(window).resize(function(){
             if($(window).width() > mibile_width) {
@@ -69,13 +66,13 @@ var navmenu = function(class1){
                 $('#products-nav__list').css("display","none")
             };
         });
-        $('.slicknav-menu__but').click(function(){
-            $(  "#products-nav__list").slideToggle("slow");
-        });
-        $('.products-nav__item a').click(function(){
-            $(  "#products-nav__list").slideToggle("slow");
+//        $('.slicknav-menu__but').click(function(){
+//            $(  "#products-nav__list").slideToggle("slow");
+//        });
+//        $('.products-nav__item a').click(function(){
+//            $(  "#products-nav__list").slideToggle("slow");
 //            $(  "#products-nav__list").css("display","none");
-        });
+//        });
     });
 
 
