@@ -1676,6 +1676,7 @@ header{
   }
   .hyst-block4__link1{
     background-image: url(../images/hystory/2000s.png);
+    background-color: #ffffff;
   }
   .hyst-block4__link2{
     background-image: url(../images/hystory/cosmodictechnology.png);
@@ -1720,6 +1721,273 @@ header{
   }
 }
 
+.hyst-block6__wrap{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  .hyst-block6__wrap1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33.33%;
+  }
+  .hyst-block6__wrap2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 66.66%;
+  }
+  .hyst-block6__wrap3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .hyst-block6__wrap4{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .block-buttons__link__txt{
+    justify-content: flex-end;
+    padding-bottom: 1vw;
+  }
+  .hyst-block6__link1, .hyst-block6__link3, .hyst-block6__link4, .hyst-block6__link13, .hyst-block6__link14, .hyst-block6__link15{
+    height: 230px;
+  }
+  .hyst-block6__link13, .hyst-block6__link14, .hyst-block6__link15{
+    width: 33.33%;
+  }
+  .hyst-block6__link2, .hyst-block6__link5, .hyst-block6__link9{
+    height: 470px;
+  }
+  .hyst-block6__link9{
+    width: 33.33%;
+  }
+  .hyst-block6__link7, .hyst-block6__link8, .hyst-block6__link11, .hyst-block6__link12 {
+    width: 50%;
+    height: 230px;
+  }
+  .hyst-block6__link6{
+    height: 230px;
+  }
+  .hyst-block6__link10{
+    width: 66.66%;
+    height: 470px;
+  }
+
+  .hyst-block6__link1{
+    background-image: url(../images/hystory/1990s.png);
+  }
+  .hyst-block6__link2{
+    background-image: url(../images/hystory/1993-registration_certificate.png);
+  }
+  .hyst-block6__link3{
+    background-image: url(../images/hystory/1990-letmedical.png);
+  }
+  .hyst-block6__link4{
+    background-image: url(../images/hystory/1994-newspaper.png);
+    .block-buttons__link__txt{
+      padding-bottom: 0.5vw;
+      .block-buttons__link__txt1{
+        padding: 0 2vw;
+      }
+    }
+  }
+  .hyst-block6__link5{
+    background-image: url(../images/hystory/1992-scenar513.png);
+    justify-content: flex-end;
+    .block-buttons__link__txt{
+      padding-right: 1.5vw;
+      padding-bottom: 2.4vw;
+    }
+    }
+  .hyst-block6__link6{
+    background-image: url(../images/hystory/1993-scenar035.png);
+    justify-content: flex-end;
+    .block-buttons__link__txt{
+      justify-content: center;
+      padding-bottom: 0;
+      padding-right: 3.7vw;
+    }
+  }
+  .hyst-block6__link7{
+    background-image: url(../images/hystory/1991-scenar032.png);
+  }
+  .hyst-block6__link8{
+    background-image: url(../images/hystory/1994-scenar532.png);
+  }
+  .hyst-block6__link9{
+    background-image: url(../images/hystory/1994-scenar611.png);
+  }
+  .hyst-block6__link10{
+    background-image: url(../images/hystory/1992-seminar.png);
+  }
+  .hyst-block6__link11{
+    background-image: url(../images/hystory/1994-scenar613.png);
+  }
+  .hyst-block6__link12{
+    background-image: url(../images/hystory/1998-vx735.png);
+  }
+  .hyst-block6__link13{
+    background-image: url(../images/hystory/1996-scenar603.png);
+    justify-content: flex-end;
+    .block-buttons__link__txt{
+      justify-content: center;
+      padding-bottom: 0;
+      padding-right: 2vw;
+    }
+  }
+  .hyst-block6__link14{
+    background-image: url(../images/hystory/1999-scenar703.png);
+    justify-content: flex-end;
+    .block-buttons__link__txt{
+      justify-content: center;
+      padding-bottom: 0;
+      padding-right: 2vw;
+    }
+  }
+  .hyst-block6__link15{
+    background-image: url(../images/hystory/1999-scenar713.png);
+  }
+}
+.hyst-block8__wrap{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  .hyst-block8__wrap1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+  }
+  .hyst-block8__wrap1_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .hyst-block8__wrap2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+  }
+  .hyst-block8__link1, .hyst-block8__link2, .hyst-block8__link3, .hyst-block8__link7, .hyst-block8__link8, .hyst-block8__link9{
+    height: 230px;
+    .block-buttons__link__txt{
+      justify-content: flex-end;
+      padding-bottom: 0.8vw;
+    }
+  }
+  .hyst-block8__link4, .hyst-block8__link5, .hyst-block8__link6{
+    height: 470px;
+    .block-buttons__link__txt{
+      justify-content: flex-end;
+      padding-bottom: 0.8vw;
+    }
+  }
+  .hyst-block8__link1{
+    background-image: url(../images/hystory/1980s-ru.png);
+    width: 44.44%;
+  }
+  .hyst-block8__link2{
+    background-image: url(../images/hystory/1983-ens03.png);
+    width: 55.56%;
+  }
+  .hyst-block8__link3{
+    background-image: url(../images/hystory/1989-scenar_t4-02.png);
+    justify-content: flex-end;
+    .block-buttons__link__txt{
+      justify-content: center;
+      padding-bottom: 0;
+      padding-right: 3vw;
+    }
+  }
+  .hyst-block8__link4{
+    background-image: url(../images/hystory/1985-scenar033.png);
+    .block-buttons__link__txt{
+      padding-bottom: 1.5vw;
+    }
+  }
+  .hyst-block8__link5{
+    background-image: url(../images/hystory/1987-patent_electrostimulator.png);
+    width: 33.33%;
+  }
+  .hyst-block8__link6{
+    background-image: url(../images/hystory/1981-ens02t.png);
+    width: 66.66%;
+  }
+  .hyst-block8__link7{
+    background-image: url(../images/hystory/1982-ens02.png);
+    width: 50%;
+  }
+  .hyst-block8__link8{
+    background-image: url(../images/hystory/1984-ens03c.png);
+    width: 50%;
+  }
+  .hyst-block8__link9{
+    background-image: url(../images/hystory/1988-scenar_t4-01.png);
+    width: 100%;
+    justify-content: flex-end;
+    .block-buttons__link__txt{
+      justify-content: center;
+      padding-bottom: 0;
+      padding-right: 9.5vw;
+    }
+  }
+}
+.hyst-block10__wrap{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  .block-buttons__link{
+    height: 230px;
+  }
+  .hyst-block10__link1, .hyst-block10__link2, .hyst-block10__link3{
+    width: 100%;
+    .block-buttons__link__txt{
+      justify-content: flex-end;
+      padding-bottom: 0.8vw;
+    }
+  }
+  .hyst-block10__link4{
+    width: 100%;
+    .block-buttons__link__txt{
+      justify-content: flex-end;
+      padding-bottom: 0.8vw;
+    }
+  }
+  .hyst-block10__link5, .hyst-block10__link6{
+    width: 50%;
+    .block-buttons__link__txt{
+      justify-content: flex-end;
+      padding-bottom: 0.8vw;
+    }
+  }
+  .hyst-block10__link1{
+    background-image: url(../images/hystory/1970s-ens01_3.png);
+  }
+  .hyst-block10__link2{
+    background-image: url(../images/hystory/idea.png);
+  }
+  .hyst-block10__link3{
+    background-image: url(../images/hystory/tenstechnology.png);
+    justify-content: center;
+  }
+  .hyst-block10__link4{
+    background-image: url(../images/hystory/scenartechnology.png);
+  }
+  .hyst-block10__link5{
+    background-image: url(../images/hystory/1976-ens01.png);
+  }
+  .hyst-block10__link6{
+    background-image: url(../images/hystory/1979-ens02.png);
+  }
+}
 
 @media (min-width: 768px)and (max-width: 1060px) {
   .header-nav__wrap .header-nav__item a, .header-nav__wrap .header-nav__item b{
