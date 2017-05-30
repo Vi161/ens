@@ -1,4 +1,4 @@
-.width-lg, header, .products-nav, .hyst-nav, .content, footer, .header-nav, .products-nav__container, .hyst-nav__container, .tech-nav__container, .content__container, .footer-container {
+.width-lg, header, .products-nav, .hyst-nav, .hyst-bot-nav .content, footer, .header-nav, .products-nav__container, .hyst-nav__container, .hyst-bot-nav__container, .hyst-bot-nav-bot__container, .tech-nav__container, .content__container, .footer-container {
   max-width: 100%;
   width: 1060px; }
 
@@ -21,11 +21,11 @@
 body {
   margin: 0; }
 
-header, .products-nav, .hyst-nav, .content, footer {
+header, .products-nav, .hyst-nav, .hyst-bot-nav .content, footer {
   width: 100%;
   margin: 0 auto; }
 
-.header-nav, .products-nav__container, .hyst-nav__container, .tech-nav__container, .content__container, .footer-container {
+.header-nav, .products-nav__container, .hyst-nav__container, .hyst-bot-nav__container, .hyst-bot-nav-bot__container, .tech-nav__container, .content__container, .footer-container {
   margin: 0 auto; }
 
 .content__container {
@@ -94,9 +94,6 @@ header {
       font-size: 20px;
       color: #111;
       text-decoration: none; }
-    .header-nav__wrap .header-nav__item .header-nav__active {
-      font-weight: 800;
-      pointer-events: none; }
     .header-nav__wrap .header-nav__item a:hover {
       color: #06F; }
   .header-nav__wrap .header-nav__lang-wrap {
@@ -114,6 +111,13 @@ header {
       background: #f9f9f9; }
     .header-nav__wrap .header-nav__lang-wrap a:active {
       background: #f0f0f0; }
+
+.header-nav__active {
+  font-weight: 800;
+  pointer-events: none; }
+
+.header-nav__active-work {
+  font-weight: 800; }
 
 .products-nav {
   height: 30px;
@@ -685,7 +689,8 @@ header {
   background-image: url(../images/acc/accessories_dx2.png);
   display: flex;
   align-items: center;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  background-repeat: no-repeat; }
   .product-block16 .product-block16__link6 .product-block16__link__txt {
     margin-top: 0;
     width: 175px;
@@ -1176,7 +1181,8 @@ header {
 .hyst-block-bigimg {
   height: 600px;
   width: 100%;
-  background-position: center; }
+  background-position: center;
+  background-repeat: no-repeat; }
   .hyst-block-bigimg .content__container {
     height: 100%;
     display: flex;
@@ -1191,23 +1197,23 @@ header {
       color: #999; }
 
 .hyst-block1 {
-  background: url("../images/hystory/2010s-ens.png") no-repeat; }
+  background-image: url("../images/hystory/2010s-ens.png"); }
 
 .hyst-block3 {
-  background: url("../images/hystory/2000s-vx735.png") no-repeat; }
+  background-image: url("../images/hystory/2000s-vx735.png"); }
 
 .hyst-block5 {
-  background: url("../images/hystory/1990s-scenar035.png") no-repeat; }
+  background-image: url("../images/hystory/1990s-scenar035.png"); }
 
 .hyst-block7 {
-  background: url("../images/hystory/1980s-ens03_2.png") no-repeat; }
+  background-image: url("../images/hystory/1980s-ens03_2.png"); }
 
 .hyst-block9 {
-  background: url("../images/hystory/1970s-ens01_3.png") no-repeat; }
+  background-image: url("../images/hystory/1970s-ens01_3.png"); }
 
 .hyst-block11 {
   height: 500px;
-  background: url("../images/ens.jpg") no-repeat; }
+  background-image: url("../images/ens.jpg"); }
 
 .block-buttons {
   width: 100%;
@@ -1576,6 +1582,67 @@ header {
     background-image: url(../images/hystory/1976-ens01.png); }
   .hyst-block10__wrap .hyst-block10__link6 {
     background-image: url(../images/hystory/1979-ens02.png); }
+
+.hyst-nav__wrap .hyst-nav__left a {
+  font-size: 16px; }
+.hyst-nav__wrap .products-nav__right {
+  padding-left: 0.7vw; }
+
+.hyst-bot-nav {
+  z-index: 1000;
+  background-color: #ffffff;
+  opacity: 0.95;
+  height: 105px; }
+
+.hyst-bot-nav__container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  position: relative; }
+
+#hyst-bot-nav__list {
+  display: flex;
+  flex-direction: row;
+  margin: 0; }
+
+.hyst-bot-nav__item {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .hyst-bot-nav__item a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #666; }
+  .hyst-bot-nav__item a:hover {
+    color: #06F; }
+
+.hyst-bot-nav__img1 {
+  display: block;
+  width: 230px;
+  height: 70px;
+  background-image: url(../images/hystory/1970s/1970s.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.hyst-bot-nav__img2 {
+  width: 120px;
+  height: 70px;
+  background-image: url(../images/hystory/1970s/1976-ens01.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.hyst-bot-nav__img3 {
+  width: 120px;
+  height: 70px;
+  background-image: url(../images/hystory/1970s/1970s-ens.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.hyst-bot-nav__txt {
+  margin: 0;
+  text-align: center; }
 
 @media (min-width: 768px) and (max-width: 1060px) {
   .header-nav__wrap .header-nav__item a, .header-nav__wrap .header-nav__item b {
