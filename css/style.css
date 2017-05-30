@@ -1644,6 +1644,41 @@ header {
   margin: 0;
   text-align: center; }
 
+.hyst-block-1970s1 {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 60px; }
+
+.content-h2 {
+  margin: 0;
+  font-size: 55px;
+  line-height: 57pt;
+  color: #444;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: left; }
+
+.hyst-block-1970s1__year {
+  font-size: 55px;
+  color: #BBB;
+  padding-top: 25px; }
+
+.hyst-block-1970s1__img1 {
+  background-image: url(../images/hystory/1970s/ens01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 394px; }
+
+.hyst-block-1970s1__img2 {
+  background-image: url(../images/hystory/1970s/1979-ens02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 328px; }
+
 @media (min-width: 768px) and (max-width: 1060px) {
   .header-nav__wrap .header-nav__item a, .header-nav__wrap .header-nav__item b {
     font-size: 1.9vw; }

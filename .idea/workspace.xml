@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/hystory/1970s-ens01_3.png" afterPath="$PROJECT_DIR$/images/hystory/1970s-ens01_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/hystory/1980s-ens03_2.png" afterPath="$PROJECT_DIR$/images/hystory/1980s-ens03_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/hystory/1990s-scenar035.png" afterPath="$PROJECT_DIR$/images/hystory/1990s-scenar035.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/hystory/2000s-vx735.png" afterPath="$PROJECT_DIR$/images/hystory/2000s-vx735.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/hystory/2010s-ens.png" afterPath="$PROJECT_DIR$/images/hystory/2010s-ens.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hystory/1970s.html" afterPath="$PROJECT_DIR$/hystory/1970s.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
@@ -39,9 +34,8 @@
           <file leaf-file-name="hystory.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/hystory/hystory.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="52" column="4" selection-start="2380" selection-end="3185" vertical-scroll-proportion="-18.961538" vertical-offset="391" max-vertical-offset="10948">
+                <state line="61" column="48" selection-start="2766" selection-end="2787" vertical-scroll-proportion="3.131579" vertical-offset="1275" max-vertical-offset="11220">
                   <folding>
-                    <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#a#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#a#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -63,10 +57,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="1970s.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="1970s.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hystory/1970s.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="78" selection-start="1966" selection-end="1989" vertical-scroll-proportion="0.33333334" vertical-offset="419" max-vertical-offset="2533">
+                <state line="50" column="9" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.27218226" vertical-offset="623" max-vertical-offset="3315">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="52.96154" vertical-offset="1377" max-vertical-offset="11543">
                   <folding />
                 </state>
               </provider>
@@ -76,10 +79,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="182" column="0" selection-start="3732" selection-end="3732" vertical-scroll-proportion="0.37453645" vertical-offset="2791" max-vertical-offset="39406">
+                <state line="2092" column="25" selection-start="45487" selection-end="45487" vertical-scroll-proportion="0.83189124" vertical-offset="34891" max-vertical-offset="39984">
                   <folding />
                 </state>
               </provider>
@@ -102,8 +105,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/style1.scss" />
         <option value="$PROJECT_DIR$/hystory/hystory.html" />
-        <option value="$PROJECT_DIR$/hystory/1970s.html" />
         <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/hystory/1970s.html" />
       </list>
     </option>
   </component>
@@ -335,6 +338,26 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18423855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -357,7 +380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="26" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15572">
           <folding>
-            <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#a#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#a#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -389,7 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15572">
           <folding>
-            <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#a#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#a#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -421,7 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15572">
           <folding>
-            <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#a#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#a#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -449,11 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11543" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="12" selection-start="545" selection-end="545" vertical-scroll-proportion="-10.56" vertical-offset="25" max-vertical-offset="2210">
@@ -461,11 +476,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="22" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.33296213" vertical-offset="279" max-vertical-offset="2397">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2092" column="25" selection-start="45487" selection-end="45487" vertical-scroll-proportion="0.83189124" vertical-offset="34891" max-vertical-offset="39984">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="52.96154" vertical-offset="1377" max-vertical-offset="11543">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hystory/hystory.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="4" selection-start="2380" selection-end="3185" vertical-scroll-proportion="-18.961538" vertical-offset="391" max-vertical-offset="10948">
+        <state line="61" column="48" selection-start="2766" selection-end="2787" vertical-scroll-proportion="3.131579" vertical-offset="1275" max-vertical-offset="11220">
           <folding>
-            <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#a#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#a#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -486,23 +521,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/structural.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="22" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.33296213" vertical-offset="279" max-vertical-offset="2397">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hystory/1970s.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="78" selection-start="1966" selection-end="1989" vertical-scroll-proportion="0.33333334" vertical-offset="419" max-vertical-offset="2533">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="0" selection-start="3732" selection-end="3732" vertical-scroll-proportion="0.37453645" vertical-offset="2791" max-vertical-offset="39406">
+        <state line="50" column="9" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.27218226" vertical-offset="623" max-vertical-offset="3315">
           <folding />
         </state>
       </provider>
