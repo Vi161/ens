@@ -1207,6 +1207,11 @@ header {
 
 .hyst-block7 {
   background-image: url("../images/hystory/1980s-ens03_2.png"); }
+  .hyst-block7 .content__container {
+    justify-content: flex-end; }
+    .hyst-block7 .content__container .hyst-block1__txt {
+      margin-bottom: 20px;
+      margin-right: 173px; }
 
 .hyst-block9 {
   background-image: url("../images/hystory/1970s-ens01_3.png"); }
@@ -1618,33 +1623,37 @@ header {
   .hyst-bot-nav__item a:hover {
     color: #06F; }
 
-.hyst-bot-nav__img1 {
+.hyst-bot-nav__img1, .hyst-bot-nav1980__img1, .hyst-bot-nav1990__img1 {
   display: block;
   width: 230px;
   height: 70px;
-  background-image: url(../images/hystory/1970s/1970s.png);
   background-repeat: no-repeat;
   background-position: center; }
+
+.hyst-bot-nav__img2, .hyst-bot-nav__img2, .hyst-bot-nav1980__img2, .hyst-bot-nav1980__img3, .hyst-bot-nav1980__img4,
+.hyst-bot-nav1980__img5, .hyst-bot-nav1980__img6, .hyst-bot-nav1980__img7, .hyst-bot-nav1980__img8,
+.hyst-bot-nav1980__img9, .hyst-bot-nav1990__img2, .hyst-bot-nav1990__img3, .hyst-bot-nav1990__img4,
+.hyst-bot-nav1990__img5, .hyst-bot-nav1990__img6, .hyst-bot-nav1990__img7, .hyst-bot-nav1990__img8,
+.hyst-bot-nav1990__img9, .hyst-bot-nav1990__img10, .hyst-bot-nav1990__img11 {
+  width: 120px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.hyst-bot-nav__img1 {
+  background-image: url(../images/hystory/1970s/1970s.png); }
 
 .hyst-bot-nav__img2 {
-  width: 120px;
-  height: 70px;
-  background-image: url(../images/hystory/1970s/1976-ens01.png);
-  background-repeat: no-repeat;
-  background-position: center; }
+  background-image: url(../images/hystory/1970s/1976-ens01.png); }
 
 .hyst-bot-nav__img3 {
-  width: 120px;
-  height: 70px;
-  background-image: url(../images/hystory/1970s/1970s-ens.png);
-  background-repeat: no-repeat;
-  background-position: center; }
+  background-image: url(../images/hystory/1970s/1970s-ens.png); }
 
 .hyst-bot-nav__txt {
   margin: 0;
   text-align: center; }
 
-.hyst-block-1970s1 {
+.hyst-block-1970s, .hyst-block-1980s, .hyst-block-1990s, .hyst-block-2000s, .hyst-block-2010s {
   background-color: #fff;
   padding-top: 30px;
   padding-bottom: 60px; }
@@ -1660,24 +1669,256 @@ header {
   padding-right: 40px;
   text-align: left; }
 
-.hyst-block-1970s1__year {
+.hyst-block__year {
   font-size: 55px;
   color: #BBB;
   padding-top: 25px; }
 
-.hyst-block-1970s1__img1 {
-  background-image: url(../images/hystory/1970s/ens01.jpg);
+.hyst-block-1970s__img1, .hyst-block-1970s__img2, .hyst-block-1980s__img1, .hyst-block-1980s__img2,
+.hyst-block-1980s__img3, .hyst-block-1980s__img4, .hyst-block-1980s__img5, .hyst-block-1980s__img6,
+.hyst-block-1980s__img7, .hyst-block-1980s__img8, .hyst-block-1990s__img1, .hyst-block-1990s__img2,
+.hyst-block-1990s__img3, .hyst-block-1990s__img4, .hyst-block-1990s__img5, .hyst-block-1990s__img6,
+.hyst-block-1990s__img7, .hyst-block-1990s__img8, .hyst-block-1990s__img9, .hyst-block-1990s__img10,
+.hyst-block-1990s__img11, .hyst-block-1990s__img12, .hyst-block-1990s__img13, .hyst-block-1990s__img14,
+.hyst-block-1990s__img15 {
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
+  width: 100%; }
+
+.hyst-block-1970s__img1 {
+  background-image: url(../images/hystory/1970s/ens01.jpg);
   height: 394px; }
 
-.hyst-block-1970s1__img2 {
+.hyst-block-1970s__img2 {
   background-image: url(../images/hystory/1970s/1979-ens02.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
   height: 328px; }
+
+.hyst-bot-nav1980__img1 {
+  background-image: url(../images/hystory/1980s/1980s.png); }
+
+.hyst-bot-nav1980__img2 {
+  background-image: url(../images/hystory/1980s/1981-ens02t.png); }
+
+.hyst-bot-nav1980__img3 {
+  background-image: url(../images/hystory/1980s/1982-ens02.png); }
+
+.hyst-bot-nav1980__img4 {
+  background-image: url(../images/hystory/1980s/1983-ens03.png); }
+
+.hyst-bot-nav1980__img5 {
+  background-image: url(../images/hystory/1980s/1984-ens03c.png); }
+
+.hyst-bot-nav1980__img6 {
+  background-image: url(../images/hystory/1980s/1985-scenar033.jpg); }
+
+.hyst-bot-nav1980__img7 {
+  background-image: url(../images/hystory/1980s/1987-patent_electrostimulator.png); }
+
+.hyst-bot-nav1980__img8 {
+  background-image: url(../images/hystory/1980s/1988-scenar_t4-01.png); }
+
+.hyst-bot-nav1980__img9 {
+  background-image: url(../images/hystory/1980s/1989-scenar_t4-02.png); }
+
+.hyst-block-1980s__img1 {
+  background-image: url(../images/hystory/1980s/ens02t.jpg);
+  height: 328px; }
+
+.hyst-block-1980s__img2 {
+  background-image: url(../images/hystory/1980s/ens02.jpg);
+  height: 328px; }
+
+.hyst-block-1980s__img3 {
+  background-image: url(../images/hystory/1980s/ens03.jpg);
+  height: 328px; }
+
+.hyst-block-1980s__img4 {
+  background-image: url(../images/hystory/1980s/ens03c.jpg);
+  height: 328px; }
+
+.hyst-block-1980s__img5 {
+  background-image: url(../images/hystory/1980s/scenar033red.jpg);
+  height: 328px; }
+
+.hyst-block-1980s__img6 {
+  background-image: url(../images/hystory/1980s/AS1817335.jpg);
+  height: 328px; }
+
+.hyst-block-1980s__img7 {
+  background-image: url(../images/hystory/1980s/scenar_t4-01.jpg);
+  height: 328px; }
+
+.hyst-block-1980s__img8 {
+  background-image: url(../images/hystory/1980s/scenar_t4-02.jpg);
+  height: 328px; }
+
+.hyst-bot-nav1990__img1 {
+  background-image: url(../images/hystory/1990s/1990s.png); }
+
+.hyst-bot-nav1990__img2 {
+  background-image: url(../images/hystory/1990s/1990-letmedical.png); }
+
+.hyst-bot-nav1990__img3 {
+  background-image: url(../images/hystory/1990s/1992-scenar032.png); }
+
+.hyst-bot-nav1990__img4 {
+  background-image: url(../images/hystory/1990s/1992-scenar035.png); }
+
+.hyst-bot-nav1990__img5 {
+  background-image: url(../images/hystory/1990s/1992-scenar513.png); }
+
+.hyst-bot-nav1990__img6 {
+  background-image: url(../images/hystory/1990s/1994-newspaper.jpg); }
+
+.hyst-bot-nav1990__img7 {
+  background-image: url(../images/hystory/1990s/1994-scenar611.png); }
+
+.hyst-bot-nav1990__img8 {
+  background-image: url(../images/hystory/1990s/1996-scenar603.png); }
+
+.hyst-bot-nav1990__img9 {
+  background-image: url(../images/hystory/1990s/1998-scenar735.png); }
+
+.hyst-bot-nav1990__img10 {
+  background-image: url(../images/hystory/1990s/1999-scenar703.png); }
+
+.hyst-bot-nav1990__img11 {
+  background-image: url(../images/hystory/1990s/1999-scenar713.png); }
+
+.hyst-block-1990s__img1 {
+  background-image: url(../images/hystory/1990s/scenar_032.jpg);
+  height: 397px; }
+
+.hyst-block-1990s__img2 {
+  background-image: url(../images/hystory/1990s/scenar_035.jpg);
+  height: 405px; }
+
+.hyst-block-1990s__img3 {
+  background-image: url(../images/hystory/1990s/reg_scenar035.jpg);
+  height: 926px; }
+
+.hyst-block-1990s__img4 {
+  background-image: url(../images/hystory/1990s/tu_scenar035.jpg);
+  height: 902px; }
+
+.hyst-block-1990s__img5 {
+  background-image: url(../images/hystory/1990s/scenar_ds513m.jpg);
+  height: 348px; }
+
+.hyst-block-1990s__img6 {
+  background-image: url(../images/hystory/1990s/scenar_ds532.jpg);
+  height: 379px; }
+
+.hyst-block-1990s__img7 {
+  background-image: url(../images/hystory/1990s/newspaper1994-page2_small.jpg);
+  height: 516px; }
+
+.hyst-block-1990s__img8 {
+  background-image: url(../images/hystory/1990s/scenar_dvx611.jpg);
+  height: 392px; }
+
+.hyst-block-1990s__img9 {
+  background-image: url(../images/hystory/1990s/scenar_dvx612.jpg);
+  height: 402px; }
+
+.hyst-block-1990s__img10 {
+  background-image: url(../images/hystory/1990s/scenar_dvx613.jpg);
+  height: 393px; }
+
+.hyst-block-1990s__img11 {
+  background-image: url(../images/hystory/1990s/scenar_dps603.jpg);
+  height: 393px; }
+
+.hyst-block-1990s__img12 {
+  background-image: url(../images/hystory/1990s/scenar_700.jpg);
+  height: 162px; }
+
+.hyst-block-1990s__img13 {
+  background-image: url(../images/hystory/1990s/scenar_vx735v3.jpg);
+  height: 429px; }
+
+.hyst-block-1990s__img14 {
+  background-image: url(../images/hystory/1990s/scenar_ps703.jpg);
+  height: 360px; }
+
+.hyst-block-1990s__img15 {
+  background-image: url(../images/hystory/1990s/scenar_ps713.jpg);
+  height: 387px; }
+
+.hyst-block-1990s__2 {
+  background-image: url("../images/hystory/1990s/1994-newspaper.png"); }
+
+.hyst-block-1990s__3 {
+  background-color: #fffff1;
+  padding-top: 45px;
+  padding-bottom: 30px; }
+
+.hyst-block-1990s__3__p {
+  padding-left: 40px; }
+
+.hyst-block-1990s__3__span {
+  font-size: 59px;
+  padding-bottom: 100px;
+  font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; }
+
+.hyst-block-1990s__3__span2 {
+  font-size: 35px;
+  font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; }
+
+.hyst-block-1990s__3__p2 {
+  font-size: 20px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  text-align: right; }
+
+.hyst-block-1990s__3__lineswrap {
+  display: flex; }
+
+.hyst-block-1990s__3__line1 {
+  height: 20px;
+  width: 39.6%;
+  border-top: 3px #444 solid;
+  margin-top: 13px; }
+
+.hyst-block-1990s__3__linetext {
+  height: 20px;
+  width: 17%;
+  padding-left: 38px;
+  padding-right: 2px;
+  font-size: 24px;
+  color: #000000; }
+
+.hyst-block-1990s__3__line2 {
+  height: 20px;
+  width: 39.6%;
+  color: #FFF;
+  border-top: 3px #444 solid;
+  margin-top: 13px; }
+
+.hyst-block-1990s__3__file {
+  text-align: center;
+  font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; }
+
+.hyst-block-1990s__3__topwrap {
+  display: flex; }
+
+.hyst-block-1990s__3__toptext {
+  height: 20px;
+  width: 42.5%;
+  color: #FFF;
+  background-color: #444;
+  border-top: 3px #444 solid;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  font-size: 28px; }
+
+.hyst-block-1990s__3__topline {
+  padding-bottom: 10px;
+  height: 60px;
+  width: 57.5%;
+  color: #FFF;
+  border-top: 3px #444 solid; }
 
 @media (min-width: 768px) and (max-width: 1060px) {
   .header-nav__wrap .header-nav__item a, .header-nav__wrap .header-nav__item b {
