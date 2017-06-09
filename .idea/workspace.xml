@@ -2,12 +2,186 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hystory/1970s.html" afterPath="$PROJECT_DIR$/hystory/1970s.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/035m.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/2000s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/2002-ps704.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/2002-vx735.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/2004-er01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/2004-ev01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/2005-ex715.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/2006-ps705ag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/2006-ps705mini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/2007-ex735.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/2007-patent_scenar-therapy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/2009-tablet03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/2010s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/2011-ex735slider.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/2012-ex715.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/2013-ec01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/2013-ex735x2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/2014-myoscen_display.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/2016-dx1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/2016-dx2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/2016-emc01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/2016-ens.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/2016-ent01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/2016-ex735x3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/2016-oko.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/23554433-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/23554433.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/23554433.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/ens.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/er01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/ev01ag1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/ev01w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/ex715.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/ex715ag.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/ex735ag.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/ex735ag_el.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/ex735modific.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/ex735slider.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/ex735x2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/ex735x3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/myoscen_el2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2010s/myoscen_led.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/ps704.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/ps705.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/ps705_el.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/ps705ag.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/ps705ag_mini.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/ps705mini.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/ps705v1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/tablet3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/history/2000s/vx735ag.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/history/2000s.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/how_it_work.html" afterPath="$PROJECT_DIR$/technology/how_it_work.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/medication-free_treatment.html" afterPath="$PROJECT_DIR$/technology/medication-free_treatment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic.html" afterPath="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/old_good_ens03.html" afterPath="$PROJECT_DIR$/technology/old_good_ens03.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/technology.html" afterPath="$PROJECT_DIR$/technology/technology.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/tens_scenar_cosmodic.html" afterPath="$PROJECT_DIR$/technology/tens_scenar_cosmodic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health.html" afterPath="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/using.html" afterPath="$PROJECT_DIR$/technology/using.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/what_is_scenar-therapy.html" afterPath="$PROJECT_DIR$/technology/what_is_scenar-therapy.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="G:\HTML\ens\hystory\1970s.html" afterPath="$PROJECT_DIR$/history/1970s.html" />
+      <change type="MOVED" beforePath="G:\HTML\ens\hystory\1980s.html" afterPath="$PROJECT_DIR$/history/1980s.html" />
+      <change type="MOVED" beforePath="G:\HTML\ens\hystory\1990s.html" afterPath="$PROJECT_DIR$/history/1990s.html" />
+      <change type="MOVED" beforePath="G:\HTML\ens\hystory\hystory.html" afterPath="$PROJECT_DIR$/history/history.html" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1970s-ens01_3.png" afterPath="$PROJECT_DIR$/images/history/1970s-ens01_3.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1970s.png" afterPath="$PROJECT_DIR$/images/history/1970s.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1970s\1970s-ens.png" afterPath="$PROJECT_DIR$/images/history/1970s/1970s-ens.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1970s\1970s.png" afterPath="$PROJECT_DIR$/images/history/1970s/1970s.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1970s\1976-ens01.png" afterPath="$PROJECT_DIR$/images/history/1970s/1976-ens01.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1970s\1979-ens02.jpg" afterPath="$PROJECT_DIR$/images/history/1970s/1979-ens02.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1970s\ens01.jpg" afterPath="$PROJECT_DIR$/images/history/1970s/ens01.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1976-ens01.png" afterPath="$PROJECT_DIR$/images/history/1976-ens01.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1979-ens02.png" afterPath="$PROJECT_DIR$/images/history/1979-ens02.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s-ens03_2.png" afterPath="$PROJECT_DIR$/images/history/1980s-ens03_2.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s-ru.png" afterPath="$PROJECT_DIR$/images/history/1980s-ru.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\1980s.png" afterPath="$PROJECT_DIR$/images/history/1980s/1980s.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\1981-ens02t.png" afterPath="$PROJECT_DIR$/images/history/1980s/1981-ens02t.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\1982-ens02.png" afterPath="$PROJECT_DIR$/images/history/1980s/1982-ens02.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\1983-ens03.png" afterPath="$PROJECT_DIR$/images/history/1980s/1983-ens03.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\1984-ens03c.png" afterPath="$PROJECT_DIR$/images/history/1980s/1984-ens03c.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\1985-scenar033.jpg" afterPath="$PROJECT_DIR$/images/history/1980s/1985-scenar033.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\1987-patent_electrostimulator.png" afterPath="$PROJECT_DIR$/images/history/1980s/1987-patent_electrostimulator.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\1988-scenar_t4-01.png" afterPath="$PROJECT_DIR$/images/history/1980s/1988-scenar_t4-01.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\1989-scenar_t4-02.png" afterPath="$PROJECT_DIR$/images/history/1980s/1989-scenar_t4-02.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\AS1817335.jpg" afterPath="$PROJECT_DIR$/images/history/1980s/AS1817335.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\ens02.jpg" afterPath="$PROJECT_DIR$/images/history/1980s/ens02.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\ens02t.jpg" afterPath="$PROJECT_DIR$/images/history/1980s/ens02t.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\ens03.jpg" afterPath="$PROJECT_DIR$/images/history/1980s/ens03.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\ens03c.jpg" afterPath="$PROJECT_DIR$/images/history/1980s/ens03c.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\scenar033red.jpg" afterPath="$PROJECT_DIR$/images/history/1980s/scenar033red.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\scenar_t4-01.jpg" afterPath="$PROJECT_DIR$/images/history/1980s/scenar_t4-01.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1980s\scenar_t4-02.jpg" afterPath="$PROJECT_DIR$/images/history/1980s/scenar_t4-02.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1981-ens02t.png" afterPath="$PROJECT_DIR$/images/history/1981-ens02t.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1982-ens02.png" afterPath="$PROJECT_DIR$/images/history/1982-ens02.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1983-ens03.png" afterPath="$PROJECT_DIR$/images/history/1983-ens03.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1984-ens03c.png" afterPath="$PROJECT_DIR$/images/history/1984-ens03c.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1985-scenar033.png" afterPath="$PROJECT_DIR$/images/history/1985-scenar033.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1987-patent_electrostimulator.png" afterPath="$PROJECT_DIR$/images/history/1987-patent_electrostimulator.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1988-scenar_t4-01.png" afterPath="$PROJECT_DIR$/images/history/1988-scenar_t4-01.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1989-scenar_t4-02.png" afterPath="$PROJECT_DIR$/images/history/1989-scenar_t4-02.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990-letmedical.png" afterPath="$PROJECT_DIR$/images/history/1990-letmedical.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s-scenar035.png" afterPath="$PROJECT_DIR$/images/history/1990s-scenar035.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s.png" afterPath="$PROJECT_DIR$/images/history/1990s.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\1990-letmedical.png" afterPath="$PROJECT_DIR$/images/history/1990s/1990-letmedical.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\1990s.png" afterPath="$PROJECT_DIR$/images/history/1990s/1990s.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\1992-scenar032.png" afterPath="$PROJECT_DIR$/images/history/1990s/1992-scenar032.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\1992-scenar035.png" afterPath="$PROJECT_DIR$/images/history/1990s/1992-scenar035.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\1992-scenar513.png" afterPath="$PROJECT_DIR$/images/history/1990s/1992-scenar513.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\1994-newspaper.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/1994-newspaper.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\1994-newspaper.png" afterPath="$PROJECT_DIR$/images/history/1990s/1994-newspaper.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\1994-scenar611.png" afterPath="$PROJECT_DIR$/images/history/1990s/1994-scenar611.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\1996-scenar603.png" afterPath="$PROJECT_DIR$/images/history/1990s/1996-scenar603.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\1998-scenar735.png" afterPath="$PROJECT_DIR$/images/history/1990s/1998-scenar735.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\1999-scenar703.png" afterPath="$PROJECT_DIR$/images/history/1990s/1999-scenar703.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\1999-scenar713.png" afterPath="$PROJECT_DIR$/images/history/1990s/1999-scenar713.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\newspaper1994-page2.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/newspaper1994-page2.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\newspaper1994-page2_small.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/newspaper1994-page2_small.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\reg_scenar035.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/reg_scenar035.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\scenar_032.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/scenar_032.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\scenar_035.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/scenar_035.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\scenar_700.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/scenar_700.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\scenar_dps603.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/scenar_dps603.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\scenar_ds513m.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/scenar_ds513m.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\scenar_ds532.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/scenar_ds532.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\scenar_dvx611.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/scenar_dvx611.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\scenar_dvx612.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/scenar_dvx612.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\scenar_dvx613.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/scenar_dvx613.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\scenar_ps703.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/scenar_ps703.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\scenar_ps713.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/scenar_ps713.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\scenar_vx735v3.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/scenar_vx735v3.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1990s\tu_scenar035.jpg" afterPath="$PROJECT_DIR$/images/history/1990s/tu_scenar035.jpg" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1991-scenar032.png" afterPath="$PROJECT_DIR$/images/history/1991-scenar032.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1992-scenar513.png" afterPath="$PROJECT_DIR$/images/history/1992-scenar513.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1992-seminar.png" afterPath="$PROJECT_DIR$/images/history/1992-seminar.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1993-registration_certificate.png" afterPath="$PROJECT_DIR$/images/history/1993-registration_certificate.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1993-scenar035.png" afterPath="$PROJECT_DIR$/images/history/1993-scenar035.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1994-newspaper.png" afterPath="$PROJECT_DIR$/images/history/1994-newspaper.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1994-scenar532.png" afterPath="$PROJECT_DIR$/images/history/1994-scenar532.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1994-scenar611.png" afterPath="$PROJECT_DIR$/images/history/1994-scenar611.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1994-scenar613.png" afterPath="$PROJECT_DIR$/images/history/1994-scenar613.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1996-scenar603.png" afterPath="$PROJECT_DIR$/images/history/1996-scenar603.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1998-vx735.png" afterPath="$PROJECT_DIR$/images/history/1998-vx735.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1999-scenar703.png" afterPath="$PROJECT_DIR$/images/history/1999-scenar703.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\1999-scenar713.png" afterPath="$PROJECT_DIR$/images/history/1999-scenar713.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2000s-vx735.png" afterPath="$PROJECT_DIR$/images/history/2000s-vx735.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2000s.png" afterPath="$PROJECT_DIR$/images/history/2000s.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2002-ps704.png" afterPath="$PROJECT_DIR$/images/history/2002-ps704.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2002-vx735.png" afterPath="$PROJECT_DIR$/images/history/2002-vx735.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2004-er01.png" afterPath="$PROJECT_DIR$/images/history/2004-er01.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2004-ev01.png" afterPath="$PROJECT_DIR$/images/history/2004-ev01.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2005-ex715.png" afterPath="$PROJECT_DIR$/images/history/2005-ex715.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2006-ps705ag.png" afterPath="$PROJECT_DIR$/images/history/2006-ps705ag.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2006-ps705mini.png" afterPath="$PROJECT_DIR$/images/history/2006-ps705mini.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2007-ex735.png" afterPath="$PROJECT_DIR$/images/history/2007-ex735.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2007-patent_scenar-therapy.png" afterPath="$PROJECT_DIR$/images/history/2007-patent_scenar-therapy.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2009-tablet03.png" afterPath="$PROJECT_DIR$/images/history/2009-tablet03.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2010s-ec01.png" afterPath="$PROJECT_DIR$/images/history/2010s-ec01.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2010s-electrode_0.png" afterPath="$PROJECT_DIR$/images/history/2010s-electrode_0.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2010s-ens.png" afterPath="$PROJECT_DIR$/images/history/2010s-ens.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2010s.png" afterPath="$PROJECT_DIR$/images/history/2010s.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2011-ex735slider.png" afterPath="$PROJECT_DIR$/images/history/2011-ex735slider.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2012-ev01au.png" afterPath="$PROJECT_DIR$/images/history/2012-ev01au.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2012-ex715.png" afterPath="$PROJECT_DIR$/images/history/2012-ex715.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2013-ex735x2.png" afterPath="$PROJECT_DIR$/images/history/2013-ex735x2.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2014-myoscen_display_0.png" afterPath="$PROJECT_DIR$/images/history/2014-myoscen_display_0.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2014-myoscen_led_0.png" afterPath="$PROJECT_DIR$/images/history/2014-myoscen_led_0.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2016-dx1_0.png" afterPath="$PROJECT_DIR$/images/history/2016-dx1_0.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2016-dx2.png" afterPath="$PROJECT_DIR$/images/history/2016-dx2.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2016-emc01-ent01_0.png" afterPath="$PROJECT_DIR$/images/history/2016-emc01-ent01_0.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\2016-ens.png" afterPath="$PROJECT_DIR$/images/history/2016-ens.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\cosmodictechnology.png" afterPath="$PROJECT_DIR$/images/history/cosmodictechnology.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\idea.png" afterPath="$PROJECT_DIR$/images/history/idea.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\scenartechnology.png" afterPath="$PROJECT_DIR$/images/history/scenartechnology.png" />
+      <change type="MOVED" beforePath="G:\HTML\ens\images\hystory\tenstechnology.png" afterPath="$PROJECT_DIR$/images/history/tenstechnology.png" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,19 +206,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="1990s.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hystory/1990s.html">
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="72" column="0" selection-start="3399" selection-end="3399" vertical-scroll-proportion="-0.78431374" vertical-offset="1184" max-vertical-offset="6528">
+                <state line="34" column="54" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.34262484" vertical-offset="283" max-vertical-offset="11543">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/script.js">
+          <file leaf-file-name="2000s.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/history/2000s.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="42" selection-start="230" selection-end="230" vertical-scroll-proportion="0.094444446" vertical-offset="0" max-vertical-offset="2210">
+                <state line="41" column="90" selection-start="2001" selection-end="2001" vertical-scroll-proportion="-11.346154" vertical-offset="402" max-vertical-offset="4114">
                   <folding />
                 </state>
               </provider>
@@ -57,7 +231,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2273" column="22" selection-start="51526" selection-end="51526" vertical-scroll-proportion="0.39354068" vertical-offset="38312" max-vertical-offset="44149">
+                <state line="2452" column="59" selection-start="56653" selection-end="56653" vertical-scroll-proportion="0.77351916" vertical-offset="41018" max-vertical-offset="46070">
                   <folding />
                 </state>
               </provider>
@@ -81,14 +255,30 @@
         <option value="$PROJECT_DIR$/css/style1.scss" />
         <option value="$PROJECT_DIR$/hystory/hystory.html" />
         <option value="$PROJECT_DIR$/hystory/1970s.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/gruntfile.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gruntfile.js" />
         <option value="$PROJECT_DIR$/hystory/1980s.html" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/hystory/1990s.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/hystory/2000s.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/history/1970s.html" />
+        <option value="$PROJECT_DIR$/history/1980s.html" />
+        <option value="$PROJECT_DIR$/history/1990s.html" />
+        <option value="$PROJECT_DIR$/history/2000s.html" />
+        <option value="$PROJECT_DIR$/history/history.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/technology/how_it_work.html" />
+        <option value="$PROJECT_DIR$/technology/medication-free_treatment.html" />
+        <option value="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic.html" />
+        <option value="$PROJECT_DIR$/technology/old_good_ens03.html" />
+        <option value="$PROJECT_DIR$/technology/technology.html" />
+        <option value="$PROJECT_DIR$/technology/tens_scenar_cosmodic.html" />
+        <option value="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health.html" />
+        <option value="$PROJECT_DIR$/technology/using.html" />
+        <option value="$PROJECT_DIR$/technology/what_is_scenar-therapy.html" />
       </list>
     </option>
   </component>
@@ -174,7 +364,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,6 +392,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -217,7 +420,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hystory" />
+              <option name="myItemId" value="history" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,6 +458,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,12 +502,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19275825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -314,11 +519,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -336,9 +540,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19275825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -358,9 +562,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hystory/1990s.html">
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="329" column="47" selection-start="29561" selection-end="29561" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6613">
+        <state line="2452" column="59" selection-start="56653" selection-end="56653" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="46070">
           <folding />
         </state>
       </provider>
@@ -372,31 +576,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/1980s.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="14" selection-start="11239" selection-end="11239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4862" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/1970s.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="20" selection-start="7493" selection-end="7548" vertical-scroll-proportion="0.0" vertical-offset="1716" max-vertical-offset="3638" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2113" column="19" selection-start="46321" selection-end="46321" vertical-scroll-proportion="0.0" vertical-offset="35643" max-vertical-offset="41191">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/1980s.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="14" selection-start="11239" selection-end="11239" vertical-scroll-proportion="0.0" vertical-offset="3207" max-vertical-offset="4862" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/1970s.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="20" selection-start="7493" selection-end="7548" vertical-scroll-proportion="0.0" vertical-offset="1716" max-vertical-offset="3638" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
@@ -406,31 +590,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/1980s.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="46" selection-start="12975" selection-end="12997" vertical-scroll-proportion="0.0" vertical-offset="3207" max-vertical-offset="4862" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/1970s.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="20" selection-start="7493" selection-end="7548" vertical-scroll-proportion="0.0" vertical-offset="1716" max-vertical-offset="3638" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2113" column="18" selection-start="46320" selection-end="46320" vertical-scroll-proportion="0.0" vertical-offset="35575" max-vertical-offset="41191">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/1980s.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="46" selection-start="12975" selection-end="12997" vertical-scroll-proportion="0.0" vertical-offset="3207" max-vertical-offset="4862" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/1970s.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="20" selection-start="7493" selection-end="7548" vertical-scroll-proportion="0.0" vertical-offset="1716" max-vertical-offset="3638" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
@@ -440,26 +604,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/1980s.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="46" selection-start="12975" selection-end="12997" vertical-scroll-proportion="0.0" vertical-offset="3207" max-vertical-offset="4862" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/1970s.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="20" selection-start="7493" selection-end="7548" vertical-scroll-proportion="0.0" vertical-offset="1716" max-vertical-offset="3638" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2167" column="0" selection-start="47908" selection-end="47908" vertical-scroll-proportion="0.0" vertical-offset="36519" max-vertical-offset="41174">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/hystory.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15572" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
@@ -469,21 +618,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/hystory.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15572" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1797" column="19" selection-start="38424" selection-end="38424" vertical-scroll-proportion="0.0" vertical-offset="29435" max-vertical-offset="35496">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/hystory.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15572" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
@@ -500,23 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="52.96154" vertical-offset="1377" max-vertical-offset="11543" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/hystory.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="27" selection-start="3224" selection-end="3235" vertical-scroll-proportion="0.33250928" vertical-offset="938" max-vertical-offset="11220" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="13" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.52311164" vertical-offset="301" max-vertical-offset="33541">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="4" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.33333334" vertical-offset="584" max-vertical-offset="6902">
@@ -524,33 +646,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/1970s.html">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="25" selection-start="7424" selection-end="7429" vertical-scroll-proportion="0.3325359" vertical-offset="2102" max-vertical-offset="3638" />
+        <state line="5" column="42" selection-start="230" selection-end="230" vertical-scroll-proportion="0.094444446" vertical-offset="0" max-vertical-offset="2210">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/1980s.html">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="33" selection-start="5542" selection-end="5597" vertical-scroll-proportion="0.22415796" vertical-offset="1592" max-vertical-offset="4845" />
+        <state line="132" column="23" selection-start="3392" selection-end="3392" vertical-scroll-proportion="0.33258173" vertical-offset="1949" max-vertical-offset="8228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1199" column="35" selection-start="37398" selection-end="37398" vertical-scroll-proportion="0.0" vertical-offset="20088" max-vertical-offset="38386">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2273" column="22" selection-start="51526" selection-end="51526" vertical-scroll-proportion="0.39354068" vertical-offset="38312" max-vertical-offset="44149">
+        <state line="2452" column="59" selection-start="56653" selection-end="56653" vertical-scroll-proportion="0.77351916" vertical-offset="41018" max-vertical-offset="46070">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hystory/1990s.html">
+    <entry file="file://$PROJECT_DIR$/history/1970s.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="3399" selection-end="3399" vertical-scroll-proportion="-0.78431374" vertical-offset="1184" max-vertical-offset="6528">
+        <state line="55" column="28" selection-start="2554" selection-end="2554" vertical-scroll-proportion="-11.038462" vertical-offset="648" max-vertical-offset="3638">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/history/1980s.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="42" selection-start="230" selection-end="230" vertical-scroll-proportion="0.094444446" vertical-offset="0" max-vertical-offset="2210">
+        <state line="41" column="90" selection-start="2001" selection-end="2001" vertical-scroll-proportion="-11.346154" vertical-offset="402" max-vertical-offset="4845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history/1990s.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="90" selection-start="2001" selection-end="2001" vertical-scroll-proportion="-11.346154" vertical-offset="402" max-vertical-offset="6528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="82" selection-start="1993" selection-end="1993" vertical-scroll-proportion="-11.538462" vertical-offset="397" max-vertical-offset="13498">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/how_it_work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="57" selection-start="1994" selection-end="1994" vertical-scroll-proportion="-11.076923" vertical-offset="409" max-vertical-offset="3094">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/medication-free_treatment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="57" selection-start="1994" selection-end="1994" vertical-scroll-proportion="-11.076923" vertical-offset="409" max-vertical-offset="3655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="57" selection-start="1994" selection-end="1994" vertical-scroll-proportion="-11.076923" vertical-offset="409" max-vertical-offset="5780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/technology.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="57" selection-start="1994" selection-end="1994" vertical-scroll-proportion="-11.076923" vertical-offset="409" max-vertical-offset="4063">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="57" selection-start="1994" selection-end="1994" vertical-scroll-proportion="-11.076923" vertical-offset="409" max-vertical-offset="4148">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/tens_scenar_cosmodic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="57" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.34285715" vertical-offset="409" max-vertical-offset="4386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/old_good_ens03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="57" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.33449477" vertical-offset="409" max-vertical-offset="4743">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/using.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="57" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.33449477" vertical-offset="409" max-vertical-offset="2975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/what_is_scenar-therapy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="57" selection-start="1994" selection-end="1994" vertical-scroll-proportion="-11.076923" vertical-offset="409" max-vertical-offset="5491">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history/2000s.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="90" selection-start="2001" selection-end="2001" vertical-scroll-proportion="-11.346154" vertical-offset="402" max-vertical-offset="4114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="54" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.34262484" vertical-offset="283" max-vertical-offset="11543">
           <folding />
         </state>
       </provider>

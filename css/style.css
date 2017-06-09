@@ -1197,16 +1197,16 @@ header {
       color: #999; }
 
 .hyst-block1 {
-  background-image: url("../images/hystory/2010s-ens.png"); }
+  background-image: url("../images/history/2010s-ens.png"); }
 
 .hyst-block3 {
-  background-image: url("../images/hystory/2000s-vx735.png"); }
+  background-image: url("../images/history/2000s-vx735.png"); }
 
 .hyst-block5 {
-  background-image: url("../images/hystory/1990s-scenar035.png"); }
+  background-image: url("../images/history/1990s-scenar035.png"); }
 
 .hyst-block7 {
-  background-image: url("../images/hystory/1980s-ens03_2.png"); }
+  background-image: url("../images/history/1980s-ens03_2.png"); }
   .hyst-block7 .content__container {
     justify-content: flex-end; }
     .hyst-block7 .content__container .hyst-block1__txt {
@@ -1214,7 +1214,7 @@ header {
       margin-right: 173px; }
 
 .hyst-block9 {
-  background-image: url("../images/hystory/1970s-ens01_3.png"); }
+  background-image: url("../images/history/1970s-ens01_3.png"); }
 
 .hyst-block11 {
   height: 500px;
@@ -1254,12 +1254,12 @@ header {
     width: 33.33%;
     height: 230px;
     background-color: #fff;
-    background-image: url(../images/hystory/2010s.png);
+    background-image: url(../images/history/2010s.png);
     background-position: center; }
   .hyst-block2__wrap .hyst-block2__link2 {
     width: 66.66%;
     height: 230px;
-    background-image: url(../images/hystory/2016-dx2.png);
+    background-image: url(../images/history/2016-dx2.png);
     background-position: center;
     justify-content: flex-end; }
     .hyst-block2__wrap .hyst-block2__link2 .block-buttons__link__txt {
@@ -1274,19 +1274,19 @@ header {
       justify-content: flex-end;
       padding-bottom: 1vw; }
   .hyst-block2__wrap .hyst-block2__link3 {
-    background-image: url(../images/hystory/2011-ex735slider.png);
+    background-image: url(../images/history/2011-ex735slider.png);
     background-position: center; }
   .hyst-block2__wrap .hyst-block2__link4 {
-    background-image: url(../images/hystory/2013-ex735x2.png);
+    background-image: url(../images/history/2013-ex735x2.png);
     background-position: center; }
   .hyst-block2__wrap .hyst-block2__link5 {
-    background-image: url(../images/hystory/2016-ens.png);
+    background-image: url(../images/history/2016-ens.png);
     background-position: center; }
   .hyst-block2__wrap .hyst-block2__link6 {
     justify-content: space-between;
     height: 230px;
     width: 66.66%;
-    background-image: url(../images/hystory/2016-emc01-ent01_0.png);
+    background-image: url(../images/history/2016-emc01-ent01_0.png);
     background-position: center; }
     .hyst-block2__wrap .hyst-block2__link6 .hyst-block2__link__txt11 {
       justify-content: flex-start;
@@ -1300,7 +1300,7 @@ header {
   .hyst-block2__wrap .hyst-block2__link7 {
     height: 230px;
     width: 33.33%;
-    background-image: url(../images/hystory/2010s-ec01.png);
+    background-image: url(../images/history/2010s-ec01.png);
     background-position: center; }
     .hyst-block2__wrap .hyst-block2__link7 .block-buttons__link__txt {
       justify-content: flex-end;
@@ -1309,22 +1309,22 @@ header {
     height: 470px;
     width: 25%; }
   .hyst-block2__wrap .hyst-block2__link8 {
-    background-image: url(../images/hystory/2016-dx1_0.png); }
+    background-image: url(../images/history/2016-dx1_0.png); }
     .hyst-block2__wrap .hyst-block2__link8 .block-buttons__link__txt {
       justify-content: flex-start;
       padding-top: 2.5vw; }
   .hyst-block2__wrap .hyst-block2__link9 {
-    background-image: url(../images/hystory/2014-myoscen_led_0.png); }
+    background-image: url(../images/history/2014-myoscen_led_0.png); }
     .hyst-block2__wrap .hyst-block2__link9 .block-buttons__link__txt {
       justify-content: flex-end;
       padding-bottom: 2.5vw; }
   .hyst-block2__wrap .hyst-block2__link10 {
-    background-image: url(../images/hystory/2014-myoscen_display_0.png); }
+    background-image: url(../images/history/2014-myoscen_display_0.png); }
     .hyst-block2__wrap .hyst-block2__link10 .block-buttons__link__txt {
       justify-content: flex-end;
       padding-bottom: 2.5vw; }
   .hyst-block2__wrap .hyst-block2__link11 {
-    background-image: url(../images/hystory/2010s-electrode_0.png); }
+    background-image: url(../images/history/2010s-electrode_0.png); }
     .hyst-block2__wrap .hyst-block2__link11 .block-buttons__link__txt {
       justify-content: flex-start;
       padding-top: 2.5vw; }
@@ -1335,9 +1335,9 @@ header {
       justify-content: flex-end;
       padding-bottom: 1vw; }
   .hyst-block2__wrap .hyst-block2__link12 {
-    background-image: url(../images/hystory/2012-ev01au.png); }
+    background-image: url(../images/history/2012-ev01au.png); }
   .hyst-block2__wrap .hyst-block2__link13 {
-    background-image: url(../images/hystory/2012-ex715.png); }
+    background-image: url(../images/history/2012-ex715.png); }
 
 .hyst-block4__wrap {
   display: flex;
@@ -1354,37 +1354,37 @@ header {
   .hyst-block4__wrap .block-buttons__link {
     height: 230px; }
   .hyst-block4__wrap .hyst-block4__link1 {
-    background-image: url(../images/hystory/2000s.png);
+    background-image: url(../images/history/2000s.png);
     background-color: #ffffff; }
   .hyst-block4__wrap .hyst-block4__link2 {
-    background-image: url(../images/hystory/cosmodictechnology.png); }
+    background-image: url(../images/history/cosmodictechnology.png); }
   .hyst-block4__wrap .hyst-block4__link3 {
     height: 470px;
-    background-image: url(../images/hystory/2007-patent_scenar-therapy.png); }
+    background-image: url(../images/history/2007-patent_scenar-therapy.png); }
   .hyst-block4__wrap .hyst-block4__link4 {
-    background-image: url(../images/hystory/2009-tablet03.png); }
+    background-image: url(../images/history/2009-tablet03.png); }
   .hyst-block4__wrap .hyst-block4__link5 {
-    background-image: url(../images/hystory/2002-ps704.png); }
+    background-image: url(../images/history/2002-ps704.png); }
   .hyst-block4__wrap .hyst-block4__link6 {
-    background-image: url(../images/hystory/2002-vx735.png);
+    background-image: url(../images/history/2002-vx735.png);
     width: 50%; }
   .hyst-block4__wrap .hyst-block4__link7 {
-    background-image: url(../images/hystory/2007-ex735.png);
+    background-image: url(../images/history/2007-ex735.png);
     width: 50%; }
   .hyst-block4__wrap .hyst-block4__link8 {
-    background-image: url(../images/hystory/2006-ps705ag.png);
+    background-image: url(../images/history/2006-ps705ag.png);
     width: 33.33%; }
   .hyst-block4__wrap .hyst-block4__link9 {
-    background-image: url(../images/hystory/2006-ps705mini.png);
+    background-image: url(../images/history/2006-ps705mini.png);
     width: 33.33%; }
   .hyst-block4__wrap .hyst-block4__link10 {
-    background-image: url(../images/hystory/2005-ex715.png);
+    background-image: url(../images/history/2005-ex715.png);
     width: 33.33%; }
   .hyst-block4__wrap .hyst-block4__link11 {
-    background-image: url(../images/hystory/2004-ev01.png);
+    background-image: url(../images/history/2004-ev01.png);
     width: 50%; }
   .hyst-block4__wrap .hyst-block4__link12 {
-    background-image: url(../images/hystory/2004-er01.png);
+    background-image: url(../images/history/2004-er01.png);
     width: 50%; }
 
 .hyst-block6__wrap {
@@ -1432,58 +1432,58 @@ header {
     width: 66.66%;
     height: 470px; }
   .hyst-block6__wrap .hyst-block6__link1 {
-    background-image: url(../images/hystory/1990s.png); }
+    background-image: url(../images/history/1990s.png); }
   .hyst-block6__wrap .hyst-block6__link2 {
-    background-image: url(../images/hystory/1993-registration_certificate.png); }
+    background-image: url(../images/history/1993-registration_certificate.png); }
   .hyst-block6__wrap .hyst-block6__link3 {
-    background-image: url(../images/hystory/1990-letmedical.png); }
+    background-image: url(../images/history/1990-letmedical.png); }
   .hyst-block6__wrap .hyst-block6__link4 {
-    background-image: url(../images/hystory/1994-newspaper.png); }
+    background-image: url(../images/history/1994-newspaper.png); }
     .hyst-block6__wrap .hyst-block6__link4 .block-buttons__link__txt {
       padding-bottom: 0.5vw; }
       .hyst-block6__wrap .hyst-block6__link4 .block-buttons__link__txt .block-buttons__link__txt1 {
         padding: 0 2vw; }
   .hyst-block6__wrap .hyst-block6__link5 {
-    background-image: url(../images/hystory/1992-scenar513.png);
+    background-image: url(../images/history/1992-scenar513.png);
     justify-content: flex-end; }
     .hyst-block6__wrap .hyst-block6__link5 .block-buttons__link__txt {
       padding-right: 1.5vw;
       padding-bottom: 2.4vw; }
   .hyst-block6__wrap .hyst-block6__link6 {
-    background-image: url(../images/hystory/1993-scenar035.png);
+    background-image: url(../images/history/1993-scenar035.png);
     justify-content: flex-end; }
     .hyst-block6__wrap .hyst-block6__link6 .block-buttons__link__txt {
       justify-content: center;
       padding-bottom: 0;
       padding-right: 3.7vw; }
   .hyst-block6__wrap .hyst-block6__link7 {
-    background-image: url(../images/hystory/1991-scenar032.png); }
+    background-image: url(../images/history/1991-scenar032.png); }
   .hyst-block6__wrap .hyst-block6__link8 {
-    background-image: url(../images/hystory/1994-scenar532.png); }
+    background-image: url(../images/history/1994-scenar532.png); }
   .hyst-block6__wrap .hyst-block6__link9 {
-    background-image: url(../images/hystory/1994-scenar611.png); }
+    background-image: url(../images/history/1994-scenar611.png); }
   .hyst-block6__wrap .hyst-block6__link10 {
-    background-image: url(../images/hystory/1992-seminar.png); }
+    background-image: url(../images/history/1992-seminar.png); }
   .hyst-block6__wrap .hyst-block6__link11 {
-    background-image: url(../images/hystory/1994-scenar613.png); }
+    background-image: url(../images/history/1994-scenar613.png); }
   .hyst-block6__wrap .hyst-block6__link12 {
-    background-image: url(../images/hystory/1998-vx735.png); }
+    background-image: url(../images/history/1998-vx735.png); }
   .hyst-block6__wrap .hyst-block6__link13 {
-    background-image: url(../images/hystory/1996-scenar603.png);
+    background-image: url(../images/history/1996-scenar603.png);
     justify-content: flex-end; }
     .hyst-block6__wrap .hyst-block6__link13 .block-buttons__link__txt {
       justify-content: center;
       padding-bottom: 0;
       padding-right: 2vw; }
   .hyst-block6__wrap .hyst-block6__link14 {
-    background-image: url(../images/hystory/1999-scenar703.png);
+    background-image: url(../images/history/1999-scenar703.png);
     justify-content: flex-end; }
     .hyst-block6__wrap .hyst-block6__link14 .block-buttons__link__txt {
       justify-content: center;
       padding-bottom: 0;
       padding-right: 2vw; }
   .hyst-block6__wrap .hyst-block6__link15 {
-    background-image: url(../images/hystory/1999-scenar713.png); }
+    background-image: url(../images/history/1999-scenar713.png); }
 
 .hyst-block8__wrap {
   display: flex;
@@ -1515,36 +1515,36 @@ header {
       justify-content: flex-end;
       padding-bottom: 0.8vw; }
   .hyst-block8__wrap .hyst-block8__link1 {
-    background-image: url(../images/hystory/1980s-ru.png);
+    background-image: url(../images/history/1980s-ru.png);
     width: 44.44%; }
   .hyst-block8__wrap .hyst-block8__link2 {
-    background-image: url(../images/hystory/1983-ens03.png);
+    background-image: url(../images/history/1983-ens03.png);
     width: 55.56%; }
   .hyst-block8__wrap .hyst-block8__link3 {
-    background-image: url(../images/hystory/1989-scenar_t4-02.png);
+    background-image: url(../images/history/1989-scenar_t4-02.png);
     justify-content: flex-end; }
     .hyst-block8__wrap .hyst-block8__link3 .block-buttons__link__txt {
       justify-content: center;
       padding-bottom: 0;
       padding-right: 3vw; }
   .hyst-block8__wrap .hyst-block8__link4 {
-    background-image: url(../images/hystory/1985-scenar033.png); }
+    background-image: url(../images/history/1985-scenar033.png); }
     .hyst-block8__wrap .hyst-block8__link4 .block-buttons__link__txt {
       padding-bottom: 1.5vw; }
   .hyst-block8__wrap .hyst-block8__link5 {
-    background-image: url(../images/hystory/1987-patent_electrostimulator.png);
+    background-image: url(../images/history/1987-patent_electrostimulator.png);
     width: 33.33%; }
   .hyst-block8__wrap .hyst-block8__link6 {
-    background-image: url(../images/hystory/1981-ens02t.png);
+    background-image: url(../images/history/1981-ens02t.png);
     width: 66.66%; }
   .hyst-block8__wrap .hyst-block8__link7 {
-    background-image: url(../images/hystory/1982-ens02.png);
+    background-image: url(../images/history/1982-ens02.png);
     width: 50%; }
   .hyst-block8__wrap .hyst-block8__link8 {
-    background-image: url(../images/hystory/1984-ens03c.png);
+    background-image: url(../images/history/1984-ens03c.png);
     width: 50%; }
   .hyst-block8__wrap .hyst-block8__link9 {
-    background-image: url(../images/hystory/1988-scenar_t4-01.png);
+    background-image: url(../images/history/1988-scenar_t4-01.png);
     width: 100%;
     justify-content: flex-end; }
     .hyst-block8__wrap .hyst-block8__link9 .block-buttons__link__txt {
@@ -1575,18 +1575,18 @@ header {
       justify-content: flex-end;
       padding-bottom: 0.8vw; }
   .hyst-block10__wrap .hyst-block10__link1 {
-    background-image: url(../images/hystory/1970s-ens01_3.png); }
+    background-image: url(../images/history/1970s-ens01_3.png); }
   .hyst-block10__wrap .hyst-block10__link2 {
-    background-image: url(../images/hystory/idea.png); }
+    background-image: url(../images/history/idea.png); }
   .hyst-block10__wrap .hyst-block10__link3 {
-    background-image: url(../images/hystory/tenstechnology.png);
+    background-image: url(../images/history/tenstechnology.png);
     justify-content: center; }
   .hyst-block10__wrap .hyst-block10__link4 {
-    background-image: url(../images/hystory/scenartechnology.png); }
+    background-image: url(../images/history/scenartechnology.png); }
   .hyst-block10__wrap .hyst-block10__link5 {
-    background-image: url(../images/hystory/1976-ens01.png); }
+    background-image: url(../images/history/1976-ens01.png); }
   .hyst-block10__wrap .hyst-block10__link6 {
-    background-image: url(../images/hystory/1979-ens02.png); }
+    background-image: url(../images/history/1979-ens02.png); }
 
 .hyst-nav__wrap .hyst-nav__left a {
   font-size: 16px; }
@@ -1623,7 +1623,7 @@ header {
   .hyst-bot-nav__item a:hover {
     color: #06F; }
 
-.hyst-bot-nav__img1, .hyst-bot-nav1980__img1, .hyst-bot-nav1990__img1 {
+.hyst-bot-nav__img1, .hyst-bot-nav1980__img1, .hyst-bot-nav1990__img1, .hyst-bot-nav2000__img1, .hyst-bot-nav2010__img1 {
   display: block;
   width: 230px;
   height: 70px;
@@ -1634,20 +1634,23 @@ header {
 .hyst-bot-nav1980__img5, .hyst-bot-nav1980__img6, .hyst-bot-nav1980__img7, .hyst-bot-nav1980__img8,
 .hyst-bot-nav1980__img9, .hyst-bot-nav1990__img2, .hyst-bot-nav1990__img3, .hyst-bot-nav1990__img4,
 .hyst-bot-nav1990__img5, .hyst-bot-nav1990__img6, .hyst-bot-nav1990__img7, .hyst-bot-nav1990__img8,
-.hyst-bot-nav1990__img9, .hyst-bot-nav1990__img10, .hyst-bot-nav1990__img11 {
+.hyst-bot-nav1990__img9, .hyst-bot-nav1990__img10, .hyst-bot-nav1990__img11, .hyst-bot-nav2000__img2,
+.hyst-bot-nav2000__img3, .hyst-bot-nav2000__img4, .hyst-bot-nav2000__img5, .hyst-bot-nav2000__img6,
+.hyst-bot-nav2000__img7, .hyst-bot-nav2000__img8, .hyst-bot-nav2000__img9, .hyst-bot-nav2000__img10,
+.hyst-bot-nav2000__img11 {
   width: 120px;
   height: 70px;
   background-repeat: no-repeat;
   background-position: center; }
 
 .hyst-bot-nav__img1 {
-  background-image: url(../images/hystory/1970s/1970s.png); }
+  background-image: url(../images/history/1970s/1970s.png); }
 
 .hyst-bot-nav__img2 {
-  background-image: url(../images/hystory/1970s/1976-ens01.png); }
+  background-image: url(../images/history/1970s/1976-ens01.png); }
 
 .hyst-bot-nav__img3 {
-  background-image: url(../images/hystory/1970s/1970s-ens.png); }
+  background-image: url(../images/history/1970s/1970s-ens.png); }
 
 .hyst-bot-nav__txt {
   margin: 0;
@@ -1680,173 +1683,177 @@ header {
 .hyst-block-1990s__img3, .hyst-block-1990s__img4, .hyst-block-1990s__img5, .hyst-block-1990s__img6,
 .hyst-block-1990s__img7, .hyst-block-1990s__img8, .hyst-block-1990s__img9, .hyst-block-1990s__img10,
 .hyst-block-1990s__img11, .hyst-block-1990s__img12, .hyst-block-1990s__img13, .hyst-block-1990s__img14,
-.hyst-block-1990s__img15 {
+.hyst-block-1990s__img15, .hyst-block-2000s__img1, .hyst-block-2000s__img2, .hyst-block-2000s__img3,
+.hyst-block-2000s__img4, .hyst-block-2000s__img5, .hyst-block-2000s__img6, .hyst-block-2000s__img7,
+.hyst-block-2000s__img8, .hyst-block-2000s__img9, .hyst-block-2000s__img10, .hyst-block-2000s__img11,
+.hyst-block-2000s__img12, .hyst-block-2000s__img13, .hyst-block-2000s__img14, .hyst-block-2000s__img15,
+.hyst-block-2000s__img16, .hyst-block-2000s__img17, .hyst-block-2000s__img18 {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%; }
 
 .hyst-block-1970s__img1 {
-  background-image: url(../images/hystory/1970s/ens01.jpg);
+  background-image: url(../images/history/1970s/ens01.jpg);
   height: 394px; }
 
 .hyst-block-1970s__img2 {
-  background-image: url(../images/hystory/1970s/1979-ens02.jpg);
+  background-image: url(../images/history/1970s/1979-ens02.jpg);
   height: 328px; }
 
 .hyst-bot-nav1980__img1 {
-  background-image: url(../images/hystory/1980s/1980s.png); }
+  background-image: url(../images/history/1980s/1980s.png); }
 
 .hyst-bot-nav1980__img2 {
-  background-image: url(../images/hystory/1980s/1981-ens02t.png); }
+  background-image: url(../images/history/1980s/1981-ens02t.png); }
 
 .hyst-bot-nav1980__img3 {
-  background-image: url(../images/hystory/1980s/1982-ens02.png); }
+  background-image: url(../images/history/1980s/1982-ens02.png); }
 
 .hyst-bot-nav1980__img4 {
-  background-image: url(../images/hystory/1980s/1983-ens03.png); }
+  background-image: url(../images/history/1980s/1983-ens03.png); }
 
 .hyst-bot-nav1980__img5 {
-  background-image: url(../images/hystory/1980s/1984-ens03c.png); }
+  background-image: url(../images/history/1980s/1984-ens03c.png); }
 
 .hyst-bot-nav1980__img6 {
-  background-image: url(../images/hystory/1980s/1985-scenar033.jpg); }
+  background-image: url(../images/history/1980s/1985-scenar033.jpg); }
 
 .hyst-bot-nav1980__img7 {
-  background-image: url(../images/hystory/1980s/1987-patent_electrostimulator.png); }
+  background-image: url(../images/history/1980s/1987-patent_electrostimulator.png); }
 
 .hyst-bot-nav1980__img8 {
-  background-image: url(../images/hystory/1980s/1988-scenar_t4-01.png); }
+  background-image: url(../images/history/1980s/1988-scenar_t4-01.png); }
 
 .hyst-bot-nav1980__img9 {
-  background-image: url(../images/hystory/1980s/1989-scenar_t4-02.png); }
+  background-image: url(../images/history/1980s/1989-scenar_t4-02.png); }
 
 .hyst-block-1980s__img1 {
-  background-image: url(../images/hystory/1980s/ens02t.jpg);
+  background-image: url(../images/history/1980s/ens02t.jpg);
   height: 328px; }
 
 .hyst-block-1980s__img2 {
-  background-image: url(../images/hystory/1980s/ens02.jpg);
+  background-image: url(../images/history/1980s/ens02.jpg);
   height: 328px; }
 
 .hyst-block-1980s__img3 {
-  background-image: url(../images/hystory/1980s/ens03.jpg);
+  background-image: url(../images/history/1980s/ens03.jpg);
   height: 328px; }
 
 .hyst-block-1980s__img4 {
-  background-image: url(../images/hystory/1980s/ens03c.jpg);
+  background-image: url(../images/history/1980s/ens03c.jpg);
   height: 328px; }
 
 .hyst-block-1980s__img5 {
-  background-image: url(../images/hystory/1980s/scenar033red.jpg);
+  background-image: url(../images/history/1980s/scenar033red.jpg);
   height: 328px; }
 
 .hyst-block-1980s__img6 {
-  background-image: url(../images/hystory/1980s/AS1817335.jpg);
+  background-image: url(../images/history/1980s/AS1817335.jpg);
   height: 328px; }
 
 .hyst-block-1980s__img7 {
-  background-image: url(../images/hystory/1980s/scenar_t4-01.jpg);
+  background-image: url(../images/history/1980s/scenar_t4-01.jpg);
   height: 328px; }
 
 .hyst-block-1980s__img8 {
-  background-image: url(../images/hystory/1980s/scenar_t4-02.jpg);
+  background-image: url(../images/history/1980s/scenar_t4-02.jpg);
   height: 328px; }
 
 .hyst-bot-nav1990__img1 {
-  background-image: url(../images/hystory/1990s/1990s.png); }
+  background-image: url(../images/history/1990s/1990s.png); }
 
 .hyst-bot-nav1990__img2 {
-  background-image: url(../images/hystory/1990s/1990-letmedical.png); }
+  background-image: url(../images/history/1990s/1990-letmedical.png); }
 
 .hyst-bot-nav1990__img3 {
-  background-image: url(../images/hystory/1990s/1992-scenar032.png); }
+  background-image: url(../images/history/1990s/1992-scenar032.png); }
 
 .hyst-bot-nav1990__img4 {
-  background-image: url(../images/hystory/1990s/1992-scenar035.png); }
+  background-image: url(../images/history/1990s/1992-scenar035.png); }
 
 .hyst-bot-nav1990__img5 {
-  background-image: url(../images/hystory/1990s/1992-scenar513.png); }
+  background-image: url(../images/history/1990s/1992-scenar513.png); }
 
 .hyst-bot-nav1990__img6 {
-  background-image: url(../images/hystory/1990s/1994-newspaper.jpg); }
+  background-image: url(../images/history/1990s/1994-newspaper.jpg); }
 
 .hyst-bot-nav1990__img7 {
-  background-image: url(../images/hystory/1990s/1994-scenar611.png); }
+  background-image: url(../images/history/1990s/1994-scenar611.png); }
 
 .hyst-bot-nav1990__img8 {
-  background-image: url(../images/hystory/1990s/1996-scenar603.png); }
+  background-image: url(../images/history/1990s/1996-scenar603.png); }
 
 .hyst-bot-nav1990__img9 {
-  background-image: url(../images/hystory/1990s/1998-scenar735.png); }
+  background-image: url(../images/history/1990s/1998-scenar735.png); }
 
 .hyst-bot-nav1990__img10 {
-  background-image: url(../images/hystory/1990s/1999-scenar703.png); }
+  background-image: url(../images/history/1990s/1999-scenar703.png); }
 
 .hyst-bot-nav1990__img11 {
-  background-image: url(../images/hystory/1990s/1999-scenar713.png); }
+  background-image: url(../images/history/1990s/1999-scenar713.png); }
 
 .hyst-block-1990s__img1 {
-  background-image: url(../images/hystory/1990s/scenar_032.jpg);
+  background-image: url(../images/history/1990s/scenar_032.jpg);
   height: 397px; }
 
 .hyst-block-1990s__img2 {
-  background-image: url(../images/hystory/1990s/scenar_035.jpg);
+  background-image: url(../images/history/1990s/scenar_035.jpg);
   height: 405px; }
 
 .hyst-block-1990s__img3 {
-  background-image: url(../images/hystory/1990s/reg_scenar035.jpg);
+  background-image: url(../images/history/1990s/reg_scenar035.jpg);
   height: 926px; }
 
 .hyst-block-1990s__img4 {
-  background-image: url(../images/hystory/1990s/tu_scenar035.jpg);
+  background-image: url(../images/history/1990s/tu_scenar035.jpg);
   height: 902px; }
 
 .hyst-block-1990s__img5 {
-  background-image: url(../images/hystory/1990s/scenar_ds513m.jpg);
+  background-image: url(../images/history/1990s/scenar_ds513m.jpg);
   height: 348px; }
 
 .hyst-block-1990s__img6 {
-  background-image: url(../images/hystory/1990s/scenar_ds532.jpg);
+  background-image: url(../images/history/1990s/scenar_ds532.jpg);
   height: 379px; }
 
 .hyst-block-1990s__img7 {
-  background-image: url(../images/hystory/1990s/newspaper1994-page2_small.jpg);
+  background-image: url(../images/history/1990s/newspaper1994-page2_small.jpg);
   height: 516px; }
 
 .hyst-block-1990s__img8 {
-  background-image: url(../images/hystory/1990s/scenar_dvx611.jpg);
+  background-image: url(../images/history/1990s/scenar_dvx611.jpg);
   height: 392px; }
 
 .hyst-block-1990s__img9 {
-  background-image: url(../images/hystory/1990s/scenar_dvx612.jpg);
+  background-image: url(../images/history/1990s/scenar_dvx612.jpg);
   height: 402px; }
 
 .hyst-block-1990s__img10 {
-  background-image: url(../images/hystory/1990s/scenar_dvx613.jpg);
+  background-image: url(../images/history/1990s/scenar_dvx613.jpg);
   height: 393px; }
 
 .hyst-block-1990s__img11 {
-  background-image: url(../images/hystory/1990s/scenar_dps603.jpg);
+  background-image: url(../images/history/1990s/scenar_dps603.jpg);
   height: 393px; }
 
 .hyst-block-1990s__img12 {
-  background-image: url(../images/hystory/1990s/scenar_700.jpg);
+  background-image: url(../images/history/1990s/scenar_700.jpg);
   height: 162px; }
 
 .hyst-block-1990s__img13 {
-  background-image: url(../images/hystory/1990s/scenar_vx735v3.jpg);
+  background-image: url(../images/history/1990s/scenar_vx735v3.jpg);
   height: 429px; }
 
 .hyst-block-1990s__img14 {
-  background-image: url(../images/hystory/1990s/scenar_ps703.jpg);
+  background-image: url(../images/history/1990s/scenar_ps703.jpg);
   height: 360px; }
 
 .hyst-block-1990s__img15 {
-  background-image: url(../images/hystory/1990s/scenar_ps713.jpg);
+  background-image: url(../images/history/1990s/scenar_ps713.jpg);
   height: 387px; }
 
 .hyst-block-1990s__2 {
-  background-image: url("../images/hystory/1990s/1994-newspaper.png"); }
+  background-image: url("../images/history/1990s/1994-newspaper.png"); }
 
 .hyst-block-1990s__3 {
   background-color: #fffff1;
@@ -1919,6 +1926,111 @@ header {
   width: 57.5%;
   color: #FFF;
   border-top: 3px #444 solid; }
+
+.hyst-bot-nav2000__img1 {
+  background-image: url(../images/history/2000s/2000s.png); }
+
+.hyst-bot-nav2000__img2 {
+  background-image: url(../images/history/2000s/2002-ps704.png); }
+
+.hyst-bot-nav2000__img3 {
+  background-image: url(../images/history/2000s/2002-vx735.png); }
+
+.hyst-bot-nav2000__img4 {
+  background-image: url(../images/history/2000s/2004-ev01.jpg); }
+
+.hyst-bot-nav2000__img5 {
+  background-image: url(../images/history/2000s/2004-er01.jpg); }
+
+.hyst-bot-nav2000__img6 {
+  background-image: url(../images/history/2000s/2005-ex715.png); }
+
+.hyst-bot-nav2000__img7 {
+  background-image: url(../images/history/2000s/2006-ps705ag.png); }
+
+.hyst-bot-nav2000__img8 {
+  background-image: url(../images/history/2000s/2006-ps705mini.png); }
+
+.hyst-bot-nav2000__img9 {
+  background-image: url(../images/history/2000s/2007-patent_scenar-therapy.jpg); }
+
+.hyst-bot-nav2000__img10 {
+  background-image: url(../images/history/2000s/2007-ex735.png); }
+
+.hyst-bot-nav2000__img11 {
+  background-image: url(../images/history/2000s/2009-tablet03.jpg); }
+
+.hyst-block-2000s__img1 {
+  background-image: url(../images/history/2000s/vx735ag.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img2 {
+  background-image: url(../images/history/2000s/ps705v1.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img3 {
+  background-image: url(../images/history/2000s/ps704.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img4 {
+  background-image: url(../images/history/2000s/er01.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img5 {
+  background-image: url(../images/history/2000s/ev01w.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img6 {
+  background-image: url(../images/history/2000s/ex735ag_el.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img7 {
+  background-image: url(../images/history/2000s/ps705_el.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img8 {
+  background-image: url(../images/history/2000s/ex715ag.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img9 {
+  background-image: url(../images/history/2000s/ps705.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img10 {
+  background-image: url(../images/history/2000s/ps705mini.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img11 {
+  background-image: url(../images/history/2000s/035m.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img12 {
+  background-image: url(../images/history/2000s/23554433.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img13 {
+  background-image: url(../images/history/2000s/23554433-1.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img14 {
+  background-image: url(../images/history/2000s/ps705ag.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img15 {
+  background-image: url(../images/history/2000s/ex735ag.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img16 {
+  background-image: url(../images/history/2000s/ex735modific.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img17 {
+  background-image: url(../images/history/2000s/ps705ag_mini.jpg);
+  height: 429px; }
+
+.hyst-block-2000s__img18 {
+  background-image: url(../images/history/2000s/tablet3.jpg);
+  height: 429px; }
 
 @media (min-width: 768px) and (max-width: 1060px) {
   .header-nav__wrap .header-nav__item a, .header-nav__wrap .header-nav__item b {
