@@ -2043,7 +2043,8 @@ header{
     color: #06F;
   }
 }
-.hyst-bot-nav__img1, .hyst-bot-nav1980__img1, .hyst-bot-nav1990__img1, .hyst-bot-nav2000__img1, .hyst-bot-nav2010__img1{
+.hyst-bot-nav__img1, .hyst-bot-nav1980__img1, .hyst-bot-nav1990__img1, .hyst-bot-nav2000__img1, .hyst-bot-nav2010__img1,
+.hyst-bot-nav2010__img1{
   display: block;
   width: 230px;
   height: 70px;
@@ -2057,7 +2058,10 @@ header{
 .hyst-bot-nav1990__img9, .hyst-bot-nav1990__img10, .hyst-bot-nav1990__img11, .hyst-bot-nav2000__img2,
 .hyst-bot-nav2000__img3, .hyst-bot-nav2000__img4, .hyst-bot-nav2000__img5, .hyst-bot-nav2000__img6,
 .hyst-bot-nav2000__img7, .hyst-bot-nav2000__img8, .hyst-bot-nav2000__img9, .hyst-bot-nav2000__img10,
-.hyst-bot-nav2000__img11{
+.hyst-bot-nav2000__img11, .hyst-bot-nav2010__img2, .hyst-bot-nav2010__img3, .hyst-bot-nav2010__img4,
+.hyst-bot-nav2010__img5, .hyst-bot-nav2010__img6, .hyst-bot-nav2010__img7, .hyst-bot-nav2010__img8,
+.hyst-bot-nav2010__img9, .hyst-bot-nav2010__img10, .hyst-bot-nav2010__img11, .hyst-bot-nav2010__img12,
+.hyst-bot-nav2010__img13, .hyst-bot-nav2010__img14{
   width: 120px;
   height: 70px;
   background-repeat: no-repeat;
@@ -2107,9 +2111,13 @@ header{
 .hyst-block-2000s__img4, .hyst-block-2000s__img5, .hyst-block-2000s__img6, .hyst-block-2000s__img7,
 .hyst-block-2000s__img8, .hyst-block-2000s__img9, .hyst-block-2000s__img10, .hyst-block-2000s__img11,
 .hyst-block-2000s__img12, .hyst-block-2000s__img13, .hyst-block-2000s__img14, .hyst-block-2000s__img15,
-.hyst-block-2000s__img16, .hyst-block-2000s__img17, .hyst-block-2000s__img18{
+.hyst-block-2000s__img16, .hyst-block-2000s__img17, .hyst-block-2000s__img18, .hyst-block-2000s__img19,
+.hyst-block-2010s__img1,.hyst-block-2010s__img2, .hyst-block-2010s__img3, .hyst-block-2010s__img4,
+.hyst-block-2010s__img5,.hyst-block-2010s__img6, .hyst-block-2010s__img7, .hyst-block-2010s__img8,
+.hyst-block-2010s__img9{
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   width: 100%;
 }
 .hyst-block-1970s__img1{
@@ -2383,78 +2391,204 @@ header{
 }
 .hyst-block-2000s__img1{
   background-image: url(../images/history/2000s/vx735ag.jpg);
-  height: 429px;
+  height: 435px;
 }
 .hyst-block-2000s__img2{
   background-image: url(../images/history/2000s/ps705v1.jpg);
-  height: 429px;
+  height: 418px;
 }
 .hyst-block-2000s__img3{
   background-image: url(../images/history/2000s/ps704.jpg);
-  height: 429px;
+  height: 407px;
 }
 .hyst-block-2000s__img4{
   background-image: url(../images/history/2000s/er01.jpg);
-  height: 429px;
+  height: 353px;
 }
 .hyst-block-2000s__img5{
   background-image: url(../images/history/2000s/ev01w.jpg);
-  height: 429px;
+  height: 367px;
 }
 .hyst-block-2000s__img6{
   background-image: url(../images/history/2000s/ex735ag_el.jpg);
-  height: 429px;
+  height: 431px;
 }
 .hyst-block-2000s__img7{
   background-image: url(../images/history/2000s/ps705_el.jpg);
-  height: 429px;
+  height: 413px;
 }
 .hyst-block-2000s__img8{
   background-image: url(../images/history/2000s/ex715ag.jpg);
-  height: 429px;
+  height: 285px;
 }
 .hyst-block-2000s__img9{
   background-image: url(../images/history/2000s/ps705.jpg);
-  height: 429px;
+  height: 395px;
 }
 .hyst-block-2000s__img10{
   background-image: url(../images/history/2000s/ps705mini.jpg);
-  height: 429px;
+  height: 361px;
 }
 .hyst-block-2000s__img11{
   background-image: url(../images/history/2000s/035m.jpg);
-  height: 429px;
+  height: 300px;
 }
 .hyst-block-2000s__img12{
   background-image: url(../images/history/2000s/23554433.jpg);
-  height: 429px;
+  height: 896px;
 }
 .hyst-block-2000s__img13{
   background-image: url(../images/history/2000s/23554433-1.jpg);
-  height: 429px;
+  height: 903px;
 }
 .hyst-block-2000s__img14{
   background-image: url(../images/history/2000s/ps705ag.jpg);
-  height: 429px;
+  height: 415px;
 }
 .hyst-block-2000s__img15{
   background-image: url(../images/history/2000s/ex735ag.jpg);
-  height: 429px;
+  height: 440px;
 }
 .hyst-block-2000s__img16{
   background-image: url(../images/history/2000s/ex735modific.jpg);
-  height: 429px;
+  height: 452px;
 }
 .hyst-block-2000s__img17{
   background-image: url(../images/history/2000s/ps705ag_mini.jpg);
-  height: 429px;
+  height: 220px;
+  width: 35%;
 }
 .hyst-block-2000s__img18{
+  background-image: url(../images/history/2000s/ps705ag_mini_el.jpg);
+  height: 220px;
+  width: 35%;
+}
+.hyst-block-2000s__img19{
   background-image: url(../images/history/2000s/tablet3.jpg);
-  height: 429px;
+  height: 333px;
+}
+.hyst-block-2000s__wrap2{
+  display: flex;
+  justify-content: center;
+}
+.hyst-bot-nav2010__img1{
+  background-image: url(../images/history/2010s/2010s.png);
+}
+.hyst-bot-nav2010__img2{
+  background-image: url(../images/history/2010s/2011-ex735slider.jpg);
+}
+.hyst-bot-nav2010__img3{
+  background-image: url(../images/history/2010s/2012-ex715.jpg);
+}
+.hyst-bot-nav2010__img4{
+  background-image: url(../images/history/2010s/2013-ex735x2.jpg);
+}
+.hyst-bot-nav2010__img5{
+  background-image: url(../images/history/2010s/2013-ec01.jpg);
+}
+.hyst-bot-nav2010__img6{
+  background-image: url(../images/history/2010s/2014-myoscen_display.jpg);
+}
+.hyst-bot-nav2010__img7{
+  background-image: url(../images/history/2010s/2014-myoscen_led.jpg);
+}
+.hyst-bot-nav2010__img8{
+  background-image: url(../images/history/2010s/2016-ex735x3.jpg);
+}
+.hyst-bot-nav2010__img9{
+  background-image: url(../images/history/2010s/2016-dx1.jpg);
+}
+.hyst-bot-nav2010__img10{
+  background-image: url(../images/history/2010s/2016-dx2.jpg);
+}
+.hyst-bot-nav2010__img11{
+  background-image: url(../images/history/2010s/2016-ens.jpg);
+}
+.hyst-bot-nav2010__img12{
+  background-image: url(../images/history/2010s/2016-emc01.jpg);
+}
+.hyst-bot-nav2010__img13{
+  background-image: url(../images/history/2010s/2016-ent01.jpg);
+}
+.hyst-bot-nav2010__img14{
+  background-image: url(../images/history/2010s/2016-oko.jpg);
+}
+.hyst-block-2010s__img1{
+  background-image: url(../images/history/2010s/ex735slider.jpg);
+  height:500px;
+}
+.hyst-block-2010s__img2{
+  background-image: url(../images/history/2010s/ev01ag1.jpg);
+  height:630px;
+}
+.hyst-block-2010s__img3{
+  background-image: url(../images/history/2010s/ex715.jpg);
+  height:380px;
+}
+.hyst-block-2010s__img4{
+  background-image: url(../images/history/2010s/ex735x2.jpg);
+  height:337px;
+}
+.hyst-block-2010s__img5{
+  background-image: url(../images/history/2010s/myoscen_display.jpg);
+  height:500px;
+  width: 30%;
+}
+.hyst-block-2010s__img6{
+  background-image: url(../images/history/2010s/myoscen_el2.jpg);
+  height:500px;
+  width: 30%;
+}
+.hyst-block-2010s__img7{
+  background-image: url(../images/history/2010s/myoscen_led.jpg);
+  height:500px;
+  width: 30%;
+}
+.hyst-block-2010s__img8{
+  background-image: url(../images/history/2010s/myoscen_el.jpg);
+  height:500px;
+  width: 30%;
+}
+.hyst-block-2010s__img9{
+  background-image: url(../images/history/2010s/ex735x3.jpg);
+  height:500px;
+}
+.hyst-block-2010s__wrap-img{
+  display: flex;
+  justify-content: center;
+}
+.hyst-block-2010s__3{
+  background-image: url(../images/history/2010s/ec01.png);
+  height:350px;
+}
+.hyst-block-2010s__6{
+  background-image: url(../images/history/2010s/dx1.png);
+  height:350px;
+}
+.hyst-block-2010s__8{
+  background-image: url(../images/history/2010s/dx2.png);
+  height:350px;
+}
+.hyst-block-2010s__10{
+  .content__container{
+    background-image: url(../images/history/2010s/ens.jpg);
+    height:500px;
+  }
+}
+.hyst-block-2010s__12{
+  background-image: url(../images/history/2010s/emc01.png);
+  height:500px;
+}
+.hyst-block-2010s__14{
+  background-image: url(../images/history/2010s/ent01.png);
+  height:500px;
+}
+.hyst-block-2010s__16 {
+  background-image: url(../images/history/2010s/oko.png);
+  height:500px;
 }
 
-
+//***************media***********************
 @media (min-width: 768px)and (max-width: 1060px) {
   .header-nav__wrap .header-nav__item a, .header-nav__wrap .header-nav__item b{
     font-size: 1.9vw; //20px;
