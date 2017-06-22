@@ -7,6 +7,8 @@ $(document).ready(function() {
         return false;
     });
 });
+
+
 <!-- скрипт для прилипания products-nav-->
 
 var navmenu = function(class1){

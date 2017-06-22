@@ -2587,6 +2587,30 @@ header{
   background-image: url(../images/history/2010s/oko.png);
   height:500px;
 }
+#hyst-bot-nav__list{
+  position: relative;
+  width: 78%;
+  max-width: 990px;
+  padding:0 12px;
+}
+.owl-theme .owl-nav .owl-prev{
+  position: absolute;
+  left: 0;
+  top: 36px;
+}
+.owl-theme .owl-nav .owl-next{
+  position: absolute;
+  right: 0;
+  top: 36px;
+}
+.owl-stage{
+//  width: 100%;
+}
+.owl-carousel .owl-stage-outer{
+  width: 100%;
+
+}
+
 
 //***************media***********************
 @media (min-width: 768px)and (max-width: 1060px) {
