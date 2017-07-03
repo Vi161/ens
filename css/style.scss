@@ -2596,12 +2596,34 @@ header{
 .owl-theme .owl-nav .owl-prev{
   position: absolute;
   left: 0;
-  top: 36px;
+  top: 5px;
+  height: 60px;
+  width: 20px;
+  background-image: url(../images/sprite.png);
+  background-repeat: no-repeat;
+  background-position: 5px -627px;
+  background-color: inherit;
 }
 .owl-theme .owl-nav .owl-next{
   position: absolute;
   right: 0;
-  top: 36px;
+  top: 5px;
+  height: 60px;
+  width: 20px;
+  background-image: url(../images/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -36px -627px;
+  background-color: inherit;
+}
+.owl-theme .owl-nav .owl-prev:hover {
+  background: url(../images/sprite.png);
+  background-color: inherit;
+  background-position: 5px -679px;
+}
+.owl-theme .owl-nav .owl-next:hover {
+  background: url(../images/sprite.png);
+  background-color: inherit;
+  background-position: -36px -679px;
 }
 .owl-stage{
 //  width: 100%;
@@ -2610,7 +2632,9 @@ header{
   width: 100%;
 
 }
-
+.owl-theme .owl-nav .disabled{
+  display:none;
+}
 
 //***************media***********************
 @media (min-width: 768px)and (max-width: 1060px) {
