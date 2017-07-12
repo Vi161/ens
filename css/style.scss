@@ -19,7 +19,9 @@ $product-block15-height:600px;
 $product-block17-height:500px;
 $tech-block2-height:400px;
 $hyst-block-bigimg-height:600px;
+$about-block1-height:600px;
 $hyst-block11-height:500px;
+$legal-block1-height:500px;
 
 $header-height:55px;
 $header-height-mobile:30px;
@@ -1443,7 +1445,7 @@ header{
   list-style: none;
   padding: 0 0.73vw;
   a{
-    font-size: 17px;
+    font-size: 16px;
     text-decoration: none;
     color: #666;
   }
@@ -1461,7 +1463,7 @@ header{
   position: relative;
   left:8%;
   a{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 800;
     text-decoration: none;
     color: #666;
@@ -2635,6 +2637,58 @@ header{
 .owl-theme .owl-nav .disabled{
   display:none;
 }
+.about-block1{
+  height: $about-block1-height;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/about.png');
+}
+.about-block1__background{
+  background-color:#fffaf0;
+}
+.content-p li {
+  font-size: 18px;
+  line-height: 20pt;
+  color: #000;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  margin-left: 30px;
+  padding-left: 20px;
+  padding-right: 25px;
+  text-align: left;
+}
+.content-h3 {
+  font-size: 29px;
+  line-height: 38px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 25px;
+}
+.about-block1__contact{
+  padding-left:50px;
+  .content-p{
+    padding-left:50px;
+  }
+}
+.header-nav__active2{
+  font-weight: 800;
+  pointer-events: auto;
+}
+.legal-block1{
+  height: $legal-block1-height;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/ens.jpg');
+}
+.legal-block2__last-p{
+  text-transform:uppercase;
+  padding-top:20px;
+}
+
+
 
 //***************media***********************
 @media (min-width: 768px)and (max-width: 1060px) {

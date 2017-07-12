@@ -1,3 +1,4 @@
+
 //  ---------перелистывание к якорям-------------
 $(document).ready(function() {
     $('a[href^="#"]').click(function(){
