@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/how_it_work.html" afterPath="$PROJECT_DIR$/technology/how_it_work.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic.html" afterPath="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/old_good_ens03.html" afterPath="$PROJECT_DIR$/technology/old_good_ens03.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/technology.html" afterPath="$PROJECT_DIR$/technology/technology.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/tens_scenar_cosmodic.html" afterPath="$PROJECT_DIR$/technology/tens_scenar_cosmodic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health.html" afterPath="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
@@ -44,7 +49,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="89" column="45" selection-start="4016" selection-end="4016" vertical-scroll-proportion="0.17770036" vertical-offset="1360" max-vertical-offset="11543">
+                <state line="210" column="0" selection-start="10099" selection-end="10099" vertical-scroll-proportion="0.18671454" vertical-offset="3466" max-vertical-offset="11543">
                   <folding />
                 </state>
               </provider>
@@ -57,7 +62,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2943" column="0" selection-start="71219" selection-end="71219" vertical-scroll-proportion="0.80255514" vertical-offset="49340" max-vertical-offset="50235">
+                <state line="557" column="0" selection-start="11646" selection-end="11646" vertical-scroll-proportion="0.26879698" vertical-offset="9326" max-vertical-offset="51170">
                   <folding />
                 </state>
               </provider>
@@ -95,19 +100,19 @@
         <option value="$PROJECT_DIR$/history/1980s.html" />
         <option value="$PROJECT_DIR$/history/2000s.html" />
         <option value="$PROJECT_DIR$/history/history.html" />
-        <option value="$PROJECT_DIR$/technology/how_it_work.html" />
         <option value="$PROJECT_DIR$/technology/medication-free_treatment.html" />
-        <option value="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic.html" />
-        <option value="$PROJECT_DIR$/technology/old_good_ens03.html" />
-        <option value="$PROJECT_DIR$/technology/technology.html" />
-        <option value="$PROJECT_DIR$/technology/tens_scenar_cosmodic.html" />
-        <option value="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health.html" />
         <option value="$PROJECT_DIR$/technology/using.html" />
         <option value="$PROJECT_DIR$/technology/what_is_scenar-therapy.html" />
         <option value="$PROJECT_DIR$/aboutus/aboutus.html" />
         <option value="$PROJECT_DIR$/aboutus/legal.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/technology/how_it_work.html" />
+        <option value="$PROJECT_DIR$/technology/technology.html" />
+        <option value="$PROJECT_DIR$/technology/tens_scenar_cosmodic.html" />
+        <option value="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic.html" />
+        <option value="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health.html" />
+        <option value="$PROJECT_DIR$/technology/old_good_ens03.html" />
         <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
@@ -182,7 +187,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -193,7 +198,57 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -273,25 +328,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32829374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16773163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39200863" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16773163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -506,7 +561,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1667" column="0" selection-start="57080" selection-end="57080" vertical-scroll-proportion="0.3139535" vertical-offset="28069" max-vertical-offset="40630" />
+        <state line="1667" column="0" selection-start="57080" selection-end="57080" vertical-scroll-proportion="0.3139535" vertical-offset="28069" max-vertical-offset="40630">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/history/1970s.html">
@@ -539,39 +596,9 @@
         <state line="42" column="57" selection-start="2089" selection-end="2089" vertical-scroll-proportion="-6.8461537" vertical-offset="536" max-vertical-offset="13515" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/technology/how_it_work.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="57" selection-start="2090" selection-end="2090" vertical-scroll-proportion="-7.1923075" vertical-offset="527" max-vertical-offset="3094" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/technology/medication-free_treatment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="57" selection-start="2090" selection-end="2090" vertical-scroll-proportion="-7.1923075" vertical-offset="527" max-vertical-offset="3655" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="57" selection-start="2090" selection-end="2090" vertical-scroll-proportion="-6.923077" vertical-offset="534" max-vertical-offset="5780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technology/old_good_ens03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="57" selection-start="2090" selection-end="2090" vertical-scroll-proportion="-6.923077" vertical-offset="534" max-vertical-offset="4743" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technology/technology.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="57" selection-start="2090" selection-end="2090" vertical-scroll-proportion="-7.1923075" vertical-offset="527" max-vertical-offset="4063" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technology/tens_scenar_cosmodic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="57" selection-start="2090" selection-end="2090" vertical-scroll-proportion="-6.923077" vertical-offset="534" max-vertical-offset="4386" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="57" selection-start="2090" selection-end="2090" vertical-scroll-proportion="-6.923077" vertical-offset="534" max-vertical-offset="4148" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/technology/what_is_scenar-therapy.html">
@@ -601,16 +628,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/technology/how_it_work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="32" selection-start="2602" selection-end="2602" vertical-scroll-proportion="0.23444976" vertical-offset="773" max-vertical-offset="3094">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/technology.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="48" selection-start="9005" selection-end="9005" vertical-scroll-proportion="0.33213645" vertical-offset="2807" max-vertical-offset="4063">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/tens_scenar_cosmodic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="47" selection-start="4055" selection-end="4055" vertical-scroll-proportion="0.34829444" vertical-offset="1149" max-vertical-offset="4386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="50" selection-start="3993" selection-end="3993" vertical-scroll-proportion="0.34829444" vertical-offset="1132" max-vertical-offset="5780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="51" selection-start="3969" selection-end="3969" vertical-scroll-proportion="0.34829444" vertical-offset="1115" max-vertical-offset="4148">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/old_good_ens03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="46" selection-start="3976" selection-end="3976" vertical-scroll-proportion="0.34829444" vertical-offset="1098" max-vertical-offset="4743">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="45" selection-start="4016" selection-end="4016" vertical-scroll-proportion="0.17770036" vertical-offset="1360" max-vertical-offset="11543">
+        <state line="210" column="0" selection-start="10099" selection-end="10099" vertical-scroll-proportion="0.18671454" vertical-offset="3466" max-vertical-offset="11543">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2943" column="0" selection-start="71219" selection-end="71219" vertical-scroll-proportion="0.80255514" vertical-offset="49340" max-vertical-offset="50235">
+        <state line="557" column="0" selection-start="11646" selection-end="11646" vertical-scroll-proportion="0.26879698" vertical-offset="9326" max-vertical-offset="51170">
           <folding />
         </state>
       </provider>

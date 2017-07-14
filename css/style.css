@@ -184,13 +184,18 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
-  transition: top 1s; }
+  transition: top 1s;
+  z-index: 1000; }
 
 .product-block1__txt p {
   margin: 0; }
 
 .title-h1 {
   font-size: 58px; }
+
+.content-p1 {
+  font-size: 22px;
+  line-height: 22pt; }
 
 .product-block1 {
   height: 500px;
@@ -232,8 +237,6 @@ header {
         margin-top: 27px;
         padding-bottom: 3px; }
       .product-block2 .content__container .product-block2__txt .product-block2__p1 {
-        font-size: 22px;
-        line-height: 22pt;
         padding: 0 30px; }
       .product-block2 .content__container .product-block2__txt .product-block2__p3 {
         padding-right: 15px;
@@ -263,8 +266,6 @@ header {
           margin: 0;
           padding-bottom: 30px; }
         .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__p1 {
-          font-size: 22px;
-          line-height: 22pt;
           padding: 0 42px; }
         .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__icons {
           padding-top: 46px; }
@@ -298,8 +299,6 @@ header {
         color: #111;
         margin: 0; }
       .product-block4 .content__container .product-block4__txt .product-block4__p1 {
-        font-size: 22px;
-        line-height: 22pt;
         padding: 0 42px; }
 
 .product-block5 {
@@ -354,8 +353,6 @@ header {
       .product-block6 .content__container .product-block6__txt .product-block6__p-wrap {
         padding: 22px 53px; }
         .product-block6 .content__container .product-block6__txt .product-block6__p-wrap .product-block6__p1 {
-          font-size: 22px;
-          line-height: 22pt;
           padding: 0 42px; }
 
 .product-block7 {
@@ -367,7 +364,7 @@ header {
     height: 100%;
     background-color: white;
     background: url("../images/readings.jpg") no-repeat;
-    background-position: 96%; }
+    background-position: 43vw; }
     .product-block7 .product-block7__wrapper .content__container {
       display: flex;
       justify-content: flex-start;
@@ -429,7 +426,7 @@ header {
     height: 100%;
     background: url("../images/silver_electrodes.jpg") no-repeat;
     background-color: black;
-    background-position: 88% 2px; }
+    background-position: 51vw 0; }
     .product-block9 .product-block9__wrapper .content__container {
       display: flex;
       justify-content: flex-start;
@@ -824,8 +821,6 @@ header {
       font-size: 52px;
       margin: 0; }
     .tech-block1 .content__container .tech-block1__left .tech-block1__left__p3 {
-      line-height: 22pt;
-      font-size: 22px;
       padding: 0 43px; }
   .tech-block1 .content__container .tech-block1__right {
     width: 100%;
@@ -921,8 +916,6 @@ header {
     margin: 0;
     padding-top: 78px; }
   .tech-block4 .content__container .tech-block4__p2 {
-    font-size: 22px;
-    line-height: 22pt;
     text-align: center;
     padding: 0 30px; }
   .tech-block4 .content__container .tech-block4__img {
@@ -945,8 +938,6 @@ header {
     margin: 0;
     text-align: center; }
   .tsc-block1 .content__container .tsc-block1__p3 {
-    font-size: 22px;
-    line-height: 22pt;
     padding: 0 42px;
     text-align: center; }
 
@@ -993,9 +984,6 @@ header {
     .nasosc-block1 .content__container .nasosc-block1__p2 {
       font-size: 70px;
       margin: 0; }
-    .nasosc-block1 .content__container .nasosc-block1__p3 {
-      font-size: 22px;
-      line-height: 22pt; }
 
 .nasosc-block2 {
   padding-bottom: 50px; }
@@ -1061,8 +1049,6 @@ header {
       font-size: 70px;
       text-align: center; }
     .transf-block1 .content__container .transf1-block1__p2 {
-      line-height: 22pt;
-      font-size: 22px;
       text-align: center;
       padding: 0 84px;
       padding-bottom: 73px; }
@@ -2253,15 +2239,83 @@ header {
   .header-nav__wrap .header-nav__item a, .header-nav__wrap .header-nav__item b {
     font-size: 1.9vw; }
 
+  .product-block1, .product-block4, .product-block6, .product-block8, .product-block10, .product-block12,
+  .product-block13, .product-block15, .product-block17 {
+    background-size: 181.13% auto;
+    background-position: 50% 100%; }
+
   .product-block1 {
     width: 100%;
     height: 0;
-    padding-top: 47%; }
+    padding-top: 47%;
+    position: relative; }
 
   .product-block1 .content__container .product-block1__txt {
     margin-right: 1%;
     position: absolute;
     top: 25%; }
+
+  .product-block4 {
+    width: 100%;
+    height: 0;
+    padding-top: 75%;
+    position: relative; }
+
+  .product-block4 .content__container .product-block4__txt {
+    margin-right: 1%;
+    position: absolute;
+    top: 5%;
+    padding-top: 0; }
+
+  .product-block6 {
+    width: 100%;
+    height: 0;
+    padding-top: 66%;
+    position: relative; }
+
+  .product-block6 .content__container .product-block6__txt {
+    margin-right: 1%;
+    position: absolute;
+    top: 5%;
+    padding-top: 0; }
+
+  .product-block8 {
+    width: 100%;
+    height: 0;
+    padding-top: 47%;
+    position: relative; }
+
+  .product-block8 .content__container .product-block8__txt {
+    margin-right: 1%;
+    position: absolute;
+    top: 5%;
+    padding-top: 0; }
+
+  .content .product-block10 {
+    width: 100%;
+    height: 0;
+    padding-top: 61%;
+    position: relative;
+    background-position: 40% 100%; }
+
+  .product-block10 .content__container .product-block10__txt {
+    margin-right: 1%;
+    position: absolute;
+    top: 5%;
+    padding-top: 0; }
+
+  .product-block12 {
+    width: 100%;
+    height: 0;
+    padding-top: 66%;
+    position: relative;
+    background-position: 40% 100%; }
+
+  .product-block12 .content__container .product-block12__txt {
+    margin-right: 1%;
+    position: absolute;
+    top: 5%;
+    padding-top: 0; }
 
   .product-block1 .content__container .product-block1__txt .product-block1__title {
     font-size: 5vw; }
@@ -2317,12 +2371,7 @@ header {
     font-size: 2.5vw; }
 
   .footer-bottom .footer-container .footer-bottom__block {
-    font-size: 1.5vw; }
-
-  .product-block1, .product-block4, .product-block6, .product-block8, .product-block10, .product-block12,
-  .product-block13, .product-block15, .product-block17 {
-    background-size: 181.13% auto;
-    background-position: 50% 100%; } }
+    font-size: 1.5vw; } }
 @media screen and (max-width: 767px) {
   .title-h1 {
     font-size: 9.5vw;
@@ -2486,7 +2535,10 @@ header {
   .product-block2 .content__container .product-block2__txt .product-block2__p3 {
     font-size: 4vw;
     width: 100%;
-    text-align: center; } }
+    text-align: center; }
+
+  .product-block4 {
+    background: url(../images/mobile/indication.jpg) no-repeat; } }
 @media screen and (max-width: 767px) {
   .header-wrap {
     display: none; } }
