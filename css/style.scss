@@ -1,10 +1,11 @@
 //----------переменные------------
+
 $lg-container:1060px;
 $md-container:992px;
 $sm-container:750px;
 $xs-container:auto;
 $product-block1-height:500px;
-$product-block2-height:600px;
+$product-block1-height-mob:1215px;
 $product-block3-height:713px;
 $product-block4-height:800px;
 $product-block6-height:700px;
@@ -22,6 +23,13 @@ $hyst-block-bigimg-height:600px;
 $about-block1-height:600px;
 $hyst-block11-height:500px;
 $legal-block1-height:500px;
+$fontsize-p1:22px;
+$fontsize-p1-tablet:2.1vw;
+$fontsize-p1-mobile:4vw;
+$lineheight-p1-mobile:28pt;
+$fontsize-title-h1:58px;
+$fontsize-title-h1-tablet:5.5vw;
+$fontsize-title-h1-mibile:9.5vw;
 
 $header-height:55px;
 $header-height-mobile:30px;
@@ -264,21 +272,24 @@ header{
 .product-block1__txt p{
   margin: 0;
 }
+.title-h1{
+  font-size: $fontsize-title-h1;
+}
 .product-block1{
   height: $product-block1-height;
   width: 100%;
-  background: url('../images/banner.png') no-repeat;
+  background-image: url('../images/banner.png');
+  background-repeat: no-repeat;
   background-position: center;
   .content__container{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     .product-block1__txt{
-      margin-right: 80px;
+      margin-right: 8%;
       width: 50%;
       padding-bottom: 91px;
       .product-block1__title{
-        font-size: 58px;
         color: #2d343c;
         padding-bottom: 20px;
       }
@@ -296,7 +307,6 @@ header{
   }
 }
 .product-block2{
-  height: $product-block1-height;
   width: 100%;
   padding: 60px 0;
   .content__container{
@@ -312,7 +322,7 @@ header{
         padding-bottom: 3px;
       }
       .product-block2__p1{
-        font-size: 22px;
+        font-size: $fontsize-p1;
         line-height: 22pt;
         padding: 0 30px;
       }
@@ -345,12 +355,11 @@ header{
       padding: 60px 0;
       .product-block3__title{
         color: #111;
-        font-size: 58px;
         margin: 0;
         padding-bottom: 30px;
       }
       .product-block3__p1{
-        font-size: 22px;
+        font-size: $fontsize-p1;
         line-height: 22pt;
         padding: 0 42px;
       }
@@ -392,11 +401,10 @@ header{
       padding-top: 58px;
       .product-block4__title{
         color: #111;
-        font-size: 58px;
         margin: 0;
       }
       .product-block4__p1{
-        font-size: 22px;
+        font-size: $fontsize-p1;
         line-height: 22pt;
         padding: 0 42px;
       }
@@ -456,14 +464,13 @@ header{
       justify-content: space-between;
       .product-block6__title{
         color: #111;
-        font-size: 58px;
         margin: 0;
         padding-top: 80px;
       }
       .product-block6__p-wrap{
         padding: 22px 53px;
         .product-block6__p1 {
-          font-size: 22px;
+          font-size: $fontsize-p1;
           line-height: 22pt;
           padding: 0 42px;
         }
@@ -491,7 +498,6 @@ header{
       width: 50%;
       padding-left: 20px;
       .product-block7__title{
-        font-size: 58px;
         color: #2d343c;
         padding-bottom: 20px;
         margin: 0;
@@ -539,7 +545,6 @@ header{
       width: 50%;
       padding-right: 54px;
       .product-block8__title{
-        font-size: 58px;
         margin: 0;
       }
       .product-block8__p1{
@@ -569,7 +574,6 @@ header{
       width: 50%;
       padding-left: 20px;
       .product-block9__title{
-        font-size: 58px;
         margin: 0;
       }
       .product-block9__p1{
@@ -594,7 +598,6 @@ header{
       width: 50%;
       padding-right: 54px;
       .product-block10__title{
-        font-size: 58px;
         margin: 0;
         padding: 0 10px;
       }
@@ -656,7 +659,6 @@ header{
       padding-top: 100px;
       .product-block12__title{
         color: #fffaf0;
-        font-size: 58px;
         margin: 0;
       }
 
@@ -707,7 +709,6 @@ header{
     flex-direction: column;
     justify-content: space-around;
     .product-block14__title1{
-      font-size: 58px;
       text-align: center;
     }
     .product-block14__txt{
@@ -786,7 +787,6 @@ header{
       padding-left: 101px;
       .product-block15__title{
         color: #2d343c;
-        font-size: 58px;
         margin: 0;
       }
 
@@ -1054,7 +1054,7 @@ header{
       }
       .tech-block1__left__p3{
         line-height: 22pt;
-        font-size: 22px;
+        font-size: $fontsize-p1;
         padding: 0 43px;
       }
     }
@@ -1163,7 +1163,7 @@ header{
      padding-top: 78px;
    }
    .tech-block4__p2{
-     font-size: 22px;
+     font-size: $fontsize-p1;
      line-height: 22pt;
      text-align: center;
      padding: 0 30px;
@@ -1193,7 +1193,7 @@ header{
       text-align: center;
     }
     .tsc-block1__p3{
-      font-size: 22px;
+      font-size: $fontsize-p1;
       line-height: 22pt;
       padding: 0 42px;
       text-align: center;
@@ -1250,7 +1250,7 @@ header{
       margin: 0;
     }
     .nasosc-block1__p3{
-      font-size: 22px;
+      font-size: $fontsize-p1;
       line-height: 22pt;
     }
   }
@@ -1334,7 +1334,7 @@ header{
     }
     .transf1-block1__p2{
       line-height: 22pt;
-      font-size: 22px;
+      font-size: $fontsize-p1;
       text-align: center;
       padding: 0 84px;
       padding-bottom: 73px;
@@ -1398,7 +1398,7 @@ header{
     }
   }
   .old-block1__p2{
-    font-size: 22px;
+    font-size: $fontsize-p1;
     line-height: 22pt;
     padding-top: 15px;
     padding-bottom: 10px;
@@ -2696,8 +2696,18 @@ header{
     font-size: 1.9vw; //20px;
   }
   .product-block1{
-    background-size: 181.13% auto;
-    background-position: 50% 100%;
+    width: 100%;
+    height: 0;
+    padding-top: 47%;
+  }
+  .product-block1 .content__container .product-block1__txt{
+    margin-right:1%;
+    position: absolute;
+    top:25%;
+  }
+
+  .product-block1 .content__container .product-block1__txt .product-block1__title{
+    font-size: 5vw;
   }
   .product-block1 .content__container .product-block1__txt .product-block1__p1,
   .product-block16__link__txt.product-block16__link__txt2{
@@ -2707,24 +2717,15 @@ header{
     font-size: 3.1vw;//32px
   }
   .product-block2 .content__container .product-block2__txt .product-block2__p1{
-    font-size: 2.1vw;//22px
+    font-size: $fontsize-p1-tablet;//22px
   }
-  .product-block4 .content__container .product-block4__txt .product-block4__title,
-  .block3__wrapper .content__container .product-block3__txt .product-block3__title,
-  .product-block6 .content__container .product-block6__txt .product-block6__title,
-  .product-block7 .product-block7__wrapper .content__container .product-block7__txt .product-block7__title,
-  .product-block8 .content__container .product-block8__txt .product-block8__title,
-  .product-block9 .product-block9__wrapper .content__container .product-block9__txt .product-block9__title,
-  .product-block10 .content__container .product-block10__txt .product-block10__title,
-  .product-block12 .content__container .product-block12__txt .product-block12__title,
-  .product-block14 .content__container .product-block14__title1,
-  .product-block15 .content__container .product-block15__txt .product-block15__title{
-    font-size: 5.5vw; //58px;
+  .title-h1{
+    font-size: $fontsize-title-h1-tablet; //58px;
   }
   .block3__wrapper .content__container .product-block3__txt .product-block3__p1,
   .product-block4 .content__container .product-block4__txt .product-block4__p1,
   .product-block6 .content__container .product-block6__txt .product-block6__p-wrap .product-block6__p1{
-    font-size: 2.1vw; //22px;
+    font-size: $fontsize-p1-tablet; //22px;
   }
   .product-block7 .product-block7__wrapper .content__container .product-block7__txt .product-block7__p1,
   .product-block8 .content__container .product-block8__txt .product-block8__p1,
@@ -2769,35 +2770,15 @@ header{
   }
 }
 @media screen and (max-width: 767px) {
-  .header-nav__wrap .header-nav__item a, .header-nav__wrap .header-nav__item b{
-    font-size: 14.44px; //20px;
-  }
-  .product-block1 .content__container .product-block1__txt .product-block1__p1,
-  .product-block16__link__txt.product-block16__link__txt2{
-    font-size: 13.7px;//19px
-  }
-  .product-block2 .content__container .product-block2__txt .product-block2__title{
-    font-size: 23.1px;//32px
-  }
-  .product-block2 .content__container .product-block2__txt .product-block2__p1{
-    font-size: 15.88px;//22px
-  }
-  .product-block4 .content__container .product-block4__txt .product-block4__title,
-  .block3__wrapper .content__container .product-block3__txt .product-block3__title,
-  .product-block6 .content__container .product-block6__txt .product-block6__title,
-  .product-block7 .product-block7__wrapper .content__container .product-block7__txt .product-block7__title,
-  .product-block8 .content__container .product-block8__txt .product-block8__title,
-  .product-block9 .product-block9__wrapper .content__container .product-block9__txt .product-block9__title,
-  .product-block10 .content__container .product-block10__txt .product-block10__title,
-  .product-block12 .content__container .product-block12__txt .product-block12__title,
-  .product-block14 .content__container .product-block14__title1,
-  .product-block15 .content__container .product-block15__txt .product-block15__title{
-    font-size: 41.88px; //58px;
+  .title-h1{
+    font-size: $fontsize-title-h1-mibile; //58px;
+    font-weight:800;
   }
   .block3__wrapper .content__container .product-block3__txt .product-block3__p1,
   .product-block4 .content__container .product-block4__txt .product-block4__p1,
   .product-block6 .content__container .product-block6__txt .product-block6__p-wrap .product-block6__p1{
-    font-size: 15.88px; //22px;
+//    font-size: 15.88px; //22px;
+    font-size: $fontsize-p1-mobile //22px;
   }
   .product-block7 .product-block7__wrapper .content__container .product-block7__txt .product-block7__p1,
   .product-block8 .content__container .product-block8__txt .product-block8__p1,
@@ -2820,7 +2801,7 @@ header{
   .product-block16__link__txt .product-block16__link__txt1,
   .product-block5 .product-block5__wrapper .content__container .product-block5__txt .product-block5__p1 {
     font-size: 14.44px; //20px;
-  }
+//  }
   .product-block14 .content__container .product-block14__txt .product-block14__title {
     font-size: 20.22px; //28px;
   }
@@ -2835,7 +2816,6 @@ header{
   .footer-bottom .footer-container .footer-bottom__block{
     font-size: 11.5px; //16px;
   }
-
   .header-nav__logo, .header-nav__lang-wrap{
     display: none
   }
@@ -2913,28 +2893,57 @@ header{
     display:flex;
     margin: 0 auto;
   }
-
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .product-block7 .product-block7__wrapper .content__container .product-block7__txt .product-block7__p1,
-  .product-block8 .content__container .product-block8__txt .product-block8__p1,
-  .product-block9 .product-block9__wrapper .content__container .product-block9__txt .product-block9__p1,
-  .product-block10 .content__container .product-block10__txt .product-block10__p1, {
-    padding: 0;
+  .product-block1{
+    height: $product-block1-height-mob;
+    background-image: url('../images/mobile/banner.jpg');
+    .content__container{
+      align-items: flex-start;
+      .product-block1__txt{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 45px;
+        .product-block1__title{
+          font-size: 9.5vw;
+          font-weight:bold;
+          color: #fff;
+          padding-bottom: 20px;
+        }
+        .product-block1__p1{
+          font-size: 6.5vw;
+          color: #fff;
+          padding:0 8%;
+        }
+        .product-block1__p2{
+          color: #fff;
+          padding: 15px 9%;
+          font-size: 4vw;
+          line-height: $lineheight-p1-mobile;
+        }
+      }
+    }
+  }
+  .product-block2 .content__container .product-block2__txt .product-block2__title {
+    font-size: 45px;
+    font-weight: 800;
+    padding: 0 8%;
+  }
+  .product-block2 .content__container .product-block2__txt .product-block2__p1 {
+    font-size: $fontsize-p1-mobile;
+    line-height: $lineheight-p1-mobile;
+    padding: 0 7%;
+  }
+  .product-block2 .content__container .product-block2__txt .product-block2__p3{
+    font-size: 4vw;
+    width: 100%;
+    text-align: center;
   }
 }
-@media screen and (max-width: 480px) {
 
+
+@media screen and (max-width: 767px) {
+  .header-wrap{
+    display:none;  //!!!!!!!!!!!! ВРЕМЯНКА!!!!!!!!!!!!!!
+  }
 }
-
-//------отключение фона-----
-//*{
-//  background-image: none !important;
-//  background: none !important;
-//  background-color: none !important;
-//}
-
-
-
-
-
