@@ -6,14 +6,14 @@ $sm-container:750px;
 $xs-container:auto;
 $product-block1-height:500px;
 $product-block1-height-mob:1215px;
-$product-block3-height:713px;
+$product-block3-height:100%;
 $product-block4-height:800px;
 $product-block6-height:700px;
 $product-block7-height:900px;
 $product-block8-height:500px;
 $product-block9-height:675px;
 $product-block10-height:650px;
-$product-block11-height:760px;
+$product-block11-height:100%;
 $product-block12-height:700px;
 $product-block13-height:350px;
 $product-block15-height:600px;
@@ -280,7 +280,6 @@ header{
 .content-p1{
   font-size: $fontsize-p1;
   line-height: $lineheight-p1;
-
 }
 .product-block1{
   height: $product-block1-height;
@@ -407,7 +406,7 @@ header{
         margin: 0;
       }
       .product-block4__p1{
-        padding: 0 42px;
+        font-size: 1.5vw;
       }
     }
   }
@@ -676,20 +675,19 @@ header{
     align-items: center;
     text-align: center;
     .product-block13__icons{
-      padding-right: 141px;
+      padding-right: 13%;
       .product-block13__ico-wrap{
         display: inline-block;
         .product-block13__ico{
           width: 150px;
           height: 133px;
-          background: url(../images/sprite.png) no-repeat;
           margin: 0 29px;
         }
         .product-block13__ico1{
-          background-position: -6px -460px;
+          background: url(../images/minijack.png) no-repeat;
         }
         .product-block13__ico2{
-          background-position: -177px -460px;
+          background: url(../images/pushpull.png) no-repeat;
         }
         .product-block13__txt{
           font-size: 18px;
@@ -2761,7 +2759,21 @@ header{
     top:5%;
     padding-top: 0;
   }
-
+  .product-block13{
+    width: 100%;
+    height: 0;
+    padding-top: 33%;
+    position: relative;
+    background-position:40% 100%;
+  }
+  .product-block13 .content__container .product-block13__icons{
+    margin-right:1%;
+    position: absolute;
+    top: 25%;
+    width: 55%;
+    padding-right: 0;
+    padding-top: 0;
+  }
   .product-block1 .content__container .product-block1__txt .product-block1__title{
     font-size: 5vw;
   }
@@ -2778,9 +2790,7 @@ header{
   .title-h1{
     font-size: $fontsize-title-h1-tablet; //58px;
   }
-  .block3__wrapper .content__container .product-block3__txt .product-block3__p1,
-  .product-block4 .content__container .product-block4__txt .product-block4__p1,
-  .product-block6 .content__container .product-block6__txt .product-block6__p-wrap .product-block6__p1{
+  .content-p1{
     font-size: $fontsize-p1-tablet; //22px;
   }
   .product-block7 .product-block7__wrapper .content__container .product-block7__txt .product-block7__p1,
@@ -2819,6 +2829,9 @@ header{
   .footer-bottom .footer-container .footer-bottom__block{
     font-size: 1.5vw; //16px;
   }
+  .product-block4 .content__container .product-block4__txt .product-block4__p1 {
+    font-size: 2.5vw;
+  }
 
 }
 @media screen and (max-width: 767px) {
@@ -2826,47 +2839,11 @@ header{
     font-size: $fontsize-title-h1-mibile; //58px;
     font-weight:800;
   }
-  .block3__wrapper .content__container .product-block3__txt .product-block3__p1,
-  .product-block4 .content__container .product-block4__txt .product-block4__p1,
-  .product-block6 .content__container .product-block6__txt .product-block6__p-wrap .product-block6__p1{
-//    font-size: 15.88px; //22px;
-    font-size: $fontsize-p1-mobile //22px;
+  .content-p1{
+    font-size: $fontsize-p1-mobile; //22px;
   }
-  .product-block7 .product-block7__wrapper .content__container .product-block7__txt .product-block7__p1,
-  .product-block8 .content__container .product-block8__txt .product-block8__p1,
-  .product-block9 .product-block9__wrapper .content__container .product-block9__txt .product-block9__p1,
-  .product-block10 .content__container .product-block10__txt .product-block10__p1{
-    font-size: 18.77px; //26px;
-  }
-  .product-block11 .content__container .product-block11__txt .product-block11__title{
-    font-size: 33px; //45px;
-  }
-  .product-block2 .content__container .product-block2__txt .product-block2__p3,
-  .product-block11 .content__container .product-block11__txt .product-block11__p1,
-  .product-block14 .content__container .product-block14__txt .product-block14__p1{
-    font-size: 13px; //18px;
-  }
-
-  .product-block5 .product-block5__wrapper .content__container .product-block5__txt .product-block5__title {
-    font-size: 21.66px; //30px;
-  }
-  .product-block16__link__txt .product-block16__link__txt1,
-  .product-block5 .product-block5__wrapper .content__container .product-block5__txt .product-block5__p1 {
-    font-size: 14.44px; //20px;
-//  }
-  .product-block14 .content__container .product-block14__txt .product-block14__title {
-    font-size: 20.22px; //28px;
-  }
-  .footer-top .footer-container .footer-top__block1,
-  .footer-top .footer-container .footer-top__block2,
-  .footer-top .footer-container .footer-top__block3 .footer-top__block3__txt2 {
-    font-size: 10.83px; //15px;
-  }
-  .footer-top .footer-container .footer-top__block3 .footer-top__block3__txt1 {
-    font-size: 19.5px; //27px;
-  }
-  .footer-bottom .footer-container .footer-bottom__block{
-    font-size: 11.5px; //16px;
+  .product-block4 .content__container .product-block4__txt .product-block4__p1 {
+    font-size: 7vw;
   }
   .header-nav__logo, .header-nav__lang-wrap{
     display: none
@@ -2921,7 +2898,6 @@ header{
   }
   .product-block7 .product-block7__wrapper .content__container .product-block7__txt .product-block7__p1,
   .product-block8 .content__container .product-block8__txt .product-block8__p1,
-  .product-block9 .product-block9__wrapper .content__container .product-block9__txt .product-block9__p1,
   .product-block10 .content__container .product-block10__txt .product-block10__p1, {
     padding: 0;
   }
@@ -2945,17 +2921,22 @@ header{
     display:flex;
     margin: 0 auto;
   }
-}
+
   .product-block1{
-    height: $product-block1-height-mob;
+//    height: $product-block1-height-mob;
     background-image: url('../images/mobile/banner.jpg');
+    width: 100%;
+    height: 0;
+    padding-top: 160%;
+    position: relative;
     .content__container{
       align-items: flex-start;
       .product-block1__txt{
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        padding-top: 45px;
+        position: absolute;
+        top:17%;
         .product-block1__title{
           font-size: 9.5vw;
           font-weight:bold;
@@ -2992,7 +2973,267 @@ header{
     text-align: center;
   }
   .product-block4{
+    width: 100%;
+    height: 0;
+    padding-top: 134.3%;
+    position: relative;
     background: url(../images/mobile/indication.jpg) no-repeat;
+  }
+  .product-block4 .content__container .product-block4__txt{
+    position: absolute;
+    top: 5%;
+    padding-top: 0;
+  }
+  .product-block5{
+    .product-block5__wrapper{
+      .content__container{
+        .product-block5__txt{
+          text-align: center;
+          flex-direction: column;
+          padding: 28px 3%;
+          margin: 0 2%;
+          align-items: center;
+          height: 33%;
+          border-bottom: 1px solid black;
+
+          .product-block5__title{
+            padding-left: 0;
+            width: 100%;
+            font-size: 6.5vw;
+            font-weight: 800;
+          }
+          .product-block5__p1{
+            font-size: $fontsize-p1-mobile;
+            padding: 3% 0;
+          }
+        }
+        .product-block5__txt3{
+          border-bottom: none;
+        }
+      }
+    }
+  }
+  .product-block6{
+    width: 100%;
+    height: 0;
+    padding-top: 110.7%;
+    position: relative;
+    background: url("../images/mobile/control.jpg") no-repeat;
+  }
+  .product-block6 .content__container .product-block6__txt{
+    position: absolute;
+    top: 0;
+    padding-top: 0;
+    .product-block6__title {
+      padding-top: 5vw;
+    }
+    .product-block6__p-wrap {
+      padding: 0 5vw;
+    }
+  }
+  .product-block7{
+    width: 100%;
+    height: 0;
+    padding-top: 157%;
+    position: relative;
+    background: url(../images/mobile/readings.jpg) no-repeat;
+  }
+  .product-block7 .product-block7__wrapper .content__container .product-block7__txt{
+    position: absolute;
+    top: 5%;
+    padding-top: 0;
+    width: 100%;
+    padding-left: 0;
+    .product-block7__p1{
+      font-size: $fontsize-p1-mobile;
+      padding: 0 11vw;
+    }
+  }
+  .product-block8{
+    width: 100%;
+    height: 0;
+    padding-top: 130.3%;
+    position: relative;
+    background: url(../images/mobile/results.jpg) no-repeat;
+  }
+  .product-block8 .content__container .product-block8__txt{
+    position: absolute;
+    top: 0;
+    padding-top: 0;
+    width: 100%;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    .product-block8__title{
+      padding-top: 5%;
+    }
+    .product-block8__p1{
+      font-size: $fontsize-p1-mobile;
+      padding: 0 11vw;
+    }
+  }
+  .product-block9{
+    width: 100%;
+    height: 0;
+    padding-top: 163%;
+    position: relative;
+    background: url(../images/mobile/silver_electrodes.jpg) no-repeat;
+  }
+  .product-block9 .product-block9__wrapper .content__container .product-block9__txt{
+    position: absolute;
+    top: 0;
+    padding-top: 0;
+    width: 100%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    .product-block9__title{
+      padding-top: 5%;
+    }
+    .product-block9__p1{
+      font-size: $fontsize-p1-mobile;
+      padding: 0 11vw;
+    }
+  }
+  .product-block10{
+    width: 100%;
+    height: 0;
+    padding-top: 156.3%;
+    position: relative;
+    background: url(../images/mobile/detachableelectrodes.jpg) no-repeat;
+  }
+  .product-block10 .content__container .product-block10__txt{
+    position: absolute;
+    top: 0;
+    padding-top: 0;
+    width: 100%;
+    padding-right: 0;
+    .product-block10__title{
+      padding-top: 5%;
+    }
+    .product-block10__p1{
+      font-size: $fontsize-p1-mobile;
+      padding: 0 11vw;
+    }
+  }
+  .product-block11{
+    .content__container{
+      flex-direction: column;
+      .product-block11__txt{
+        padding-top: 5%;
+        width: 100%;
+        .product-block11__title{
+          font-size: $fontsize-title-h1-mibile;
+        }
+        .product-block11__img1{
+          width: 100%;
+          height: 0;
+          padding-top: 65%;
+          position: relative;
+          background: url('../images/mobile/copperelectrodes.jpg') no-repeat;
+          background-size: contain;
+        }
+        .product-block11__img2{
+          width: 100%;
+          height: 0;
+          padding-top: 65%;
+          position: relative;
+          background: url('../images/mobile/goldelectrodes.jpg') no-repeat;
+          background-size: contain;
+
+        }
+        .product-block11__p1{
+          font-size: $fontsize-p1-mobile;
+          padding: 0 11vw;
+        }
+      }
+      .product-block11__mobile-border{
+        margin: 0 5%;
+        border-bottom:3px solid #CCC;
+      }
+    }
+  }
+  .product-block12{
+    width: 100%;
+    height: 0;
+    padding-top: 91.2%;
+    position: relative;
+    background: url(../images/mobile/connecting.jpg) no-repeat;
+  }
+  .product-block12 .content__container .product-block12__txt{
+    position: absolute;
+    top: 5%;
+    padding-top: 0;
+  }
+  .product-block13{
+    width: 100%;
+    height: 0;
+    padding-top: 134.3%;
+    position: relative;
+    background: url(../images/mobile/jack.jpg) no-repeat;
+  }
+  .product-block13 .content__container .product-block13__icons{
+    .product-block13__ico-wrap{
+      .product-block13__ico{
+      }
+      .product-block13__txt{
+      }
+    }
+  }
+  .product-block13{
+    padding-right: 0;
+    width: 100%;
+    bottom: 10%;
+    .content__container{
+      .product-block13__icons{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 10%;
+        padding-right: 0;
+        width: 100%;
+        .product-block13__ico-wrap{
+          width: 30%;
+          margin: 0 3vw;
+          .product-block13__ico{
+            width: 100%;
+            height: 27vw;
+            margin: 0 0;
+          }
+          .product-block13__ico1{
+            background: url(../images/minijack.png) no-repeat;
+            background-size: contain;
+          }
+          .product-block13__ico2{
+            background: url(../images/pushpull.png) no-repeat;
+            background-size: contain;
+          }
+          .product-block13__txt{
+            font-size: $fontsize-p1-mobile;
+          }
+        }
+      }
+    }
+  }
+  .product-block1, .product-block4, .product-block6, .product-block7, .product-block8, .product-block10, .product-block12,
+  .product-block13, .product-block15, .product-block17{
+    background-size: contain;
+  }
+  .product-block6 .content__container .product-block6__txt .product-block6__p-wrap .product-block6__p1 {
+   padding: 0 2vw;
+  }
+  .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__icons{
+    padding-top: 0;
+  }
+  .product-block14 .content__container .product-block14__txt .product-block14__p1 .product-block14__img1{
+    width: 100%;
+  }
+  .product-block14 .content__container .product-block14__txt .product-block14__p1 .product-block14__img2{
+    width: 100%;
   }
 }
 
