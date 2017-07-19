@@ -2715,6 +2715,97 @@ header {
         .product-block13 .content__container .product-block13__icons .product-block13__ico-wrap .product-block13__txt {
           font-size: 4vw; }
 
+  .product-block14 .content__container .product-block14__txt {
+    flex-direction: column; }
+    .product-block14 .content__container .product-block14__txt .product-block14__p2 .product-block14__list-bord {
+      border: none; }
+    .product-block14 .content__container .product-block14__txt .product-block14__title {
+      padding-left: 6%;
+      font-size: 6vw;
+      font-weight: bold;
+      width: 100%; }
+    .product-block14 .content__container .product-block14__txt .product-block14__p1 .product-block14__list {
+      padding-left: 6%;
+      padding-top: 20px; }
+    .product-block14 .content__container .product-block14__txt .product-block14__p1 .product-block14__list .product-block14__item {
+      font-size: 4vw; }
+    .product-block14 .content__container .product-block14__txt .product-block14__p1 .product-block14__img1 {
+      background: url(../images/mobile/color1.jpg) no-repeat;
+      background-size: contain;
+      width: 107%;
+      height: 0;
+      padding-top: 81%; }
+    .product-block14 .content__container .product-block14__txt .product-block14__p1 .product-block14__img2 {
+      background-size: contain;
+      width: 107%;
+      height: 0;
+      padding-top: 61%; }
+
+  .product-block15 {
+    width: 100%;
+    height: 0;
+    padding-top: 72%;
+    position: relative;
+    background: url(../images/mobile/accessories.jpg) no-repeat; }
+
+  .product-block15 .content__container .product-block15__txt {
+    position: absolute;
+    top: 5%;
+    padding-top: 0;
+    padding-left: 0;
+    width: 100%;
+    text-align: center; }
+    .product-block15 .content__container .product-block15__txt .product-block15__title {
+      color: white; }
+
+  .product-block16 .product-block16__link {
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 0; }
+    .product-block16 .product-block16__link .product-block16__link__txt {
+      margin: 0; }
+  .product-block16 .product-block16__link1 {
+    padding-top: 110%; }
+    .product-block16 .product-block16__link1 .product-block16__link__txt {
+      top: 10%; }
+  .product-block16 .product-block16__link2 {
+    padding-top: 64%; }
+    .product-block16 .product-block16__link2 .product-block16__link__txt {
+      top: 10%; }
+  .product-block16 .product-block16__link3 {
+    padding-top: 64%; }
+    .product-block16 .product-block16__link3 .product-block16__link__txt {
+      bottom: 5%; }
+  .product-block16 .product-block16__link4 {
+    padding-top: 110%; }
+    .product-block16 .product-block16__link4 .product-block16__link__txt {
+      bottom: 5%; }
+  .product-block16 .product-block16__link5 {
+    padding-top: 178%; }
+    .product-block16 .product-block16__link5 .product-block16__link__txt {
+      bottom: 5%; }
+  .product-block16 .product-block16__link6 {
+    padding-top: 21%; }
+    .product-block16 .product-block16__link6 .product-block16__link__txt {
+      top: 40%;
+      padding-left: 0; }
+  .product-block16 .product-block16__link7 {
+    padding-top: 21%; }
+    .product-block16 .product-block16__link7 .product-block16__link__txt {
+      top: 10%; }
+  .product-block16 .product-block16__link8 {
+    padding-top: 21%; }
+    .product-block16 .product-block16__link8 .product-block16__link__txt {
+      bottom: 10%; }
+
+  .product-block16__link__txt {
+    position: absolute;
+    margin: 0; }
+
+  .product-block16 .product-block16__link .product-block16__link__txt .product-block16__link__txt2 {
+    display: none; }
+
   .product-block1, .product-block4, .product-block6, .product-block7, .product-block8, .product-block10, .product-block12,
   .product-block13, .product-block15, .product-block17 {
     background-size: contain; }
