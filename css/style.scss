@@ -2832,7 +2832,99 @@ header{
   .product-block4 .content__container .product-block4__txt .product-block4__p1 {
     font-size: 2.5vw;
   }
-
+  .product-block16 {
+    .product-block16__link{
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: relative;
+      height: 0;
+      .product-block16__link__txt{
+        margin:0;
+        .product-block16__link__txt1 {
+        }
+      }
+    }
+    .product-block16__link1{
+      padding-top: 110%;
+      .product-block16__link__txt{
+        top: 10%;
+      }
+    }
+    .product-block16__link2{
+      padding-top: 64%;
+      .product-block16__link__txt{
+        top: 10%;
+      }
+    }
+    .product-block16__link3{
+      padding-top: 64%;
+      .product-block16__link__txt{
+        bottom: 5%;
+      }
+    }
+    .product-block16__link4{
+      padding-top: 110%;
+      .product-block16__link__txt{
+        bottom: 5%;
+      }
+    }
+    .product-block16__link5{
+      padding-top: 178%;
+      .product-block16__link__txt{
+        bottom: 5%;
+      }
+    }
+    .product-block16__link6{
+      padding-top: 21%;
+      .product-block16__link__txt{
+        top: 0;
+        padding-left: 5%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+    .product-block16__link7{
+      padding-top: 21%;
+      .product-block16__link__txt{
+        top: 10%;
+      }
+    }
+    .product-block16__link8{
+      padding-top: 21%;
+      .product-block16__link__txt{
+        bottom: 10%;
+      }
+    }
+  }
+  .product-block16__link__txt {
+    position: absolute;
+    margin: 0;
+  }
+  .product-block15{
+    width: 100%;
+    height: 0;
+    padding-top: 56%;
+    position: relative;
+  }
+  .product-block15 .content__container .product-block15__txt{
+    position: absolute;
+    top: 5%;
+    padding-top: 0;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+    .product-block15__title{
+      color:white;
+    }
+  }
+  .product-block17{
+    width: 100%;
+    height: 0;
+    padding-top: 47%;
+    position: relative;
+  }
 }
 @media screen and (max-width: 767px) {
   .title-h1{
@@ -3277,6 +3369,10 @@ header{
       height: 0;
       .product-block16__link__txt{
         margin:0;
+        .product-block16__link__txt1 {
+          font-size: 3.5vw;
+          font-weight: 800;
+        }
       }
     }
     .product-block16__link1{
@@ -3312,8 +3408,12 @@ header{
     .product-block16__link6{
       padding-top: 21%;
       .product-block16__link__txt{
-        top: 40%;
-        padding-left: 0;
+        top: 0;
+        padding-left: 5%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
       }
     }
     .product-block16__link7{
@@ -3357,6 +3457,6 @@ header{
 
 @media screen and (max-width: 767px) {
   .header-wrap{
-    display:none;  //!!!!!!!!!!!! ВРЕМЯНКА!!!!!!!!!!!!!!
+//    display:none;  //!!!!!!!!!!!! ВРЕМЯНКА!!!!!!!!!!!!!!
   }
 }
