@@ -18,6 +18,9 @@
 @font-face {
   font-family: MYRIADPRO-REGULAR;
   src: url("../fonts/MYRIADPRO-REGULAR.OTF"); }
+@font-face {
+  font-family: icomoon;
+  src: url("../fonts/icomoon.ttf"); }
 body {
   margin: 0; }
 
@@ -32,7 +35,6 @@ header, .products-nav, .hyst-nav, .hyst-bot-nav .content, footer {
   height: 100%; }
 
 header {
-  height: 55px;
   position: relative;
   background-color: white;
   border-bottom: 1px solid black; }
@@ -55,7 +57,8 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  position: relative; }
+  position: relative;
+  height: 100%; }
 
 .header-nav__logo {
   background-color: #556B2F;
@@ -2468,14 +2471,11 @@ header {
   .product-block4 .content__container .product-block4__txt .product-block4__p1 {
     font-size: 7vw; }
 
-  .header-nav__logo, .header-nav__lang-wrap {
-    display: none; }
-
-  header {
-    height: 30px; }
-
-  .header-nav {
-    height: 30px; }
+  .header-nav .header-nav__container {
+    background-color: #556B2F; }
+    .header-nav .header-nav__container .header-nav__logo {
+      justify-content: center;
+      width: 100%; }
 
   #header-nav__list {
     display: none;
@@ -2494,6 +2494,9 @@ header {
 
   .slicknav-menu1 {
     display: flex; }
+
+  .products-nav {
+    padding: 0; }
 
   #products-nav__list {
     display: none;
@@ -2532,16 +2535,6 @@ header {
 
   #tech-nav__list.active {
     flex-direction: column; }
-
-  .slicknav-menu {
-    display: flex;
-    margin-right: 2vw; }
-    .slicknav-menu .slicknav-menu__but {
-      width: 45px;
-      height: 22px;
-      background-image: url(../images/sprite.png);
-      background-repeat: no-repeat;
-      background-position: 0px -758px; }
 
   .product-block1 {
     background-image: url("../images/mobile/banner.jpg");
@@ -2947,6 +2940,22 @@ header {
         text-align: left;
         text-align: left;
         padding-left: 0px;
-        padding: 0 2vw; } }
+        padding: 0 2vw; }
+
+  .slicknav-menu1__but {
+    display: flex;
+    align-items: center; }
+    .slicknav-menu1__but .icon-bars:before {
+      content: "\f0c9";
+      font-size: 5vw;
+      color: white;
+      margin-left: 1vw; }
+
+  .slicknav-menu {
+    display: flex;
+    margin-right: 2vw; }
+    .slicknav-menu .icon-angle-down:before {
+      content: "\f107";
+      font-size: 8vw; } }
 
 /*# sourceMappingURL=style.css.map */

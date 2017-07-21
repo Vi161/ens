@@ -72,6 +72,10 @@ $old-block3-height:400px;
   font-family: MYRIADPRO-REGULAR;
   src: url('../fonts/MYRIADPRO-REGULAR.OTF');
 }
+@font-face {
+  font-family: icomoon;
+  src: url('../fonts/icomoon.ttf');
+}
 body{
   margin: 0;
   @extend .font-MYRIADPRO-LIGHT;
@@ -89,7 +93,7 @@ header, .products-nav, .hyst-nav, .hyst-bot-nav .content, footer{
   height: 100%;
 }
 header{
-  height: $header-height;
+//  height: $header-height;
   position: relative;
   background-color: white;
   border-bottom: 1px solid black;
@@ -113,6 +117,7 @@ header{
   display: flex;
   justify-content:space-between;
   position: relative;
+  height: 100%;
 }
 .header-nav__logo{
   background-color: #556B2F;
@@ -141,9 +146,7 @@ header{
 .slicknav-menu1 {
   display:none;
 }
-.slicknav-menu1__but{
 
-}
 
 .header-nav__wrap{
   display: flex;
@@ -241,9 +244,7 @@ header{
 .slicknav-menu {
   display:none;
 }
-.slicknav-menu__but{
 
-}
 .products-nav__left{
   position: relative;
   left:8%;
@@ -2938,14 +2939,22 @@ header{
     font-size: 7vw;
   }
   .header-nav__logo, .header-nav__lang-wrap{
-    display: none
+//    display: none
   }
   header{
-    height:$header-height-mobile;
+//    height:$header-height-mobile;
   }
   .header-nav{
-    height:$header-height-mobile;
+    .header-nav__container{
+      background-color: #556B2F;
+      .header-nav__logo{
+        justify-content: center;
+        width: 100%;
+      }
+    }
+//    height:$header-height-mobile;
   }
+
   #header-nav__list{
     display:none;
     position: absolute;
@@ -2967,7 +2976,6 @@ header{
     display:flex;
 
   }
-
 //  .products-nav {
 //    background: #fff;
 //    border-radius: 0;
@@ -2984,6 +2992,9 @@ header{
 //    justify-content: center;
 //  }
 //  **********
+  .products-nav{
+    padding:0;
+  }
   #products-nav__list{
     display:none;
     background-color: rgb(249, 249, 249);
@@ -3025,17 +3036,7 @@ header{
   #tech-nav__list.active {
     flex-direction: column;
   }
-  .slicknav-menu {
-    display:flex;
-    margin-right: 2vw;
-    .slicknav-menu__but{
-      width: 45px;
-      height: 22px;
-      background-image: url(../images/sprite.png);
-      background-repeat: no-repeat;
-      background-position: 0px -758px;
-    }
-  }
+
 
   .product-block1{
     background-image: url('../images/mobile/banner.jpg');
@@ -3532,6 +3533,26 @@ header{
       }
     }
   }
+  .slicknav-menu1__but{
+    display: flex;
+    align-items: center;
+    .icon-bars:before {
+      content: "\f0c9";
+      font-size: 5vw;
+      color: white;
+      margin-left: 1vw;
+    }
+  }
+  .slicknav-menu {
+    display:flex;
+    margin-right: 2vw;
+    .icon-angle-down:before {
+      content: "\f107";
+      font-size: 8vw;
+
+    }
+  }
+
 }
 
 
