@@ -120,8 +120,8 @@ header {
   font-weight: 800; }
 
 .products-nav {
-  height: 30px;
   z-index: 1000;
+  padding: 2vw 0;
   background-color: #f9f9f9;
   opacity: 0.95; }
 
@@ -2535,13 +2535,19 @@ header {
 
   .slicknav-menu {
     display: flex;
-    margin: 0 auto; }
+    margin-right: 2vw; }
+    .slicknav-menu .slicknav-menu__but {
+      width: 45px;
+      height: 22px;
+      background-image: url(../images/sprite.png);
+      background-repeat: no-repeat;
+      background-position: 0px -758px; }
 
   .product-block1 {
     background-image: url("../images/mobile/banner.jpg");
     width: 100%;
     height: 0;
-    padding-top: 160%; }
+    padding-top: 158%; }
     .product-block1 .content__container {
       align-items: flex-start; }
       .product-block1 .content__container .product-block1__txt {
