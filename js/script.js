@@ -46,15 +46,21 @@ $(document).ready(function(){
         if($(window).width() > mibile_width) {
             $('#products-nav__list').removeClass('active');
             $('#products-nav__list').css("display","flex")
+            $('#header-nav__list').removeClass('active');
+            $('#header-nav__list').css("display","flex")
         }else{
             $('#products-nav__list').addClass('active');
             $('#products-nav__list').css("display","none")
+            $('#header-nav__list').addClass('active');
+            $('#header-nav__list').css("display","none")
         };
     });
     $('.slicknav-menu__but').click(function(){
         $(  "#products-nav__list").slideToggle("slow");
     });
-
+    $('.slicknav-menu1__but').click(function(){
+        $(  "#header-nav__list").slideToggle("slow");
+    });
 });
 //        var mibile_width = 767;
 ////--------header-menu----------
