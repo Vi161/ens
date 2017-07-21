@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
@@ -55,7 +54,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="247" column="19" selection-start="4902" selection-end="4921" vertical-scroll-proportion="-66.57297" vertical-offset="59854" max-vertical-offset="60690">
+                <state line="2936" column="34" selection-start="69193" selection-end="69193" vertical-scroll-proportion="0.098086126" vertical-offset="49830" max-vertical-offset="60724">
                   <folding />
                 </state>
               </provider>
@@ -693,7 +692,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="19" selection-start="4902" selection-end="4921" vertical-scroll-proportion="-66.57297" vertical-offset="59854" max-vertical-offset="60690">
+        <state line="2936" column="34" selection-start="69193" selection-end="69193" vertical-scroll-proportion="0.098086126" vertical-offset="49830" max-vertical-offset="60724">
           <folding />
         </state>
       </provider>

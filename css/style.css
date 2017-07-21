@@ -2466,7 +2466,8 @@ header {
     font-weight: 800; }
 
   .content-p1 {
-    font-size: 4vw; }
+    font-size: 4vw;
+    line-height: 22pt; }
 
   .product-block4 .content__container .product-block4__txt .product-block4__p1 {
     font-size: 7vw; }
@@ -2562,7 +2563,7 @@ header {
           color: #fff;
           padding: 15px 9%;
           font-size: 4vw;
-          line-height: 28pt; }
+          line-height: 22pt; }
 
   .product-block2 .content__container .product-block2__txt .product-block2__title {
     font-size: 45px;
@@ -2571,7 +2572,7 @@ header {
 
   .product-block2 .content__container .product-block2__txt .product-block2__p1 {
     font-size: 4vw;
-    line-height: 28pt;
+    line-height: 22pt;
     padding: 0 7%; }
 
   .product-block2 .content__container .product-block2__txt .product-block2__p3 {
@@ -2671,7 +2672,8 @@ header {
     height: 0;
     padding-top: 163%;
     position: relative;
-    background: url(../images/mobile/silver_electrodes.jpg) no-repeat; }
+    background: url(../images/mobile/silver_electrodes.jpg) no-repeat;
+    background-size: contain; }
 
   .product-block9 .product-block9__wrapper .content__container .product-block9__txt {
     position: absolute;
