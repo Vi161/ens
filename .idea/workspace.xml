@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +54,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3573" column="0" selection-start="84530" selection-end="84530" vertical-scroll-proportion="0.6949761" vertical-offset="60160" max-vertical-offset="61030">
+                <state line="517" column="25" selection-start="10863" selection-end="10863" vertical-scroll-proportion="0.45454547" vertical-offset="8409" max-vertical-offset="61030">
                   <folding />
                 </state>
               </provider>
@@ -694,7 +692,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3573" column="0" selection-start="84530" selection-end="84530" vertical-scroll-proportion="0.6949761" vertical-offset="60160" max-vertical-offset="61030">
+        <state line="517" column="25" selection-start="10863" selection-end="10863" vertical-scroll-proportion="0.45454547" vertical-offset="8409" max-vertical-offset="61030">
           <folding />
         </state>
       </provider>

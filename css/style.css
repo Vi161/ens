@@ -263,11 +263,11 @@ header {
       justify-content: center; }
       .product-block3 .product-block3__wrapper .content__container .product-block3__txt {
         text-align: center;
-        padding: 60px 0; }
+        padding: 5vw 0; }
         .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__title {
           color: #111;
           margin: 0;
-          padding-bottom: 30px; }
+          padding-bottom: 3vw; }
         .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__p1 {
           padding: 0 42px; }
         .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__icons {
@@ -393,7 +393,7 @@ header {
             display: inline-block;
             background-image: url("../images/sprite.png");
             background-repeat: no-repeat;
-            margin: 0px 22px; }
+            margin: 0px 2vw; }
           .product-block7 .product-block7__wrapper .content__container .product-block7__txt .product-block7__icons .product-block7__ico1 {
             background-position: -16px -360px; }
           .product-block7 .product-block7__wrapper .content__container .product-block7__txt .product-block7__icons .product-block7__ico2 {
