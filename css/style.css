@@ -124,7 +124,7 @@ header {
 
 .products-nav {
   z-index: 1000;
-  padding: 2vw 0;
+  padding: 0.5vw 0;
   background-color: #f9f9f9;
   opacity: 0.95; }
 
@@ -273,18 +273,18 @@ header {
         .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__icons {
           padding-top: 46px; }
           .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__icons .product-block3__ico1, .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__icons .product-block3__ico2, .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__icons .product-block3__ico3 {
-            width: 160px;
+            width: 150px;
             height: 160px;
             background-image: url("../images/sprite.png");
             background-repeat: no-repeat;
             display: inline-block;
             margin: 0px 34px; }
           .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__icons .product-block3__ico1 {
-            background-position: -177px -3px; }
+            background-position: -182px -3px; }
           .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__icons .product-block3__ico2 {
-            background-position: 4px -2px; }
+            background-position: -3px -2px; }
           .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__icons .product-block3__ico3 {
-            background-position: -358px -3px; }
+            background-position: -362px -3px; }
 
 .product-block4 {
   height: 800px;
@@ -748,7 +748,7 @@ header {
       font-size: 15px;
       color: #999;
       letter-spacing: 2.7px;
-      height: 13vw;
+      height: 6vw;
       border-left: 2px #999 solid;
       border-right: 2px #999 solid; }
       .footer-top .footer-container .footer-top__block2 .footer-top__block2__txt {
@@ -2465,9 +2465,9 @@ header {
     font-size: 9.5vw;
     font-weight: 800; }
 
-  .content-p1 {
+  .content-p1-mobile {
     font-size: 4vw;
-    line-height: 22pt; }
+    line-height: 5vw; }
 
   .product-block4 .content__container .product-block4__txt .product-block4__p1 {
     font-size: 7vw; }
@@ -2484,7 +2484,7 @@ header {
     background-color: #ffffff;
     position: absolute;
     width: 100%;
-    top: 30px;
+    top: 55px;
     border-top: 1px solid grey;
     padding: 0; }
     #header-nav__list .header-nav__item {
@@ -2504,7 +2504,7 @@ header {
     background-color: #f9f9f9;
     position: absolute;
     width: 100%;
-    top: 30px;
+    top: 8vw;
     border-top: 1px solid grey;
     padding: 0; }
     #products-nav__list .products-nav__item {
@@ -2528,7 +2528,7 @@ header {
     background-color: #f9f9f9;
     position: absolute;
     width: 100%;
-    top: 30px;
+    top: 8vw;
     border-top: 1px solid grey;
     padding: 0; }
     #tech-nav__list .tech-nav__item {
@@ -2563,16 +2563,19 @@ header {
           color: #fff;
           padding: 15px 9%;
           font-size: 4vw;
-          line-height: 22pt; }
+          line-height: 5vw; }
+
+  .product-block2 {
+    padding: 5vw 0; }
 
   .product-block2 .content__container .product-block2__txt .product-block2__title {
-    font-size: 45px;
+    font-size: 6vw;
     font-weight: 800;
     padding: 0 8%; }
 
   .product-block2 .content__container .product-block2__txt .product-block2__p1 {
     font-size: 4vw;
-    line-height: 22pt;
+    line-height: 5vw;
     padding: 0 7%; }
 
   .product-block2 .content__container .product-block2__txt .product-block2__p3 {
@@ -2791,8 +2794,7 @@ header {
     .product-block14 .content__container .product-block14__txt .product-block14__title {
       padding-left: 6%;
       font-size: 6vw;
-      font-weight: bold;
-      width: 100%; }
+      font-weight: bold; }
     .product-block14 .content__container .product-block14__txt .product-block14__p1 .product-block14__list {
       padding-left: 6%;
       padding-top: 20px; }
@@ -2905,23 +2907,22 @@ header {
   .product-block14 .content__container .product-block14__txt .product-block14__p1 .product-block14__img2 {
     width: 100%; }
 
-  .footer-top .footer-container {
+  .footer-top .footer-container .footer-top__block {
+    width: 100%;
     flex-direction: column; }
-    .footer-top .footer-container .footer-top__block {
-      width: 100%;
-      flex-direction: column; }
-      .footer-top .footer-container .footer-top__block .footer-top__block1__txt {
-        text-align: center; }
-    .footer-top .footer-container .footer-top__block1 {
-      display: none; }
-    .footer-top .footer-container .footer-top__block2 {
-      border: none; }
-      .footer-top .footer-container .footer-top__block2 .footer-top__block2__txt {
-        font-size: 3.5vw;
-        width: 55%;
-        padding: 3vw 0;
-        margin: 0;
-        border-bottom: 1px #999 solid; }
+    .footer-top .footer-container .footer-top__block .footer-top__block1__txt {
+      text-align: center; }
+  .footer-top .footer-container .footer-top__block1 {
+    display: none; }
+  .footer-top .footer-container .footer-top__block2 {
+    border: none; }
+    .footer-top .footer-container .footer-top__block2 .footer-top__block2__txt {
+      font-size: 3.5vw;
+      width: 55%;
+      padding: 3vw 0;
+      margin: 0; }
+  .footer-top .footer-container .footer-top__block3 {
+    border-left: 1px #999 solid; }
     .footer-top .footer-container .footer-top__block3 .footer-top__block3__txt1 {
       font-size: 5.5vw;
       width: 55%;
@@ -2958,6 +2959,20 @@ header {
     margin-right: 2vw; }
     .slicknav-menu .icon-angle-down:before {
       content: "\f107";
-      font-size: 8vw; } }
+      font-size: 8vw; }
+
+  .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__icons
+  .product-block3__ico1, .product-block3 .product-block3__wrapper .content__container .product-block3__txt
+  .product-block3__icons .product-block3__ico2, .product-block3 .product-block3__wrapper .content__container
+  .product-block3__txt .product-block3__icons .product-block3__ico3 {
+    margin: 0; }
+
+  .products-nav__left {
+    left: 1%; }
+    .products-nav__left a {
+      font-size: 5vw; }
+
+  .header-nav__wrap .header-nav__lang-wrap {
+    padding: 2vw 0; } }
 
 /*# sourceMappingURL=style.css.map */

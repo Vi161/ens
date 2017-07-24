@@ -27,14 +27,14 @@ $fontsize-p1:22px;
 $fontsize-p1-tablet:2.1vw;
 $fontsize-p1-mobile:4vw;
 $lineheight-p1:22pt;
-$lineheight-p1-mobile:22pt;
+$lineheight-p1-mobile:5vw;
 $fontsize-title-h1:58px;
 $fontsize-title-h1-tablet:5.5vw;
 $fontsize-title-h1-mibile:9.5vw;
 
 $header-height:55px;
-$header-height-mobile:30px;
-$products-nav-height:30px;
+$header-height-mobile:55px;
+$products-nav-height:8vw;
 $hyst-nav-height:30px;
 $hyst-bot-nav-height:105px;
 $tech-nav-height:60px;
@@ -198,7 +198,7 @@ header{
 .products-nav{
 //  height: $products-nav-height;
   z-index: 1000;
-  padding: 2vw 0;
+  padding: 0.5vw 0;
   background-color: rgb(249, 249, 249);
   opacity: 0.95;
 //  transition: top 1s;
@@ -370,7 +370,7 @@ header{
       .product-block3__icons{
         padding-top: 46px;
         .product-block3__ico1, .product-block3__ico2, .product-block3__ico3{
-          width: 160px;
+          width: 150px;
           height: 160px;
           background-image: url("../images/sprite.png");
           background-repeat: no-repeat;
@@ -378,13 +378,13 @@ header{
           margin: 0px 34px;
         }
         .product-block3__ico1{
-          background-position: -177px -3px;
+          background-position: -182px -3px;
         }
         .product-block3__ico2{
-          background-position: 4px -2px;
+          background-position: -3px -2px;
         }
         .product-block3__ico3{
-          background-position: -358px -3px;
+          background-position: -362px -3px;
         }
       }
     }
@@ -959,7 +959,7 @@ header{
       font-size: 15px;
       color: #999;
       letter-spacing: 2.7px;
-      height: 13vw;
+      height: 6vw;
       border-left: 2px #999 solid;
       border-right: 2px #999 solid;
       .footer-top__block2__txt{
@@ -2933,8 +2933,11 @@ header{
     font-weight:800;
   }
   .content-p1{
+
+  }
+  .content-p1-mobile{
     font-size: $fontsize-p1-mobile; //22px;
-      line-height: $lineheight-p1-mobile;
+    line-height: $lineheight-p1-mobile;
   }
   .product-block4 .content__container .product-block4__txt .product-block4__p1 {
     font-size: 7vw;
@@ -3001,7 +3004,7 @@ header{
     background-color: rgb(249, 249, 249);
     position: absolute;
     width: 100%;
-    top:$products-nav-height;
+    top:8vw;
     border-top:1px solid grey;
     padding: 0;
     .products-nav__item{
@@ -3072,8 +3075,11 @@ header{
       }
     }
   }
+  .product-block2 {
+    padding: 5vw 0;
+  }
   .product-block2 .content__container .product-block2__txt .product-block2__title {
-    font-size: 45px;
+    font-size: 6vw;
     font-weight: 800;
     padding: 0 8%;
   }
@@ -3344,7 +3350,6 @@ header{
       padding-left: 6%;
       font-size: 6vw;
       font-weight: bold;
-      width: 100%;
     }
     .product-block14__p1 .product-block14__list{
       padding-left: 6%;
@@ -3485,7 +3490,6 @@ header{
   }
   .footer-top{
     .footer-container{
-      flex-direction: column;
       .footer-top__block{
         width: 100%;
         flex-direction: column;
@@ -3503,10 +3507,10 @@ header{
           width: 55%;
           padding: 3vw 0;
           margin: 0;
-          border-bottom: 1px #999 solid;
         }
       }
       .footer-top__block3{
+        border-left: 1px #999 solid;
         .footer-top__block3__txt1{
           font-size: 5.5vw;
           width: 55%;
@@ -3554,7 +3558,21 @@ header{
 
     }
   }
-
+  .product-block3 .product-block3__wrapper .content__container .product-block3__txt .product-block3__icons
+  .product-block3__ico1, .product-block3 .product-block3__wrapper .content__container .product-block3__txt
+  .product-block3__icons .product-block3__ico2, .product-block3 .product-block3__wrapper .content__container
+  .product-block3__txt .product-block3__icons .product-block3__ico3{
+    margin: 0;
+  }
+  .products-nav__left{
+    left:1%;
+    a{
+      font-size: 5vw;
+    }
+  }
+  .header-nav__wrap .header-nav__lang-wrap {
+    padding: 2vw 0;
+  }
 }
 
 
