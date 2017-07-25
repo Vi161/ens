@@ -27,10 +27,12 @@ $fontsize-p1:22px;
 $fontsize-p1-tablet:2.1vw;
 $fontsize-p1-mobile:4vw;
 $lineheight-p1:22pt;
+$lineheight-p1-tablet:3vw;
 $lineheight-p1-mobile:5vw;
 $fontsize-title-h1:58px;
 $fontsize-title-h1-tablet:5.5vw;
 $fontsize-title-h1-mibile:9.5vw;
+$fontsize-title-mibile:8vw;
 
 $header-height:55px;
 $header-height-mobile:55px;
@@ -1008,10 +1010,9 @@ header{
 .tech-nav__container{
   height: 100%;
 }
-#tech-nav__list{
+.tech-nav__list{
   display: flex;
   justify-content:space-around;
-  height: 100%;
   align-items: center;
   position: relative;
   flex-wrap: wrap;
@@ -2793,6 +2794,7 @@ header{
   }
   .content-p1{
     font-size: $fontsize-p1-tablet; //22px;
+    line-height: $lineheight-p1-tablet;
   }
   .product-block7 .product-block7__wrapper .content__container .product-block7__txt .product-block7__p1,
   .product-block8 .content__container .product-block8__txt .product-block8__p1,
@@ -2926,7 +2928,52 @@ header{
     padding-top: 47%;
     position: relative;
   }
+  .tech-block1 .content__container .tech-block1__left .tech-block1__left__p1 {
+    font-size: 6vw;
+  }
+  .tech-block1 .content__container .tech-block1__left .tech-block1__left__p2 {
+    font-size: 5vw;
+  }
+  .tech-block1__right__p1 {
+    font-size: 4vw;
+  }
+  .tech-block1__right__p2 {
+    font-size: 5vw;
+  }
+  .tech-block2__wrap .content__container .tech-block2__p1{
+    font-size: 5vw;
+  }
+  .tech-block2__wrap .content__container .tech-block2__p2 {
+    line-height: $lineheight-p1-tablet;
+    font-size: 1.8vw;
+    padding: 0 9vw;
+  }
+  .tech-block1__right__p3 {
+    line-height: $lineheight-p1-tablet;
+    font-size: 1.8vw;
+    padding: 0 2vw;
+  }
+  .tech-block3__p1 {
+    font-size: 5vw;
+    line-height: 5vw;
+  }
+  .tech-block3__p2 {
+    font-size: 1.8vw;
+    line-height: $lineheight-p1-tablet;
+    text-align: center;
+    padding: 0 4vw;
+  }
+  .tech-block4 .content__container .tech-block4__p1 {
+    font-size: 6vw;
+    padding-top: 7vw;
+  }
+  .tech-block1 .content__container .tech-block1__left .tech-block1__left__p3{
+    padding: 0 4vw;
+  }
 }
+
+
+
 @media screen and (max-width: 767px) {
   .title-h1{
     font-size: $fontsize-title-h1-mibile; //58px;
@@ -2936,8 +2983,8 @@ header{
 
   }
   .content-p1-mobile{
-    font-size: $fontsize-p1-mobile; //22px;
-    line-height: $lineheight-p1-mobile;
+    font-size: $fontsize-p1-mobile !important; //22px;
+    line-height: $lineheight-p1-mobile !important;
   }
   .product-block4 .content__container .product-block4__txt .product-block4__p1 {
     font-size: 7vw;
@@ -2999,7 +3046,7 @@ header{
   .products-nav{
     padding:0;
   }
-  #products-nav__list{
+  #products-nav__list, .products-nav__right{
     display:none;
     background-color: rgb(249, 249, 249);
     position: absolute;
@@ -3011,7 +3058,7 @@ header{
       border-bottom:1px solid grey;
     }
   }
-  #products-nav__list.active {
+  #products-nav__list.active, .products-nav__right.active {
     flex-direction: column;
   }
   .slicknav-menu {
@@ -3572,6 +3619,55 @@ header{
   }
   .header-nav__wrap .header-nav__lang-wrap {
     padding: 2vw 0;
+  }
+  .tech-block1 .content__container{
+    display: block;
+    .tech-block1__left{
+      border: none;
+      margin: 0;
+    }
+    .tech-block1__right-top{
+      border: none;
+      padding:0;
+    }
+  }
+  .tech-block2__wrap {
+    width: 100%;
+    /* height: 400px; */
+    height: 0;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 116%;
+    position: relative;
+    background-image: url(../images/technology/dx2side400.png);
+    background-position: center;
+    .content__container {
+      position: absolute;
+      top: 0;
+      .tech-block2__p1 {
+        text-align: center;
+      }
+      .tech-block2__p2 {
+        padding: 0 8vw;
+      }
+    }
+  }
+  .tech-block3 .content__container {
+    display: block;
+    .tech-block3__mid{
+      border: none;
+    }
+  }
+  .tech-block4 .content__container .tech-block4__p1 {
+    padding: 0;
+  }
+  .title-mobile{
+    font-size: $fontsize-title-mibile !important;
+  }
+  .tech-block4 .content__container .tech-block4__img {
+    width: 100%;
+    background-size: 153%;
   }
 }
 
