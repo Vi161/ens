@@ -197,7 +197,6 @@ header {
   font-weight: 800;
 }
 .products-nav {
-  z-index: 1000;
   padding: 0.5vw 0;
   background-color: rgb(249, 249, 249);
   opacity: 0.95;
@@ -3164,6 +3163,7 @@ header {
     top:$header-height-mobile;
     border-top:1px solid grey;
     padding: 0;
+    z-index: 10;
     .header-nav__item {
       border-bottom:1px solid grey;
     }
@@ -3178,12 +3178,13 @@ header {
   }
 
   .products-nav {
+    z-index: 1;
     padding:0;
+    position: relative;
   }
   #products-nav__list,
   .products-nav__right {
     display:none;
-    display: block;
     background-color: rgb(249, 249, 249);
     position: absolute;
     width: 100%;
@@ -3714,6 +3715,12 @@ header {
   .icon-angle-down:before {
     content: "\f107";
     font-size: 8vw;
+  }
+  .nav-fixed {
+    position:fixed;
+    top:0px;
+    width: 100%;
+    transition: top 1s;
   }
   .product-block3__ico1, .product-block3__ico2, .product-block3__ico3 {
     margin: 0;
