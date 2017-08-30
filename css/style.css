@@ -1392,8 +1392,7 @@ header {
     padding-right: 3vw; }
 
 .hyst-block2__link3, .hyst-block2__link4, .hyst-block2__link5 {
-  height: 470px;
-  width: 33%; }
+  height: 470px; }
   .hyst-block2__link3 .block-buttons__link__txt, .hyst-block2__link4 .block-buttons__link__txt, .hyst-block2__link5 .block-buttons__link__txt {
     justify-content: flex-end;
     padding-bottom: 1vw; }
@@ -1413,7 +1412,6 @@ header {
 .hyst-block2__link6 {
   justify-content: space-between;
   height: 230px;
-  width: 67%;
   background-image: url(../images/history/2016-emc01-ent01_0.png);
   background-position: center; }
 
@@ -1430,7 +1428,6 @@ header {
 
 .hyst-block2__link7 {
   height: 230px;
-  width: 33%;
   background-image: url(../images/history/2010s-ec01.png);
   background-position: center; }
   .hyst-block2__link7 .block-buttons__link__txt {
@@ -1438,8 +1435,7 @@ header {
     padding-bottom: 1vw; }
 
 .hyst-block2__link8, .hyst-block2__link9, .hyst-block2__link10, .hyst-block2__link11 {
-  height: 470px;
-  width: 25%; }
+  height: 470px; }
 
 .hyst-block2__link8 {
   background-image: url(../images/history/2016-dx1_0.png); }
@@ -1466,8 +1462,7 @@ header {
     padding-top: 2.5vw; }
 
 .hyst-block2__link12, .hyst-block2__link13 {
-  height: 230px;
-  width: 50%; }
+  height: 230px; }
   .hyst-block2__link12 .block-buttons__link__txt, .hyst-block2__link13 .block-buttons__link__txt {
     justify-content: flex-end;
     padding-bottom: 1vw; }
@@ -1507,36 +1502,28 @@ header {
   background-image: url(../images/history/2002-ps704.png); }
 
 .hyst-block4__link6 {
-  background-image: url(../images/history/2002-vx735.png);
-  width: 50%; }
+  background-image: url(../images/history/2002-vx735.png); }
 
 .hyst-block4__link7 {
-  background-image: url(../images/history/2007-ex735.png);
-  width: 50%; }
+  background-image: url(../images/history/2007-ex735.png); }
 
 .hyst-block4__link8 {
-  background-image: url(../images/history/2006-ps705ag.png);
-  width: 33%; }
+  background-image: url(../images/history/2006-ps705ag.png); }
 
 .hyst-block4__link9 {
-  background-image: url(../images/history/2006-ps705mini.png);
-  width: 33%; }
+  background-image: url(../images/history/2006-ps705mini.png); }
 
 .hyst-block4__link10 {
-  background-image: url(../images/history/2005-ex715.png);
-  width: 33%; }
+  background-image: url(../images/history/2005-ex715.png); }
 
 .hyst-block4__link11 {
-  background-image: url(../images/history/2004-ev01.png);
-  width: 50%; }
+  background-image: url(../images/history/2004-ev01.png); }
 
 .hyst-block4__link12 {
-  background-image: url(../images/history/2004-er01.png);
-  width: 50%; }
+  background-image: url(../images/history/2004-er01.png); }
 
 .hyst-block4__wrap1 {
   flex-direction: column;
-  width: 33%;
   display: flex; }
 
 .hyst-block6__wrap {
@@ -1551,24 +1538,16 @@ header {
 .hyst-block6__link1, .hyst-block6__link3, .hyst-block6__link4, .hyst-block6__link13, .hyst-block6__link14, .hyst-block6__link15 {
   height: 230px; }
 
-.hyst-block6__link13, .hyst-block6__link14, .hyst-block6__link15 {
-  width: 33%; }
-
 .hyst-block6__link2, .hyst-block6__link5, .hyst-block6__link9 {
   height: 470px; }
 
-.hyst-block6__link9 {
-  width: 33%; }
-
 .hyst-block6__link7, .hyst-block6__link8, .hyst-block6__link11, .hyst-block6__link12 {
-  width: 50%;
   height: 230px; }
 
 .hyst-block6__link6 {
   height: 230px; }
 
 .hyst-block6__link10 {
-  width: 67%;
   height: 470px; }
 
 .hyst-block6__link1 {
@@ -1642,23 +1621,19 @@ header {
 .hyst-block6__wrap1 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 33%; }
+  justify-content: space-between; }
 
 .hyst-block6__wrap2 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 67%; }
+  justify-content: space-between; }
 
 .hyst-block6__wrap3 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 100%; }
+  justify-content: space-between; }
 
 .hyst-block6__wrap4 {
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
@@ -1672,8 +1647,7 @@ header {
 .hyst-block8__wrap1 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 75%; }
+  justify-content: space-between; }
 
 .hyst-block8__wrap1_1 {
   display: flex;
@@ -1699,12 +1673,10 @@ header {
     padding-bottom: 0.8vw; }
 
 .hyst-block8__link1 {
-  background-image: url(../images/history/1980s-ru.png);
-  width: 44.44%; }
+  background-image: url(../images/history/1980s-ru.png); }
 
 .hyst-block8__link2 {
-  background-image: url(../images/history/1983-ens03.png);
-  width: 55.56%; }
+  background-image: url(../images/history/1983-ens03.png); }
 
 .hyst-block8__link3 {
   background-image: url(../images/history/1989-scenar_t4-02.png);
@@ -1720,24 +1692,19 @@ header {
     padding-bottom: 1.5vw; }
 
 .hyst-block8__link5 {
-  background-image: url(../images/history/1987-patent_electrostimulator.png);
-  width: 33%; }
+  background-image: url(../images/history/1987-patent_electrostimulator.png); }
 
 .hyst-block8__link6 {
-  background-image: url(../images/history/1981-ens02t.png);
-  width: 67%; }
+  background-image: url(../images/history/1981-ens02t.png); }
 
 .hyst-block8__link7 {
-  background-image: url(../images/history/1982-ens02.png);
-  width: 50%; }
+  background-image: url(../images/history/1982-ens02.png); }
 
 .hyst-block8__link8 {
-  background-image: url(../images/history/1984-ens03c.png);
-  width: 50%; }
+  background-image: url(../images/history/1984-ens03c.png); }
 
 .hyst-block8__link9 {
   background-image: url(../images/history/1988-scenar_t4-01.png);
-  width: 100%;
   justify-content: flex-end; }
   .hyst-block8__link9 .block-buttons__link__txt {
     justify-content: center;
@@ -1756,16 +1723,12 @@ header {
     .hyst-block10__wrap .hyst-block10__link1 .block-buttons__link__txt, .hyst-block10__wrap .hyst-block10__link2 .block-buttons__link__txt, .hyst-block10__wrap .hyst-block10__link3 .block-buttons__link__txt {
       justify-content: flex-end;
       padding-bottom: 0.8vw; }
-  .hyst-block10__wrap .hyst-block10__link4 {
-    width: 100%; }
-    .hyst-block10__wrap .hyst-block10__link4 .block-buttons__link__txt {
-      justify-content: flex-end;
-      padding-bottom: 0.8vw; }
-  .hyst-block10__wrap .hyst-block10__link5, .hyst-block10__wrap .hyst-block10__link6 {
-    width: 50%; }
-    .hyst-block10__wrap .hyst-block10__link5 .block-buttons__link__txt, .hyst-block10__wrap .hyst-block10__link6 .block-buttons__link__txt {
-      justify-content: flex-end;
-      padding-bottom: 0.8vw; }
+  .hyst-block10__wrap .hyst-block10__link4 .block-buttons__link__txt {
+    justify-content: flex-end;
+    padding-bottom: 0.8vw; }
+  .hyst-block10__wrap .hyst-block10__link5 .block-buttons__link__txt, .hyst-block10__wrap .hyst-block10__link6 .block-buttons__link__txt {
+    justify-content: flex-end;
+    padding-bottom: 0.8vw; }
   .hyst-block10__wrap .hyst-block10__link1 {
     background-image: url(../images/history/1970s.png); }
   .hyst-block10__wrap .hyst-block10__link2 {
@@ -2461,11 +2424,32 @@ header {
   text-transform: uppercase;
   padding-top: 20px; }
 
+.hyst-block__wrap-1-1 {
+  width: 100%; }
+
 .hyst-block__wrap-1-3 {
   width: 33%; }
 
 .hyst-block__wrap-2-3 {
   width: 67%; }
+
+.hyst-block__wrap-1-4 {
+  width: 25%; }
+
+.hyst-block__wrap-3-4 {
+  width: 75%; }
+
+.hyst-block__wrap-1-2 {
+  width: 50%; }
+
+.hyst-block__wrap-44 {
+  width: 44.44%; }
+
+.hyst-block__wrap-55 {
+  width: 55.56%; }
+
+.disp_flex {
+  display: flex; }
 
 @media (min-width: 768px) and (max-width: 1060px) {
   .header-nav__wrap .header-nav__item-a {
@@ -2731,27 +2715,27 @@ header {
   .hyst-block2__link2 {
     padding-top: 32.5%; }
   .hyst-block2__link3 {
-    padding-top: 43.5%; }
+    padding-top: 130.5%; }
   .hyst-block2__link4 {
-    padding-top: 43.5%; }
+    padding-top: 130.5%; }
   .hyst-block2__link5 {
-    padding-top: 43.5%; }
+    padding-top: 130.5%; }
   .hyst-block2__link6 {
-    padding-top: 21.5%; }
+    padding-top: 32.5%; }
   .hyst-block2__link7 {
-    padding-top: 21.5%; }
+    padding-top: 66%; }
   .hyst-block2__link8 {
-    padding-top: 44%; }
+    padding-top: 175%; }
   .hyst-block2__link9 {
-    padding-top: 44%; }
+    padding-top: 175%; }
   .hyst-block2__link10 {
-    padding-top: 44%; }
+    padding-top: 175%; }
   .hyst-block2__link11 {
-    padding-top: 44%; }
+    padding-top: 175%; }
   .hyst-block2__link12 {
-    padding-top: 21.5%; }
+    padding-top: 43.5%; }
   .hyst-block2__link13 {
-    padding-top: 21.5%; }
+    padding-top: 43.5%; }
   .hyst-block4__link1 {
     padding-top: 64%; }
   .hyst-block4__link2 {
@@ -2763,23 +2747,23 @@ header {
   .hyst-block4__link5 {
     padding-top: 64%; }
   .hyst-block4__link6 {
-    padding-top: 21.5%; }
+    padding-top: 42.5%; }
   .hyst-block4__link7 {
-    padding-top: 21.5%; }
+    padding-top: 42.5%; }
   .hyst-block4__link8 {
-    padding-top: 21.5%; }
+    padding-top: 63.5%; }
   .hyst-block4__link9 {
-    padding-top: 21.5%; }
+    padding-top: 63.5%; }
   .hyst-block4__link10 {
-    padding-top: 21.5%; }
+    padding-top: 63.5%; }
   .hyst-block4__link11 {
-    padding-top: 21.5%; }
+    padding-top: 42.5%; }
   .hyst-block4__link12 {
-    padding-top: 21.5%; }
+    padding-top: 42.5%; }
   .hyst-block6__link1 {
     padding-top: 65%; }
   .hyst-block6__link2 {
-    padding-top: 131%; }
+    padding-top: 137%; }
   .hyst-block6__link3 {
     padding-top: 64%; }
   .hyst-block6__link4 {
@@ -2789,55 +2773,56 @@ header {
   .hyst-block6__link6 {
     padding-top: 32.5%; }
   .hyst-block6__link7 {
-    padding-top: 21.5%; }
+    padding-top: 42.5%; }
   .hyst-block6__link8 {
-    padding-top: 21.5%; }
+    padding-top: 42.5%; }
   .hyst-block6__link9 {
-    padding-top: 44%; }
+    padding-top: 134%; }
   .hyst-block6__link10 {
-    padding-top: 44%; }
+    padding-top: 66%; }
   .hyst-block6__link11 {
-    padding-top: 21.5%; }
+    padding-top: 42.5%; }
   .hyst-block6__link12 {
-    padding-top: 21.5%; }
+    padding-top: 42.5%; }
   .hyst-block6__link13 {
-    padding-top: 21.5%; }
+    padding-top: 63.5%; }
   .hyst-block6__link14 {
-    padding-top: 21.5%; }
+    padding-top: 63.5%; }
   .hyst-block6__link15 {
-    padding-top: 21.5%; }
+    padding-top: 63.5%; }
   .hyst-block8__link1 {
-    padding-top: 30%; }
+    padding-top: 64%;
+    background-color: inherit; }
   .hyst-block8__link2 {
-    padding-top: 30%; }
+    padding-top: 51%; }
   .hyst-block8__link3 {
     padding-top: 29%; }
   .hyst-block8__link4 {
     padding-top: 181%; }
   .hyst-block8__link5 {
-    padding-top: 45%; }
+    padding-top: 134%; }
   .hyst-block8__link6 {
-    padding-top: 45%; }
+    padding-top: 66%; }
   .hyst-block8__link7 {
-    padding-top: 21.5%; }
+    padding-top: 42.5%; }
   .hyst-block8__link8 {
-    padding-top: 21.5%; }
+    padding-top: 42.5%; }
   .hyst-block8__link9 {
     padding-top: 21.5%; }
   .hyst-block8__link10 {
     padding-top: 21.5%; }
   .hyst-block10__link1 {
-    padding-top: 21.5%; }
+    padding-top: 66.5%; }
   .hyst-block10__link2 {
-    padding-top: 21.5%; }
+    padding-top: 66.5%; }
   .hyst-block10__link3 {
-    padding-top: 21.5%; }
+    padding-top: 66.5%; }
   .hyst-block10__link4 {
     padding-top: 21.5%; }
   .hyst-block10__link5 {
-    padding-top: 21.5%; }
+    padding-top: 42.5%; }
   .hyst-block10__link6 {
-    padding-top: 21.5%; } }
+    padding-top: 42.5%; } }
 
 @media screen and (max-width: 767px) {
   .title-h1 {
