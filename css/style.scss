@@ -1373,11 +1373,7 @@ header {
   position: relative;
 }
 .hyst-nav__container {
-  display: flex;
-  justify-content:space-between;
-  height: 100%;
-  align-items: center;
-  position: relative;
+  position: initial;
 }
 .hyst-nav__right {
   padding-right: 3%;
@@ -1955,7 +1951,7 @@ header {
   height: $hyst-bot-nav-height;
   width: 100%;
   left: 0;
-  top: 2.6vw;
+//  top: 2.6vw;
   position: absolute;
 }
 .hyst-bot-nav__container {
@@ -2665,6 +2661,9 @@ header {
   .header-nav__wrap .header-nav__item-a,{
     font-size: 1.9vw; //20px;
   }
+  .hyst-block-top {
+    position: inherit;
+  }
   .product-block1, .product-block4, .product-block6, .product-block8, .product-block10, .product-block12,
   .product-block13, .product-block15, .product-block17 {
     background-size: 181.13% auto;
@@ -3168,10 +3167,16 @@ header {
   .hyst-block10__link6 {
     padding-top: 42.5%;
   }
+  .hyst-block-top {
+    position: inherit;
+  }
 }
 
 
 @media screen and (max-width: 767px) {
+  .hyst-block-top {
+    margin-top: 0;
+  }
   .title-h1 {
     font-size: $fontsize-title-h1-mibile; //58px;
     font-weight:800;
@@ -3274,7 +3279,7 @@ header {
 //    position: inherit;
 //    padding-bottom: 235%;
     position: absolute;
-    top: 0;
+    top: 18%;
   }
   .product-block1__title {
     font-size: 9.5vw;
@@ -3854,9 +3859,6 @@ header {
     height: 100%;
     position: absolute;
     justify-content: center;
-  }
-  .hyst-bot-nav {
-    display: none;
   }
   .about__left .hyst-nav__left a, .about__right .hyst-nav__item a {
     font-size: 20px;
