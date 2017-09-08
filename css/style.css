@@ -2326,7 +2326,7 @@ header {
 
 #hyst-bot-nav__list {
   position: relative;
-  width: 78%;
+  width: 68%;
   max-width: 990px;
   padding: 0 12px; }
 
@@ -2451,6 +2451,8 @@ header {
 @media (min-width: 768px) and (max-width: 1060px) {
   .header-nav__wrap .header-nav__item-a {
     font-size: 1.9vw; }
+  .hyst-block-1990s__2 {
+    padding-top: 37%; }
   .hyst-block-top {
     position: inherit; }
   .product-block1, .product-block4, .product-block6, .product-block8, .product-block10, .product-block12,
@@ -2696,6 +2698,10 @@ header {
     position: absolute; } }
 
 @media screen and (max-width: 1060px) {
+  .hyst-block-1990s__3__span {
+    font-size: 6vw; }
+  .hyst-block-1990s__3__span2 {
+    font-size: 3vw; }
   .hyst-block1 {
     position: inherit;
     padding-top: 31.5%; }
@@ -2837,9 +2843,7 @@ header {
     flex-direction: column;
     position: initial;
     width: 100%; }
-  #hyst-bot-nav__list .hyst-bot-nav__item:first-child {
-    display: none; }
-  .hyst-bot-nav__img1, .hyst-bot-nav__img2, .hyst-bot-nav__img3 {
+  .hyst-bot-nav__img {
     display: none; }
   .title-h1 {
     font-size: 9.5vw;

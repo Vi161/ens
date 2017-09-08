@@ -45,14 +45,15 @@ $(document).ready(function(){
     $(window).resize(function(){
         if($(window).width() > mibile_width) {
             $('#products-nav__list').removeClass('active');
-            $('#products-nav__list').css("display","flex")
+            $('#products-nav__list').css("display","flex");
             $('#header-nav__list').removeClass('active');
             $('#header-nav__list').css("display","flex")
         }else{
             $('#products-nav__list').addClass('active');
-            $('#products-nav__list').css("display","none")
+            $('#products-nav__list').css("display","none");
             $('#header-nav__list').addClass('active');
             $('#header-nav__list').css("display","none")
+
         };
     });
     $('.slicknav-menu__but').click(function(){
