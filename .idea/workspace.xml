@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/1970s.html" afterPath="$PROJECT_DIR$/history/1970s.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/1980s.html" afterPath="$PROJECT_DIR$/history/1980s.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/1990s.html" afterPath="$PROJECT_DIR$/history/1990s.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/2000s.html" afterPath="$PROJECT_DIR$/history/2000s.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/2010s.html" afterPath="$PROJECT_DIR$/history/2010s.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,13 +31,15 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2761" column="3" selection-start="60986" selection-end="60986" vertical-scroll-proportion="-386.451" vertical-offset="27228" max-vertical-offset="66300">
-                  <folding />
+                <state line="2761" column="3" selection-start="60986" selection-end="60986" vertical-scroll-proportion="-386.451" vertical-offset="27228" max-vertical-offset="65144">
+                  <folding>
+                    <marker date="1505155955260" expanded="true" signature="59088:59115" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="2010s.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="2010s.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/history/2010s.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="100" column="0" selection-start="7123" selection-end="7123" vertical-scroll-proportion="0.48664343" vertical-offset="584" max-vertical-offset="3944">
@@ -69,19 +64,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2664" column="21" selection-start="59111" selection-end="59111" vertical-scroll-proportion="395.60785" vertical-offset="65464" max-vertical-offset="66300">
+                <state line="1898" column="66" selection-start="38302" selection-end="38321" vertical-scroll-proportion="0.3325359" vertical-offset="31988" max-vertical-offset="65144">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="2000s.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="2000s.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/history/2000s.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="77" column="109" selection-start="4427" selection-end="4444" vertical-scroll-proportion="0.90708476" vertical-offset="1" max-vertical-offset="3791">
+                <state line="7" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="-4.5384617" vertical-offset="1" max-vertical-offset="3791">
                   <folding>
                     <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
@@ -133,12 +128,12 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/aboutus/aboutus.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/history/1990s.html" />
         <option value="$PROJECT_DIR$/history/1970s.html" />
         <option value="$PROJECT_DIR$/history/1980s.html" />
         <option value="$PROJECT_DIR$/history/2000s.html" />
         <option value="$PROJECT_DIR$/history/2010s.html" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
   </component>
@@ -813,16 +808,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/history/2010s.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2761" column="3" selection-start="60986" selection-end="60986" vertical-scroll-proportion="-386.451" vertical-offset="27228" max-vertical-offset="66300">
-          <folding />
+        <state line="100" column="0" selection-start="7123" selection-end="7123" vertical-scroll-proportion="0.48664343" vertical-offset="584" max-vertical-offset="3944">
+          <folding>
+            <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/history/2000s.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="109" selection-start="4427" selection-end="4444" vertical-scroll-proportion="0.90708476" vertical-offset="1" max-vertical-offset="3791">
+        <state line="7" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="-4.5384617" vertical-offset="1" max-vertical-offset="3791">
           <folding>
             <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#div#0;tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
@@ -831,13 +829,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/history/2010s.html">
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="7123" selection-end="7123" vertical-scroll-proportion="0.48664343" vertical-offset="584" max-vertical-offset="3944">
-          <folding>
-            <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state line="1898" column="66" selection-start="38302" selection-end="38321" vertical-scroll-proportion="0.3325359" vertical-offset="31988" max-vertical-offset="65144">
+          <folding />
         </state>
       </provider>
     </entry>
