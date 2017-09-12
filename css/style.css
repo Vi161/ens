@@ -223,7 +223,7 @@ header {
 .product-block1 {
   height: 500px;
   width: 100%;
-  background-image: url("../images/banner.png");
+  background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-position: center; }
   .product-block1 .content__container {
@@ -543,21 +543,25 @@ header {
 
 .product-block11__txt {
   width: 50%; }
-  .product-block11__txt .product-block11__title {
-    font-size: 45px;
-    margin: 0;
-    padding: 0 10px; }
-  .product-block11__txt .product-block11__img1 {
-    width: 100%;
-    height: 300px;
-    background: url("../images/copper_electrodes.jpg") no-repeat; }
-  .product-block11__txt .product-block11__img2 {
-    width: 100%;
-    height: 300px;
-    background: url("../images/gold_electrodes.jpg") no-repeat; }
-  .product-block11__txt .product-block11__p1 {
-    font-size: 18px;
-    padding: 0 55px; }
+
+.product-block11__title {
+  font-size: 45px;
+  margin: 0;
+  padding: 0 10px; }
+
+.product-block11__img1 {
+  width: 100%;
+  height: 300px;
+  background: url("../images/copper_electrodes.jpg") no-repeat; }
+
+.product-block11__img2 {
+  width: 100%;
+  height: 300px;
+  background: url("../images/gold_electrodes.jpg") no-repeat; }
+
+.product-block11__p1 {
+  font-size: 18px;
+  padding: 0 55px; }
 
 .product-block11__txt2 {
   border-left: 1px solid #CCC; }
@@ -716,7 +720,7 @@ header {
 .product-block16__wrap3 {
   width: 50%; }
 
-.product-block16 .product-block16__link {
+.product-block16__link {
   background-color: #f9f9f9;
   text-decoration: none;
   text-align: center;
@@ -2642,10 +2646,47 @@ header {
     height: 100%;
     top: 0;
     right: 0;
-    position: absolute; } }
+    position: absolute; }
+  .product-block11__txt1, .product-block11__txt2 {
+    position: relative; }
+  .product-block11__img1 {
+    width: 100%;
+    height: 0;
+    padding-top: 73%;
+    background: url("../images/mobile/copperelectrodes.jpg") no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: 10;
+    top: 0; }
+  .product-block11__img2 {
+    width: 100%;
+    height: 0;
+    padding-top: 73%;
+    background: url("../images/mobile/goldelectrodes.jpg") no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: 10;
+    top: 0; }
+  .product-block11__p1__wrap-electrodes {
+    position: relative;
+    top: 75%;
+    z-index: 100; }
+    .product-block11__p1__wrap-electrodes .product-block11__p1__wrap-electrodes1 {
+      position: relative;
+      top: -7vw; }
+  .product-block9 {
+    height: 100%; }
+  .product-block9__wrapper {
+    height: 0;
+    position: relative;
+    padding-top: 50%;
+    background-size: contain; }
+  .product-block9__txt {
+    position: absolute;
+    top: 0; } }
 
 @media screen and (max-width: 1060px) {
-  .product-block16 .product-block16__link {
+  .product-block16__link {
     margin: 0.4vw; }
   .product-block16__link {
     background-size: contain;
@@ -2655,11 +2696,12 @@ header {
   .product-block16__link__txt {
     margin: 0; }
   .product-block16__link1 {
-    padding-top: 110%; }
+    padding-top: 112%; }
     .product-block16__link1 .product-block16__link__txt {
       top: 10%; }
   .product-block16__link2 {
-    padding-top: 64%; }
+    padding-top: 62%;
+    margin-top: 0.8vw; }
     .product-block16__link2 .product-block16__link__txt {
       top: 10%; }
   .product-block16__link3 {
@@ -2667,11 +2709,12 @@ header {
     .product-block16__link3 .product-block16__link__txt {
       bottom: 5%; }
   .product-block16__link4 {
-    padding-top: 110%; }
+    padding-top: 110%;
+    margin-top: 0.8vw; }
     .product-block16__link4 .product-block16__link__txt {
       bottom: 5%; }
   .product-block16__link5 {
-    padding-top: 175.4%; }
+    padding-top: 176.4%; }
     .product-block16__link5 .product-block16__link__txt {
       bottom: 5%; }
   .product-block16 .product-block16__link6 {
@@ -2844,7 +2887,8 @@ header {
     display: none; }
   .title-h1 {
     font-size: 9.5vw;
-    font-weight: 800; }
+    font-weight: 800;
+    margin: 0; }
   .content-p1-mobile {
     font-size: 4vw !important;
     line-height: 5vw !important; }
@@ -3070,27 +3114,37 @@ header {
   .product-block11 .content__container {
     flex-direction: column; }
   .product-block11__txt {
-    padding-top: 5%;
-    width: 100%; }
-    .product-block11__txt .product-block11__title {
-      font-size: 9.5vw; }
-    .product-block11__txt .product-block11__img1 {
-      width: 100%;
-      height: 0;
-      padding-top: 65%;
-      position: relative;
-      background: url("../images/mobile/copperelectrodes.jpg") no-repeat;
-      background-size: contain; }
-    .product-block11__txt .product-block11__img2 {
-      width: 100%;
-      height: 0;
-      padding-top: 65%;
-      position: relative;
-      background: url("../images/mobile/goldelectrodes.jpg") no-repeat;
-      background-size: contain; }
-    .product-block11__txt .product-block11__p1 {
-      font-size: 4vw;
-      padding: 0 11vw; }
+    width: 100%;
+    position: relative; }
+  .product-block11__title {
+    font-size: 9.5vw;
+    position: relative;
+    z-index: 100; }
+  .product-block11__img1 {
+    width: 100%;
+    height: 0;
+    padding-top: 73%;
+    background: url("../images/mobile/copperelectrodes.jpg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 100;
+    top: 0; }
+  .product-block11__img2 {
+    width: 100%;
+    height: 0;
+    padding-top: 73%;
+    background: url("../images/mobile/goldelectrodes.jpg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 10;
+    top: 0; }
+  .product-block11__p1 {
+    font-size: 4vw;
+    padding: 0 11vw; }
+  .product-block11__p1__wrap-electrodes {
+    position: relative;
+    z-index: 100;
+    padding-top: 37%; }
   .product-block11__mobile-border {
     margin: 0 5%;
     border-bottom: 3px solid #CCC; }
@@ -3137,16 +3191,19 @@ header {
     .product-block13__ico-wrap .product-block13__txt {
       font-size: 4vw; }
   .product-block14__txt {
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: center; }
   .product-block14__list-bord {
     border: none; }
   .product-block14__title {
-    padding-left: 6%;
+    padding: 0;
     font-size: 6vw;
-    font-weight: bold; }
+    font-weight: bold;
+    text-align: center; }
   .product-block14__list {
-    padding-left: 6%;
-    padding-top: 20px; }
+    width: 100%;
+    padding: 0;
+    text-align: center; }
   .product-block14__item {
     font-size: 4vw; }
   .product-block14__img1 {
