@@ -1487,7 +1487,7 @@ header {
 .hyst-block4__link2 {
   background-image: url(../images/history/cosmodictechnology.png); }
 
-.hyst-block4__link3 {
+.hyst-block4__wrap .hyst-block4__link3 {
   height: 470px;
   background-image: url(../images/history/2007-patent_scenar-therapy.png); }
 
@@ -2869,7 +2869,9 @@ header {
   .hyst-block10__link6 {
     padding-top: 42.5%; }
   .hyst-block-top {
-    position: inherit; } }
+    position: inherit; }
+  .hyst-block10__wrap .block-buttons__link, .hyst-block4__wrap .block-buttons__link {
+    height: 0; } }
 
 @media screen and (max-width: 767px) {
   .hyst-block-top {
