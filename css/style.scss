@@ -3233,6 +3233,64 @@ header {
   .hyst-block10__wrap .block-buttons__link, .hyst-block4__wrap .block-buttons__link {
     height: 0;
   }
+  .hyst-block-2010s__3 {
+    padding-top: 19%;
+  }
+  .hyst-block-2010s__6 {
+    padding-top: 19%;
+  }
+  .hyst-block-2010s__8 {
+    padding-top: 19%;
+  }
+  .hyst-block-2010s__10 .content__container {
+    padding-top: 46%;
+    height: 0;
+    background-size: cover;
+  }
+  .hyst-block-2010s__14 {
+    padding-top: 19%;
+  }
+  .hyst-block-2010s__12 {
+    padding-top: 19%;
+  }
+  .hyst-block-2010s__16 {
+    padding-top: 19%;
+  }
+  .hyst-block-2010s__img {
+    height: 0;
+    background-size: cover;
+  }
+  .hyst-block-2010s__img1 {
+    padding-top: 42%;
+  }
+  .hyst-block-2010s__img2 {
+    padding-top: 56%;
+  }
+  .hyst-block-2010s__img3 {
+    padding-top: 79%;
+  }
+  .hyst-block-2010s__img4 {
+    padding-top: 51%;
+  }
+  .hyst-block-2010s__img5 {
+    padding-top: 45%;
+  }
+  .hyst-block-2010s__img6 {
+    padding-top: 45%;
+  }
+  .hyst-block-2010s__img7 {
+    padding-top: 45%;
+  }
+  .hyst-block-2010s__img8 {
+    padding-top: 45%;
+  }
+  .hyst-block-2010s__img9 {
+    padding-top: 42%;
+  }
+  .content-h2, .hyst-block__year {
+    font-size: 5vw;
+    line-height: unset;
+  }
 }
 
 
@@ -3315,6 +3373,9 @@ header {
     top:8vw;
     border-top:1px solid grey;
     padding: 0;
+  }
+  .about-nav__rigth {
+    display: block;
   }
   .products-nav__item {
     border-bottom:1px solid grey;
@@ -3639,7 +3700,8 @@ header {
   }
   .product-block14__txt {
     flex-direction: column;
-    align-items: center;
+    align-items: left;
+    padding-left: 8vw;
   }
   .product-block14__list-bord {
     border: none;
@@ -3648,12 +3710,12 @@ header {
     padding: 0;
     font-size: 6vw;
     font-weight: bold;
-    text-align: center;
+    width: unset;
   }
   .product-block14__list {
     width: 100%;
     padding: 0;
-    text-align: center;
+    text-align: left;
   }
   .product-block14__item {
     font-size: $fontsize-p1-mobile;
@@ -3740,7 +3802,6 @@ header {
   }
   .footer-top__block3__txt1 {
     font-size: 5.5vw;
-    width: 55%;
     text-align: center;
     padding: 3vw 0;
     margin: 0;
@@ -3885,6 +3946,22 @@ header {
     justify-content: center;
   }
   .about__left .hyst-nav__left a, .about__right .hyst-nav__item a {
-    font-size: 20px;
+    font-size: 5vw;
+  }
+  .about__rigth {
+    padding-right: 1vw;
+  }
+  .content-h2, .hyst-block__year {
+    font-size: 7vw;
+    line-height: unset;
+  }
+  .content-p {
+    font-size: $fontsize-p1-mobile;
+    line-height: unset;
+  }
+  .content-h3 {
+    font-size: 5vw;
+    line-height: unset;
+    padding: 0 5vw;
   }
 }
