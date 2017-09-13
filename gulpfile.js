@@ -1,16 +1,22 @@
 /**
- * Created by vi on 23.08.17.
- */
-var gulp = require('gulp');
+* Created by vi on 23.08.17.
+*/
 var gulp = require('gulp');
 // подключаем gulp-sass
 var sass = require('gulp-sass');
-gulp.task('sass', function(){
+var sourcemaps = require('gulp-sourcemaps');  // v1.2.2
+var autoprefix = require('gulp-autoprefixer');  // v1.0.1
+
+
+gulp.task('styles', function() {
     return gulp.src('css/style.scss')
-        .pipe(sass()) // Конвертируем Sass в CSS с помощью gulp-sass
-        .pipe(gulp.dest('css'))
+        .pipe(sourcemaps.init())
+        .pipe(sass({errLogToConsole: true}))
+        .pipe(sourcemaps.write({includeContent: false, sourceRoot: '.'}))
+
+        .pipe(sourcemaps.init({loadMaps: true}))
+        .pipe(autoprefix({browsers: ['last 1 version', 'iOS 6'], cascade: false}))
+        .pipe(sourcemaps.write('.', {includeContent: false, sourceRoot: '../scripts/app'}))
+
+        .pipe(gulp.dest('css'));
 });
-gulp.task('watch', function(){
-    gulp.watch('css/**/*.scss', ['sass']);
-    // другие ресурсы
-})
