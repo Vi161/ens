@@ -6,7 +6,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');  // v1.2.2
 var autoprefix = require('gulp-autoprefixer');  // v1.0.1
-
+watch = require('gulp-watch');
 
 gulp.task('styles', function() {
     return gulp.src('css/style.scss')
@@ -19,4 +19,11 @@ gulp.task('styles', function() {
         .pipe(sourcemaps.write('.', {includeContent: false, sourceRoot: '../scripts/app'}))
 
         .pipe(gulp.dest('css'));
+});
+gulp.task('default', ['styles'], function() {
+    // watch for CSS changes
+    gulp.watch('css/*.scss', function() {
+        // run styles upon changes
+        gulp.run('styles');
+    });
 });
