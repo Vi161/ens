@@ -3370,6 +3370,7 @@ header {
     border-top:1px solid grey;
     padding: 0;
     z-index: 10;
+    left: 0;
     .header-nav__item {
       border-bottom:1px solid grey;
     }
@@ -3405,6 +3406,7 @@ header {
     top:8vw;
     border-top:1px solid grey;
     padding: 0;
+    left: 0;
   }
   .about-nav__rigth {
     display: block;
@@ -3418,6 +3420,8 @@ header {
   .slicknav-menu {
     display:flex;
     margin: 0 auto;
+    z-index: 1000;
+    position: relative;
   }
   .product-block7__p1,
   .product-block8__p1,
