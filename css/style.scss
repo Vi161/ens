@@ -119,14 +119,14 @@ header {
 }
 .header-nav__container {
   margin:0 auto;
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content:space-between;
   position: relative;
   height: 100%;
 }
 .header-nav__logo {
   background-color: #556B2F;
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   padding-left: 23px;
 //  height: 100%;
 }
@@ -144,7 +144,7 @@ header {
   padding-right: 16px;
 }
 #header-nav__list {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction:row;
   margin:0;
 }
@@ -154,7 +154,7 @@ header {
 
 
 .header-nav__wrap {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   align-items: center;
   padding: 0;
   margin: 0;
@@ -206,7 +206,7 @@ header {
 }
 .products-nav__container {
   margin:0 auto;
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content:space-between;
   height: 100%;
   align-items: center;
@@ -214,7 +214,7 @@ header {
 }
 .products-nav__right {
   padding-right: 3%;
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content:space-around;
 }
 .products-nav__item {
@@ -230,7 +230,7 @@ header {
   color: #06F;
 }
 .products-nav__right {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content: space-around;
 }
 .products-nav__item {
@@ -293,7 +293,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     justify-content: flex-end;
     align-items: center;
   }
@@ -322,7 +322,7 @@ header {
   width: 100%;
   padding: 60px 0;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     align-items: center;
   }
 }
@@ -358,7 +358,7 @@ header {
   height: 100%;
   background-color:#fffaf0;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -401,7 +401,7 @@ header {
   background: url('../images/indication.jpg') no-repeat;
   background-position: center;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     align-items: flex-start;
     justify-content: center;
   }
@@ -426,13 +426,13 @@ header {
   height: 100%;
   background-color:#fffaf0;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
 }
 .product-block5__txt {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   text-align: left;
   align-items: center;
   height: 33%;
@@ -459,7 +459,7 @@ header {
   background: url('../images/control.jpg') no-repeat;
   background-position: center;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     align-items: flex-start;
     justify-content: center;
   }
@@ -467,7 +467,7 @@ header {
 .product-block6__txt {
   text-align: center;
   height: 100%;
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -494,7 +494,7 @@ header {
   background: url('../images/readings.jpg') no-repeat;
   background-position: 43vw;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
@@ -541,7 +541,7 @@ header {
   background: url('../images/results.jpg') no-repeat;
   background-position: center;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     justify-content: flex-end;
     align-items: center;
     text-align: center;
@@ -570,7 +570,7 @@ header {
   background-color: black;
   background-position: 51vw 0;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
@@ -594,7 +594,7 @@ header {
   background: url('../images/detachable_electrodes.jpg') no-repeat;
   background-position: center;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     justify-content: flex-end;
     align-items: center;
     text-align: center;
@@ -617,7 +617,7 @@ header {
   width: 100%;
   background-color: white;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     justify-content: space-around;
     align-items: flex-start;
     text-align: center;
@@ -655,7 +655,7 @@ header {
   background: url('../images/connecting.jpg') no-repeat;
   background-position: center;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     align-items: flex-start;
     justify-content: center;
   }
@@ -674,7 +674,7 @@ header {
   background: url('../images/connecting2.jpg') no-repeat;
   background-position: center;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     justify-content: flex-end;
     align-items: center;
     text-align: center;
@@ -707,7 +707,7 @@ header {
   width: 100%;
   background-color:white;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
@@ -716,7 +716,7 @@ header {
   text-align: center;
 }
 .product-block14__txt {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   text-align: left;
   align-items: flex-start;
   height: 33%;
@@ -753,7 +753,7 @@ header {
   background: url('../images/size.png') no-repeat;
 }
 .product-block14__p2 {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
 }
 .product-block14__list {
   display: inline-block;
@@ -780,7 +780,7 @@ header {
   background: url('../images/accessories.jpg') no-repeat;
   background-position: center;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -795,7 +795,7 @@ header {
   margin: 0;
 }
 .product-block16__wrap {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
@@ -815,7 +815,7 @@ header {
   text-align: center;
   margin: 5px;
   background-size: cover;
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content: center;
 }
 .product-block16__link__txt1, .product-block16__link__txt2 {
@@ -835,40 +835,28 @@ header {
 .product-block16__link3 {
   height: 230px;
   background-image: url(../images/acc/accessories_ec01.png);
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   align-items: flex-end;
   justify-content: center;
-}
-.product-block16__link__txt {
-  margin-bottom: 10%;
 }
 .product-block16__link4 {
   height: 400px;
   background-image: url(../images/acc/accessories_electrodes735cu.png);
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   align-items: flex-end;
   justify-content: center;
-}
-.product-block16__link__txt {
-  margin-bottom: 10%;
-}
-.product-block16__link__txt {
-  margin-bottom: 10%;
 }
 .product-block16__link5 {
   height: 635px;
   background-image: url(../images/acc/accessories_case_smart_l.png);
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   align-items: flex-end;
   justify-content: center;
-}
-.product-block16__link__txt {
-  margin-bottom: 10%;
 }
 .product-block16  .product-block16__link6 {
   height: 230px;
   background-image: url(../images/acc/accessories_dx2.png);
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   align-items: center;
   justify-content: flex-start;
   background-repeat: no-repeat;
@@ -879,6 +867,7 @@ header {
 .product-block16__link__txt {
   margin-top:0;
   padding-left: 7%;
+  margin-bottom: 10%;
 }
 .product-block16__link7 {
   height: 230px;
@@ -887,15 +876,9 @@ header {
 .product-block16__link8 {
   height: 230px;
   background-image: url(../images/acc/accessories_ev01z.png);
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   align-items: flex-end;
   justify-content: center;
-}
-.product-block16__link__txt {
-  margin-bottom: 10%;
-}
-.product-block16__link__txt {
-  margin-top: 10%;
 }
 .product-block16__link__txt1 {
   font-size: 20px;
@@ -921,14 +904,14 @@ header {
   border-top:#ffd335 solid 4px;
 }
 .footer-container {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content: space-between;
   height: 100%;
   align-items: center;
 }
 .footer-top__block {
   width: 33%;
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -991,7 +974,7 @@ header {
   position: relative;
 }
 .tech-nav__list {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content:space-around;
   align-items: center;
   position: relative;
@@ -1017,7 +1000,7 @@ header {
 }
 .tech-block1 {
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
   }
 }
 .tech-block1__left {
@@ -1081,7 +1064,7 @@ header {
   background-image: url("../images/technology/dx2side400.png");
   background-position: center;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items:center;
@@ -1104,7 +1087,7 @@ header {
   }
 }
 .tech-block3__left, .tech-block3__mid, .tech-block3__right {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items:center;
@@ -1118,7 +1101,7 @@ header {
   font-size: 50px;
   margin: 0;
   flex-basis: 6vw;
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   align-items: center;
   text-align: center;
 }
@@ -1130,7 +1113,7 @@ header {
 }
 .tech-block4 {
  .content__container {
-   display: -webkit-box;   display: -ms-flexbox;   display: flex;
+   display: flex;
    flex-direction: column;
    align-items: center;
  }
@@ -1282,7 +1265,7 @@ header {
   background-image: url("../images/technology/technology-dx2.png");
   background-position: center;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items:center;
@@ -1374,7 +1357,7 @@ header {
 }
 .hyst-nav__right {
   padding-right: 3%;
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content:space-around;
 }
 .hyst-nav__item {
@@ -1412,7 +1395,7 @@ header {
   background-repeat: no-repeat;
   .content__container {
     height: 100%;
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     align-items: flex-end;
   }
 }
@@ -1463,11 +1446,11 @@ header {
   text-align: center;
   margin: 0.4vw;
   background-size: cover;
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content: center;
 }
 .block-buttons__link__txt {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: column;
 }
 .block-buttons__link__txt1, .block-buttons__link__txt2 {
@@ -1485,7 +1468,7 @@ header {
   background-color: #F0F0F0;
 }
 .hyst-block2__wrap {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
@@ -1502,7 +1485,7 @@ header {
   background-position: center;
   justify-content: flex-end;
   .block-buttons__link__txt {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     padding-right: 3vw;
@@ -1599,7 +1582,7 @@ header {
   background-image: url(../images/history/2012-ex715.png);
 }
 .hyst-block4__wrap {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
@@ -1651,11 +1634,11 @@ header {
 }
 .hyst-block4__wrap1 {
   flex-direction: column;
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
 }
 
 .hyst-block6__wrap {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
@@ -1758,43 +1741,43 @@ header {
   background-image: url(../images/history/1999-scenar713.png);
 }
 .hyst-block6__wrap1 {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .hyst-block6__wrap2 {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .hyst-block6__wrap3 {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .hyst-block6__wrap4 {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .hyst-block8__wrap {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
 }
 .hyst-block8__wrap1 {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .hyst-block8__wrap1_1 {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .hyst-block8__wrap2 {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 25%;
@@ -1856,7 +1839,7 @@ header {
   }
 }
 .hyst-block10__wrap {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
@@ -1919,7 +1902,7 @@ header {
   position: absolute;
 }
 .hyst-bot-nav__container {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content:space-between;
   height: 100%;
   align-items: center;
@@ -1935,7 +1918,7 @@ header {
 }
 .hyst-bot-nav__item {
   list-style: none;
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   a {
@@ -2211,7 +2194,7 @@ header {
   text-align: right;
 }
 .hyst-block-1990s__3__lineswrap {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
 
 }
 .hyst-block-1990s__3__line1 {
@@ -2240,7 +2223,7 @@ header {
   font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;
 }
 .hyst-block-1990s__3__topwrap {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
 }
 .hyst-block-1990s__3__toptext {
   height:20px;
@@ -2372,7 +2355,7 @@ header {
   height: 333px;
 }
 .hyst-block-2000s__wrap2 {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content: center;
 }
 .hyst-bot-nav2010__img1 {
@@ -2458,7 +2441,7 @@ header {
   height:500px;
 }
 .hyst-block-2010s__wrap-img {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content: center;
 }
 .hyst-block-2010s__3 {
@@ -2617,7 +2600,7 @@ header {
   width: 55.56%;
 }
 .disp_flex {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
 }
 .main-block1 {
   height: $main-block1-height;
@@ -2628,20 +2611,20 @@ header {
   background-position: center;
 }
 .main-block1__txt1__wrap {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content: flex-end;
 }
 .main-block1__txt2__wrap {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content: flex-start;
 }
 .main-block1__txt1 {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   align-items: center;
   flex-direction: column;
 }
 .main-block1__txt2 {
-  display: -webkit-box;   display: -ms-flexbox;   display: flex;
+  display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -2678,7 +2661,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   .content__container {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     justify-content: flex-end;
     align-items: center;
   }
@@ -2920,6 +2903,7 @@ header {
   .hyst-block8__link3 .block-buttons__link__txt,
   .hyst-block8__link9 .block-buttons__link__txt {
     top: 0;
+    right: 0;
     height: 100%;
     position: absolute;
     justify-content: center;
@@ -2996,6 +2980,11 @@ header {
   }
   .product-block16__link__txt {
     margin:0;
+    width: 100%;
+    left: 0;
+  }
+  .product-block16__link__txt1 {
+    font-size: 3vw;
   }
   .product-block16__link1 {
     padding-top: 112%;
@@ -3037,7 +3026,7 @@ header {
         top: 0;
         padding-left: 5%;
         height: 100%;
-        display: -webkit-box;   display: -ms-flexbox;   display: flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
       }
@@ -3508,10 +3497,10 @@ header {
   .product-block5__txt {
     text-align: center;
     flex-direction: column;
-    padding: 28px 3%;
-    margin: 0 2%;
+    padding: 10vw 0;
+    margin: 0;
     align-items: center;
-    height: 33%;
+    height: 0;
     border-bottom: 1px solid black;
   }
   .product-block5__title {
@@ -3530,6 +3519,7 @@ header {
   .product-block6 {
     width: 100%;
     height: 0;
+    left: 0;
     padding-top: 110.7%;
     position: relative;
     background: url("../images/mobile/control.jpg") no-repeat;
@@ -3573,10 +3563,11 @@ header {
   .product-block8__txt {
     position: absolute;
     top: 0;
+    left: 0;
     padding-top: 0;
     width: 100%;
     padding-right: 0;
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
@@ -3602,7 +3593,7 @@ header {
     padding-top: 0;
     width: 100%;
     padding-left: 0;
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
@@ -3617,6 +3608,7 @@ header {
   .product-block10 {
     width: 100%;
     height: 0;
+    left: 0;
     padding-top: 156.3%;
     position: relative;
     background: url(../images/mobile/detachableelectrodes.jpg) no-repeat;
@@ -3693,6 +3685,8 @@ header {
     position: absolute;
     top: 5%;
     padding-top: 0;
+    width: 100%;
+    left: 0;
   }
   .product-block13 {
     width: 100%;
@@ -3707,12 +3701,13 @@ header {
     bottom: 10%;
   }
   .product-block13__icons {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     justify-content: center;
     position: absolute;
     bottom: 10%;
     padding-right: 0;
     width: 100%;
+    left: 0;
   }
   .product-block13__ico-wrap {
     width: 30%;
@@ -3738,6 +3733,7 @@ header {
     flex-direction: column;
     align-items: left;
     padding-left: 8vw;
+    height: unset;
   }
   .product-block14__list-bord {
     border: none;
@@ -3787,7 +3783,10 @@ header {
   .product-block15__title {
     color:white;
   }
-
+  .product-block16__link__txt {
+    padding: 0;
+    display: none;
+  }
   .product-block16__link__txt2 {
     display: none;
   }
@@ -3864,7 +3863,7 @@ header {
     padding:0 2vw;
   }
   .slicknav-menu1__but {
-    display: -webkit-box;   display: -ms-flexbox;   display: flex;
+    display: flex;
     align-items: center;
   }
   .icon-bars:before {
