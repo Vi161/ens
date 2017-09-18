@@ -256,14 +256,6 @@ header {
   text-decoration: none;
   color: #666;
 }
-.nav-fixed {
-  position:fixed;
-  top:0px;
-  width: 100%;
-  transition: top 1s;
-  z-index: 1000;
-
-}
 .header-wrap {
   top:-55px;
   transition: top 1s;
@@ -824,9 +816,15 @@ header {
 .product-block16__link1 {
   height: 400px;
   background: url(../images/acc/accessories_dx1.png);
+  .product-block16__link__txt {
+    padding-top: 10%;
+  }
 }
 .product-block16__link__txt2 {
   padding: 5px 0;
+  .product-block16__link__txt {
+    padding-top: 10%;
+  }
 }
 .product-block16__link2 {
   height: 230px;
@@ -838,6 +836,9 @@ header {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  .product-block16__link__txt {
+    padding-bottom: 10%;
+  }
 }
 .product-block16__link4 {
   height: 400px;
@@ -845,6 +846,9 @@ header {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  .product-block16__link__txt {
+    padding-bottom: 10%;
+  }
 }
 .product-block16__link5 {
   height: 635px;
@@ -852,6 +856,9 @@ header {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  .product-block16__link__txt {
+    padding-bottom: 10%;
+  }
 }
 .product-block16  .product-block16__link6 {
   height: 230px;
@@ -862,16 +869,18 @@ header {
   background-repeat: no-repeat;
   .product-block16__link__txt {
     width: 30%;
+    padding-left:7%;
   }
 }
 .product-block16__link__txt {
   margin-top:0;
-  padding-left: 7%;
-  margin-bottom: 10%;
 }
 .product-block16__link7 {
   height: 230px;
   background-image: url(../images/acc/accessories_ent01.png);
+  .product-block16__link__txt {
+    padding-top: 10%;
+  }
 }
 .product-block16__link8 {
   height: 230px;
@@ -879,6 +888,9 @@ header {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  .product-block16__link__txt {
+    padding-bottom: 10%;
+  }
 }
 .product-block16__link__txt1 {
   font-size: 20px;
@@ -2666,6 +2678,13 @@ header {
     align-items: center;
   }
 }
+.nav-fixed {
+  position:fixed;
+  top:0px;
+  width: 100%;
+  transition: top 1s;
+  z-index: 1000;
+}
 @media (min-width: 768px)and (max-width: 1060px) {
   .header-nav__wrap .header-nav__item-a,{
     font-size: 1.9vw;
@@ -2971,6 +2990,10 @@ header {
 @media screen and (max-width: 1060px) {
   .product-block16__link {
     margin: 0.4vw;
+    .product-block16__link__txt {
+      margin:0;
+      padding: 0;
+    }
   }
   .product-block16__link {
     background-size: contain;

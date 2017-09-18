@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/ens/ens.html" afterPath="$PROJECT_DIR$/products/ens/ens.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/history.html" afterPath="$PROJECT_DIR$/history/history.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +35,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3877" column="8" selection-start="82835" selection-end="82840" vertical-scroll-proportion="0.0" vertical-offset="67351" max-vertical-offset="68187">
+                <state line="3900" column="8" selection-start="83305" selection-end="83310" vertical-scroll-proportion="0.0" vertical-offset="67742" max-vertical-offset="68578">
                   <folding />
                 </state>
               </provider>
@@ -50,10 +54,28 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3443" column="11" selection-start="73873" selection-end="73873" vertical-scroll-proportion="0.16985646" vertical-offset="58389" max-vertical-offset="68187">
+                <state line="2994" column="17" selection-start="65746" selection-end="65746" vertical-scroll-proportion="-5.5657897" vertical-offset="50475" max-vertical-offset="68578">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="history.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/history/history.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="894" column="25" selection-start="38930" selection-end="38930" vertical-scroll-proportion="-25.923077" vertical-offset="14524" max-vertical-offset="15385">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="46" column="0" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.4377778" vertical-offset="388" max-vertical-offset="2176">
                   <folding />
                 </state>
               </provider>
@@ -117,11 +139,11 @@
         <option value="$PROJECT_DIR$/history/2010s/2010s.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/js/viewport-units-buggyfill.js" />
-        <option value="$PROJECT_DIR$/history/history.html" />
         <option value="$PROJECT_DIR$/products/ens/ens.html" />
+        <option value="$PROJECT_DIR$/history/history.html" />
         <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -268,6 +290,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="history" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,7 +469,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/history/2010s/2010s.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="36" selection-start="13624" selection-end="13643" vertical-scroll-proportion="0.0" vertical-offset="2428" max-vertical-offset="5202" />
+        <state line="151" column="36" selection-start="13624" selection-end="13643" vertical-scroll-proportion="0.0" vertical-offset="2428" max-vertical-offset="5202">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
@@ -445,7 +483,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aboutus/aboutus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2601" />
+        <state line="19" column="23" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2601">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -641,7 +681,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/technology/how_it_work/how_it_work.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="47" selection-start="117" selection-end="117" vertical-scroll-proportion="0.12208258" vertical-offset="0" max-vertical-offset="3094" />
+        <state line="4" column="47" selection-start="117" selection-end="117" vertical-scroll-proportion="0.12208258" vertical-offset="0" max-vertical-offset="3094">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.html">
@@ -671,17 +713,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/technology/technology.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="106" selection-start="4307" selection-end="4307" vertical-scroll-proportion="1.059246" vertical-offset="549" max-vertical-offset="4097" />
+        <state line="67" column="106" selection-start="4307" selection-end="4307" vertical-scroll-proportion="1.059246" vertical-offset="549" max-vertical-offset="4097">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/history/1980s/1980s.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="312" column="0" selection-start="17450" selection-end="17450" vertical-scroll-proportion="-7.7647057" vertical-offset="4908" max-vertical-offset="5610" />
+        <state line="312" column="0" selection-start="17450" selection-end="17450" vertical-scroll-proportion="-7.7647057" vertical-offset="4908" max-vertical-offset="5610">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/history/1990s/1990s.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="409" column="0" selection-start="33493" selection-end="33493" vertical-scroll-proportion="-2.4210527" vertical-offset="6769" max-vertical-offset="7276" />
+        <state line="409" column="0" selection-start="33493" selection-end="33493" vertical-scroll-proportion="-2.4210527" vertical-offset="6769" max-vertical-offset="7276">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/history/1970s/1970s.html">
@@ -691,12 +739,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/history/2000s/2000s.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="142" selection-start="4290" selection-end="4290" vertical-scroll-proportion="0.73767257" vertical-offset="901" max-vertical-offset="4879" />
+        <state line="75" column="142" selection-start="4290" selection-end="4290" vertical-scroll-proportion="0.73767257" vertical-offset="901" max-vertical-offset="4879">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/history/2010s/2010s.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="143" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.5083732" vertical-offset="340" max-vertical-offset="5202" />
+        <state line="45" column="143" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.5083732" vertical-offset="340" max-vertical-offset="5202">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aboutus/legal/legal.html">
@@ -706,19 +758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aboutus/aboutus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="48" selection-start="5323" selection-end="5323" vertical-scroll-proportion="0.7433217" vertical-offset="805" max-vertical-offset="2601" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="61" selection-start="1641" selection-end="1641" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1989">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/history/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="44" selection-start="1570" selection-end="1570" vertical-scroll-proportion="-3.9230769" vertical-offset="510" max-vertical-offset="15402">
+        <state line="85" column="48" selection-start="5323" selection-end="5323" vertical-scroll-proportion="0.7433217" vertical-offset="805" max-vertical-offset="2601">
           <folding />
         </state>
       </provider>
@@ -755,7 +795,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3443" column="11" selection-start="73873" selection-end="73873" vertical-scroll-proportion="0.16985646" vertical-offset="58389" max-vertical-offset="68187">
+        <state line="2994" column="17" selection-start="65746" selection-end="65746" vertical-scroll-proportion="-5.5657897" vertical-offset="50475" max-vertical-offset="68578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="894" column="25" selection-start="38930" selection-end="38930" vertical-scroll-proportion="-25.923077" vertical-offset="14524" max-vertical-offset="15385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.4377778" vertical-offset="388" max-vertical-offset="2176">
           <folding />
         </state>
       </provider>
