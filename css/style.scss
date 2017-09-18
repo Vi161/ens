@@ -3441,6 +3441,7 @@ header {
   .product-block1__txt {
     width: 100%;
     margin: 0 auto;
+    left: 0;
     text-align: center;
 //    position: inherit;
 //    padding-bottom: 235%;
@@ -3527,6 +3528,8 @@ header {
   .product-block6__txt {
     position: absolute;
     top: 0;
+    width: 100%;
+    left: 0;
     padding-top: 0;
   }
   .product-block6__title {
