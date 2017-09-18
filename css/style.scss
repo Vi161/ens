@@ -427,7 +427,6 @@ header {
   display: flex;
   text-align: left;
   align-items: center;
-  height: 33%;
   padding: 28px 0;
   border-bottom: 1px solid black;
 }
@@ -572,13 +571,13 @@ header {
   color: #fffaf0;
   width: 50%;
   padding-left: 20px;
-  .product-block9__title {
-    margin: 0;
-  }
-  .product-block9__p1 {
-    font-size: 26px;
-    padding: 0 39px;
-  }
+}
+.product-block9__title {
+  margin: 0;
+}
+.product-block9__p1 {
+  font-size: 26px;
+  padding: 0 39px;
 }
 .product-block10 {
   height: $product-block10-height;
@@ -3524,7 +3523,6 @@ header {
     padding: 10vw 0;
     margin: 0;
     align-items: center;
-    height: 0;
     border-bottom: 1px solid black;
   }
   .product-block5__title {
