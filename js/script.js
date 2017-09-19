@@ -84,12 +84,10 @@ $(document).ready(function(){
 //        $('.slicknav-menu1__but').css("background","red")
     });
     $('.slicknav-menu1__but').click(function(){
+        $(".header-nav__wrap").toggleClass("header-nav__wrap__toggle");
         $(".icon-bars").toggleClass("icon-close");
         $(".header-nav").toggleClass("header-nav__toggle");
-        $(".header-nav__wrap").toggleClass("header-nav__wrap__toggle");
         $( "#header-nav__list").slideToggle("slow");
-
-
     });
 });
 //        var mibile_width = 767;

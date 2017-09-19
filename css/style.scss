@@ -3372,6 +3372,9 @@ header {
   .header-nav__logo {
     justify-content: center;
     width: 100%;
+    padding: 0;
+    position: relative;
+    left: -6vw;
   }
   #header-nav__list {
     display:none;
@@ -3397,6 +3400,7 @@ header {
   }
   .slicknav-menu1 {
     display:flex;
+    z-index: 100;
   }
 
   .flex-on {
@@ -3895,6 +3899,7 @@ header {
   .slicknav-menu1__but {
     display: flex;
     align-items: center;
+    width: 6vw;
   }
   .icon-bars:before {
     font-size: 5vw;
@@ -4044,5 +4049,9 @@ header {
   }
   .no-border {
     border: none;
+  }
+  .header-nav__logo1, .header-nav__logo2 {
+    height: unset;
+    margin: 7px 0;
   }
 }
