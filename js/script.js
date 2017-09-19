@@ -26,13 +26,13 @@ var navmenu = function(class1){
                 }
                 else if ($(this).scrollTop() < 85){
                     $('.header-wrap').removeClass('header-wrap-fixed');//rem1
-                    $('.product-block1').css("top","80px")
+//                    $('.product-block1').css("top","80px")
 
                 }
                 if ((iCurScrollPos < iScrollPos) &&  ($(this).scrollTop() >= 55) ) {
                     $('.header-wrap').addClass('header-wrap-fixed');//add1
                     $(class1).removeClass('nav-fixed');//rem2
-                    $('.product-block1').css("top","0")
+//                    $('.product-block1').css("top","0")
                 }
                 else if (iCurScrollPos > iScrollPos){
                     $('.header-wrap').removeClass('header-wrap-fixed');//rem1

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/ens/ens.html" afterPath="$PROJECT_DIR$/products/ens/ens.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,28 +28,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4042" column="0" selection-start="86154" selection-end="86154" vertical-scroll-proportion="0.55263156" vertical-offset="68252" max-vertical-offset="69088">
+                <state line="4042" column="0" selection-start="86154" selection-end="86154" vertical-scroll-proportion="-9.058824" vertical-offset="68252" max-vertical-offset="69088">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="styleico.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/styleico.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="2" selection-start="901" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1207">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ens.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="ens.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/products/ens/ens.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="38" selection-start="1567" selection-end="1567" vertical-scroll-proportion="-4.117647" vertical-offset="368" max-vertical-offset="11985">
+                <state line="28" column="61" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.24390244" vertical-offset="266" max-vertical-offset="11985">
                   <folding />
                 </state>
               </provider>
@@ -82,7 +71,7 @@
           <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="86" column="0" selection-start="3182" selection-end="3182" vertical-scroll-proportion="0.4102857" vertical-offset="1103" max-vertical-offset="2278">
+                <state line="35" column="17" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.68" vertical-offset="0" max-vertical-offset="2278">
                   <folding />
                 </state>
               </provider>
@@ -149,9 +138,9 @@
         <option value="$PROJECT_DIR$/js/viewport-units-buggyfill.js" />
         <option value="$PROJECT_DIR$/history/history.html" />
         <option value="$PROJECT_DIR$/css/styleico.css" />
-        <option value="$PROJECT_DIR$/products/ens/ens.html" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/products/ens/ens.html" />
       </list>
     </option>
   </component>
@@ -831,23 +820,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products/ens/ens.html">
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="38" selection-start="1567" selection-end="1567" vertical-scroll-proportion="-4.117647" vertical-offset="368" max-vertical-offset="11985">
+        <state line="4042" column="0" selection-start="86154" selection-end="86154" vertical-scroll-proportion="-9.058824" vertical-offset="68252" max-vertical-offset="69088">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="3182" selection-end="3182" vertical-scroll-proportion="0.4102857" vertical-offset="1103" max-vertical-offset="2278">
+        <state line="35" column="17" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.68" vertical-offset="0" max-vertical-offset="2278">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/products/ens/ens.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4042" column="0" selection-start="86154" selection-end="86154" vertical-scroll-proportion="0.55263156" vertical-offset="68252" max-vertical-offset="69088">
+        <state line="28" column="61" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.24390244" vertical-offset="266" max-vertical-offset="11985">
           <folding />
         </state>
       </provider>
