@@ -3385,6 +3385,8 @@ header {
     padding: 0;
     z-index: 10;
     left: 0;
+    position: fixed;
+    height: 100%;
   }
   .header-nav__item {
     border-bottom:1px solid grey;
@@ -4037,13 +4039,6 @@ header {
     font-size: 5vw;
     line-height: unset;
     padding: 0 5vw;
-  }
-  .header-nav__toggle {
-    position: fixed;
-  }
-  .header-nav__wrap__toggle {
-    position: fixed;
-    height: 100%;
   }
   .header-nav__item-a {
     font-size: 5vw;
