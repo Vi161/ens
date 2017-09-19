@@ -3374,7 +3374,7 @@ header {
     width: 100%;
     padding: 0;
     position: relative;
-    left: -6vw;
+    left: -10vw;
   }
   #header-nav__list {
     display:none;
@@ -3433,6 +3433,7 @@ header {
   }
   .products-nav__item {
     border-bottom:1px solid grey;
+    padding: 1vw 0;
   }
   #products-nav__list.active, .products-nav__right.active {
     flex-direction: column;
@@ -3899,7 +3900,8 @@ header {
   .slicknav-menu1__but {
     display: flex;
     align-items: center;
-    width: 6vw;
+    width: 10vw;
+    justify-content: center;
   }
   .icon-bars:before {
     font-size: 5vw;
@@ -4053,5 +4055,9 @@ header {
   .header-nav__logo1, .header-nav__logo2 {
     height: unset;
     margin: 7px 0;
+  }
+  .products-nav__item-a {
+    font-size: 5vw;
+    padding: 0 3vw;
   }
 }
