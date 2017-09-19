@@ -26,10 +26,13 @@ var navmenu = function(class1){
                 }
                 else if ($(this).scrollTop() < 85){
                     $('.header-wrap').removeClass('header-wrap-fixed');//rem1
+                    $('.product-block1').css("top","80px")
+
                 }
                 if ((iCurScrollPos < iScrollPos) &&  ($(this).scrollTop() >= 55) ) {
                     $('.header-wrap').addClass('header-wrap-fixed');//add1
                     $(class1).removeClass('nav-fixed');//rem2
+                    $('.product-block1').css("top","0")
                 }
                 else if (iCurScrollPos > iScrollPos){
                     $('.header-wrap').removeClass('header-wrap-fixed');//rem1
@@ -78,9 +81,14 @@ $(document).ready(function(){
     });
     $('.slicknav-menu__but').click(function(){
         $(  "#products-nav__list").slideToggle("slow");
+//        $('.slicknav-menu1__but').css("background","red")
     });
     $('.slicknav-menu1__but').click(function(){
         $(  "#header-nav__list").slideToggle("slow");
+        $(".icon-bars").toggleClass("icon-close");
+        $(".header-nav").toggleClass("header-nav__toggle");
+        $(".header-nav__wrap").toggleClass("header-nav__wrap__toggle");
+
     });
 });
 //        var mibile_width = 767;
