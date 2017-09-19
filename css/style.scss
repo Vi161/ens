@@ -289,6 +289,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: static;
   }
 }
 .product-block1__txt {
@@ -3463,6 +3464,7 @@ header {
     width: 100%;
     height: 0;
     padding-top: 158%;
+    position: relative;
   }
   .product-block1__txt {
     width: 100%;
