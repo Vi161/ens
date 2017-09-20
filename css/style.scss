@@ -192,6 +192,12 @@ header {
   margin-left: 5px;
   font-size:14px;
 }
+.lang-desktop {
+  display: inline;
+}
+.lang-mob {
+  display: none;
+}
 .header-nav__active {
   font-weight: 800;
   pointer-events: none;
@@ -3938,7 +3944,8 @@ header {
     font-size: 5vw;
   }
   .header-nav__wrap .header-nav__lang-wrap {
-    padding: 2vw 0;
+    padding-top: 8vw;
+    text-align: center;
   }
   .tech-block1 .content__container {
     display: block;
@@ -4054,5 +4061,26 @@ header {
   .products-nav__item-a {
     font-size: 5vw;
     padding: 0 3vw;
+  }
+  .header-nav__lang {
+    text-transform: capitalize;
+    text-decoration: none;
+    border: 1px #CCC solid;
+    border-radius: 4px;
+    padding: 2vw 5vw;
+    /* margin-left: 7px; */
+    margin: 0 3vw;
+    font-size: 4vw;
+    color: white;
+  }
+  .header-nav__lang:hover {
+    border-color: darkgreen;
+    color: darkgreen;
+  }
+  .lang-desktop {
+    display: none;
+  }
+  .lang-mob {
+    display: inline;
   }
 }
