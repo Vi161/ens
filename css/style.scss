@@ -4061,6 +4061,12 @@ header {
   .products-nav__item-a {
     font-size: 5vw;
     padding: 0 3vw;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .header-nav__fixed {
+    position: fixed;
   }
   .header-nav__lang {
     text-transform: capitalize;
@@ -4082,5 +4088,8 @@ header {
   }
   .lang-mob {
     display: inline;
+  }
+  .no-overflow {
+    overflow-y: hidden;
   }
 }

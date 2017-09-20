@@ -86,13 +86,20 @@ $(document).ready(function(){
         $(  "#products-nav__list").slideToggle("slow");
         return false;
     });
-        $('body').click(function(){
+    $('body').click(function(){
+        $("#products-nav__list").hide();
+    });
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 0) {
             $("#products-nav__list").hide();
-        });
+        }
+    });
     $('.slicknav-menu1__but').click(function(){
         $(".icon-bars").toggleClass("icon-close");
         $( "#header-nav__list").slideToggle("slow");
         $("#products-nav__list").hide();
+        $(".header-nav").toggleClass("header-nav__fixed");
+        $("body").toggleClass("no-overflow");
         return false;
     });
 
