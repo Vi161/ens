@@ -207,6 +207,7 @@ header {
 }
 .products-nav {
   padding: 0.5vw 0;
+  position: absolute;
   background-color: rgb(249, 249, 249);
   opacity: 0.95;
 }
@@ -264,16 +265,16 @@ header {
 }
 .header-wrap {
   top:-55px;
+  width: 100%;
   transition: top 1s;
 }
 .header-wrap-fixed {
-  height: 85px;
-  width: 100%;
   position: fixed;
   top:0;
-  transition: top 1s;
+//  transition: top 1s;
   z-index: 1000;
 }
+
 
 .product-block1__txt p {
   margin: 0;
@@ -718,7 +719,6 @@ header {
   display: flex;
   text-align: left;
   align-items: flex-start;
-  height: 33%;
   padding: 28px 0;
   border-bottom: 1px solid #ccc;
 }
@@ -3427,7 +3427,6 @@ header {
   .products-nav {
     z-index: 1;
     padding:0;
-    position: relative;
   }
   #products-nav__list,
   .products-nav__right {

@@ -1,4 +1,3 @@
-
 //  ---------перелистывание к якорям-------------
 $(document).ready(function() {
     $('a[href^="#"]').click(function(){
@@ -15,7 +14,6 @@ $(document).ready(function() {
 var navmenu = function(class1){
     var two_classes = 'header, ' + class1;
 //    alert(two_classes);
-    $(two_classes).wrapAll('<div class="header-wrap">');
     var iScrollPos = 0;
     var hproductsnav= $(".products-nav").outerHeight();
     var hheadernav= $(".header-nav").outerHeight();
@@ -26,18 +24,23 @@ var navmenu = function(class1){
                 var iCurScrollPos = $(this).scrollTop();
                 if($(this).scrollTop() >= 55) {
                     $(class1).addClass('nav-fixed'); //add2
+//                    $('.header-wrap').addClass('header-wrap-fixed');//add1
+                    $('.header-wrap').removeClass('header-wrap-fixed');//add1
+
                 }
                 else if ($(this).scrollTop() < 85){
-                    $('.header-wrap').removeClass('header-wrap-fixed');//rem1
-//                    $('.product-block1').css("top","80px")
+//                    $('header').removeClass('header-wrap-fixed');//rem1
                 }
                 if ((iCurScrollPos < iScrollPos) &&  ($(this).scrollTop() >= 55) ) {
                     $('.header-wrap').addClass('header-wrap-fixed');//add1
+
                     $(class1).removeClass('nav-fixed');//rem2
-//                    $('.product-block1').css("top","0")
                 }
                 else if (iCurScrollPos > iScrollPos){
-                    $('.header-wrap').removeClass('header-wrap-fixed');//rem1
+//                    $('header').removeClass('header-wrap-fixed');//rem1
+//                    $('header').addClass('header-wrap-off');//add1
+
+
                 }
                 var lastScrollTop = 0;
                 iScrollPos = iCurScrollPos;
