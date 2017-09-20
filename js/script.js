@@ -80,17 +80,15 @@ $(document).ready(function(){
             $('#header-nav__list').removeClass('flex-on');
 
         };
+
     });
     $('.slicknav-menu__but').click(function(){
         $(  "#products-nav__list").slideToggle("slow");
         return false;
     });
-    $('body').click(function(){
-        $("#products-nav__list").slideToggle("slow");
-        return false;
-
-    });
-
+        $('body').click(function(){
+            $("#products-nav__list").hide();
+        });
     $('.slicknav-menu1__but').click(function(){
         $(".icon-bars").toggleClass("icon-close");
         $( "#header-nav__list").slideToggle("slow");

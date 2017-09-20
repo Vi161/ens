@@ -7,23 +7,19 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/1990s/1990s.html" afterPath="$PROJECT_DIR$/history/1990s/1990s.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/2000s/2000s.html" afterPath="$PROJECT_DIR$/history/2000s/2000s.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/2010s/2010s.html" afterPath="$PROJECT_DIR$/history/2010s/2010s.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboutus/aboutus.html" afterPath="$PROJECT_DIR$/aboutus/aboutus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/ens/ens.html" afterPath="$PROJECT_DIR$/products/ens/ens.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/history.html" afterPath="$PROJECT_DIR$/history/history.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/how_it_work/how_it_work.html" afterPath="$PROJECT_DIR$/technology/how_it_work/how_it_work.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboutus/legal/legal.html" afterPath="$PROJECT_DIR$/aboutus/legal/legal.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/medication-free_treatment/medication-free_treatment.html" afterPath="$PROJECT_DIR$/technology/medication-free_treatment/medication-free_treatment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.html" afterPath="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/old_good_ens03/old_good_ens03.html" afterPath="$PROJECT_DIR$/technology/old_good_ens03/old_good_ens03.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/technology.html" afterPath="$PROJECT_DIR$/technology/technology.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/tens_scenar_cosmodic/tens_scenar_cosmodic.html" afterPath="$PROJECT_DIR$/technology/tens_scenar_cosmodic/tens_scenar_cosmodic.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health/transferring_to_a_different_level_of_health.html" afterPath="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health/transferring_to_a_different_level_of_health.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/using/using.html" afterPath="$PROJECT_DIR$/technology/using/using.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.html" afterPath="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,10 +53,28 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ens.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="ens.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/products/ens/ens.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="114" selection-start="2117" selection-end="2125" vertical-scroll-proportion="0.75029033" vertical-offset="0" max-vertical-offset="11985">
+                <state line="39" column="136" selection-start="2031" selection-end="2285" vertical-scroll-proportion="-25.5" vertical-offset="0" max-vertical-offset="11985">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="38" column="20" selection-start="1959" selection-end="2213" vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="2380">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="legal.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/aboutus/legal/legal.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="36" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.49361208" vertical-offset="0" max-vertical-offset="2295">
                   <folding />
                 </state>
               </provider>
@@ -82,7 +96,7 @@
           <file leaf-file-name="history.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/history/history.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="26" selection-start="159" selection-end="159" vertical-scroll-proportion="-0.8947368" vertical-offset="0" max-vertical-offset="15385">
+                <state line="11" column="19" selection-start="482" selection-end="482" vertical-scroll-proportion="-2.4605262" vertical-offset="0" max-vertical-offset="15385">
                   <folding />
                 </state>
               </provider>
@@ -91,7 +105,7 @@
           <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="96" column="38" selection-start="3516" selection-end="3516" vertical-scroll-proportion="0.8937143" vertical-offset="850" max-vertical-offset="2448">
+                <state line="90" column="0" selection-start="3290" selection-end="3290" vertical-scroll-proportion="0.70857143" vertical-offset="910" max-vertical-offset="2414">
                   <folding />
                 </state>
               </provider>
@@ -150,7 +164,6 @@
         <option value="$PROJECT_DIR$/history/1980s/1980s.html" />
         <option value="$PROJECT_DIR$/history/1990s/1990s.html" />
         <option value="$PROJECT_DIR$/history/2000s/2000s.html" />
-        <option value="$PROJECT_DIR$/aboutus/legal/legal.html" />
         <option value="$PROJECT_DIR$/history/2010s/2010s.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
@@ -160,6 +173,7 @@
         <option value="$PROJECT_DIR$/aboutus/aboutus.html" />
         <option value="$PROJECT_DIR$/products/ens/ens.html" />
         <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/aboutus/legal/legal.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
@@ -695,7 +709,9 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="23" selection-start="3392" selection-end="3392" vertical-scroll-proportion="0.33258173" vertical-offset="1949" max-vertical-offset="8228" />
+        <state line="132" column="23" selection-start="3392" selection-end="3392" vertical-scroll-proportion="0.33258173" vertical-offset="1949" max-vertical-offset="8228">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/technology/medication-free_treatment/medication-free_treatment.html">
@@ -789,13 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aboutus/legal/legal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.5240444" vertical-offset="17" max-vertical-offset="2295">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="3" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
@@ -803,25 +812,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="26" selection-start="5107" selection-end="5107" vertical-scroll-proportion="-64.73077" vertical-offset="0" max-vertical-offset="1887">
-          <folding>
-            <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/styleico.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="2" selection-start="901" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/history/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="159" selection-end="159" vertical-scroll-proportion="-0.8947368" vertical-offset="0" max-vertical-offset="15385">
           <folding />
         </state>
       </provider>
@@ -840,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products/ens/ens.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="114" selection-start="2117" selection-end="2125" vertical-scroll-proportion="0.75029033" vertical-offset="0" max-vertical-offset="11985">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3944" column="3" selection-start="83989" selection-end="83989" vertical-scroll-proportion="-3.3289473" vertical-offset="66795" max-vertical-offset="69564">
@@ -854,9 +840,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/products/ens/ens.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="136" selection-start="2031" selection-end="2285" vertical-scroll-proportion="-25.5" vertical-offset="0" max-vertical-offset="11985">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="20" selection-start="1959" selection-end="2213" vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="2380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="19" selection-start="482" selection-end="482" vertical-scroll-proportion="-2.4605262" vertical-offset="0" max-vertical-offset="15385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aboutus/legal/legal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="36" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.49361208" vertical-offset="0" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="38" selection-start="3516" selection-end="3516" vertical-scroll-proportion="0.8937143" vertical-offset="850" max-vertical-offset="2448">
+        <state line="90" column="0" selection-start="3290" selection-end="3290" vertical-scroll-proportion="0.70857143" vertical-offset="910" max-vertical-offset="2414">
           <folding />
         </state>
       </provider>
