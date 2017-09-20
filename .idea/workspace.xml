@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
@@ -33,7 +34,16 @@
           <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4065" column="19" selection-start="86556" selection-end="86556" vertical-scroll-proportion="0.43421054" vertical-offset="68742" max-vertical-offset="69717">
+                <state line="4067" column="0" selection-start="86558" selection-end="86558" vertical-scroll-proportion="0.39354068" vertical-offset="68810" max-vertical-offset="69768">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gulpfile.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gulpfile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="29" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
                   <folding />
                 </state>
               </provider>
@@ -64,9 +74,9 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3944" column="3" selection-start="83989" selection-end="83989" vertical-scroll-proportion="-3.3289473" vertical-offset="66795" max-vertical-offset="69717">
+                <state line="3948" column="3" selection-start="84045" selection-end="84045" vertical-scroll-proportion="-3.3289473" vertical-offset="66863" max-vertical-offset="69768">
                   <folding>
-                    <marker date="1505904991147" expanded="true" signature="86879:86935" placeholder="{...}" />
+                    <marker date="1505932916867" expanded="true" signature="86918:86974" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -84,7 +94,7 @@
           <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="94" column="0" selection-start="3408" selection-end="3408" vertical-scroll-proportion="0.8445714" vertical-offset="859" max-vertical-offset="2533">
+                <state line="85" column="4" selection-start="3136" selection-end="3136" vertical-scroll-proportion="0.43657142" vertical-offset="1063" max-vertical-offset="2584">
                   <folding />
                 </state>
               </provider>
@@ -145,13 +155,13 @@
         <option value="$PROJECT_DIR$/history/2000s/2000s.html" />
         <option value="$PROJECT_DIR$/history/2010s/2010s.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/js/viewport-units-buggyfill.js" />
         <option value="$PROJECT_DIR$/css/styleico.css" />
         <option value="$PROJECT_DIR$/history/history.html" />
         <option value="$PROJECT_DIR$/aboutus/aboutus.html" />
         <option value="$PROJECT_DIR$/products/ens/ens.html" />
         <option value="$PROJECT_DIR$/aboutus/legal/legal.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
@@ -784,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="3" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/styleico.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="2" selection-start="901" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1207">
@@ -808,13 +811,6 @@
     <entry file="file://$PROJECT_DIR$/aboutus/aboutus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="136" selection-start="2325" selection-end="2579" vertical-scroll-proportion="0.86875725" vertical-offset="51" max-vertical-offset="2601">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/ens/ens.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="136" selection-start="2031" selection-end="2285" vertical-scroll-proportion="-25.5" vertical-offset="0" max-vertical-offset="11985">
           <folding />
         </state>
       </provider>
@@ -840,16 +836,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/products/ens/ens.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="136" selection-start="2031" selection-end="2285" vertical-scroll-proportion="-25.5" vertical-offset="0" max-vertical-offset="11985">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="3408" selection-end="3408" vertical-scroll-proportion="0.8445714" vertical-offset="859" max-vertical-offset="2533">
+        <state line="85" column="4" selection-start="3136" selection-end="3136" vertical-scroll-proportion="0.43657142" vertical-offset="1063" max-vertical-offset="2584">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4065" column="19" selection-start="86556" selection-end="86556" vertical-scroll-proportion="0.43421054" vertical-offset="68742" max-vertical-offset="69717">
+        <state line="4067" column="0" selection-start="86558" selection-end="86558" vertical-scroll-proportion="0.39354068" vertical-offset="68810" max-vertical-offset="69768">
           <folding />
         </state>
       </provider>

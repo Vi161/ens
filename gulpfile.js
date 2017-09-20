@@ -15,7 +15,7 @@ gulp.task('styles', function() {
         .pipe(sourcemaps.write({includeContent: false, sourceRoot: '.'}))
 
         .pipe(sourcemaps.init({loadMaps: true}))
-        .pipe(autoprefix({browsers: ['last 1 version', 'iOS 6'], cascade: false}))
+        .pipe(autoprefix({browsers: ['last 4 version', 'iOS 6'], cascade: false}))
         .pipe(sourcemaps.write('.', {includeContent: false, sourceRoot: '../scripts/app'}))
 
         .pipe(gulp.dest('css'));
