@@ -210,6 +210,7 @@ header {
   position: absolute;
   background-color: rgb(249, 249, 249);
   opacity: 0.95;
+  z-index: 100;
 }
 .products-nav__container {
   margin:0 auto;
@@ -266,12 +267,12 @@ header {
 .header-wrap {
   top:-55px;
   width: 100%;
-  transition: top 1s;
+//  transition: top 1s;
 }
 .header-wrap-fixed {
   position: fixed;
   top:0;
-  transition: top 1s;
+//  transition: top 1s;
   z-index: 1000;
 }
 
@@ -2688,7 +2689,7 @@ header {
   position:fixed;
   top:0px;
   width: 100%;
-  transition: top 1s;
+//  transition: top 1s;
   z-index: 1000;
 }
 @media (min-width: 768px)and (max-width: 1060px) {
@@ -3934,7 +3935,7 @@ header {
     position:fixed;
     top:0px;
     width: 100%;
-    transition: top 1s;
+//    transition: top 1s;
   }
   .product-block3__ico1, .product-block3__ico2, .product-block3__ico3 {
     margin: 0;

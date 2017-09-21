@@ -10,58 +10,103 @@ $(document).ready(function() {
 
 
 <!-- скрипт для прилипания products-nav-->
-
 var navmenu = function(class1){
-    var two_classes = 'header, ' + class1;
-//    alert(two_classes);
     var iScrollPos = 0;
     var hproductsnav= $(".products-nav").outerHeight();
     var hheadernav= $(".header-nav").outerHeight();
 
     var mibile_width = 767;
-        if($(window).width() > mibile_width) {
-            $(window).scroll(function () {
-                var iCurScrollPos = $(this).scrollTop();
-                if($(this).scrollTop() >= 55) {
-                    $(class1).addClass('nav-fixed'); //add2
-//                    $('.header-wrap').addClass('header-wrap-fixed');//add1
-//                    $('.header-wrap').removeClass('header-wrap-fixed');//add1
+    if($(window).width() > mibile_width) {
+        $(window).scroll(function () {
+            var iCurScrollPos = $(this).scrollTop();
+            if($(this).scrollTop() >= 55) {
+                $(class1).addClass('nav-fixed'); //add2
+                $(class1).css("top","0")
+            }
+            else if ($(this).scrollTop() < 95){
+                $(class1).removeClass('nav-fixed');//rem2
+                $('header').removeClass('header-wrap-fixed');//add1
+            }
+            if ((iCurScrollPos < iScrollPos) &&  ($(this).scrollTop() >= 55) ) {
+                $('header').addClass('header-wrap-fixed');//add1
+                $(class1).css("top",hheadernav)
+            }
+            else if (iCurScrollPos > iScrollPos){
+                $('header').removeClass('header-wrap-fixed');//add1
+            }
+            var lastScrollTop = 0;
+            iScrollPos = iCurScrollPos;
+        });
+    }else{
 
-                }
-                else if ($(this).scrollTop() < 85){
-//                    $('header').removeClass('header-wrap-fixed');//rem1
-                    $(class1).removeClass('nav-fixed');//rem2
+        $(window).scroll(function () {
+            var iCurScrollPos = $(this).scrollTop();
+            if($(this).scrollTop() >= 55) {
+                $(class1).addClass('nav-fixed'); //add2
+            }
+            else if ((iCurScrollPos < iScrollPos)  ) {
+                $(class1).removeClass('nav-fixed');//rem2
+                $('header').removeClass('header-wrap-fixed');//add1
 
-                }
-                if ((iCurScrollPos < iScrollPos) &&  ($(this).scrollTop() >= 55) ) {
-//                    $('.header-wrap').addClass('header-wrap-fixed');//add1
-                    $('header').addClass('header-wrap-fixed');//add1
-
-//                    $(class1).removeClass('nav-fixed');//rem2
-                }
-                else if (iCurScrollPos > iScrollPos){
-//                    $('header').removeClass('header-wrap-fixed');//rem1
-//                    $('header').addClass('header-wrap-off');//add1
-
-
-                }
-                var lastScrollTop = 0;
-                iScrollPos = iCurScrollPos;
-            });
-        }else{
-            $(window).scroll(function () {
-                var iCurScrollPos = $(this).scrollTop();
-                if($(this).scrollTop() >= 55) {
-                    $(class1).addClass('nav-fixed'); //add2
-                }
-                else if ((iCurScrollPos < iScrollPos)  ) {
-                    $(class1).removeClass('nav-fixed');//rem2
-                }
-                var lastScrollTop = 0;
-                iScrollPos = iCurScrollPos;
-            });
-        };
+            }
+            var lastScrollTop = 0;
+            iScrollPos = iCurScrollPos;
+        });
+    };
 };
+
+//var navmenu = function(class1){
+//    var two_classes = 'header, ' + class1;
+////    alert(two_classes);
+//    var iScrollPos = 0;
+//    var hproductsnav= $(".products-nav").outerHeight();
+//    var hheadernav= $(".header-nav").outerHeight();
+//
+//    var mibile_width = 767;
+//        if($(window).width() > mibile_width) {
+//            $(window).scroll(function () {
+//                var iCurScrollPos = $(this).scrollTop();
+//                if($(this).scrollTop() >= 55) {
+//                    $(class1).addClass('nav-fixed'); //add2
+////                    $('.header-wrap').addClass('header-wrap-fixed');//add1
+////                    $('.header-wrap').removeClass('header-wrap-fixed');//add1
+//
+//                }
+//                else if ($(this).scrollTop() < 85){
+////                    $('header').removeClass('header-wrap-fixed');//rem1
+//                    $(class1).removeClass('nav-fixed');//rem2
+//                    $('header').removeClass('header-wrap-fixed');//add1
+//
+//                }
+//                if ((iCurScrollPos < iScrollPos) &&  ($(this).scrollTop() >= 55) ) {
+////                    $('.header-wrap').addClass('header-wrap-fixed');//add1
+//                    $('header').addClass('header-wrap-fixed');//add1
+//                    $('#header-nav__list').css("display","none")
+////                    $(class1).removeClass('nav-fixed');//rem2
+//                }
+//                else if (iCurScrollPos > iScrollPos){
+////                    $('header').removeClass('header-wrap-fixed');//rem1
+////                    $('header').addClass('header-wrap-off');//add1
+//
+//
+//                }
+//                var lastScrollTop = 0;
+//                iScrollPos = iCurScrollPos;
+//            });
+//        }else{
+//            $(window).scroll(function () {
+//                var iCurScrollPos = $(this).scrollTop();
+//                if($(this).scrollTop() >= 55) {
+//                    $(class1).addClass('nav-fixed'); //add2
+//                }
+//                else if ((iCurScrollPos < iScrollPos)  ) {
+//                    $(class1).removeClass('nav-fixed');//rem2
+//                }
+//                var lastScrollTop = 0;
+//                iScrollPos = iCurScrollPos;
+//            });
+//        };
+//};
 
 
 //    ----адаптивное меню----------
