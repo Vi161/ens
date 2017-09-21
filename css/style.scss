@@ -271,10 +271,9 @@ header {
 .header-wrap-fixed {
   position: fixed;
   top:0;
-//  transition: top 1s;
+  transition: top 1s;
   z-index: 1000;
 }
-
 
 .product-block1__txt p {
   margin: 0;
