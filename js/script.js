@@ -10,14 +10,9 @@ $(document).ready(function() {
 var golink = function(pad){
     $('a[href^="#"]').click(function(){
         var el = $(this).attr('href');
-//        var pad;
         $('body').animate({
             scrollTop: $(el).offset().top - pad}, 500);
-        $('header').addClass('header-wrap-fixed__off');//add1
-        $('.nav-fixed').addClass('nav-fixed-padding__off');//add1
 
-//        $('.nav-fixed').addClass('nav-fixed0');
-//        $('.nav-fixed').css("top","0");
         return false;
     });
 };
@@ -26,7 +21,6 @@ var navmenu = function(class1){
     var iScrollPos = 0;
     var hproductsnav= $(".products-nav").outerHeight();
     var hheadernav= $(".header-nav").outerHeight();
-    var paddingtop;
     var mibile_width = 767;
     if($(window).width() > mibile_width) {
 
@@ -44,11 +38,9 @@ var navmenu = function(class1){
             if ((iCurScrollPos < iScrollPos) &&  ($(this).scrollTop() >= 55) ) {
                 $('header').addClass('header-wrap-fixed');//add1
                 $(class1).css("top",hheadernav);
-                paddingtop = hproductsnav + hheadernav;
             }
             else if (iCurScrollPos > iScrollPos){
                 $('header').removeClass('header-wrap-fixed');//add1
-                paddingtop = hproductsnav;
             }
             var lastScrollTop = 0;
             iScrollPos = iCurScrollPos;
