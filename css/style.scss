@@ -70,6 +70,10 @@ $old-block3-height:400px;
   src: url('../fonts/MGS45__U.TTF');
 }
 @font-face {
+  font-family: MagistralTT-bold;
+  src: url('../fonts/MGS65__U.TTF');
+}
+@font-face {
   font-family: myriadprolightTTF;
   src: url('../fonts/myriadprolight.ttf');
 }
@@ -2632,10 +2636,14 @@ header {
 .main-block1__txt1__wrap {
   display: flex;
   justify-content: flex-end;
+  padding-top: 1vw;
+  padding-right: 25%;
 }
 .main-block1__txt2__wrap {
   display: flex;
   justify-content: flex-start;
+  padding-top: 9vw;
+  padding-left: 9%;
 }
 .main-block1__txt1 {
   display: flex;
@@ -2646,31 +2654,48 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  flex-direction: column;
+  width: 50%;
+
 }
 .main-block1__txt1__p1 {
   display: block;
   padding: 0;
   margin: 0;
   font-size: 155px;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #555;
 }
 .main-block1__txt1__span {
-
+  font-weight: bold;
+  color: #555;
 }
+
 .main-block1__txt1__p2 {
   display: block;
   margin: 0;
   padding: 0;
   font-size: 58px;
+  text-transform: uppercase;
+  color: #555;
+  font-weight: bold;
 }
 .main-block1__txt2__p1 {
   padding: 0;
   margin: 0;
   font-size: 45px;
-}
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+  }
 .main-block1__txt2__p2 {
   padding: 0;
   margin: 0;
   font-size: 45px;
+  font-style: italic;
+  color: #fff;
+  padding-top: 3vw;
 }
 .main-block2 {
   height: $main-block2-height;
@@ -2681,9 +2706,18 @@ header {
   background-position: center;
   .content__container {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #555;
+
   }
+}
+.main-block2__txt__p1 {
+  font-size: 90px;
+  font-family: 'MagistralTT-bold';
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 .nav-fixed {
   position:fixed;
@@ -2691,6 +2725,15 @@ header {
   width: 100%;
 //  transition: top 1s;
   z-index: 1000;
+}
+.header-wrap-fixed__off {
+  position: unset;
+}
+.nav-fixed__padding {
+  top: 55px;
+}
+.content>.nav-fixed__padding-off {
+  top: 55px;
 }
 @media (min-width: 768px)and (max-width: 1060px) {
   .header-nav__wrap .header-nav__item-a,{
