@@ -3383,6 +3383,43 @@ header {
     font-size: 5vw;
     line-height: unset;
   }
+  .main-block1 {
+    height: 0;
+    padding-top: 42%;
+    position: relative;
+  }
+  .main-block1 .content__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .main-block1__txt1__wrap {
+    padding-right: 35%;
+  }
+  .main-block1__txt2__wrap {
+    padding-top: 6vw;
+  }
+  .main-block1__txt1__p1 {
+    font-size: 9vw;
+  }
+  .main-block1__txt1__p2 {
+    font-size: 4vw;
+  }
+  .main-block1__txt2__p1, .main-block1__txt2__p2 {
+    font-size: 3vw;
+  }
+  .main-block2 {
+    height: 0;
+    padding-top: 42%;
+    position: relative;
+  }
+  .main-block2__txt {
+    position: absolute;
+    top: 0;
+  }
+  .main-block2__txt__p1 {
+    font-size: 7vw;
+  }
 }
 
 
@@ -3458,10 +3495,10 @@ header {
     z-index: 100;
   }
 
-  .flex-on {
+  #header-nav__list .flex-on {
     display: flex;
   }
-  .flex-off {
+  #header-nav__list .flex-off {
     display: none;
   }
   .block-buttons__link__txt1 {
