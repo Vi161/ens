@@ -1,9 +1,9 @@
 //--------обновление страницы при изменении ширины экрана----------------
 $(document).ready(function() {
     golink(30);
-    $(window).resize(function(){
-        window.setTimeout('location.reload()', 500);
-    });
+//    $(window).resize(function(){
+//        window.setTimeout('location.reload()', 500);
+//    });
 });
 
 //  ---------перелистывание к якорям-------------
@@ -78,16 +78,18 @@ $(document).ready(function(){
             $('#header-nav__list').addClass('flex-off');
             $('#header-nav__list').removeClass('flex-on');
         }else{
-            $('#products-nav__list').addClass('active');
-            $('#products-nav__list').removeClass('flex-off');
-            $('#products-nav__list').addClass('flex-on');
             $('#header-nav__list').addClass('active');
             $('#header-nav__list').addClass('flex-off');
             $('#header-nav__list').removeClass('flex-on');
+
+            $('#products-nav__list').addClass('active');
+            $('#products-nav__list').removeClass('flex-off');
+            $('#products-nav__list').addClass('flex-on');
+
         };
 
     });
-    if(window.matchMedia('(max-width: 768px)').matches)
+    if(window.matchMedia('all and (max-width: 768px)').matches)
     {
         $('.slicknav-menu__but').click(function(){
             $(  "#products-nav__list").slideToggle("slow");
