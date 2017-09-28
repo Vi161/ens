@@ -2735,6 +2735,12 @@ header {
 .content>.nav-fixed__padding-off {
   top: 55px;
 }
+#header-nav__list .flex-on {
+  display: flex !important;
+}
+#header-nav__list .flex-off {
+  display: none;
+}
 @media (min-width: 768px)and (max-width: 1060px) {
   .header-nav__wrap .header-nav__item-a,{
     font-size: 1.9vw;
@@ -3042,6 +3048,10 @@ header {
   }
 }
 @media screen and (max-width: 1060px) {
+  .flex-on {
+    display: flex !important;
+  }
+
   .product-block16__link {
     margin: 0.4vw;
     .product-block16__link__txt {
@@ -3424,6 +3434,9 @@ header {
 
 
 @media screen and (max-width: 767px) {
+  .flex-off {
+    display: none ;
+  }
   .hyst-block-top {
     margin-top: 0;
   }
@@ -3495,12 +3508,7 @@ header {
     z-index: 100;
   }
 
-  #header-nav__list .flex-on {
-    display: flex;
-  }
-  #header-nav__list .flex-off {
-    display: none;
-  }
+
   .block-buttons__link__txt1 {
     display: none;
   }
