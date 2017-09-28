@@ -8,7 +8,10 @@
 
     <title>“LET Medical” Research Lab | ENS</title>
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+
+    <link rel="stylesheet" href="css/owl.carousel.css" />
     <link rel="stylesheet" type="text/css" href="css/styleico.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -46,30 +49,91 @@
 
 
 <div class="content">
-    <div class="main-block1">
-        <div class="content__container">
-            <div class="main-block1__txt1__wrap">
-                <div class="main-block1__txt1">
-                    <p class="main-block1__txt1__p1">
-                        ps<span class="main-block1__txt1__span">705</span>
-                    </p>
-                    <p class="main-block1__txt1__p2">
-                        cosmodic
-                    </p>
+    <ul class="main-carousel owl-carousel owl-theme">
+        <li class="main-carousel__item">
+            <div class="main-block1">
+                <div class="content__container">
+                    <div class="main-block1__txt1__wrap">
+                        <div class="main-block1__txt1">
+                            <p class="main-block1__txt1__p1">
+                                ps<span class="main-block1__txt1__span">705</span>
+                            </p>
+                            <p class="main-block1__txt1__p2">
+                                cosmodic
+                            </p>
+                        </div>
+                    </div>
+                    <div class="main-block1__txt2__wrap">
+                        <div class="main-block1__txt2">
+                            <p class="main-block1__txt2__p1">
+                                Everything simple is just an ingenious camouflage of the complicated.
+                            </p>
+                            <p class="main-block1__txt2__p2">
+                                A. A. Karasev
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="main-block1__txt2__wrap">
-                <div class="main-block1__txt2">
-                    <p class="main-block1__txt2__p1">
-                        Everything simple is just an ingenious camouflage of the complicated.
-                    </p>
-                    <p class="main-block1__txt2__p2">
-                        A. A. Karasev
-                    </p>
+
+        </li>
+        <li class="main-carousel__item">
+            <div class="main-block1">
+                <div class="content__container">
+                    <div class="main-block1__txt1__wrap">
+                        <div class="main-block1__txt1">
+                            <p class="main-block1__txt1__p1">
+                                ps<span class="main-block1__txt1__span">705</span>
+                            </p>
+                            <p class="main-block1__txt1__p2">
+                                cosmodic
+                            </p>
+                        </div>
+                    </div>
+                    <div class="main-block1__txt2__wrap">
+                        <div class="main-block1__txt2">
+                            <p class="main-block1__txt2__p1">
+                                Everything simple is just an ingenious camouflage of the complicated.
+                            </p>
+                            <p class="main-block1__txt2__p2">
+                                A. A. Karasev
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+
+        </li>
+        <li class="main-carousel__item">
+            <div class="main-block1">
+                <div class="content__container">
+                    <div class="main-block1__txt1__wrap">
+                        <div class="main-block1__txt1">
+                            <p class="main-block1__txt1__p1">
+                                ps<span class="main-block1__txt1__span">705</span>
+                            </p>
+                            <p class="main-block1__txt1__p2">
+                                cosmodic
+                            </p>
+                        </div>
+                    </div>
+                    <div class="main-block1__txt2__wrap">
+                        <div class="main-block1__txt2">
+                            <p class="main-block1__txt2__p1">
+                                Everything simple is just an ingenious camouflage of the complicated.
+                            </p>
+                            <p class="main-block1__txt2__p2">
+                                A. A. Karasev
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </li>
+
+
+    </ul>
     <div class="main-block2">
         <a href="products/ens/ens.html" class="content__container">
             <div class="main-block2__txt">
@@ -124,6 +188,43 @@
         </div>
     </div>
 </footer>
+<script>
+    $(document).ready(function(){
+        function windowSize(){
+            if($(window).width() > 768){
+                $('.owl-carousel').owlCarousel({
+
+//        loop:true, //Зацикливаем слайдер
+                    margin:0, //Отступ от элемента справа в 50px
+                    nav:true, //Отключение навигации
+//                    autoplay: true,
+//        autoplay:true, //Автозапуск слайдера
+                    smartSpeed:1000, //Время движения слайда
+                    autoplayTimeout:20, //Время смены слайда
+                    autoplaySpeed:20,
+                    autoplayHoverPause:true,
+                    mouseDrag:true,
+                    touchDrag:true,
+                    navText:false,
+                    dots:true,
+                    responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
+                        0:{
+                        },
+                        780:{
+                            items:1
+                        },
+                        1000:{
+                            items:1
+                        }
+                    }
+                });
+
+            }
+        }
+        $(window).load(windowSize); // при загрузке
+        $(window).resize(windowSize)
+    });
+</script>
 <script>
     $(document).ready(function(){
         navmenu('.products-nav');
