@@ -2629,7 +2629,7 @@ header {
   height: $main-block1-height;
   background-size: cover;
   width: 100%;
-  background-image: url('../images/ps705.jpg');
+  background-image: url('../images/main/ps705.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -2656,7 +2656,6 @@ header {
   align-items: flex-start;
   flex-direction: column;
   width: 50%;
-
 }
 .main-block1__txt1__p1 {
   display: block;
@@ -2701,16 +2700,17 @@ header {
   height: $main-block2-height;
   width: 100%;
   background-size: cover;
-  background-image: url('../images/ens.png');
+  background-image: url('../images/main/ens.png');
   background-repeat: no-repeat;
   background-position: center;
-  .content__container {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: #555;
-
-  }
+}
+.main-block2 .content__container {
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #555;
 }
 .main-block2__txt__p1 {
   font-size: 90px;
@@ -2735,7 +2735,7 @@ header {
 .content>.nav-fixed__padding-off {
   top: 55px;
 }
-#header-nav__list .flex-on {
+.flex-on {
   display: flex !important;
 }
 #header-nav__list .flex-off {
@@ -3055,9 +3055,7 @@ header {
   }
 }
 @media screen and (max-width: 1060px) {
-  .flex-on {
-    display: flex !important;
-  }
+
 
   .product-block16__link {
     margin: 0.4vw;
@@ -3429,10 +3427,6 @@ header {
     height: 0;
     padding-top: 42%;
     position: relative;
-  }
-  .main-block2__txt {
-    position: absolute;
-    top: 0;
   }
   .main-block2__txt__p1 {
     font-size: 7vw;
@@ -4032,7 +4026,7 @@ header {
     width: 100%;
 //    transition: top 1s;
   }
-  .product-block3__ico1, .product-block3__ico2, .product-block3__ico3 {
+  .product-block3.main-carousel__ico1, .product-block3__ico2, .product-block3__ico3 {
     margin: 0;
   }
   .products-nav__left {
@@ -4189,4 +4183,57 @@ header {
   .no-overflow {
     overflow-y: hidden;
   }
+  .main-carousel {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-carousel__item-temp {
+    display: none;
+  }
+  .main-block1 {
+    height: 0;
+    padding-top: 158%;
+    background-image: url('../images/main/m-ps705banner.jpg');
+  }
+  .main-block1__txt1__wrap {
+    padding-top: 6vw;
+    padding-right: 10%;
+  }
+  .main-block1__txt1__p1 {
+    font-size: 14vw
+  }
+  .main-block1__txt1__p2 {
+    font-size: 5vw;
+    letter-spacing: 0.6vw;
+  }
+  .main-block1__txt2__wrap {
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+  }
+  .main-block1__txt2 {
+    align-items: center;
+    width: 100%;
+    padding: 0 18vw;
+    padding-bottom: 3vw;
+  }
+  .main-block1__txt2__p1, .main-block1__txt2__p2 {
+    font-size: 6vw;
+  }
+  .main-block1 .content__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .main-block2 {
+    height: 0;
+    padding-top: 158%;
+    background-image: url('../images/main/m-ens.jpg');
+  }
+  .main-block2__txt__p1 {
+    font-size: 12vw;
+    margin: 0;
+    padding-top: 9vw;
+  }
+
 }

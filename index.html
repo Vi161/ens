@@ -12,6 +12,9 @@
     <script type="text/javascript" src="js/script.js"></script>
 
     <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.css" />
+
+
     <link rel="stylesheet" type="text/css" href="css/styleico.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -77,7 +80,7 @@
             </div>
 
         </li>
-        <li class="main-carousel__item">
+        <li class="main-carousel__item main-carousel__item-temp">
             <div class="main-block1">
                 <div class="content__container">
                     <div class="main-block1__txt1__wrap">
@@ -104,7 +107,7 @@
             </div>
 
         </li>
-        <li class="main-carousel__item">
+        <li class="main-carousel__item main-carousel__item-temp">
             <div class="main-block1">
                 <div class="content__container">
                     <div class="main-block1__txt1__wrap">
@@ -198,18 +201,19 @@
 
 //        loop:true, //Зацикливаем слайдер
                     margin:0, //Отступ от элемента справа в 50px
-                    nav:true, //Отключение навигации
+                    nav: false, //Отключение навигации
                     autoplay: true,
                     loop: true,
 //                    autoplay:true, //Автозапуск слайдера
 //                    smartSpeed:1000, //Время движения слайда
                     autoplayTimeout: 2000, //Время смены слайда
-                    autoplaySpeed: 500,
+                    autoplaySpeed: 1000,
                     autoplayHoverPause: true,
                     mouseDrag: true,
                     touchDrag: true,
                     navText: false,
                     dots: true,
+//                    dotsEach: 3,
                     responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
                         0:{
                         },

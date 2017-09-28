@@ -10,8 +10,9 @@ $(document).ready(function() {
 var golink = function(pad){
     $('a[href^="#"]').click(function(){
         var el = $(this).attr('href');
+        var pad;
         $('body').animate({
-            scrollTop: $(el).offset().top - pad}, 500);
+            scrollTop: $(el).offset().top-pad}, 500);
 
         return false;
     });
@@ -90,6 +91,8 @@ $(document).ready(function(){
             $( "#header-nav__list").toggle(false);
 
             $('.icon-bars').removeClass('icon-close');
+//            $('.main-carousel').addClass('main-carousel-mob');
+
 
 
         };
