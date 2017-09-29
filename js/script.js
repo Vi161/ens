@@ -10,7 +10,7 @@ $(document).ready(function() {
 var golink = function(pad){
     $('a[href^="#"]').click(function(){
         var el = $(this).attr('href');
-        var pad;
+//        var pad;
         $('body').animate({
             scrollTop: $(el).offset().top-pad}, 500);
 
@@ -29,7 +29,7 @@ var navmenu = function(class1){
             var iCurScrollPos = $(this).scrollTop();
             if($(this).scrollTop() >= 55) {
                 $(class1).addClass('nav-fixed'); //add2
-                $(class1).css("top","0")
+                $(class1).css("top","0");
             }
             else if ($(this).scrollTop() < 95){
                 $(class1).removeClass('nav-fixed');//rem2
@@ -42,6 +42,7 @@ var navmenu = function(class1){
             }
             else if (iCurScrollPos > iScrollPos){
                 $('header').removeClass('header-wrap-fixed');//add1
+
             }
             var lastScrollTop = 0;
             iScrollPos = iCurScrollPos;
@@ -91,10 +92,6 @@ $(document).ready(function(){
             $( "#header-nav__list").toggle(false);
 
             $('.icon-bars').removeClass('icon-close');
-//            $('.main-carousel').addClass('main-carousel-mob');
-
-
-
         };
 
     });
