@@ -2748,6 +2748,59 @@ header {
 .main-carousel__item {
   list-style: none;
 }
+.product-block1 .content__container {
+  padding-top: 40px
+}
+.product-block1__wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.product-block1__link__txt {
+  padding-left: 12%;
+}
+.product-block1__link {
+  background-color: #f9f9f9;
+  text-decoration: none;
+  text-align: center;
+  margin: 5px;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.product-block1__link:hover {
+  background-color: #F0F0F0;
+
+}
+.product-block1__link1 {
+  height: 400px;
+  background-image: url(../images/products/ens.png);
+}
+.product-block1__link2 {
+  height: 400px;
+  background-image: url(../images/products/ps705.png);
+}
+.product-block1__link__txt {
+  color: black;
+  text-transform: uppercase;
+  margin: 0;
+}
+.product-block1__link__txt1 {
+  font-size: 60px;
+  font-family: 'MagistralTT-bold';
+}
+.product-block1__link__txt2 {
+  font-size: 80px;
+  font-style: italic;
+}
+.product-block1__link__txt2__span {
+  font-weight: bold;
+}
+.product-block1__link__txt3 {
+  font-size: 30px;
+  font-weight: bold;
+}
 @media (min-width: 768px)and (max-width: 1060px) {
   .header-nav__wrap .header-nav__item-a,{
     font-size: 1.9vw;
