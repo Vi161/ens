@@ -114,7 +114,7 @@ $(document).ready(function(){
             $(".icon-bars").toggleClass("icon-close");
             $( "#header-nav__list").slideToggle("slow");
             $("#products-nav__list").hide();
-            $(".header-nav").toggleClass("header-nav__fixed");
+//            $(".header-nav").toggleClass("header-nav__fixed");
             $("body").toggleClass("no-overflow");
             return false;
         });
