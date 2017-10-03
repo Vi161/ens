@@ -222,7 +222,7 @@ header {
   font-weight: 800;
 }
 .products-nav {
-  padding: 0.5vw 0;
+  padding: 4px 0;
   position: absolute;
   background-color: rgb(249, 249, 249);
   opacity: 0.95;
@@ -243,7 +243,7 @@ header {
 }
 .products-nav__item {
   list-style: none;
-  padding: 0 0.73vw;
+  padding: 0 14px;
 }
 .products-nav__item-a {
   font-size: 17px;
@@ -256,9 +256,6 @@ header {
 .products-nav__right {
   display: flex;
   justify-content: space-around;
-}
-.products-nav__item {
-  list-style: none;
 }
 #products-nav__list {
   display:flex;
@@ -2812,21 +2809,23 @@ header {
   font-size: 30px;
   font-weight: bold;
 }
-.ps705-block1 {
-  height: $ps705-block1-height;
+.ps705-bigimg {
   width: 100%;
-  background-image: url('../images/products/ps705/ps705ag.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+.ps705-block1 {
+  height: $ps705-block1-height;
+  background-image: url('../images/products/ps705/ps705ag.jpg');
+}
 .ps705-block1__txt1__wrap {
-  padding-top: 4vw;
+  padding-top: 65px;
 }
 .ps705-block1__txt2__wrap {
   display: flex;
   justify-content: flex-end;
-  padding-top: 6vw;
+  padding-top: 115px;
   padding-right: 13%;
 }
 .ps705-block1__txt1 {
@@ -2929,9 +2928,25 @@ header {
     2px -2px 2px rgba( 204, 204, 204, 0.7 ),
     -2px  2px 2px rgba( 204, 204, 204, 0.7 ),
     2px  2px 2px rgba( 204, 204, 204, 0.7 );
-
+}
+.ps705-block2__txt__mob__wrap {
+  display: none;
+}
+.hht-medium {
+  font-size: 22px;
+  font-style: italic;
+  padding: 0 53px;
+  text-align: center;
+}
+.ps705-block3 {
+  height: $ps705-block3-height;
+  background-image: url('../images/products/ps705/innovations2.jpg');
 }
 @media (min-width: 768px)and (max-width: 1060px) {
+  .products-nav__item {
+    list-style: none;
+    padding: 0 0.73vw;
+  }
   .header-nav__wrap .header-nav__item-a,{
     font-size: 1.9vw;
   }
@@ -3236,9 +3251,16 @@ header {
     position: absolute;
     top: 0;
   }
-  .main-block2 .content__container {
-    position: absolute;
-    top: 0;
+  .ps705-block2__txt__mob__wrap {
+    display: none;
+  }
+  .hht-medium {
+    font-size: 2vw;
+    line-height: 3vw;
+    padding: 0 3vw;
+  }
+  .ps705-block1__txt1__wrap {
+    padding-top: 4vw;
   }
 }
 @media screen and (max-width: 1060px) {
@@ -3652,6 +3674,10 @@ header {
   }
   .ps705-block1__txt2__p1, .ps705-block1__txt2__p2 {
     font-size: 3vw;
+  }
+  .main-block2 .content__container {
+    position: absolute;
+    top: 0;
   }
 }
 
@@ -4461,28 +4487,34 @@ header {
   .ps705-block1 {
     height: 0;
     padding-top: 158%;
-    background-image: url('../images/products/ps705/m-ps705banner.jpg');
+    background-image: url('../images/products/ps705/m-ps705.jpg');
   }
   .ps705-block1 .content__container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-  }
-  .ps705-block1__txt1__wrap {
-    padding-top: 6vw;
-    padding-right: 0;
-    display: flex;
     justify-content: flex-end;
   }
-  .ps705-block1__txt1 {
-    padding-right: 10vw;
-    align-items: center;
+  .ps705-block1__txt1__wrap {
+    padding-bottom: 15vw;
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
   }
-  .ps705-block1__txt2 {
+  .ps705-block1__txt2__wrap {
+    display: none;
+  }
+  .ps705-block2__txt__mob__wrap {
+    display: block;
     text-align: center;
     align-items: center;
-    width: 75%;
     padding-bottom: 3vw;
+    margin: 0;
+  }
+  .ps705-block2__txt__mob {
+    width: 63%;
+    font-style: italic;
+    margin: 0 auto;
+    font-weight: bold;
   }
     .ps705-block1__txt1__p1 {
     font-size: 14vw
@@ -4491,14 +4523,15 @@ header {
     font-size: 5vw;
     letter-spacing: 0.6vw;
   }
-  .ps705-block1__txt2__wrap {
-    padding: 0;
-    justify-content: center;
-  }
-  .ps705-block1__txt2__p1, .ps705-block1__txt2__p2 {
-    font-size: 7vw;
-    color: white;
+
+  .ps705-block2__txt__mob__p1, .ps705-block2__txt__mob__p2 {
+    font-size: 6vw;
+    color: black;
     text-shadow: none;
     font-weight: 100;
+  }
+  .hht-medium {
+    font-size: 4vw;
+    padding: 0 4vw;
   }
 }
