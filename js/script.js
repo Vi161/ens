@@ -1,4 +1,5 @@
-//--------обновление страницы при изменении ширины экрана----------------
+//  ---------перелистывание к якорям-------------
+
 $(document).ready(function() {
     golink(30);
 //    $(window).resize(function(){
@@ -6,14 +7,13 @@ $(document).ready(function() {
 //    });
 });
 
-//  ---------перелистывание к якорям-------------
 var golink = function(pad){
-    $('a[href^="#"]').click(function(){
-        var el = $(this).attr('href');
-//        var pad;
-        $('body').animate({
-            scrollTop: $(el).offset().top-pad}, 500);
-
+    $("a[href*=#]").on("click", function(e){
+        var anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $(anchor.attr('href')).offset().top
+        }, 777);
+        e.preventDefault();
         return false;
     });
 };
