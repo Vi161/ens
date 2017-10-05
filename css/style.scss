@@ -2828,23 +2828,23 @@ header {
 }
 .ps705-block4 {
   height: $ps705-block4-height;
-  background-image: url('../images/products/ps705/ps705ag.jpg');
+  background-image: url('../images/products/ps705/preliminaryanalysis.jpg');
 }
 .ps705-block5 {
   height: $ps705-block5-height;
-  background-image: url('../images/products/ps705/ps705ag.jpg');
+  background-image: url('../images/products/ps705/control.jpg');
 }
 .ps705-block6 {
   height: $ps705-block6-height;
-  background-image: url('../images/products/ps705/ps705ag.jpg');
+  background-image: url('../images/products/ps705/electrodes.jpg');
 }
 .ps705-block7 {
   height: $ps705-block7-height;
-  background-image: url('../images/products/ps705/ps705ag.jpg');
+  background-image: url('../images/products/ps705/detachable_electrodes.jpg');
 }
 .ps705-block8 {
   height: $ps705-block8-height;
-  background-image: url('../images/products/ps705/ps705ag.jpg');
+  background-image: url('../images/products/ps705/remote_electrodes.jpg');
 }.ps705-block9 {
    height: $ps705-block9-height;
    background-image: url('../images/products/ps705/ps705ag.jpg');
@@ -3473,28 +3473,26 @@ header {
     padding-top: 59vw;
   }
   .ps705-block4 {
-    padding-top: 42%;
+    padding-top: 59vw;
   }
   .ps705-block5 {
-    padding-top: 42%;
+    padding-top: 59vw;
   }
   .ps705-block6 {
-    padding-top: 42%;
+    padding-top: 59vw;
   }
   .ps705-block7 {
-    padding-top: 42%;
+    padding-top: 59vw;
   }
   .ps705-block8 {
-    padding-top: 42%;
+    padding-top: 59vw;
   }
   .ps705-block9 {
-    padding-top: 42%;
+    padding-top: 59vw;
   }
   .ps705-block10 {
-    padding-top: 42%;
+    padding-top: 59vw;
   }
-
-
   .ps705-block1 .content__container {
     position: absolute;
     top: 0;
@@ -3521,6 +3519,22 @@ header {
   .main-block2 .content__container {
     position: absolute;
     top: 0;
+  }
+  .ps705-block1__txt1__wrap {
+    padding-top: 4vw;
+  }
+  .ps705-block3__txt {
+    position: absolute;
+    top: 0;
+  }
+  .ps705-block3__title1 {
+    font-size: 4.5vw;
+  }
+  .ps705-block3__title2 {
+    font-size: 5.5vw;
+  }
+  .ps705-block3__item {
+    font-size: 2.5vw;
   }
 }
 @media (min-width: 768px)and (max-width: 1060px) {
@@ -3840,22 +3854,7 @@ header {
     line-height: 3vw;
     padding: 0 3vw;
   }
-  .ps705-block1__txt1__wrap {
-    padding-top: 4vw;
-  }
-  .ps705-block3__txt {
-    position: absolute;
-    top: 0;
-  }
-  .ps705-block3__title1 {
-    font-size: 4.5vw;
-  }
-  .ps705-block3__title2 {
-    font-size: 5.5vw;
-  }
-  .ps705-block3__item {
-    font-size: 2.5vw;
-  }
+
 }
 @media screen and (max-width: 767px) {
   .flex-off {
@@ -4668,24 +4667,24 @@ header {
     background-image: url('../images/products/ps705/m-ps705.jpg');
   }
   .ps705-block3 {
-    padding-top: 158%;
-    background-image: url('../images/products/ps705/m-ps705.jpg');
+    padding-top: 127%;
+    background-image: url('../images/products/ps705/m-innovations.jpg');
   }
   .ps705-block4 {
     padding-top: 158%;
-    background-image: url('../images/products/ps705/m-ps705.jpg');
+    background-image: url('../images/products/ps705/m-indication.jpg');
   }
   .ps705-block5 {
     padding-top: 158%;
-    background-image: url('../images/products/ps705/m-ps705.jpg');
+    background-image: url('../images/products/ps705/m-control.jpg');
   }
   .ps705-block6 {
     padding-top: 158%;
-    background-image: url('../images/products/ps705/m-ps705.jpg');
+    background-image: url('../images/products/ps705/m-electrodes.jpg');
   }
   .ps705-block7 {
     padding-top: 158%;
-    background-image: url('../images/products/ps705/m-ps705.jpg');
+    background-image: url('../images/products/ps705/m-detachable_electrodes.jpg');
   }
   .ps705-block8 {
     padding-top: 158%;
