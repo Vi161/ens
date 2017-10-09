@@ -35,15 +35,18 @@ $hyst-block11-height:500px;
 $legal-block1-height:500px;
 $main-block1-height:800px;
 $main-block2-height:600px;
-$fontsize-p1:22px;
-$fontsize-p1-tablet:2.1vw;
+$fontsize-p1: 26px;//22px;
+$fontsize-p1-tablet: 2.1vw;
 $fontsize-p1-mobile:4vw;
 $lineheight-p1:22pt;
 $lineheight-p1-tablet:3vw;
 $lineheight-p1-mobile:5vw;
 $fontsize-title-h1:58px;
+$fontsize-title-h2:36px;
 $fontsize-title-h1-tablet:5.5vw;
 $fontsize-title-h1-mibile:9.5vw;
+$fontsize-title-h2-tablet:3.5vw;
+$fontsize-title-h2-mibile:7.5vw;
 $fontsize-title-mibile:8vw;
 
 $header-height:55px;
@@ -294,6 +297,13 @@ header {
 }
 .title-h1 {
   font-size: $fontsize-title-h1;
+  font-weight: bold;
+  margin: 0;
+}
+.title-h2 {
+  font-size: $fontsize-title-h2;
+  font-weight: bold;
+  margin: 0;
 }
 .content-p1 {
   font-size: $fontsize-p1;
@@ -2828,32 +2838,77 @@ header {
 }
 .ps705-block4 {
   height: $ps705-block4-height;
-  background-image: url('../images/products/ps705/preliminaryanalysis.jpg');
+  background-image: url('../images/products/ps705/indication.jpg');
+}
+.ps705-block4__txt {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.ps705-block5__p1 {
+  text-align: center;
+}
+.ps705-block4__list {
+  padding: 0;
+  text-align: center;
+}
+.ps705-block4__item {
+  list-style: none;
+}
+.ps705-block5__txt {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  padding-top: 50px;
+}
+.ps705-block6__txt {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.ps705-block6__title {
+  padding-top: 50px;
+}
+.ps705-block6__p1 {
+  padding-bottom: 50px;
+  text-align: center;
 }
 .ps705-block5 {
   height: $ps705-block5-height;
-  background-image: url('../images/products/ps705/control.jpg');
+  background-image: url('../images/products/ps705/preliminaryanalysis.jpg');
 }
 .ps705-block6 {
   height: $ps705-block6-height;
-  background-image: url('../images/products/ps705/electrodes.jpg');
+  background-image: url('../images/products/ps705/control.jpg');
 }
 .ps705-block7 {
   height: $ps705-block7-height;
-  background-image: url('../images/products/ps705/detachable_electrodes.jpg');
+  background-image: url('../images/products/ps705/electrodes.jpg');
 }
 .ps705-block8 {
   height: $ps705-block8-height;
-  background-image: url('../images/products/ps705/remote_electrodes.jpg');
+  background-image: url('../images/products/ps705/detachable_electrodes.jpg');
+
 }.ps705-block9 {
    height: $ps705-block9-height;
-   background-image: url('../images/products/ps705/ps705ag.jpg');
+   background-image: url('../images/products/ps705/remote_electrodes.jpg');
  }
 .ps705-block10 {
   height: $ps705-block10-height;
   background-image: url('../images/products/ps705/ps705ag.jpg');
 }
-
+.ps705-block10 {
+  height: $ps705-block10-height;
+  background-image: url('../images/products/ps705/ps705ag.jpg');
+}
 
 
 .ps705-block1__txt1__wrap {
@@ -2986,6 +3041,10 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.ps705-block3__list {
+  padding: 0;
 }
 .ps705-block3__title1 {
   margin: 0;
@@ -3536,6 +3595,27 @@ header {
   .ps705-block3__item {
     font-size: 2.5vw;
   }
+  .ps705-block4__txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .ps705-block4__title {
+    padding-bottom: 3vw;
+  }
+  .ps705-block5__txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .ps705-block6__txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .ps705-block6__p1 {
+    padding: 0 4vw;
+  }
 }
 @media (min-width: 768px)and (max-width: 1060px) {
   .products-nav__item {
@@ -3662,6 +3742,9 @@ header {
   }
   .title-h1 {
     font-size: $fontsize-title-h1-tablet;
+  }
+  .title-h1 {
+    font-size: $fontsize-title-h2-tablet;
   }
   .content-p1 {
     font-size: $fontsize-p1-tablet;
@@ -3882,9 +3965,15 @@ header {
     font-weight:800;
     margin: 0;
   }
+  .title-h1 {
+    font-size: $fontsize-title-h2-mibile;
+    font-weight:800;
+    margin: 0;
+  }
   .content-p1 {
     font-size: $fontsize-p1-mobile;
     line-height: $lineheight-p1-mobile;
+    padding: 0 4vw;
   }
   .content-p1-mobile {
     font-size: $fontsize-p1-mobile !important;
@@ -4671,26 +4760,30 @@ header {
     background-image: url('../images/products/ps705/m-innovations.jpg');
   }
   .ps705-block4 {
-    padding-top: 158%;
+    padding-top: 195%;
     background-image: url('../images/products/ps705/m-indication.jpg');
   }
   .ps705-block5 {
-    padding-top: 158%;
-    background-image: url('../images/products/ps705/m-control.jpg');
+    padding-top: 108%;
+    background-image: url('../images/products/ps705/m-preliminaryanalysis.jpg');
   }
   .ps705-block6 {
-    padding-top: 158%;
-    background-image: url('../images/products/ps705/m-electrodes.jpg');
+    padding-top: 97%;
+    background-image: url('../images/products/ps705/m-control.jpg');
   }
   .ps705-block7 {
     padding-top: 158%;
-    background-image: url('../images/products/ps705/m-detachable_electrodes.jpg');
+    background-image: url('../images/products/ps705/m-electrodes.jpg');
   }
   .ps705-block8 {
     padding-top: 158%;
-    background-image: url('../images/products/ps705/m-ps705.jpg');
+    background-image: url('../images/products/ps705/m-detachable_electrodes.jpg');
   }
   .ps705-block9 {
+    padding-top: 158%;
+    background-image: url('../images/products/ps705/m-connecting.jpg');
+  }
+  .ps705-block10 {
     padding-top: 158%;
     background-image: url('../images/products/ps705/m-ps705.jpg');
   }
@@ -4742,6 +4835,32 @@ header {
   }
   .hht-medium {
     font-size: 4vw;
+  }
+  .ps705-block3__title1 {
+    font-size: 6.5vw;
     padding: 0 4vw;
+  }
+  .ps705-block3__title2 {
+    font-size: 12.5vw;
+  }
+  .ps705-block3__list {
+    margin: 0;
+  }
+  .ps705-block3__item {
+    font-size: 4.5vw;
+  }
+  .ps705-block4__txt {
+    width: 100%;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 8vw;
+  }
+  .ps705-block5__txt {
+    padding-top: 8vw;
+  }
+  .ps705-block6__txt {
+    padding-top: 8vw;
+    padding: 0 6vw;
+    justify-content: flex-start;
   }
 }
