@@ -3187,8 +3187,15 @@ header {
 .ps705-block8__p1 {
   text-align: center;
 }
+.ps705-block9__txt {
+  display: flex;
+  justify-content: flex-end;
+}
 .ps705-block9__title {
   color: white;
+  text-align: center;
+  width: 46%;
+  padding: 125px 150px 0 0;
 }
 @media screen and (max-width: 1060px) {
   .ens-block16__link {
@@ -3698,7 +3705,17 @@ header {
   .ps705-block8__title {
     padding-bottom: 3vw;
   }
-
+  .ps705-block9__txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .ps705-block9__title {
+    width: 28%;
+    padding: 12vw 25vw 0 0;
+  }
 }
 @media (min-width: 768px)and (max-width: 1060px) {
   .products-nav__item {
@@ -4860,11 +4877,11 @@ header {
     background-image: url('../images/products/ps705/m-electrodes.jpg');
   }
   .ps705-block8 {
-    padding-top: 158%;
+    padding-top: 202%;
     background-image: url('../images/products/ps705/m-detachable_electrodes.jpg');
   }
   .ps705-block9 {
-    padding-top: 158%;
+    padding-top: 98%;
     background-image: url('../images/products/ps705/m-connecting.jpg');
   }
   .ps705-block10 {
@@ -4959,5 +4976,12 @@ header {
     justify-content: flex-start;
     width: 100%;
     padding-top: 8vw;
+  }
+  .ps705-block9__txt {
+    justify-content: center;
+  }
+  .ps705-block9__title {
+    width: 55%;
+    padding: 20vw 0 0 0;
   }
 }
