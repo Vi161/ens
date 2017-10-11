@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/ps705/ps705.html" afterPath="$PROJECT_DIR$/products/ps705/ps705.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,19 +45,20 @@
           <file leaf-file-name="ps705.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/products/ps705/ps705.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="185" column="18" selection-start="9989" selection-end="9989" vertical-scroll-proportion="0.9642417" vertical-offset="0" max-vertical-offset="3689">
+                <state line="62" column="94" selection-start="3416" selection-end="3416" vertical-scroll-proportion="0.1294698" vertical-offset="949" max-vertical-offset="2601">
                   <folding>
-                    <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#4;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#div#5;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#7;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#8;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#9;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#10;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#11;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#div#12;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#div#13;tag#body#0;tag#html#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -945,19 +943,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/products/ps705/ps705.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="18" selection-start="9989" selection-end="9989" vertical-scroll-proportion="0.9642417" vertical-offset="0" max-vertical-offset="3689">
+        <state line="62" column="94" selection-start="3416" selection-end="3416" vertical-scroll-proportion="0.1294698" vertical-offset="949" max-vertical-offset="2601">
           <folding>
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#4;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#5;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#7;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#8;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#9;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#10;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#11;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#12;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#13;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
