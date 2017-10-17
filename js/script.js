@@ -70,6 +70,14 @@ var navmenu = function(class1){
 //    ----адаптивное меню----------
 $(document).ready(function(){
     var mibile_width = 767;
+    $('.header-nav__item1').click(function(){
+        $(".header-nav__list1-1").slideToggle("slow");
+        return false;
+    });
+    $('body').click(function(){
+        $(".header-nav__list1-1").hide();
+    });
+
     $(window).resize(function(){
         if($(window).width() > mibile_width) {
 
@@ -99,7 +107,6 @@ $(document).ready(function(){
     {
         $('.slicknav-menu__but').click(function(){
             $(  "#products-nav__list").slideToggle("slow");
-
             return false;
         });
         $('body').click(function(){
