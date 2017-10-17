@@ -3292,6 +3292,68 @@ header {
 .header-nav__item1-1-a {
   font-weight: bold;
 }
+.header-nav__item-img {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  right: 30%;
+  top: 10%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+}
+.header-nav__item2-2:hover .header-nav__item-img{
+  display: block;
+}
+
+.header-nav__item-img1 {
+  background-image: url("../images/products/accessories/dx1.jpg")
+}
+.header-nav__item-img2 {
+  background-image: url("../images/products/accessories/dx2.jpg")
+}
+.header-nav__item-img3 {
+  background-image: url("../images/products/accessories/emc01.jpg")
+}
+.header-nav__item-img4 {
+  background-image: url("../images/products/accessories/oko.jpg")
+}
+.header-nav__item-img5 {
+  background-image: url("../images/products/accessories/ent01.jpg")
+}
+.header-nav__item-img6 {
+  background-image: url("../images/products/accessories/tablet03.jpg")
+}
+.header-nav__item-img7 {
+  background-image: url("../images/products/accessories/tablet02.jpg")
+}
+.header-nav__item-img8 {
+  background-image: url("../images/products/accessories/ec01.jpg")
+}
+.header-nav__item-img9 {
+  background-image: url("../images/products/accessories/ev01w.jpg")
+}
+.header-nav__item-img10 {
+  background-image: url("../images/products/accessories/ev01z.jpg")
+}
+.header-nav__item-img11 {
+  background-image: url("../images/products/accessories/ev01o.jpg")
+}
+.header-nav__item-img12 {
+  background-image: url("../images/products/accessories/er01.jpg")
+}
+.header-nav__item-img13 {
+  background-image: url("../images/products/accessories/detachable.jpg")
+}
+.header-nav__item-img16 {
+  background-image: url("../images/products/accessories/case-smart-m.jpg")
+}
+.header-nav__item-img17 {
+  background-image: url("../images/products/accessories/case-pocket-m.jpg")
+}
+.header-nav__item-img18 {
+  background-image: url("../images/products/accessories/case-smart-l.jpg")
+}
 .header-nav__list2-2 {
   column-count: 2;
 }
