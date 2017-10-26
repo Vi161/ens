@@ -6,6 +6,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.html" afterPath="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,12 +35,12 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3286" column="12" selection-start="73858" selection-end="73858" vertical-scroll-proportion="-9.45098" vertical-offset="55380" max-vertical-offset="88264">
+                <state line="3287" column="12" selection-start="73872" selection-end="73872" vertical-scroll-proportion="-9.45098" vertical-offset="55397" max-vertical-offset="88281">
                   <folding>
-                    <marker date="1508232333601" expanded="true" signature="15875:15908" placeholder="{...}" />
-                    <marker date="1508232333601" expanded="true" signature="17767:17835" placeholder="{...}" />
-                    <marker date="1508232333601" expanded="true" signature="73844:73861" placeholder="{...}" />
-                    <marker date="1508232333601" expanded="true" signature="75894:75941" placeholder="{...}" />
+                    <marker date="1509027969846" expanded="true" signature="15876:15909" placeholder="{...}" />
+                    <marker date="1509027969846" expanded="true" signature="17768:17836" placeholder="{...}" />
+                    <marker date="1509027969846" expanded="true" signature="73858:73875" placeholder="{...}" />
+                    <marker date="1509027969846" expanded="true" signature="75908:75955" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -47,7 +49,7 @@
           <file leaf-file-name="products.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/products/products.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="59" column="148" selection-start="4740" selection-end="4740" vertical-scroll-proportion="0.7274969" vertical-offset="413" max-vertical-offset="3179">
+                <state line="46" column="42" selection-start="2398" selection-end="2417" vertical-scroll-proportion="0.70653516" vertical-offset="209" max-vertical-offset="3196">
                   <folding />
                 </state>
               </provider>
@@ -60,7 +62,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3354" column="72" selection-start="75756" selection-end="75756" vertical-scroll-proportion="0.79038227" vertical-offset="56377" max-vertical-offset="88264">
+                <state line="3280" column="12" selection-start="73744" selection-end="73744" vertical-scroll-proportion="0.50061655" vertical-offset="55354" max-vertical-offset="88281">
                   <folding />
                 </state>
               </provider>
@@ -69,7 +71,7 @@
           <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="72" column="25" selection-start="2300" selection-end="2300" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2329">
+                <state line="65" column="11" selection-start="2169" selection-end="2169" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="2329">
                   <folding />
                 </state>
               </provider>
@@ -129,7 +131,6 @@
         <option value="$PROJECT_DIR$/history/2010s/2010s.html" />
         <option value="$PROJECT_DIR$/technology/how_it_work/how_it_work.html" />
         <option value="$PROJECT_DIR$/technology/technology.html" />
-        <option value="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.html" />
         <option value="$PROJECT_DIR$/footer/footer.php" />
         <option value="$PROJECT_DIR$/footer/footer.phtml" />
         <option value="$PROJECT_DIR$/history/history.html" />
@@ -138,6 +139,7 @@
         <option value="$PROJECT_DIR$/products/ps705/ps705.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/products/accessories/electrode_dx1.html" />
+        <option value="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/products/products.html" />
         <option value="$PROJECT_DIR$/css/style.scss" />
@@ -255,7 +257,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="what_is_scenar-therapy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="using" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ps705" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -537,12 +607,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/script.js</url>
-          <line>20</line>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
@@ -689,11 +753,6 @@
         <state line="67" column="109" selection-start="4384" selection-end="4384" vertical-scroll-proportion="0.77120316" vertical-offset="748" max-vertical-offset="4182" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/technology/using/using.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="109" selection-start="4385" selection-end="4385" vertical-scroll-proportion="0.42728904" vertical-offset="918" max-vertical-offset="3026" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/styleico.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="2" selection-start="901" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1207" />
@@ -756,11 +815,6 @@
     <entry file="file://$PROJECT_DIR$/technology/technology.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="81" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.3492647" vertical-offset="490" max-vertical-offset="4097" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="81" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.3492647" vertical-offset="507" max-vertical-offset="5542" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/technology/how_it_work/how_it_work.html">
@@ -854,23 +908,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/technology/using/using.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="25" selection-start="2300" selection-end="2300" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2329">
+        <state line="68" column="109" selection-start="4434" selection-end="4434" vertical-scroll-proportion="-44.46154" vertical-offset="0" max-vertical-offset="3026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="83" selection-start="4241" selection-end="4241" vertical-scroll-proportion="1.4254007" vertical-offset="0" max-vertical-offset="5542">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="148" selection-start="4740" selection-end="4740" vertical-scroll-proportion="0.7274969" vertical-offset="413" max-vertical-offset="3179">
+        <state line="46" column="42" selection-start="2398" selection-end="2417" vertical-scroll-proportion="0.70653516" vertical-offset="209" max-vertical-offset="3196">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="11" selection-start="2169" selection-end="2169" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="2329">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3354" column="72" selection-start="75756" selection-end="75756" vertical-scroll-proportion="0.79038227" vertical-offset="56377" max-vertical-offset="88264">
+        <state line="3280" column="12" selection-start="73744" selection-end="73744" vertical-scroll-proportion="0.50061655" vertical-offset="55354" max-vertical-offset="88281">
           <folding />
         </state>
       </provider>
