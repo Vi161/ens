@@ -3366,6 +3366,37 @@ header {
   font-weight: bold;
   margin-bottom: 10px;
 }
+.acc-block1__wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.acc-block1__link1 {
+  background-image: url(../images/products/accessories/accessories_dx1.png);
+  padding-top: 84%;
+  .block-buttons__link__txt {
+    justify-content: flex-end;
+    padding-bottom: 2.5vw;
+  }
+}
+.acc-block1__link2 {
+  background-image: url(../images/products/accessories/accessories_dx2-702x230.png);
+  padding-top: 19%;
+  .block-buttons__link__txt {
+    justify-content: flex-end;
+    padding-bottom: 2.5vw;
+  }
+}
+.acc-block__txt-big__wrap {
+  text-decoration: none;
+  text-align: center;
+  margin: 0.4vw;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding-top: 19%;
+}
 @media screen and (max-width: 1060px) {
   .ens-block16__link {
     margin: 0.4vw;
@@ -4225,8 +4256,7 @@ header {
   }
 
 }
-@media screen and (max-width: 767px)
-{
+@media screen and (max-width: 767px){
   .flex-off {
     display: none ;
   }
