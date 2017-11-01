@@ -1,7 +1,7 @@
 //  ---------перелистывание к якорям-------------
 
 $(document).ready(function() {
-    golink(30);
+    golink();
 //    $(window).resize(function(){
 //        window.setTimeout('location.reload()', 500);
 //    });

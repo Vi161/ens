@@ -1521,10 +1521,14 @@ header {
   background-size: cover;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .block-buttons__link__txt {
   display: flex;
   flex-direction: column;
+  position: absolute;
+  height: 100%;
+  top: 0;
 }
 .block-buttons__link__txt1, .block-buttons__link__txt2 {
   margin: 0;
@@ -1594,12 +1598,14 @@ header {
   justify-content: flex-start;
   padding-left: 4.2vw;
   padding-top: 2.2vw;
+  top: 0;
 }
 .hyst-block2__link__txt12 {
   justify-content: flex-end;
   width: 10vw;
   padding-bottom: 1.2vw;
   padding-right: 1.3vw;
+  right: 0;
 }
 .hyst-block2__link7 {
   .block-buttons__link__txt {
@@ -3366,37 +3372,104 @@ header {
   font-weight: bold;
   margin-bottom: 10px;
 }
-.acc-block1__wrap {
+.flex-row {
   display: flex;
   flex-direction: row;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.acc-block1__wrap {
   width: 100%;
   justify-content: space-between;
 }
 .acc-block1__link1 {
   background-image: url(../images/products/accessories/accessories_dx1.png);
-  padding-top: 84%;
+  padding-top: 112%;
   .block-buttons__link__txt {
-    justify-content: flex-end;
-    padding-bottom: 2.5vw;
+    justify-content: flex-start;
+    padding-top: 1vw;
   }
 }
 .acc-block1__link2 {
   background-image: url(../images/products/accessories/accessories_dx2-702x230.png);
-  padding-top: 19%;
+  padding-top: 31.5%;
+  justify-content: flex-end;
   .block-buttons__link__txt {
-    justify-content: flex-end;
-    padding-bottom: 2.5vw;
+    height: 100%;
+    justify-content: center;
   }
 }
+
+.acc-block1__link3 {
+  background-image: url(../images/products/accessories/accessories_oko-black.png);
+  padding-top: 109%;
+  .block-buttons__link__txt {
+    justify-content: flex-end;
+  }
+}
+.acc-block1__link4 {
+  background-image: url(../images/products/accessories/accessories_emc01-702x230.png);
+  padding-top: 31.5%;
+  justify-content: center;
+  .block-buttons__link__txt {
+    height: 100%;
+    justify-content: flex-end;
+  }
+}
+.acc-block1__link5 {
+  background-image: url(../images/products/accessories/accessories_ent01-right.png);
+  padding-top: 21%;
+  justify-content: flex-start;
+  .block-buttons__link__txt {
+    justify-content: center;
+  }
+}
+
 .acc-block__txt-big__wrap {
-  text-decoration: none;
-  text-align: center;
-  margin: 0.4vw;
   background-size: cover;
   display: flex;
-  justify-content: center;
-  padding-top: 19%;
+  height: 100%;
+  align-items: center;
 }
+.acc-block__txt-big {
+  font-size: 53px;
+  color: #4682B4;
+}
+.acc-block__txt-big1 {
+  padding: 2.5% 0;
+  justify-content: flex-start;
+}
+.acc-block1__wrap1 {
+  justify-content: flex-end;
+}
+.acc-block__txt-big__wrap1 {
+  height: 39%;
+}
+.acc-block1__link6 {
+  background-image: url(../images/products/accessories/accessories_tablet03-45.png);
+  padding-top: 112%;
+  .block-buttons__link__txt {
+    justify-content: flex-start;
+    padding-top: 1vw;
+  }
+}
+.acc-block1__link7 {
+  background-image: url(../images/products/accessories/accessories_tablet02-1.png);
+  padding-top: 33%;
+  justify-content: flex-end;
+  .block-buttons__link__txt {
+    height: 100%;
+    justify-content: center;
+  }
+}
+
+
 @media screen and (max-width: 1060px) {
   .ens-block16__link {
     margin: 0.4vw;
@@ -3933,6 +4006,9 @@ header {
   }
   .ps705-block11__wrap {
     padding-top: 1vw;
+  }
+  .acc-block__txt-big {
+    font-size: 5vw;
   }
 }
 @media (min-width: 768px)and (max-width: 1060px) {
