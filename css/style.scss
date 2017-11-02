@@ -135,7 +135,7 @@ header {
   position: absolute;
   float: left;
   z-index: 1;
-  width: 22vw;
+  width: 26vw;
   height: 100%;
   background-color: #556B2F;
 }
@@ -3440,6 +3440,7 @@ header {
 .acc-block__txt-big {
   font-size: 53px;
   color: #4682B4;
+  padding-left: 15px;
 }
 .acc-block__txt-big1 {
   padding: 2.5% 0;
@@ -3462,14 +3463,109 @@ header {
 .acc-block1__link7 {
   background-image: url(../images/products/accessories/accessories_tablet02-1.png);
   padding-top: 33%;
-  justify-content: flex-end;
+  justify-content: center;
   .block-buttons__link__txt {
     height: 100%;
+    justify-content: flex-end;
+  }
+}
+.acc-block1__link7 {
+  background-image: url(../images/products/accessories/accessories_ec01-right.png);
+  padding-top: 33%;
+  justify-content: center;
+  .block-buttons__link__txt {
+    height: 100%;
+    justify-content: flex-end;
+  }
+}
+.acc-block1__link9 {
+  background-image: url(../images/products/accessories/accessories_ev01w-black-right.png);
+  padding-top: 21%;
+  justify-content: flex-start;
+  .block-buttons__link__txt {
     justify-content: center;
   }
 }
-
-
+.acc-block1__link10 {
+  background-image: url(../images/products/accessories/accessories_ev01z-black-left.png);
+  padding-top: 43%;
+  justify-content: center;
+  .block-buttons__link__txt {
+    height: 100%;
+    justify-content: flex-end;
+  }
+}
+.acc-block1__link11 {
+  background-image: url(../images/products/accessories/accessories_ev01o-black-right.png);
+  padding-top: 43%;
+  justify-content: center;
+  .block-buttons__link__txt {
+    height: 100%;
+    justify-content: flex-end;
+  }
+}
+.acc-block1__link12 {
+  background-image: url(../images/products/accessories/accessories_er01-black-left.png);
+  padding-top: 21%;
+  justify-content: flex-end;
+  .block-buttons__link__txt {
+    justify-content: center;
+  }
+}
+.acc-block1__link13 {
+  background-image: url(../images/products/accessories/accessories_electrodes735cu.png);
+  padding-top: 111%;
+  justify-content: center;
+  .block-buttons__link__txt {
+    height: 100%;
+    justify-content: flex-end;
+  }
+}
+.acc-block1__link14 {
+  background-image: url(../images/products/accessories/accessories_electrodes735ag.png);
+  padding-top: 111%;
+  justify-content: center;
+  .block-buttons__link__txt {
+    height: 100%;
+    justify-content: flex-end;
+  }
+}
+.acc-block1__link15 {
+  background-image: url(../images/products/accessories/accessories_electrodes735au.png);
+  padding-top: 111%;
+  justify-content: center;
+  .block-buttons__link__txt {
+    height: 100%;
+    justify-content: flex-end;
+  }
+}
+.acc-block1__link16 {
+  background-image: url(../images/products/accessories/accessories_case_smart_m.png);
+  padding-top: 176%;
+  justify-content: center;
+  .block-buttons__link__txt {
+    height: 100%;
+    justify-content: flex-end;
+  }
+}
+.acc-block1__link17 {
+  background-image: url(../images/products/accessories/accessories_case_pocket_m.png);
+  padding-top: 176%;
+  justify-content: center;
+  .block-buttons__link__txt {
+    height: 100%;
+    justify-content: flex-end;
+  }
+}
+.acc-block1__link18 {
+  background-image: url(../images/products/accessories/accessories_case_smart_l.png);
+  padding-top: 176%;
+  justify-content: center;
+  .block-buttons__link__txt {
+    height: 100%;
+    justify-content: flex-end;
+  }
+}
 @media screen and (max-width: 1060px) {
   .ens-block16__link {
     margin: 0.4vw;
@@ -4009,6 +4105,7 @@ header {
   }
   .acc-block__txt-big {
     font-size: 5vw;
+    padding-left: 1vw;
   }
 }
 @media (min-width: 768px)and (max-width: 1060px) {
