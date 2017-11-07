@@ -754,7 +754,7 @@ header {
 .ens-block14__txt {
   display: flex;
   text-align: left;
-  align-items: center;
+  align-items: flex-start;
   padding: 28px 0;
   border-bottom: 1px solid #ccc;
 }
@@ -770,6 +770,7 @@ header {
   font-size: 18px;
   margin: 0;
   width: 94%;
+  padding: 5px 0;
 }
 .ens-block14__list {
   margin: 0;
@@ -794,6 +795,7 @@ header {
 .ens-block14__list {
   display: inline-block;
   width: 50%;
+  padding-left: 20px;
 }
 .ens-block14__item {
   color:#999;
@@ -978,6 +980,9 @@ header {
   background: url('../images/products/accessories/dx1/dx1.jpg') no-repeat;
   background-position: center;
   margin-top:5px;
+}
+.acc1-block2-img-dx2 {
+  background: url('../images/products/accessories/dx2/dx2.jpg') no-repeat;
 }
 .acc1-block4 {
   height: $acc1-block4-height;
@@ -3585,12 +3590,15 @@ header {
     justify-content: flex-end;
   }
 }
-.acc1-block3__txt-last {
-  align-items: flex-start;
+.acc1-block__txt-last {
   border: none;
 }
 .acc1-block3__img2 {
   background-image: url(../images/products/accessories/dx1/size-dx1.png);
+}
+.acc1-block3__img2-dx2 {
+  background-image: url(../images/products/accessories/dx2/size-dx2.png);
+
 }
 @media screen and (max-width: 1060px) {
   .ens-block16__link {
@@ -4144,6 +4152,9 @@ header {
   .acc-block__txt-big {
     font-size: 5vw;
     padding-left: 1vw;
+  }
+  .ens-block14__list {
+    padding-left: 2vw;
   }
 }
 @media (min-width: 768px)and (max-width: 1060px) {
@@ -4932,6 +4943,7 @@ header {
   }
   .ens-block14__list-bord {
     border: none;
+
   }
   .ens-block14__title {
     padding: 0;
