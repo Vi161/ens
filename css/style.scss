@@ -861,7 +861,7 @@ header {
 }
 .ens-block16__link1 {
   height: 400px;
-  background-image: url(../images/acc/accessories_dx1.png);
+  background-image: url(../images/products/accessories/accessories_dx1.png);
   .ens-block16__link__txt {
     padding-top: 10%;
   }
@@ -874,11 +874,11 @@ header {
 }
 .ens-block16__link2 {
   height: 230px;
-  background-image: url(../images/acc/accessories_tablet02.png);
+  background-image: url(../images/products/accessories/accessories_tablet02.png);
 }
 .ens-block16__link3 {
   height: 230px;
-  background-image: url(../images/acc/accessories_ec01.png);
+  background-image: url(../images/products/accessories/accessories_ec01.png);
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -888,7 +888,7 @@ header {
 }
 .ens-block16__link4 {
   height: 400px;
-  background-image: url(../images/acc/accessories_electrodes735cu.png);
+  background-image: url(../images/products/accessories/accessories_electrodes735cu.png);
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -898,7 +898,7 @@ header {
 }
 .ens-block16__link5 {
   height: 635px;
-  background-image: url(../images/acc/accessories_case_smart_l.png);
+  background-image: url(../images/products/accessories/accessories_case_smart_l.png);
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -908,7 +908,7 @@ header {
 }
 .ens-block16__link6 {
   height: 230px;
-  background-image: url(../images/acc/accessories_dx2.png);
+  background-image: url(../images/products/accessories/accessories_dx2.png);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -923,14 +923,14 @@ header {
 }
 .ens-block16__link7 {
   height: 230px;
-  background-image: url(../images/acc/accessories_ent01.png);
+  background-image: url(../images/products/accessories/accessories_ent01.png);
   .ens-block16__link__txt {
     padding-top: 10%;
   }
 }
 .ens-block16__link8 {
   height: 230px;
-  background-image: url(../images/acc/accessories_ev01z.png);
+  background-image: url(../images/products/accessories/accessories_ev01z.png);
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -939,20 +939,21 @@ header {
   }
 }
 .ps705-block13__link1 {
-  background-image: url(../images/acc/accessories_tablet03.png);
+  background-image: url(../images/products/accessories/accessories_tablet03.png);
 }
 .ps705-block13__link3 {
-  background-image: url(../images/acc/accessories_ec01.png);
+  background-image: url(../images/products/accessories/accessories_ec01.png);
 }
 .ps705-block13__link4 {
-  background-image: url(../images/acc/accessories_oko.png);
+  background-image: url(../images/products/accessories/accessories_oko.png);
 }
 .ps705-block13__link5 {
-  background-image: url(../images/acc/accessories_case_pocket_m.png);
+  background-image: url(../images/products/accessories/accessories_case_pocket_m.png);
 }
 .ps705-block13__link6 {
-  background-image: url(../images/acc/accessories_er01.png);
+  background-image: url(../images/products/accessories/accessories_er01.png);
 }
+
 .ens-block16__link__txt1 {
   font-size: 20px;
   color:black;
@@ -3285,6 +3286,7 @@ header {
   top: 55px;
   background-color: aliceblue;
   margin: 0;
+  z-index: 1000;
 }
 .header-nav__item1-1, .header-nav__list2-1, .header-nav__list2-2 {
   margin-top: 15px;
@@ -3999,6 +4001,7 @@ header {
   .ps705-block1__txt2__p2 {
     padding-top: 1vw;
   }
+
   .ps705-block1__txt2__p1, .ps705-block1__txt2__p2 {
     font-size: 3vw;
   }
@@ -4096,6 +4099,17 @@ header {
   }
   .ps705-block10__txt {
     margin: 0;
+  }
+  .ps705-block13__link6 {
+    padding-top: 22%;
+  }
+  .ps705-block13__link6 .ens-block16__link__txt {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    top: 0;
   }
   .ens-block13__txt, .ps705-block10__txt {
     font-size: 2vw;
@@ -4516,7 +4530,10 @@ header {
   }
 
 
-  .block-buttons__link__txt1 {
+  .content__hystory .block-buttons__link__txt1 {
+    display: none;
+  }
+  .content__acc .block-buttons__link__txt2 {
     display: none;
   }
   .products-nav {
