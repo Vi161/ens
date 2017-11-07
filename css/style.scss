@@ -27,6 +27,8 @@ $ps705-block7-height: 1300px;
 $ps705-block8-height: 700px;
 $ps705-block9-height: 700px;
 $ps705-block10-height: 350px;
+$acc1-block2-height:  500px;
+$acc1-block4-height:  600px;
 
 $tech-block2-height:400px;
 $hyst-block-bigimg-height:600px;
@@ -752,7 +754,7 @@ header {
 .ens-block14__txt {
   display: flex;
   text-align: left;
-  align-items: flex-start;
+  align-items: center;
   padding: 28px 0;
   border-bottom: 1px solid #ccc;
 }
@@ -970,6 +972,21 @@ header {
   background-position: center;
   margin-top:5px;
 }
+.acc1-block2 {
+  height: $acc1-block2-height;
+  width: 100%;
+  background: url('../images/products/accessories/dx1/dx1.jpg') no-repeat;
+  background-position: center;
+  margin-top:5px;
+}
+.acc1-block4 {
+  height: $acc1-block4-height;
+  width: 100%;
+  background: url('../images/products/accessories/dx1/dx1_inverted.jpg') no-repeat;
+  background-position: center;
+  margin-top:5px;
+}
+
 .footer-top {
   width: 100%;
   padding: 7vw 0;
@@ -3568,6 +3585,13 @@ header {
     justify-content: flex-end;
   }
 }
+.acc1-block3__txt-last {
+  align-items: flex-start;
+  border: none;
+}
+.acc1-block3__img2 {
+  background-image: url(../images/products/accessories/dx1/size-dx1.png);
+}
 @media screen and (max-width: 1060px) {
   .ens-block16__link {
     margin: 0.4vw;
@@ -4316,6 +4340,18 @@ header {
     padding-top: 47%;
     position: relative;
   }
+  .acc1-block2 {
+    width: 100%;
+    height: 0;
+    padding-top: 47%;
+    position: relative;
+  }
+  .acc1-block4 {
+     width: 100%;
+     height: 0;
+     padding-top: 47%;
+     position: relative;
+   }
   .tech-block1__left__p1 {
     font-size: 6vw;
   }
