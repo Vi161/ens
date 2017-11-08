@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/accessories.html" afterPath="$PROJECT_DIR$/products/accessories/accessories.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/dx1/dx1.html" afterPath="$PROJECT_DIR$/products/accessories/dx1/dx1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/ens/ens.html" afterPath="$PROJECT_DIR$/products/ens/ens.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/emc01/emc01.html" afterPath="$PROJECT_DIR$/products/accessories/emc01/emc01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/products.html" afterPath="$PROJECT_DIR$/products/products.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,38 +35,25 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="120" column="17" selection-start="2842" selection-end="2842" vertical-scroll-proportion="-44.692307" vertical-offset="878" max-vertical-offset="92837">
-                  <folding>
-                    <marker date="1510084147283" expanded="true" signature="19029:19107" placeholder="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="dx2.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/products/accessories/dx2/dx2.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="129" column="40" selection-start="9134" selection-end="9134" vertical-scroll-proportion="-5.45098" vertical-offset="1575" max-vertical-offset="3043">
-                  <folding>
-                    <element signature="tag#ul#0;tag#li#1;tag#div#0;tag#ul#1;tag#div#0;tag#nav#0;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="emc01.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/products/accessories/emc01/emc01.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="141" column="41" selection-start="9649" selection-end="9669" vertical-scroll-proportion="-25.26923" vertical-offset="1740" max-vertical-offset="3587">
+                <state line="121" column="17" selection-start="2880" selection-end="2880" vertical-scroll-proportion="-44.692307" vertical-offset="895" max-vertical-offset="95370">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="dx1.html" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/products/accessories/dx1/dx1.html">
+          <file leaf-file-name="oko.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/products/accessories/oko/oko.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="130" column="41" selection-start="9091" selection-end="9091" vertical-scroll-proportion="0.3325359" vertical-offset="1932" max-vertical-offset="3434">
+                <state line="154" column="38" selection-start="10068" selection-end="10068" vertical-scroll-proportion="-3.0384614" vertical-offset="2539" max-vertical-offset="3587">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ent01.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/products/accessories/ent01/ent01.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="90" column="38" selection-start="7687" selection-end="7687" vertical-scroll-proportion="0.11149826" vertical-offset="1434" max-vertical-offset="3587">
                   <folding />
                 </state>
               </provider>
@@ -76,15 +63,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="772" column="17" selection-start="14466" selection-end="14466" vertical-scroll-proportion="0.4138756" vertical-offset="12778" max-vertical-offset="91800">
-                  <folding>
-                    <element signature="e#39022#40183#0" expanded="false" />
-                    <element signature="e#40200#40304#0" expanded="false" />
-                    <element signature="e#40319#40486#0" expanded="false" />
-                  </folding>
+                <state line="3726" column="21" selection-start="86159" selection-end="86159" vertical-scroll-proportion="0.8576555" vertical-offset="62625" max-vertical-offset="95370">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -104,9 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic.html" />
-        <option value="$PROJECT_DIR$/technology/old_good_ens03.html" />
-        <option value="$PROJECT_DIR$/technology/tens_scenar_cosmodic.html" />
         <option value="$PROJECT_DIR$/technology/using.html" />
         <option value="$PROJECT_DIR$/technology/what_is_scenar-therapy.html" />
         <option value="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health.html" />
@@ -148,13 +128,16 @@
         <option value="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/history/history.html" />
-        <option value="$PROJECT_DIR$/products/products.html" />
         <option value="$PROJECT_DIR$/products/accessories/accessories.html" />
         <option value="$PROJECT_DIR$/products/ens/ens.html" />
         <option value="$PROJECT_DIR$/products/accessories/dx1/dx1.html" />
-        <option value="$PROJECT_DIR$/products/accessories/emc01/emc01.html" />
         <option value="$PROJECT_DIR$/products/accessories/dx2/dx2.html" />
+        <option value="$PROJECT_DIR$/products/products.html" />
+        <option value="$PROJECT_DIR$/products/accessories/emc01/oko.html" />
+        <option value="$PROJECT_DIR$/products/accessories/emc01/emc01.html" />
+        <option value="$PROJECT_DIR$/products/accessories/oko/oko.html" />
         <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/products/accessories/ent01/ent01.html" />
       </list>
     </option>
   </component>
@@ -344,6 +327,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="oko" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accessories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ent01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accessories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="emc01" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -424,13 +451,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\HTML\ens\products\accessories\ent01" />
       <recent name="G:\HTML\ens\products\accessories\emc01" />
       <recent name="G:\HTML\ens\products\accessories\ev01" />
       <recent name="G:\HTML\ens\products\accessories\dx2" />
       <recent name="G:\HTML\ens\products\accessories\dx1" />
-      <recent name="G:\HTML\ens\products\accessories" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\HTML\ens\products\accessories\oko" />
       <recent name="G:\HTML\ens\aboutus" />
       <recent name="G:\HTML\ens" />
     </key>
@@ -524,14 +552,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1629393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16453674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -551,9 +579,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15015975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -578,122 +606,57 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2574" column="17" selection-start="60342" selection-end="60342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="48348">
-          <folding>
-            <element signature="e#39022#40183#0" expanded="false" />
-            <element signature="e#40200#40304#0" expanded="false" />
-            <element signature="e#40319#40486#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2452" column="59" selection-start="56653" selection-end="56653" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="46070">
-          <folding>
-            <element signature="e#39022#40183#0" expanded="false" />
-            <element signature="e#40200#40304#0" expanded="false" />
-            <element signature="e#40319#40486#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2204" column="25" selection-start="49581" selection-end="49581" vertical-scroll-proportion="0.0" vertical-offset="37278" max-vertical-offset="42891">
-          <folding>
-            <element signature="e#39022#40183#0" expanded="false" />
-            <element signature="e#40200#40304#0" expanded="false" />
-            <element signature="e#40319#40486#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="2113" column="19" selection-start="46321" selection-end="46321" vertical-scroll-proportion="0.0" vertical-offset="35643" max-vertical-offset="41191">
-          <folding>
-            <element signature="e#39022#40183#0" expanded="false" />
-            <element signature="e#40200#40304#0" expanded="false" />
-            <element signature="e#40319#40486#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2114" column="21" selection-start="46346" selection-end="46346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="41191">
-          <folding>
-            <element signature="e#39022#40183#0" expanded="false" />
-            <element signature="e#40200#40304#0" expanded="false" />
-            <element signature="e#40319#40486#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2113" column="18" selection-start="46320" selection-end="46320" vertical-scroll-proportion="0.0" vertical-offset="35575" max-vertical-offset="41191">
-          <folding>
-            <element signature="e#39022#40183#0" expanded="false" />
-            <element signature="e#40200#40304#0" expanded="false" />
-            <element signature="e#40319#40486#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2113" column="21" selection-start="46323" selection-end="46323" vertical-scroll-proportion="0.0" vertical-offset="35609" max-vertical-offset="41191">
-          <folding>
-            <element signature="e#39022#40183#0" expanded="false" />
-            <element signature="e#40200#40304#0" expanded="false" />
-            <element signature="e#40319#40486#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2167" column="0" selection-start="47908" selection-end="47908" vertical-scroll-proportion="0.0" vertical-offset="36519" max-vertical-offset="41174">
-          <folding>
-            <element signature="e#39022#40183#0" expanded="false" />
-            <element signature="e#40200#40304#0" expanded="false" />
-            <element signature="e#40319#40486#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1797" column="20" selection-start="38425" selection-end="38425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="35496">
-          <folding>
-            <element signature="e#39022#40183#0" expanded="false" />
-            <element signature="e#40200#40304#0" expanded="false" />
-            <element signature="e#40319#40486#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1797" column="19" selection-start="38424" selection-end="38424" vertical-scroll-proportion="0.0" vertical-offset="29435" max-vertical-offset="35496">
-          <folding>
-            <element signature="e#39022#40183#0" expanded="false" />
-            <element signature="e#40200#40304#0" expanded="false" />
-            <element signature="e#40319#40486#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1784" column="15" selection-start="38033" selection-end="38033" vertical-scroll-proportion="0.0" vertical-offset="30243" max-vertical-offset="35513">
-          <folding>
-            <element signature="e#39022#40183#0" expanded="false" />
-            <element signature="e#40200#40304#0" expanded="false" />
-            <element signature="e#40319#40486#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -844,18 +807,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="14" selection-start="8149" selection-end="8149" vertical-scroll-proportion="0.22067364" vertical-offset="3040" max-vertical-offset="4199">
-          <folding />
-        </state>
+        <state line="190" column="14" selection-start="8149" selection-end="8149" vertical-scroll-proportion="0.22067364" vertical-offset="3040" max-vertical-offset="4199" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/technology/technology.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="32" selection-start="8109" selection-end="8109" vertical-scroll-proportion="0.17073171" vertical-offset="2267" max-vertical-offset="3434">
-          <folding>
-            <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="142" column="32" selection-start="8109" selection-end="8109" vertical-scroll-proportion="0.17073171" vertical-offset="2267" max-vertical-offset="3434" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/common.rnc">
@@ -865,32 +822,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/history/history.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="20" selection-start="3768" selection-end="3784" vertical-scroll-proportion="-8.615385" vertical-offset="1034" max-vertical-offset="12512">
-          <folding>
-            <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="74" column="20" selection-start="3768" selection-end="3784" vertical-scroll-proportion="-8.615385" vertical-offset="1034" max-vertical-offset="12512" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/ps705/ps705.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="466" column="58" selection-start="23206" selection-end="23228" vertical-scroll-proportion="7.1136804" vertical-offset="4230" max-vertical-offset="9605">
-          <folding />
-        </state>
+        <state line="466" column="58" selection-start="23206" selection-end="23228" vertical-scroll-proportion="7.1136804" vertical-offset="4230" max-vertical-offset="9605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/history/1970s/1970s.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="22" selection-start="5466" selection-end="5466" vertical-scroll-proportion="0.3492647" vertical-offset="1544" max-vertical-offset="3689">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="112" selection-start="3647" selection-end="3647" vertical-scroll-proportion="0.33333334" vertical-offset="847" max-vertical-offset="3196">
-          <folding />
-        </state>
+        <state line="102" column="22" selection-start="5466" selection-end="5466" vertical-scroll-proportion="0.3492647" vertical-offset="1544" max-vertical-offset="3689" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/accessories.html">
@@ -902,9 +844,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/dx2/dx2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="40" selection-start="9134" selection-end="9134" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="3383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/products/ens/ens.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="507" column="40" selection-start="25821" selection-end="25821" vertical-scroll-proportion="0.22811344" vertical-offset="8434" max-vertical-offset="10115">
+        <state line="507" column="40" selection-start="25821" selection-end="25821" vertical-scroll-proportion="0.23577236" vertical-offset="8416" max-vertical-offset="10115">
           <folding>
             <element signature="tag#div#15;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#16;tag#body#0;tag#html#0" expanded="false" />
@@ -912,37 +861,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/emc01/emc01.html">
+    <entry file="file://$PROJECT_DIR$/products/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="41" selection-start="9649" selection-end="9669" vertical-scroll-proportion="-25.26923" vertical-offset="1740" max-vertical-offset="3587">
+        <state line="77" column="107" selection-start="7295" selection-end="7295" vertical-scroll-proportion="0.5377468" vertical-offset="846" max-vertical-offset="3196">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/dx2/dx2.html">
+    <entry file="file://$PROJECT_DIR$/products/accessories/dx1/dx1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="40" selection-start="9134" selection-end="9134" vertical-scroll-proportion="-5.45098" vertical-offset="1575" max-vertical-offset="3043">
+        <state line="76" column="29" selection-start="3604" selection-end="7417" vertical-scroll-proportion="-6.6923075" vertical-offset="778" max-vertical-offset="3094">
           <folding>
             <element signature="tag#ul#0;tag#li#1;tag#div#0;tag#ul#1;tag#div#0;tag#nav#0;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/dx1/dx1.html">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="41" selection-start="9091" selection-end="9091" vertical-scroll-proportion="0.3325359" vertical-offset="1932" max-vertical-offset="3434">
+        <state line="4" column="604" selection-start="769" selection-end="769" vertical-scroll-proportion="0.11929824" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/emc01/emc01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="91" selection-start="9909" selection-end="9932" vertical-scroll-proportion="0.4076655" vertical-offset="2131" max-vertical-offset="3587">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="772" column="17" selection-start="14466" selection-end="14466" vertical-scroll-proportion="0.4138756" vertical-offset="12778" max-vertical-offset="91800">
-          <folding>
-            <element signature="e#39022#40183#0" expanded="false" />
-            <element signature="e#40200#40304#0" expanded="false" />
-            <element signature="e#40319#40486#0" expanded="false" />
-          </folding>
+        <state line="121" column="17" selection-start="2880" selection-end="2880" vertical-scroll-proportion="-44.692307" vertical-offset="895" max-vertical-offset="95370">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/oko/oko.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="38" selection-start="10068" selection-end="10068" vertical-scroll-proportion="-3.0384614" vertical-offset="2539" max-vertical-offset="3587">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/ent01/ent01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="38" selection-start="7687" selection-end="7687" vertical-scroll-proportion="0.11149826" vertical-offset="1434" max-vertical-offset="3587">
+          <folding />
         </state>
       </provider>
     </entry>

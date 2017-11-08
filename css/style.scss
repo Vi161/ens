@@ -27,8 +27,9 @@ $ps705-block7-height: 1300px;
 $ps705-block8-height: 700px;
 $ps705-block9-height: 700px;
 $ps705-block10-height: 350px;
-$acc1-block2-height:  500px;
-$acc1-block4-height:  600px;
+$acc1-block-height-450:  450px;
+$acc1-block-height-500:  500px;
+$acc1-block-height-600:  600px;
 
 $tech-block2-height:400px;
 $hyst-block-bigimg-height:600px;
@@ -435,7 +436,7 @@ header {
 .ens-block4 {
   height: $ens-block4-height;
   width: 100%;
-  background: url('../images/indication.jpg') no-repeat;
+  background-image: url('../images/indication.jpg');
   background-position: center;
   .content__container {
     display: flex;
@@ -492,7 +493,8 @@ header {
 .ens-block6 {
   height: $ens-block6-height;
   width: 100%;
-  background: url('../images/control.jpg') no-repeat;
+  background-image: url('../images/control.jpg');
+  background-repeat: no-repeat;
   background-position: center;
   .content__container {
     display: flex;
@@ -527,7 +529,8 @@ header {
   margin: 0 auto;
   height: 100%;
   background-color: white;
-  background: url('../images/readings.jpg') no-repeat;
+  background-image: url('../images/readings.jpg');
+  background-repeat: no-repeat;
   background-position: 43vw;
   .content__container {
     display: flex;
@@ -574,7 +577,8 @@ header {
 .ens-block8 {
   height: $ens-block8-height;
   width: 100%;
-  background: url('../images/results.jpg') no-repeat;
+  background-image: url('../images/results.jpg');
+  background-repeat: no-repeat;
   background-position: center;
   .content__container {
     display: flex;
@@ -602,7 +606,8 @@ header {
   max-width: 1920px;
   margin: 0 auto;
   height: 100%;
-  background: url('../images/silver_electrodes.jpg') no-repeat;
+  background-image: url('../images/silver_electrodes.jpg');
+  background-repeat: no-repeat;
   background-color: black;
   background-position: 51vw 0;
   .content__container {
@@ -627,7 +632,8 @@ header {
 .ens-block10 {
   height: $ens-block10-height;
   width: 100%;
-  background: url('../images/detachable_electrodes.jpg') no-repeat;
+  background-image: url('../images/detachable_electrodes.jpg');
+  background-repeat: no-repeat;
   background-position: center;
   .content__container {
     display: flex;
@@ -671,12 +677,14 @@ header {
 .ens-block11__img1 {
   width: 100%;
   height: 300px;
-  background: url('../images/copper_electrodes.jpg') no-repeat;
+  background-image: url('../images/copper_electrodes.jpg');
+  background-repeat: no-repeat;
 }
 .ens-block11__img2 {
   width: 100%;
   height: 300px;
-  background: url('../images/gold_electrodes.jpg') no-repeat;
+  background-image: url('../images/gold_electrodes.jpg');
+  background-repeat: no-repeat;
 }
 .ens-block11__p1 {
   font-size: 18px;
@@ -688,7 +696,8 @@ header {
 .ens-block12 {
   height: $ens-block12-height;
   width: 100%;
-  background: url('../images/connecting.jpg') no-repeat;
+  background-image: url('../images/connecting.jpg');
+  background-repeat: no-repeat;
   background-position: center;
   .content__container {
     display: flex;
@@ -707,7 +716,8 @@ header {
 .ens-block13 {
   height: $ens-block13-height;
   width: 100%;
-  background: url('../images/connecting2.jpg') no-repeat;
+  background-image: url('../images/connecting2.jpg');
+  background-repeat: no-repeat;
   background-position: center;
   .content__container {
     display: flex;
@@ -728,10 +738,12 @@ header {
   margin: 0 29px;
 }
 .ens-block13__ico1 {
-  background: url(../images/minijack.png) no-repeat;
+  background-image: url(../images/minijack.png);
+  background-repeat: no-repeat;
 }
 .ens-block13__ico2 {
-  background: url(../images/pushpull.png) no-repeat;
+  background-image: url(../images/pushpull.png);
+  background-repeat: no-repeat;
 }
 .ens-block13__txt {
   font-size: 18px;
@@ -782,12 +794,14 @@ header {
 .ens-block14__img2 {
   width: 630px;
   height: 400px;
-  background: url('../images/size.png') no-repeat;
+  background-image: url('../images/size.png');
+  background-repeat: no-repeat;
 }
 .ens-block14__img1 {
   width: 630px;
   height: 400px;
-  background: url('../images/color.jpg') no-repeat;
+  background-image: url('../images/color.jpg');
+  background-repeat: no-repeat;
 }
 .ens-block14__p2 {
   display: flex;
@@ -815,7 +829,8 @@ header {
 .ens-block15 {
   height: $ens-block15-height;
   width: 100%;
-  background: url('../images/accessories.jpg') no-repeat;
+  background-image: url('../images/accessories.jpg');
+  background-repeat: no-repeat;
   background-position: center;
   .content__container {
     display: flex;
@@ -970,24 +985,63 @@ header {
 .ens-block17 {
   height: $ens-block17-height;
   width: 100%;
-  background: url('../images/ens.jpg') no-repeat;
+  background-image: url('../images/ens.jpg');
+  background-repeat: no-repeat;
   background-position: center;
   margin-top:5px;
 }
 .acc1-block2 {
-  height: $acc1-block2-height;
+  height: $acc1-block-height-500;
   width: 100%;
-  background: url('../images/products/accessories/dx1/dx1.jpg') no-repeat;
+  background-image: url('../images/products/accessories/dx1/dx1.jpg');
+  background-repeat: no-repeat;
   background-position: center;
   margin-top:5px;
 }
 .acc1-block2-img-dx2 {
-  background: url('../images/products/accessories/dx2/dx2.jpg') no-repeat;
+  background-image: url('../images/products/accessories/dx2/dx2.jpg');
+}
+.acc1-block2-img-emc01 {
+  background-image: url('../images/products/accessories/emc01/emc01.jpg');
+}
+.acc1-block2-img-oko {
+  background-image: url('../images/products/accessories/oko/oko.jpg');
+}
+.acc1-block2-img-ent01{
+  background-image: url('../images/products/accessories/ent01/ent01.jpg');
+}
+.acc1-block2-img-tablet03 {
+  background-image: url('../images/products/accessories/tablet03/tablet03.jpg');
+}
+.acc1-block2-img-tablet02{
+  background-image: url('../images/products/accessories/tablet02/tablet02.jpg');
+}
+.acc1-block2-img-ec01 {
+  background-image: url('../images/products/accessories/ec01/ec01.jpg');
+}
+.acc1-block2-img-ev01 {
+  background-image: url('../images/products/accessories/ev01/ev01.jpg');
+}
+.acc1-block2-img-ev01z {
+  background-image: url('../images/products/accessories/ev01z/ev01z.jpg');
+}
+.acc1-block2-img-ev01o {
+  background-image: url('../images/products/accessories/ev01o/ev01o.jpg');
+}
+.acc1-block2-img-er01 {
+  background-image: url('../images/products/accessories/er01/er01.jpg');
+}
+.acc1-block2-img-cu{
+  background-image: url('../images/products/accessories/cu/cu.jpg');
+}
+.acc1-block2-img-ag {
+  background-image: url('../images/products/accessories/ag/ag.jpg');
 }
 .acc1-block4 {
-  height: $acc1-block4-height;
+  height: $acc1-block-height-600;
   width: 100%;
-  background: url('../images/products/accessories/dx1/dx1_inverted.jpg') no-repeat;
+  background-image: url('../images/products/accessories/dx1/dx1_inverted.jpg');
+  background-repeat: no-repeat;
   background-position: center;
   margin-top:5px;
 }
@@ -1015,7 +1069,8 @@ header {
 .footer-top__block1__ico {
   width: 55px;
   height: 46px;
-  background: url("../images/letmedical_777.png") no-repeat;
+  background-image: url("../images/letmedical_777.png");
+  background-repeat: no-repeat;
 }
 .footer-top__block1__txt {
   text-align: center;
@@ -1227,7 +1282,8 @@ header {
   padding-top: 15px;
   width: 485px;
   height: 225px;
-  background:url("../images/technology/ens03.png") no-repeat;
+  background-image:url("../images/technology/ens03.png");
+  background-repeat: no-repeat;
   background-position: center;
   background-size: 185%;
 }
@@ -2606,12 +2662,12 @@ header {
   background-color: inherit;
 }
 .owl-theme .owl-nav .owl-prev:hover {
-  background: url(../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-color: inherit;
   background-position: 5px -679px;
 }
 .owl-theme .owl-nav .owl-next:hover {
-  background: url(../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-color: inherit;
   background-position: -36px -679px;
 }
@@ -3269,7 +3325,9 @@ header {
   width: 150px;
   height: 120px;
   margin: 0 29px;
-  background: url(../images/products/ps705/minijack.png) no-repeat;
+  background-image: url(../images/products/ps705/minijack.png);
+  background-repeat: no-repeat;
+
 }
 .ps705-block11__wrap {
   display: flex;
@@ -3288,16 +3346,20 @@ header {
   height: 400px;
 }
 .ps705-block11__img1 {
-  background: url('../images/products/ps705/color_ps705.jpg') no-repeat;
+  background-image: url('../images/products/ps705/color_ps705.jpg');
+  background-repeat: no-repeat;
 }
 .ps705-block11__img2 {
-  background: url('../images/products/ps705/color_ps705ag.jpg') no-repeat;
+  background-image: url('../images/products/ps705/color_ps705ag.jpg');
+  background-repeat: no-repeat;
 }
 .ps705-block11__img3 {
-  background: url('../images/products/ps705/ps705-size.png') no-repeat;
+  background-image: url('../images/products/ps705/ps705-size.png');
+  background-repeat: no-repeat;
 }
 .ps705-block11__img4 {
-  background: url('../images/products/ps705/ps705ag-size.png') no-repeat;
+  background-image: url('../images/products/ps705/ps705ag-size.png');
+  background-repeat: no-repeat;
 }
 .header-nav__list1-1 {
   display: none;
@@ -3598,8 +3660,78 @@ header {
 }
 .acc1-block3__img2-dx2 {
   background-image: url(../images/products/accessories/dx2/size-dx2.png);
-
 }
+.acc1-block3__img2-emc01 {
+  background-image: url(../images/products/accessories/emc01/size-emc01.png);
+}
+.acc1-block3__img2-emc01-col {
+  background-image: url(../images/products/accessories/emc01/size-emc01.png);
+}
+.acc1-block3__img2-oko {
+  background-image: url(../images/products/accessories/oko/size-oko.png);
+}
+.acc1-block3__img2-oko-col {
+  background-image: url(../images/products/accessories/oko/size-oko.png);
+}
+.acc1-block3__img2-ent01 {
+  background-image: url(../images/products/accessories/ent01/size-ent01.png);
+}
+.acc1-block3__img2-ent01-col {
+  background-image: url(../images/products/accessories/ent01/size-ent01.png);
+}
+.acc1-block3__img2-tablet03 {
+  background-image: url(../images/products/accessories/tablet03/size-tablet03.png);
+}
+.acc1-block3__img2-tablet03-col {
+  background-image: url(../images/products/accessories/tablet03/size-tablet03.png);
+}
+.acc1-block3__img2-tablet02 {
+  background-image: url(../images/products/accessories/tablet02/size-tablet02.png);
+}
+.acc1-block3__img2-tablet02-col {
+  background-image: url(../images/products/accessories/tablet02/size-tablet02.png);
+}
+.acc1-block3__img2-ec01 {
+  background-image: url(../images/products/accessories/ec01/size-ec01.png);
+}
+.acc1-block3__img2-ec01-col {
+  background-image: url(../images/products/accessories/ec01/size-ec01.png);
+}
+.acc1-block3__img2-ev01 {
+  background-image: url(../images/products/accessories/ev01/size-ev01.png);
+}
+.acc1-block3__img2-ev01-col {
+  background-image: url(../images/products/accessories/ev01/size-ev01.png);
+}
+.acc1-block3__img2-ev01z {
+  background-image: url(../images/products/accessories/ev01z/size-ev01z.png);
+}
+.acc1-block3__img2-ev01z-col {
+  background-image: url(../images/products/accessories/ev01z/size-ev01z.png);
+}
+.acc1-block3__img2-ev01o {
+  background-image: url(../images/products/accessories/ev01o/size-ev01o.png);
+}
+.acc1-block3__img2-ev01o-col {
+  background-image: url(../images/products/accessories/ev01o/size-ev01o.png);
+}
+.acc1-block3__img2-er01 {
+  background-image: url(../images/products/accessories/er01/size-er01.png);
+}
+.acc1-block3__img2-er01-col {
+  background-image: url(../images/products/accessories/er01/size-er01.png);
+}
+.acc1-block3__img2-cu {
+  background-image: url(../images/products/accessories/ag/size-ag.png);
+}
+.acc1-block3__img2-ag {
+  background-image: url(../images/products/accessories/ag/size-ag.png);
+}
+.acc1-block3__img2-au {
+  background-image: url(../images/products/accessories/ag/size-ag.png);
+}
+
+
 @media screen and (max-width: 1060px) {
   .ens-block16__link {
     margin: 0.4vw;
@@ -4442,7 +4574,8 @@ header {
     width: 100%;
     height: 0;
     padding-top: 73%;
-    background: url('../images/mobile/copperelectrodes.jpg') no-repeat;
+    background-image: url('../images/mobile/copperelectrodes.jpg');
+    background-repeat: no-repeat;
     background-size: contain;
     position: relative;
     z-index: 10;
@@ -4452,7 +4585,8 @@ header {
     width: 100%;
     height: 0;
     padding-top: 73%;
-    background: url('../images/mobile/goldelectrodes.jpg') no-repeat;
+    background-image: url('../images/mobile/goldelectrodes.jpg');
+    background-repeat: no-repeat;
     background-size: contain;
     position: relative;
     z-index: 10;
@@ -4691,7 +4825,8 @@ header {
     height: 0;
     padding-top: 134.3%;
     position: relative;
-    background: url(../images/mobile/indication.jpg) no-repeat;
+    background-image: url(../images/mobile/indication.jpg);
+    background-repeat: no-repeat;
   }
   .ens-block4__txt {
     position: absolute;
@@ -4725,7 +4860,8 @@ header {
     left: 0;
     padding-top: 110.7%;
     position: relative;
-    background: url("../images/mobile/control.jpg") no-repeat;
+    background-image: url("../images/mobile/control.jpg");
+    background-repeat: no-repeat;
   }
   .ens-block6__txt {
     position: absolute;
@@ -4745,7 +4881,8 @@ header {
     height: 0;
     padding-top: 157%;
     position: relative;
-    background: url(../images/mobile/readings.jpg) no-repeat;
+    background-image: url(../images/mobile/readings.jpg);
+    background-repeat: no-repeat;
   }
   .ens-block7 .ens-block7__wrapper .content__container .ens-block7__txt {
     position: absolute;
@@ -4763,7 +4900,8 @@ header {
     height: 0;
     padding-top: 130.3%;
     position: relative;
-    background: url(../images/mobile/results.jpg) no-repeat;
+    background-image: url(../images/mobile/results.jpg);
+    background-repeat: no-repeat;
   }
   .ens-block8__txt {
     position: absolute;
@@ -4789,7 +4927,8 @@ header {
     height: 0;
     padding-top: 163%;
     position: relative;
-    background: url(../images/mobile/silver_electrodes.jpg) no-repeat;
+    background-image: url(../images/mobile/silver_electrodes.jpg);
+    background-repeat: no-repeat;
     background-size:contain;
   }
   .ens-block9__txt {
@@ -4816,7 +4955,8 @@ header {
     left: 0;
     padding-top: 156.3%;
     position: relative;
-    background: url(../images/mobile/detachableelectrodes.jpg) no-repeat;
+    background-image: url(../images/mobile/detachableelectrodes.jpg);
+    background-repeat: no-repeat;
   }
   .ens-block10__txt {
     position: absolute;
@@ -4851,7 +4991,8 @@ header {
     width: 100%;
     height: 0;
     padding-top: 73%;
-    background: url('../images/mobile/copperelectrodes.jpg') no-repeat;
+    background-image: url('../images/mobile/copperelectrodes.jpg');
+    background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
     z-index: 100;
@@ -4861,7 +5002,8 @@ header {
     width: 100%;
     height: 0;
     padding-top: 73%;
-    background: url('../images/mobile/goldelectrodes.jpg') no-repeat;
+    background-image: url('../images/mobile/goldelectrodes.jpg');
+    background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
     z-index: 10;
@@ -4885,7 +5027,8 @@ header {
     height: 0;
     padding-top: 91.2%;
     position: relative;
-    background: url(../images/mobile/connecting.jpg) no-repeat;
+    background-image: url(../images/mobile/connecting.jpg);
+    background-repeat: no-repeat;
   }
   .ens-block12__txt {
     position: absolute;
@@ -4899,7 +5042,8 @@ header {
     height: 0;
     padding-top: 134.3%;
     position: relative;
-    background: url(../images/mobile/jack.jpg) no-repeat;
+    background-image: url(../images/mobile/jack.jpg);
+    background-repeat: no-repeat;
   }
   .ens-block13 {
     padding-right: 0;
@@ -4925,11 +5069,13 @@ header {
     margin: 0 0;
   }
   .ens-block13__ico1 {
-    background: url(../images/minijack.png) no-repeat;
+    background-image: url(../images/minijack.png);
+    background-repeat: no-repeat;
     background-size: contain;
   }
   .ens-block13__ico2 {
-    background: url(../images/pushpull.png) no-repeat;
+    background-image: url(../images/pushpull.png);
+    background-repeat: no-repeat;
     background-size: contain;
   }
   .ens-block13__txt, .ps705-block10__txt {
@@ -4960,7 +5106,8 @@ header {
     font-size: $fontsize-p1-mobile;
   }
   .ens-block14__img1 {
-    background: url(../images/mobile/color1.jpg) no-repeat;
+    background-image: url(../images/mobile/color1.jpg);
+    background-repeat: no-repeat;
     background-size: contain;
     width: 107%;
     height: 0;
@@ -4977,7 +5124,8 @@ header {
     height: 0;
     padding-top: 72%;
     position: relative;
-    background: url(../images/mobile/accessories.jpg) no-repeat;
+    background-image: url(../images/mobile/accessories.jpg);
+    background-repeat: no-repeat;
   }
   .ens-block15__txt {
     position: absolute;
@@ -5001,7 +5149,8 @@ header {
     height: 0;
     padding-top: 45.6%;
     position: relative;
-    background: url(../images/mobile/ens.jpg) no-repeat;
+    background-image: url(../images/mobile/ens.jpg);
+    background-repeat: no-repeat;
   }
   .ens-block1, .ens-block4, .ens-block6, .ens-block7, .ens-block8, .ens-block10, .ens-block12,
   .ens-block13, .ens-block15, .ens-block17 {
