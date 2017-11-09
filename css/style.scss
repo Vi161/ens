@@ -195,6 +195,9 @@ header {
 .header-nav__item {
   list-style: none;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 .header-nav__item-a {
   white-space: nowrap;
@@ -3380,7 +3383,7 @@ header {
   height: 500px;
   left: 0;
   top: 55px;
-  background-color: aliceblue;
+  background-color: whitesmoke;
   margin: 0;
   z-index: 1000;
 }
@@ -4711,9 +4714,8 @@ header {
     border-bottom:1px solid grey;
     margin: 0 5vw;
     padding: 2vw 4vw;
-  }
-  .header-nav__item {
     padding: 0;
+    height: auto;
   }
     .header-nav__wrap {
     position: absolute;

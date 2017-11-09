@@ -2,13 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\case-pocket-l\case-smart-l.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/ag/ag.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/ag/ag.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/au/au.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/au/au.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/cu/cu.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/cu/cu.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/accessories.html" afterPath="$PROJECT_DIR$/products/accessories/accessories.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/ag/ag.html" afterPath="$PROJECT_DIR$/products/accessories/ag/ag.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/au/au.html" afterPath="$PROJECT_DIR$/products/accessories/au/au.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/case-pocket-m/case-pocket-m.html" afterPath="$PROJECT_DIR$/products/accessories/case-pocket-m/case-pocket-m.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/case-smart-l/case-smart-l.html" afterPath="$PROJECT_DIR$/products/accessories/case-smart-l/case-smart-l.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/case-smart-m/case-smart-m.html" afterPath="$PROJECT_DIR$/products/accessories/case-smart-m/case-smart-m.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/cu/cu.html" afterPath="$PROJECT_DIR$/products/accessories/cu/cu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/dx1/dx1.html" afterPath="$PROJECT_DIR$/products/accessories/dx1/dx1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/dx2/dx2.html" afterPath="$PROJECT_DIR$/products/accessories/dx2/dx2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/ec01/ec01.html" afterPath="$PROJECT_DIR$/products/accessories/ec01/ec01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/emc01/emc01.html" afterPath="$PROJECT_DIR$/products/accessories/emc01/emc01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/ens/ens.html" afterPath="$PROJECT_DIR$/products/ens/ens.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/ent01/ent01.html" afterPath="$PROJECT_DIR$/products/accessories/ent01/ent01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/er01/er01.html" afterPath="$PROJECT_DIR$/products/accessories/er01/er01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/ev01/ev01.html" afterPath="$PROJECT_DIR$/products/accessories/ev01/ev01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/ev01o/ev01o.html" afterPath="$PROJECT_DIR$/products/accessories/ev01o/ev01o.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/ev01z/ev01z.html" afterPath="$PROJECT_DIR$/products/accessories/ev01z/ev01z.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/oko/oko.html" afterPath="$PROJECT_DIR$/products/accessories/oko/oko.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/products.html" afterPath="$PROJECT_DIR$/products/products.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/ps705/ps705.html" afterPath="$PROJECT_DIR$/products/ps705/ps705.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/tablet02/tablet02.html" afterPath="$PROJECT_DIR$/products/accessories/tablet02/tablet02.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/tablet03/tablet03.html" afterPath="$PROJECT_DIR$/products/accessories/tablet03/tablet03.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
@@ -37,17 +57,21 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="198" column="17" selection-start="4113" selection-end="4113" vertical-scroll-proportion="-6.1153846" vertical-offset="3207" max-vertical-offset="95897">
+                <state line="4716" column="11" selection-start="104588" selection-end="104588" vertical-scroll-proportion="-3.0588236" vertical-offset="80016" max-vertical-offset="95931">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="case-pocket-m.html" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/products/accessories/case-pocket-m/case-pocket-m.html">
+          <file leaf-file-name="ens.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/products/ens/ens.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="18" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="3026">
-                  <folding />
+                <state line="36" column="14" selection-start="1450" selection-end="7086" vertical-scroll-proportion="0.31591174" vertical-offset="340" max-vertical-offset="12036">
+                  <folding>
+                    <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#li#0;tag#div#0;tag#ul#0;tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#li#1;tag#div#0;tag#ul#0;tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -59,7 +83,16 @@
           <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5632" column="17" selection-start="123278" selection-end="123278" vertical-scroll-proportion="0.8779904" vertical-offset="95010" max-vertical-offset="95897">
+                <state line="3385" column="30" selection-start="77075" selection-end="77075" vertical-scroll-proportion="0.4748804" vertical-offset="57148" max-vertical-offset="95931">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="85" column="18" selection-start="2650" selection-end="2650" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2397">
                   <folding />
                 </state>
               </provider>
@@ -102,34 +135,34 @@
         <option value="$PROJECT_DIR$/footer/footer.php" />
         <option value="$PROJECT_DIR$/footer/footer.phtml" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/products/ps705/ps705.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/products/accessories/electrode_dx1.html" />
         <option value="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.html" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/history/history.html" />
-        <option value="$PROJECT_DIR$/products/accessories/accessories.html" />
-        <option value="$PROJECT_DIR$/products/ens/ens.html" />
-        <option value="$PROJECT_DIR$/products/products.html" />
         <option value="$PROJECT_DIR$/products/accessories/emc01/oko.html" />
-        <option value="$PROJECT_DIR$/products/accessories/tablet03/tablet03.html" />
-        <option value="$PROJECT_DIR$/products/accessories/ent01/ent01.html" />
-        <option value="$PROJECT_DIR$/products/accessories/emc01/emc01.html" />
-        <option value="$PROJECT_DIR$/products/accessories/dx2/dx2.html" />
-        <option value="$PROJECT_DIR$/products/accessories/dx1/dx1.html" />
-        <option value="$PROJECT_DIR$/products/accessories/oko/oko.html" />
-        <option value="$PROJECT_DIR$/products/accessories/tablet02/tablet02.html" />
-        <option value="$PROJECT_DIR$/products/accessories/ec01/ec01.html" />
-        <option value="$PROJECT_DIR$/products/accessories/ev01/ev01.html" />
-        <option value="$PROJECT_DIR$/products/accessories/ev01z/ev01z.html" />
-        <option value="$PROJECT_DIR$/products/accessories/ev01o/ev01o.html" />
-        <option value="$PROJECT_DIR$/products/accessories/er01/er01.html" />
-        <option value="$PROJECT_DIR$/products/accessories/cu/cu.html" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/products/accessories/case-pocket-m/case-pocket-m.html" />
+        <option value="$PROJECT_DIR$/products/accessories/accessories.html" />
         <option value="$PROJECT_DIR$/products/accessories/ag/ag.html" />
         <option value="$PROJECT_DIR$/products/accessories/au/au.html" />
-        <option value="$PROJECT_DIR$/products/accessories/case-smart-m/case-smart-m.html" />
         <option value="$PROJECT_DIR$/products/accessories/case-smart-l/case-smart-l.html" />
-        <option value="$PROJECT_DIR$/products/accessories/case-pocket-m/case-pocket-m.html" />
+        <option value="$PROJECT_DIR$/products/accessories/case-smart-m/case-smart-m.html" />
+        <option value="$PROJECT_DIR$/products/accessories/cu/cu.html" />
+        <option value="$PROJECT_DIR$/products/accessories/dx1/dx1.html" />
+        <option value="$PROJECT_DIR$/products/accessories/dx2/dx2.html" />
+        <option value="$PROJECT_DIR$/products/accessories/ec01/ec01.html" />
+        <option value="$PROJECT_DIR$/products/accessories/emc01/emc01.html" />
+        <option value="$PROJECT_DIR$/products/accessories/ent01/ent01.html" />
+        <option value="$PROJECT_DIR$/products/accessories/er01/er01.html" />
+        <option value="$PROJECT_DIR$/products/accessories/ev01/ev01.html" />
+        <option value="$PROJECT_DIR$/products/accessories/ev01o/ev01o.html" />
+        <option value="$PROJECT_DIR$/products/accessories/ev01z/ev01z.html" />
+        <option value="$PROJECT_DIR$/products/accessories/oko/oko.html" />
+        <option value="$PROJECT_DIR$/products/accessories/tablet02/tablet02.html" />
+        <option value="$PROJECT_DIR$/products/accessories/tablet03/tablet03.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/products/products.html" />
+        <option value="$PROJECT_DIR$/products/ens/ens.html" />
+        <option value="$PROJECT_DIR$/products/ps705/ps705.html" />
         <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
@@ -216,7 +249,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -309,99 +341,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="case-smart-m" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="case-smart-l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="case-pocket-m" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,6 +361,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,23 +469,23 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3423326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16773163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39200863" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16932908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3423326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -564,9 +505,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15015975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -698,18 +639,6 @@
         <state line="29" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.5477778" vertical-offset="0" max-vertical-offset="900" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.05666667" vertical-offset="0" max-vertical-offset="2329">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="14" selection-start="8149" selection-end="8149" vertical-scroll-proportion="0.22067364" vertical-offset="3040" max-vertical-offset="4199" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/technology/technology.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="142" column="32" selection-start="8109" selection-end="8109" vertical-scroll-proportion="0.17073171" vertical-offset="2267" max-vertical-offset="3434" />
@@ -725,29 +654,9 @@
         <state line="74" column="20" selection-start="3768" selection-end="3784" vertical-scroll-proportion="-8.615385" vertical-offset="1034" max-vertical-offset="12512" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products/ps705/ps705.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="466" column="58" selection-start="23206" selection-end="23228" vertical-scroll-proportion="7.1136804" vertical-offset="4230" max-vertical-offset="9605" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/history/1970s/1970s.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="102" column="22" selection-start="5466" selection-end="5466" vertical-scroll-proportion="0.3492647" vertical-offset="1544" max-vertical-offset="3689" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/accessories.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="41" selection-start="8091" selection-end="8091" vertical-scroll-proportion="-0.026713124" vertical-offset="1638" max-vertical-offset="6613" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/ens/ens.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="507" column="40" selection-start="25821" selection-end="25821" vertical-scroll-proportion="0.23577236" vertical-offset="8416" max-vertical-offset="10115" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="107" selection-start="7295" selection-end="7295" vertical-scroll-proportion="0.5377468" vertical-offset="846" max-vertical-offset="3196" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
@@ -755,115 +664,183 @@
         <state line="4" column="604" selection-start="769" selection-end="769" vertical-scroll-proportion="0.11929824" vertical-offset="0" max-vertical-offset="570" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/tablet03/tablet03.html">
+    <entry file="file://$PROJECT_DIR$/products/accessories/accessories.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="85" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.38792104" vertical-offset="601" max-vertical-offset="3587" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/dx1/dx1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="74" selection-start="3542" selection-end="3563" vertical-scroll-proportion="0.39488965" vertical-offset="595" max-vertical-offset="3094" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/dx2/dx2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="85" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.4738676" vertical-offset="527" max-vertical-offset="3383" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/emc01/emc01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="85" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.22996515" vertical-offset="737" max-vertical-offset="3587" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/ent01/ent01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="85" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.5656214" vertical-offset="448" max-vertical-offset="3587" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/oko/oko.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="15" selection-start="10920" selection-end="10920" vertical-scroll-proportion="2.0336819" vertical-offset="1207" max-vertical-offset="3570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/tablet02/tablet02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="41" selection-start="7693" selection-end="7693" vertical-scroll-proportion="0.4680604" vertical-offset="991" max-vertical-offset="3451" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/ev01/ev01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="53" selection-start="9222" selection-end="9222" vertical-scroll-proportion="0.4076655" vertical-offset="1808" max-vertical-offset="3587" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/ec01/ec01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="40" selection-start="8273" selection-end="8273" vertical-scroll-proportion="0.2369338" vertical-offset="1581" max-vertical-offset="3587">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/ev01z/ev01z.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="47" selection-start="9670" selection-end="9670" vertical-scroll-proportion="0.6318235" vertical-offset="1751" max-vertical-offset="3587" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/ev01o/ev01o.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="31" selection-start="9594" selection-end="9594" vertical-scroll-proportion="2.6852498" vertical-offset="0" max-vertical-offset="3587" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/er01/er01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="53" selection-start="9237" selection-end="9237" vertical-scroll-proportion="0.9012776" vertical-offset="1383" max-vertical-offset="3587">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/cu/cu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="71" selection-start="8842" selection-end="8842" vertical-scroll-proportion="-12.45098" vertical-offset="1388" max-vertical-offset="3264">
+        <state line="72" column="0" selection-start="7072" selection-end="7072" vertical-scroll-proportion="0.9375" vertical-offset="714" max-vertical-offset="7361">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/ag/ag.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="71" selection-start="8817" selection-end="8817" vertical-scroll-proportion="-21.576923" vertical-offset="1445" max-vertical-offset="3247">
+        <state line="71" column="0" selection-start="6945" selection-end="6945" vertical-scroll-proportion="0.9375" vertical-offset="697" max-vertical-offset="3264">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/au/au.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="30" selection-start="7608" selection-end="7608" vertical-scroll-proportion="0.019744484" vertical-offset="1479" max-vertical-offset="3264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/case-smart-m/case-smart-m.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="7770" selection-end="7770" vertical-scroll-proportion="-13.846154" vertical-offset="1255" max-vertical-offset="3026">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/case-smart-l/case-smart-l.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="112" selection-start="8637" selection-end="8637" vertical-scroll-proportion="0.5923345" vertical-offset="1411" max-vertical-offset="3026">
+        <state line="71" column="0" selection-start="6945" selection-end="6945" vertical-scroll-proportion="0.9375" vertical-offset="697" max-vertical-offset="3281">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/case-pocket-m/case-pocket-m.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="18" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="3026">
+        <state line="33" column="44" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.22426471" vertical-offset="439" max-vertical-offset="3043">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/case-smart-l/case-smart-l.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="6945" selection-end="6945" vertical-scroll-proportion="0.9375" vertical-offset="697" max-vertical-offset="3043">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/case-smart-m/case-smart-m.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="45" selection-start="1833" selection-end="1833" vertical-scroll-proportion="-9.923077" vertical-offset="371" max-vertical-offset="3043">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/cu/cu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="6945" selection-end="6945" vertical-scroll-proportion="-19.615385" vertical-offset="697" max-vertical-offset="3281">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/dx1/dx1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="6946" selection-end="6946" vertical-scroll-proportion="-19.615385" vertical-offset="714" max-vertical-offset="3451">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/dx2/dx2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="6815" selection-end="6815" vertical-scroll-proportion="-16.346153" vertical-offset="697" max-vertical-offset="3383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/ec01/ec01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="6945" selection-end="6945" vertical-scroll-proportion="-19.615385" vertical-offset="697" max-vertical-offset="3604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/emc01/emc01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="6945" selection-end="6945" vertical-scroll-proportion="-19.615385" vertical-offset="697" max-vertical-offset="3604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/ent01/ent01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="6945" selection-end="6945" vertical-scroll-proportion="-18.807692" vertical-offset="718" max-vertical-offset="3604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/ev01/ev01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="6815" selection-end="6815" vertical-scroll-proportion="-15.538462" vertical-offset="718" max-vertical-offset="3587">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/ev01o/ev01o.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="0" selection-start="6944" selection-end="6944" vertical-scroll-proportion="-18.153847" vertical-offset="718" max-vertical-offset="3570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/ev01z/ev01z.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="6815" selection-end="6815" vertical-scroll-proportion="-15.538462" vertical-offset="718" max-vertical-offset="3570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/oko/oko.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="12" selection-start="6851" selection-end="6882" vertical-scroll-proportion="-17.5" vertical-offset="701" max-vertical-offset="3587">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/tablet02/tablet02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="6945" selection-end="6945" vertical-scroll-proportion="-18.807692" vertical-offset="718" max-vertical-offset="3604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/tablet03/tablet03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="6945" selection-end="6945" vertical-scroll-proportion="0.89889705" vertical-offset="718" max-vertical-offset="3570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/er01/er01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="6945" selection-end="6945" vertical-scroll-proportion="0.89889705" vertical-offset="718" max-vertical-offset="3587">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="99" selection-start="1928" selection-end="1928" vertical-scroll-proportion="-7.6153846" vertical-offset="533" max-vertical-offset="4845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="15" selection-start="1421" selection-end="6997" vertical-scroll-proportion="0.55284554" vertical-offset="102" max-vertical-offset="2261">
+          <folding>
+            <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/ens/ens.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="14" selection-start="1450" selection-end="7086" vertical-scroll-proportion="0.31591174" vertical-offset="340" max-vertical-offset="12036">
+          <folding>
+            <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#li#0;tag#div#0;tag#ul#0;tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#li#1;tag#div#0;tag#ul#0;tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/ps705/ps705.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="73" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.62081337" vertical-offset="25" max-vertical-offset="9605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="18" selection-start="2650" selection-end="2650" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2397">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5632" column="17" selection-start="123278" selection-end="123278" vertical-scroll-proportion="0.8779904" vertical-offset="95010" max-vertical-offset="95897">
+        <state line="3385" column="30" selection-start="77075" selection-end="77075" vertical-scroll-proportion="0.4748804" vertical-offset="57148" max-vertical-offset="95931">
           <folding />
         </state>
       </provider>

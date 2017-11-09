@@ -70,8 +70,12 @@ var navmenu = function(class1){
 //    ----адаптивное меню----------
 $(document).ready(function(){
     var mibile_width = 767;
-    $('.header-nav__item1').click(function(){
-        $(".header-nav__list1-1").slideToggle("slow");
+    $('.header-nav__item1').mouseover(function(){
+        $(".header-nav__list1-1").show();
+        return false;
+    });
+    $('.header-nav__item1').mouseout(function(){
+        $(".header-nav__list1-1").hide();
         return false;
     });
     $('body').click(function(){
