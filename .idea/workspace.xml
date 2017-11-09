@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/accessories.html" afterPath="$PROJECT_DIR$/products/accessories/accessories.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/ag/ag.html" afterPath="$PROJECT_DIR$/products/accessories/ag/ag.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/au/au.html" afterPath="$PROJECT_DIR$/products/accessories/au/au.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/case-pocket-m/case-pocket-m.html" afterPath="$PROJECT_DIR$/products/accessories/case-pocket-m/case-pocket-m.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/case-smart-l/case-smart-l.html" afterPath="$PROJECT_DIR$/products/accessories/case-smart-l/case-smart-l.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/case-smart-m/case-smart-m.html" afterPath="$PROJECT_DIR$/products/accessories/case-smart-m/case-smart-m.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/cu/cu.html" afterPath="$PROJECT_DIR$/products/accessories/cu/cu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/dx1/dx1.html" afterPath="$PROJECT_DIR$/products/accessories/dx1/dx1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/dx2/dx2.html" afterPath="$PROJECT_DIR$/products/accessories/dx2/dx2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/ec01/ec01.html" afterPath="$PROJECT_DIR$/products/accessories/ec01/ec01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/emc01/emc01.html" afterPath="$PROJECT_DIR$/products/accessories/emc01/emc01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/ens/ens.html" afterPath="$PROJECT_DIR$/products/ens/ens.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/ent01/ent01.html" afterPath="$PROJECT_DIR$/products/accessories/ent01/ent01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/er01/er01.html" afterPath="$PROJECT_DIR$/products/accessories/er01/er01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/ev01/ev01.html" afterPath="$PROJECT_DIR$/products/accessories/ev01/ev01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/ev01o/ev01o.html" afterPath="$PROJECT_DIR$/products/accessories/ev01o/ev01o.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/ev01z/ev01z.html" afterPath="$PROJECT_DIR$/products/accessories/ev01z/ev01z.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/oko/oko.html" afterPath="$PROJECT_DIR$/products/accessories/oko/oko.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/products.html" afterPath="$PROJECT_DIR$/products/products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/ps705/ps705.html" afterPath="$PROJECT_DIR$/products/ps705/ps705.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/tablet02/tablet02.html" afterPath="$PROJECT_DIR$/products/accessories/tablet02/tablet02.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/tablet03/tablet03.html" afterPath="$PROJECT_DIR$/products/accessories/tablet03/tablet03.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="" />
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,7 +28,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4716" column="11" selection-start="104588" selection-end="104588" vertical-scroll-proportion="-3.0588236" vertical-offset="80016" max-vertical-offset="95931">
+                <state line="4716" column="11" selection-start="104587" selection-end="104587" vertical-scroll-proportion="-3.0588236" vertical-offset="80016" max-vertical-offset="95931">
                   <folding />
                 </state>
               </provider>
@@ -83,7 +54,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3385" column="30" selection-start="77075" selection-end="77075" vertical-scroll-proportion="0.4748804" vertical-offset="57148" max-vertical-offset="95931">
+                <state line="2878" column="13" selection-start="63992" selection-end="63992" vertical-scroll-proportion="0.43421054" vertical-offset="48563" max-vertical-offset="95931">
                   <folding />
                 </state>
               </provider>
@@ -840,7 +811,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3385" column="30" selection-start="77075" selection-end="77075" vertical-scroll-proportion="0.4748804" vertical-offset="57148" max-vertical-offset="95931">
+        <state line="2878" column="13" selection-start="63992" selection-end="63992" vertical-scroll-proportion="0.43421054" vertical-offset="48563" max-vertical-offset="95931">
           <folding />
         </state>
       </provider>
