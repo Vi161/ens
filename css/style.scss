@@ -1037,6 +1037,18 @@ header {
 .acc1-block2-img-ag {
   background-image: url('../images/products/accessories/ag/ag.jpg');
 }
+.acc1-block2-img-au {
+  background-image: url('../images/products/accessories/au/au.jpg');
+}
+.acc1-block2-img-case-smart-m {
+  background-image: url('../images/products/accessories/case-smart-m/case-smart-m.jpg');
+}
+.acc1-block2-img-case-smart-l {
+  background-image: url('../images/products/accessories/case-smart-l/case-smart-l.jpg');
+}
+.acc1-block2-img-case-pocket-m {
+  background-image: url('../images/products/accessories/case-pocket-m/case-pocket-m.jpg');
+}
 .acc1-block4 {
   height: $acc1-block-height-600;
   width: 100%;
@@ -4288,6 +4300,20 @@ header {
   .ens-block14__list {
     padding-left: 2vw;
   }
+  .acc1-block2 {
+    width: 100%;
+    height: 0;
+    padding-top: 47%;
+    background-size: cover;
+    position: relative;
+  }
+  .acc1-block4 {
+    width: 100%;
+    height: 0;
+    padding-top: 47%;
+    background-size: cover;
+    position: relative;
+  }
 }
 @media (min-width: 768px)and (max-width: 1060px) {
   .products-nav__item {
@@ -4483,18 +4509,6 @@ header {
     padding-top: 47%;
     position: relative;
   }
-  .acc1-block2 {
-    width: 100%;
-    height: 0;
-    padding-top: 47%;
-    position: relative;
-  }
-  .acc1-block4 {
-     width: 100%;
-     height: 0;
-     padding-top: 47%;
-     position: relative;
-   }
   .tech-block1__left__p1 {
     font-size: 6vw;
   }
@@ -4698,7 +4712,10 @@ header {
     margin: 0 5vw;
     padding: 2vw 4vw;
   }
-  .header-nav__wrap {
+  .header-nav__item {
+    padding: 0;
+  }
+    .header-nav__wrap {
     position: absolute;
   }
   #header-nav__list.active {
@@ -5359,9 +5376,17 @@ header {
     line-height: unset;
     padding: 0 5vw;
   }
+
   .header-nav__item-a {
     font-size: 5vw;
+  }
+  .header-nav__item>.header-nav__item-a {
     color: white;
+
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 2vw 4vw;
   }
   .no-border {
     border: none;
@@ -5600,5 +5625,11 @@ header {
     height: 0;
     padding-top: 165%;
     background-size: cover;
+  }
+  .acc1-block2 {
+    padding-top: 100%;
+  }
+  .header-nav__item2-2:hover .header-nav__item-img{
+    display: none;
   }
 }

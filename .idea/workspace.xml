@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/dx1/dx1.html" afterPath="$PROJECT_DIR$/products/accessories/dx1/dx1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/dx2/dx2.html" afterPath="$PROJECT_DIR$/products/accessories/dx2/dx2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/emc01/emc01.html" afterPath="$PROJECT_DIR$/products/accessories/emc01/emc01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/ent01/ent01.html" afterPath="$PROJECT_DIR$/products/accessories/ent01/ent01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/accessories/oko/oko.html" afterPath="$PROJECT_DIR$/products/accessories/oko/oko.html" />
+      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\case-pocket-l\case-smart-l.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/ag/ag.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/ag/ag.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/au/au.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/au/au.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/cu/cu.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/cu/cu.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
@@ -35,16 +37,16 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="198" column="17" selection-start="4113" selection-end="4113" vertical-scroll-proportion="-6.1153846" vertical-offset="3207" max-vertical-offset="95370">
+                <state line="198" column="17" selection-start="4113" selection-end="4113" vertical-scroll-proportion="-6.1153846" vertical-offset="3207" max-vertical-offset="95897">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="er01.html" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/products/accessories/er01/er01.html">
+          <file leaf-file-name="case-pocket-m.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/products/accessories/case-pocket-m/case-pocket-m.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="127" column="53" selection-start="9237" selection-end="9237" vertical-scroll-proportion="0.9012776" vertical-offset="1383" max-vertical-offset="3587">
+                <state line="31" column="18" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="3026">
                   <folding />
                 </state>
               </provider>
@@ -54,10 +56,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3726" column="21" selection-start="86159" selection-end="86159" vertical-scroll-proportion="0.8327526" vertical-offset="62625" max-vertical-offset="95370">
+                <state line="5632" column="17" selection-start="123278" selection-end="123278" vertical-scroll-proportion="0.8779904" vertical-offset="95010" max-vertical-offset="95897">
                   <folding />
                 </state>
               </provider>
@@ -78,12 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/history/1990s.html" />
-        <option value="$PROJECT_DIR$/history/1970s.html" />
-        <option value="$PROJECT_DIR$/history/1980s.html" />
-        <option value="$PROJECT_DIR$/history/2000s.html" />
-        <option value="$PROJECT_DIR$/history/2010s.html" />
-        <option value="$PROJECT_DIR$/technology/medication-free_treatment/medication-free_treatment.html" />
         <option value="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.html" />
         <option value="$PROJECT_DIR$/technology/old_good_ens03/old_good_ens03.html" />
         <option value="$PROJECT_DIR$/technology/tens_scenar_cosmodic/tens_scenar_cosmodic.html" />
@@ -116,7 +112,6 @@
         <option value="$PROJECT_DIR$/products/ens/ens.html" />
         <option value="$PROJECT_DIR$/products/products.html" />
         <option value="$PROJECT_DIR$/products/accessories/emc01/oko.html" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/products/accessories/tablet03/tablet03.html" />
         <option value="$PROJECT_DIR$/products/accessories/ent01/ent01.html" />
         <option value="$PROJECT_DIR$/products/accessories/emc01/emc01.html" />
@@ -129,6 +124,13 @@
         <option value="$PROJECT_DIR$/products/accessories/ev01z/ev01z.html" />
         <option value="$PROJECT_DIR$/products/accessories/ev01o/ev01o.html" />
         <option value="$PROJECT_DIR$/products/accessories/er01/er01.html" />
+        <option value="$PROJECT_DIR$/products/accessories/cu/cu.html" />
+        <option value="$PROJECT_DIR$/products/accessories/ag/ag.html" />
+        <option value="$PROJECT_DIR$/products/accessories/au/au.html" />
+        <option value="$PROJECT_DIR$/products/accessories/case-smart-m/case-smart-m.html" />
+        <option value="$PROJECT_DIR$/products/accessories/case-smart-l/case-smart-l.html" />
+        <option value="$PROJECT_DIR$/products/accessories/case-pocket-m/case-pocket-m.html" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
   </component>
@@ -333,7 +335,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tablet03" />
+              <option name="myItemId" value="cu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,7 +357,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tablet02" />
+              <option name="myItemId" value="case-smart-m" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -377,7 +379,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="oko" />
+              <option name="myItemId" value="case-smart-l" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,183 +401,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ev01z" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ev01o" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ev01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="er01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ent01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emc01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ec01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dx2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dx1" />
+              <option name="myItemId" value="case-pocket-m" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -610,11 +436,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\HTML\ens\products\accessories\er01" />
-      <recent name="G:\HTML\ens\products\accessories\ev01o" />
-      <recent name="G:\HTML\ens\products\accessories\ev01z" />
-      <recent name="G:\HTML\ens\products\accessories\ev01" />
-      <recent name="G:\HTML\ens\products\accessories\ec01" />
+      <recent name="G:\HTML\ens\products\accessories\case-pocket-m" />
+      <recent name="G:\HTML\ens\products\accessories\case-smart-l" />
+      <recent name="G:\HTML\ens\products\accessories\case-smart-m" />
+      <recent name="G:\HTML\ens\products\accessories\au" />
+      <recent name="G:\HTML\ens\products\accessories\ag" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\HTML\ens\products\accessories\oko" />
@@ -705,7 +531,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16613418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16773163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39200863" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -717,8 +543,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3423326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -738,9 +564,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15015975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -763,42 +589,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1784" column="15" selection-start="38033" selection-end="38033" vertical-scroll-proportion="0.0" vertical-offset="30243" max-vertical-offset="35513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/structural.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="22" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.33296213" vertical-offset="279" max-vertical-offset="2397">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="4" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.33221477" vertical-offset="1026" max-vertical-offset="6902">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technology/medication-free_treatment/medication-free_treatment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="109" selection-start="4382" selection-end="4382" vertical-scroll-proportion="0.9329389" vertical-offset="683" max-vertical-offset="3706" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="109" selection-start="4385" selection-end="4385" vertical-scroll-proportion="0.5700197" vertical-offset="867" max-vertical-offset="5831" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/technology/old_good_ens03/old_good_ens03.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="126" selection-start="4385" selection-end="4385" vertical-scroll-proportion="0.46745563" vertical-offset="919" max-vertical-offset="4794" />
@@ -967,62 +757,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/tablet03/tablet03.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="85" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.38792104" vertical-offset="601" max-vertical-offset="3587">
-          <folding />
-        </state>
+        <state line="55" column="85" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.38792104" vertical-offset="601" max-vertical-offset="3587" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/dx1/dx1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="74" selection-start="3542" selection-end="3563" vertical-scroll-proportion="0.39488965" vertical-offset="595" max-vertical-offset="3094">
-          <folding>
-            <element signature="tag#ul#0;tag#li#1;tag#div#0;tag#ul#1;tag#div#0;tag#nav#0;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="55" column="74" selection-start="3542" selection-end="3563" vertical-scroll-proportion="0.39488965" vertical-offset="595" max-vertical-offset="3094" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/dx2/dx2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="85" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.4738676" vertical-offset="527" max-vertical-offset="3383">
-          <folding />
-        </state>
+        <state line="55" column="85" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.4738676" vertical-offset="527" max-vertical-offset="3383" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/emc01/emc01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="85" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.22996515" vertical-offset="737" max-vertical-offset="3587">
-          <folding />
-        </state>
+        <state line="55" column="85" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.22996515" vertical-offset="737" max-vertical-offset="3587" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/ent01/ent01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="85" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.5656214" vertical-offset="448" max-vertical-offset="3587">
-          <folding />
-        </state>
+        <state line="55" column="85" selection-start="3574" selection-end="3574" vertical-scroll-proportion="0.5656214" vertical-offset="448" max-vertical-offset="3587" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/oko/oko.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="15" selection-start="10920" selection-end="10920" vertical-scroll-proportion="2.0336819" vertical-offset="1207" max-vertical-offset="3570">
-          <folding />
-        </state>
+        <state line="174" column="15" selection-start="10920" selection-end="10920" vertical-scroll-proportion="2.0336819" vertical-offset="1207" max-vertical-offset="3570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/tablet02/tablet02.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="41" selection-start="7693" selection-end="7693" vertical-scroll-proportion="0.4680604" vertical-offset="991" max-vertical-offset="3451">
-          <folding>
-            <element signature="tag#li#0;tag#div#0;tag#ul#1;tag#div#0;tag#nav#0;tag#header#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="90" column="41" selection-start="7693" selection-end="7693" vertical-scroll-proportion="0.4680604" vertical-offset="991" max-vertical-offset="3451" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/ev01/ev01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="53" selection-start="9222" selection-end="9222" vertical-scroll-proportion="0.4076655" vertical-offset="1808" max-vertical-offset="3587">
-          <folding />
-        </state>
+        <state line="127" column="53" selection-start="9222" selection-end="9222" vertical-scroll-proportion="0.4076655" vertical-offset="1808" max-vertical-offset="3587" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/ec01/ec01.html">
@@ -1034,28 +804,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/ev01z/ev01z.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="47" selection-start="9670" selection-end="9670" vertical-scroll-proportion="0.6318235" vertical-offset="1751" max-vertical-offset="3587">
-          <folding />
-        </state>
+        <state line="135" column="47" selection-start="9670" selection-end="9670" vertical-scroll-proportion="0.6318235" vertical-offset="1751" max-vertical-offset="3587" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/ev01o/ev01o.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="31" selection-start="9594" selection-end="9594" vertical-scroll-proportion="2.6852498" vertical-offset="0" max-vertical-offset="3587">
+        <state line="136" column="31" selection-start="9594" selection-end="9594" vertical-scroll-proportion="2.6852498" vertical-offset="0" max-vertical-offset="3587" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/er01/er01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="53" selection-start="9237" selection-end="9237" vertical-scroll-proportion="0.9012776" vertical-offset="1383" max-vertical-offset="3587">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/cu/cu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="71" selection-start="8842" selection-end="8842" vertical-scroll-proportion="-12.45098" vertical-offset="1388" max-vertical-offset="3264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/ag/ag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="71" selection-start="8817" selection-end="8817" vertical-scroll-proportion="-21.576923" vertical-offset="1445" max-vertical-offset="3247">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/au/au.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="30" selection-start="7608" selection-end="7608" vertical-scroll-proportion="0.019744484" vertical-offset="1479" max-vertical-offset="3264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/case-smart-m/case-smart-m.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="0" selection-start="7770" selection-end="7770" vertical-scroll-proportion="-13.846154" vertical-offset="1255" max-vertical-offset="3026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/case-smart-l/case-smart-l.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="112" selection-start="8637" selection-end="8637" vertical-scroll-proportion="0.5923345" vertical-offset="1411" max-vertical-offset="3026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/accessories/case-pocket-m/case-pocket-m.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="18" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="3026">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="17" selection-start="4113" selection-end="4113" vertical-scroll-proportion="-6.1153846" vertical-offset="3207" max-vertical-offset="95370">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/accessories/er01/er01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="53" selection-start="9237" selection-end="9237" vertical-scroll-proportion="0.9012776" vertical-offset="1383" max-vertical-offset="3587">
+        <state line="5632" column="17" selection-start="123278" selection-end="123278" vertical-scroll-proportion="0.8779904" vertical-offset="95010" max-vertical-offset="95897">
           <folding />
         </state>
       </provider>
