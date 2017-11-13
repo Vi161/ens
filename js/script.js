@@ -84,7 +84,7 @@ $(document).ready(function(){
             return false;
         });
         $('.header-nav__item1').mouseout(function(){
-            $(".header-nav__list1-1").hide();
+//            $(".header-nav__list1-1").hide();
             return false;
         });
     }
@@ -117,8 +117,8 @@ $(document).ready(function(){
             };
 
     });
-//    if(window.matchMedia('all and (max-width: 768px)').matches)
-//    {
+    if(window.matchMedia('all and (max-width: 768px)').matches)
+    {
         $('.slicknav-menu__but').click(function(){
             $(  "#products-nav__list").slideToggle("slow");
             return false;
@@ -141,7 +141,7 @@ $(document).ready(function(){
         });
 
 
-//    }
+    }
 
 });
 
