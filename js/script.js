@@ -74,67 +74,72 @@ $(document).ready(function(){
 //    $('body').click(function(){
 //        $(".header-nav__list1-1").hide();
 //    });
-    if($(window).width() < mibile_width) {
-        $('.header-nav__item1').click(function(){
-            $(".header-nav__list1-1").slideToggle("slow");
-        });
-    }else {
+//    if($(window).width() < mibile_width) {
+//        $('.header-nav__item1').click(function(){
+//            $(".header-nav__list1-1").slideToggle();
+//        });
+//    }else {
         $('.header-nav__item1').mouseover(function(){
             $(".header-nav__list1-1").show();
             return false;
         });
         $('.header-nav__item1').mouseout(function(){
-//            $(".header-nav__list1-1").hide();
+            $(".header-nav__list1-1").hide();
             return false;
         });
-    }
+//    }
 
 
-        $(window).resize(function(){
-            //выпадающее меню при наведении
+    $(window).resize(function(){
+        if($(window).width() > mibile_width) {
 
-            if($(window).width() > mibile_width) {
+            $('#products-nav__list').removeClass('active');
+            $('#products-nav__list').removeClass('flex-off');
+            $('#products-nav__list').addClass('flex-on');
 
-                $('#products-nav__list').removeClass('active');
-                $('#products-nav__list').removeClass('flex-off');
-                $('#products-nav__list').addClass('flex-on');
+            $('#header-nav__list').removeClass('active');
+//            $('#header-nav__list').removeClass('flex-off');
+            $('#header-nav__list').addClass('flex-on');
+        }else{
+            $('#header-nav__list').addClass('active');
+            $('#header-nav__list').addClass('flex-off');
+            $('#header-nav__list').removeClass('flex-on');
 
-                $('#header-nav__list').removeClass('active');
-                $('#header-nav__list').removeClass('flex-off');
-                $('#header-nav__list').addClass('flex-on');
-            }else{
-                $('#header-nav__list').addClass('active');
-                $('#header-nav__list').addClass('flex-off');
-                $('#header-nav__list').removeClass('flex-on');
+            $('#products-nav__list').addClass('active');
+            $('#products-nav__list').addClass('flex-off');
+            $('#products-nav__list').removeClass('flex-on');
+            $( "#products-nav__list").toggle(false);
+            $( "#header-nav__list").toggle(false);
 
-                $('#products-nav__list').addClass('active');
-                $('#products-nav__list').addClass('flex-off');
-                $('#products-nav__list').removeClass('flex-on');
-                $( "#products-nav__list").toggle(false);
-                $( "#header-nav__list").toggle(false);
-
-                $('.icon-bars').removeClass('icon-close');
-            };
+            $('.icon-bars').removeClass('icon-close');
+        };
 
     });
     if(window.matchMedia('all and (max-width: 768px)').matches)
     {
+        var display;
         $('.slicknav-menu__but').click(function(){
-            $(  "#products-nav__list").slideToggle("slow");
+            $(  "#products-nav__list").toggle(display);
             return false;
         });
+        if ( display === true ) {
+            $( "#foo" ).show();
+        } else if ( display === false ) {
+            $( "#foo" ).hide();
+        }
+
         $('body').click(function(){
             $("#products-nav__list").hide();
         });
         $(window).scroll(function() {
             if ($(this).scrollTop() > 0) {
-                $("#products-nav__list").hide();
+                $("#products-nav__list").slideUp(slow);
             }
         });
         $('.slicknav-menu1__but').click(function(){
             $(".icon-bars").toggleClass("icon-close");
             $( "#header-nav__list").slideToggle("slow");
-            $("#products-nav__list").hide();
+            $("#products-nav__list").slideUp(slow);
 //            $(".header-nav").toggleClass("header-nav__fixed");
 //            $("body").toggleClass("no-overflow");
             return false;
