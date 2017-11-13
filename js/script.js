@@ -6,6 +6,7 @@ $(document).ready(function() {
 //        window.setTimeout('location.reload()', 500);
 //    });
 });
+var display;
 
 var golink = function(pad){
     $("a[href*=#]").on("click", function(e){
@@ -74,11 +75,11 @@ $(document).ready(function(){
 //    $('body').click(function(){
 //        $(".header-nav__list1-1").hide();
 //    });
-//    if($(window).width() < mibile_width) {
-//        $('.header-nav__item1').click(function(){
-//            $(".header-nav__list1-1").slideToggle();
-//        });
-//    }else {
+    if($(window).width() < mibile_width) {
+        $('.header-nav__item1').click(function(){
+            $(".header-nav__list1-1").toggle(display);
+        });
+    }else {
         $('.header-nav__item1').mouseover(function(){
             $(".header-nav__list1-1").show();
             return false;
@@ -87,7 +88,7 @@ $(document).ready(function(){
             $(".header-nav__list1-1").hide();
             return false;
         });
-//    }
+    }
 
 
     $(window).resize(function(){
@@ -117,29 +118,25 @@ $(document).ready(function(){
     });
     if(window.matchMedia('all and (max-width: 768px)').matches)
     {
-        var display;
         $('.slicknav-menu__but').click(function(){
             $(  "#products-nav__list").toggle(display);
             return false;
         });
-        if ( display === true ) {
-            $( "#foo" ).show();
-        } else if ( display === false ) {
-            $( "#foo" ).hide();
-        }
+
 
         $('body').click(function(){
             $("#products-nav__list").hide();
         });
         $(window).scroll(function() {
             if ($(this).scrollTop() > 0) {
-                $("#products-nav__list").slideUp(slow);
+                $("#products-nav__list").slideUp();
             }
         });
+
         $('.slicknav-menu1__but').click(function(){
             $(".icon-bars").toggleClass("icon-close");
-            $( "#header-nav__list").slideToggle("slow");
-            $("#products-nav__list").slideUp(slow);
+            $( "#header-nav__list").toggle(display);
+            $("#products-nav__list").hide();
 //            $(".header-nav").toggleClass("header-nav__fixed");
 //            $("body").toggleClass("no-overflow");
             return false;
