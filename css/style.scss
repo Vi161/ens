@@ -4718,7 +4718,7 @@ header {
   .header-nav__item-a {
     border-bottom:1px solid grey;
     display: flex;
-    padding: 3vw 4vw;
+    padding: 1vw 4vw;
   }
     .header-nav__wrap {
     position: absolute;
@@ -5642,6 +5642,9 @@ header {
   }
   .header-nav__list1-1 {
     top: 10vw;
+  }
+  .header-nav__list2-1 {
+    column-count: 2;
   }
   .header-nav__list1-1 .content__container {
     flex-direction: column;
