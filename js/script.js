@@ -93,32 +93,6 @@ $(document).ready(function(){
         });
     }
 
-
-    $(window).resize(function(){
-        if($(window).width() > mibile_width) {
-
-            $('#products-nav__list').removeClass('active');
-            $('#products-nav__list').removeClass('flex-off');
-            $('#products-nav__list').addClass('flex-on');
-
-            $('#header-nav__list').removeClass('active');
-//            $('#header-nav__list').removeClass('flex-off');
-            $('#header-nav__list').addClass('flex-on');
-        }else{
-            $('#header-nav__list').addClass('active');
-            $('#header-nav__list').addClass('flex-off');
-            $('#header-nav__list').removeClass('flex-on');
-
-            $('#products-nav__list').addClass('active');
-            $('#products-nav__list').addClass('flex-off');
-            $('#products-nav__list').removeClass('flex-on');
-            $( "#products-nav__list").toggle(false);
-            $( "#header-nav__list").toggle(false);
-
-            $('.icon-bars').removeClass('icon-close');
-        };
-
-    });
     if(window.matchMedia('all and (max-width: 768px)').matches)
     {
         $('.slicknav-menu__but').click(function(){
@@ -138,16 +112,42 @@ $(document).ready(function(){
         $('.slicknav-menu1__but').click(function(){
             $(".icon-bars").toggleClass("icon-close");
             $( "#header-nav__list").toggle(display);
-            $("#products-nav__list").hide();
-//            $(".header-nav").toggleClass("header-nav__fixed");
-//            $("body").toggleClass("no-overflow");
             return false;
         });
+
         $("body").click(function(e) {
-            if($(e.target).closest("#header-nav__list").length==0)
+            if(($(e.target).closest("#header-nav__list").length==0)&&
+                ($(e.target).closest(".header-nav__logo").length==0)){
                 $("#header-nav__list").css("display","none");
-                $(".icon-bars").removeClass("icon-close");
+                $('.icon-bars').removeClass('icon-close');
+            }
         });
     }
+
+//    $(window).resize(function(){
+//        if($(window).width() > mibile_width) {
+//
+//            $('#products-nav__list').removeClass('active');
+//            $('#products-nav__list').removeClass('flex-off');
+//            $('#products-nav__list').addClass('flex-on');
+//
+//            $('#header-nav__list').removeClass('active');
+////            $('#header-nav__list').removeClass('flex-off');
+//            $('#header-nav__list').addClass('flex-on');
+//        }else{
+//            $('#header-nav__list').addClass('active');
+//            $('#header-nav__list').addClass('flex-off');
+//            $('#header-nav__list').removeClass('flex-on');
+//
+//            $('#products-nav__list').addClass('active');
+//            $('#products-nav__list').addClass('flex-off');
+//            $('#products-nav__list').removeClass('flex-on');
+//            $( "#products-nav__list").toggle(false);
+//            $( "#header-nav__list").toggle(false);
+//
+//            $('.icon-bars').removeClass('icon-close');
+//        };
+//
+//    });
 });
 
