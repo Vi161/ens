@@ -2,47 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\HTML\ens\aboutus\aboutus.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\aboutus\legal\legal.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\history\1970s\1970s.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\history\1970s\index.phtml" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\history\1980s\1980s.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\history\1990s\1990s.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\history\2000s\2000s.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\history\2010s\2010s.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\history\history.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\index.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\accessories.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\ag\ag.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\au\au.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\case-pocket-m\case-pocket-m.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\case-smart-l\case-smart-l.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\case-smart-m\case-smart-m.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\cu\cu.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\dx1\dx1.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\dx2\dx2.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\ec01\ec01.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\emc01\emc01.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\ent01\ent01.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\er01\er01.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\ev01\ev01.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\ev01o\ev01o.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\ev01z\ev01z.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\oko\oko.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\tablet02\tablet02.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\accessories\tablet03\tablet03.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\ens\ens.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\products.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\products\ps705\ps705.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\technology\how_it_work\how_it_work.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\technology\medication-free_treatment\medication-free_treatment.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\technology\not_all_secrets_of_scenar-cosmodic\not_all_secrets_of_scenar-cosmodic.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\technology\old_good_ens03\old_good_ens03.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\technology\technology.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\technology\tens_scenar_cosmodic\tens_scenar_cosmodic.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\technology\transferring_to_a_different_level_of_health\transferring_to_a_different_level_of_health.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\technology\using\using.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\technology\what_is_scenar-therapy\what_is_scenar-therapy.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/how_it_work/how_it_work.phtml" afterPath="$PROJECT_DIR$/technology/how_it_work/how_it_work.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/medication-free_treatment/medication-free_treatment.phtml" afterPath="$PROJECT_DIR$/technology/medication-free_treatment/medication-free_treatment.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.phtml" afterPath="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/old_good_ens03/old_good_ens03.phtml" afterPath="$PROJECT_DIR$/technology/old_good_ens03/old_good_ens03.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/technology.phtml" afterPath="$PROJECT_DIR$/technology/technology.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/tens_scenar_cosmodic/tens_scenar_cosmodic.phtml" afterPath="$PROJECT_DIR$/technology/tens_scenar_cosmodic/tens_scenar_cosmodic.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health/transferring_to_a_different_level_of_health.phtml" afterPath="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health/transferring_to_a_different_level_of_health.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/using/using.phtml" afterPath="$PROJECT_DIR$/technology/using/using.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.phtml" afterPath="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.phtml" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,56 +33,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ag.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/products/accessories/ag/ag.phtml">
+      <file leaf-file-name="technology.phtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/technology/technology.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="115" selection-start="7387" selection-end="7387" vertical-scroll-proportion="-6.9615383" vertical-offset="1094" max-vertical-offset="2533">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="case-pocket-m.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/products/accessories/case-pocket-m/case-pocket-m.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="118" selection-start="4988" selection-end="4988" vertical-scroll-proportion="17.23077" vertical-offset="1417" max-vertical-offset="2312">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="au.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/products/accessories/au/au.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="133" selection-start="2263" selection-end="2263" vertical-scroll-proportion="-11.346154" vertical-offset="385" max-vertical-offset="2550">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cu.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/products/accessories/cu/cu.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="0" selection-start="9598" selection-end="9649" vertical-scroll-proportion="-69.30769" vertical-offset="476" max-vertical-offset="2550">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="how_it_work.phtml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/technology/how_it_work/how_it_work.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="130" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.3492647" vertical-offset="575" max-vertical-offset="3774">
-              <folding />
+            <state line="229" column="0" selection-start="16365" selection-end="16365" vertical-scroll-proportion="0.53125" vertical-offset="1649" max-vertical-offset="2193">
+              <folding>
+                <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,11 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/technology/tens_scenar_cosmodic/tens_scenar_cosmodic.html" />
-        <option value="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health/transferring_to_a_different_level_of_health.html" />
-        <option value="$PROJECT_DIR$/technology/using/using.html" />
-        <option value="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.html" />
-        <option value="$PROJECT_DIR$/history/2010s/2010s.html" />
         <option value="$PROJECT_DIR$/history/2000s/2000s.html" />
         <option value="$PROJECT_DIR$/history/1990s/1990s.html" />
         <option value="$PROJECT_DIR$/history/1980s/1980s.html" />
@@ -175,14 +95,19 @@
         <option value="$PROJECT_DIR$/products/accessories/accessories.phtml" />
         <option value="$PROJECT_DIR$/products/ens/ens.phtml" />
         <option value="$PROJECT_DIR$/products/ps705/ps705.phtml" />
-        <option value="$PROJECT_DIR$/technology/technology.phtml" />
-        <option value="$PROJECT_DIR$/technology/medication-free_treatment/medication-free_treatment.phtml" />
-        <option value="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.phtml" />
         <option value="$PROJECT_DIR$/products/products.phtml" />
         <option value="$PROJECT_DIR$/products/accessories/au/au.phtml" />
         <option value="$PROJECT_DIR$/products/accessories/ag/ag.phtml" />
         <option value="$PROJECT_DIR$/products/accessories/case-pocket-m/case-pocket-m.phtml" />
+        <option value="$PROJECT_DIR$/technology/medication-free_treatment/medication-free_treatment.phtml" />
         <option value="$PROJECT_DIR$/technology/how_it_work/how_it_work.phtml" />
+        <option value="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.phtml" />
+        <option value="$PROJECT_DIR$/technology/old_good_ens03/old_good_ens03.phtml" />
+        <option value="$PROJECT_DIR$/technology/tens_scenar_cosmodic/tens_scenar_cosmodic.phtml" />
+        <option value="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health/transferring_to_a_different_level_of_health.phtml" />
+        <option value="$PROJECT_DIR$/technology/using/using.phtml" />
+        <option value="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.phtml" />
+        <option value="$PROJECT_DIR$/technology/technology.phtml" />
       </list>
     </option>
   </component>
@@ -298,6 +223,150 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="what_is_scenar-therapy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="using" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transferring_to_a_different_level_of_health" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tens_scenar_cosmodic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="old_good_ens03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="not_all_secrets_of_scenar-cosmodic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="medication-free_treatment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="how_it_work" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -486,7 +555,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3423326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3423326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39200863" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -496,7 +565,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17092651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17092651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -549,11 +618,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/owl.carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="291" selection-end="291" vertical-scroll-proportion="0.13416009" vertical-offset="0" max-vertical-offset="55675" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery-1.11.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153" />
@@ -842,27 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/technology/technology.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="41" selection-start="15698" selection-end="15698" vertical-scroll-proportion="6.1214576" vertical-offset="665" max-vertical-offset="4794">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technology/medication-free_treatment/medication-free_treatment.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="113" selection-start="2139" selection-end="2139" vertical-scroll-proportion="0.3492647" vertical-offset="575" max-vertical-offset="4403">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="113" selection-start="2139" selection-end="2139" vertical-scroll-proportion="0.3492647" vertical-offset="575" max-vertical-offset="6528">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/au/au.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="133" selection-start="2263" selection-end="2263" vertical-scroll-proportion="-11.346154" vertical-offset="385" max-vertical-offset="2550">
@@ -893,15 +936,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/products/accessories/cu/cu.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="0" selection-start="9598" selection-end="9649" vertical-scroll-proportion="-69.30769" vertical-offset="476" max-vertical-offset="2550">
+        <state line="134" column="0" selection-start="9599" selection-end="9650" vertical-scroll-proportion="-10.461538" vertical-offset="2006" max-vertical-offset="2550">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/medication-free_treatment/medication-free_treatment.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="205" column="0" selection-start="16426" selection-end="16474" vertical-scroll-proportion="0.53125" vertical-offset="1666" max-vertical-offset="2210">
+          <folding>
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/technology/how_it_work/how_it_work.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="130" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.3492647" vertical-offset="575" max-vertical-offset="3774">
+        <state line="168" column="25" selection-start="13927" selection-end="13927" vertical-scroll-proportion="-11.153846" vertical-offset="1597" max-vertical-offset="2142">
+          <folding>
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="330" column="48" selection-start="25944" selection-end="25944" vertical-scroll-proportion="-11.115385" vertical-offset="1649" max-vertical-offset="2193">
+          <folding>
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/old_good_ens03/old_good_ens03.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="269" column="48" selection-start="21611" selection-end="21611" vertical-scroll-proportion="-11.115385" vertical-offset="1649" max-vertical-offset="2193">
+          <folding>
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/tens_scenar_cosmodic/tens_scenar_cosmodic.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="247" column="48" selection-start="19289" selection-end="19289" vertical-scroll-proportion="-11.192307" vertical-offset="1647" max-vertical-offset="2193">
+          <folding>
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health/transferring_to_a_different_level_of_health.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="0" selection-start="18958" selection-end="18958" vertical-scroll-proportion="-12.269231" vertical-offset="3676" max-vertical-offset="4233">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/using/using.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="0" selection-start="14017" selection-end="14017" vertical-scroll-proportion="-10.961538" vertical-offset="1670" max-vertical-offset="2210">
+          <folding>
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="314" column="0" selection-start="23434" selection-end="23434" vertical-scroll-proportion="-10.961538" vertical-offset="1670" max-vertical-offset="2210">
+          <folding>
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technology/technology.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="229" column="0" selection-start="16365" selection-end="16365" vertical-scroll-proportion="0.53125" vertical-offset="1649" max-vertical-offset="2193">
+          <folding>
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
