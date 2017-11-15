@@ -26,45 +26,6 @@
 </head>
 <body>
 <?php include_once '../../header/header.php'; ?>
-<nav class="hyst-nav__wrap">
-    <div class="products-nav hyst-nav">
-        <div class="products-nav__container hyst-nav__container">
-            <div class="products-nav__left">
-                <a class="products-nav__left-a" products-nav__left-ahref="../../history/1990s/1990s.php">1990's</a>
-            </div>
-            <div class="slicknav-menu">
-                <div class="slicknav-menu__but"><span class="icon-angle-down"></span></div>
-            </div>
-            <ul id="products-nav__list" class="products-nav__right">
-                <li class="products-nav__item hyst-nav__item"><a href="../../history/1970s/1970s.php">1970's</a></li>
-                <li class="products-nav__item hyst-nav__item">
-                    <a href="../../history/1980s/1980s.php">1980's</a>
-                </li>
-                <li class="products-nav__item hyst-nav__item"><a class="header-nav__active"href="../../history/1990s/1990s.php">1990's</a>
-                    <div class="hyst-bot-nav">
-                        <div class="hyst-bot-nav__container">
-                            <div class="hyst-bot-nav__item"><a href="../../history/1990s/1990s.php" class="hyst-bot-nav__img hyst-bot-nav1990__img1" ></a></div>
-                            <ul id="hyst-bot-nav__list" class="owl-carousel owl-theme products-nav__right">
-                                <li class="hyst-bot-nav__item"><a href="#letmedical"><div class="hyst-bot-nav__img hyst-bot-nav1990__img2"></div><p class="hyst-bot-nav__txt">“LET Medical” Research Lab</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#scenar032"><div class="hyst-bot-nav__img hyst-bot-nav1990__img3"></div><p class="hyst-bot-nav__txt">SCENAR 032</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#scenar035"><div class="hyst-bot-nav__img hyst-bot-nav1990__img4"></div><p class="hyst-bot-nav__txt">SCENAR 035</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#scenar513"><div class="hyst-bot-nav__img hyst-bot-nav1990__img5"></div><p class="hyst-bot-nav__txt">SCENAR DS513</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#newspaper"><div class="hyst-bot-nav__img hyst-bot-nav1990__img6"></div><p class="hyst-bot-nav__txt">Newspaper</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#scenar611"><div class="hyst-bot-nav__img hyst-bot-nav1990__img7"></div><p class="hyst-bot-nav__txt">SCENAR D-VX611</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#scenar603"><div class="hyst-bot-nav__img hyst-bot-nav1990__img8"></div><p class="hyst-bot-nav__txt">SCENAR DPS603</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#scenar735"><div class="hyst-bot-nav__img hyst-bot-nav1990__img9"></div><p class="hyst-bot-nav__txt">SCENAR VX735v3.5</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#scenar703"><div class="hyst-bot-nav__img hyst-bot-nav1990__img10"></div><p class="hyst-bot-nav__txt">SCENAR PS703</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#scenar713"><div class="hyst-bot-nav__img hyst-bot-nav1990__img11"></div><p class="hyst-bot-nav__txt">SCENAR PS713</p></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li class="products-nav__item hyst-nav__item"><a href="../../history/2000s/2000s.php">2000's</a></li>
-                <li class="products-nav__item hyst-nav__item"><a href="../../history/2010s/2010s.php">2010's</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
 
 <div  class="content">
     <div  class="hyst-block-bigimg hyst-block5 hyst-block-top">
