@@ -22,39 +22,6 @@
 </head>
 <body>
 <?php include_once '../../header/header.php'; ?>
-
-<nav class="hyst-nav__wrap">
-    <div class="products-nav hyst-nav">
-        <div class="products-nav__container hyst-nav__container">
-            <div class="products-nav__left ">
-                <a class="products-nav__left-a" href="../../history/1970s/1970s.php">1970's</a>
-            </div>
-            <div class="slicknav-menu">
-                <div class="slicknav-menu__but"><span class="icon-angle-down"></span></div>
-            </div>
-            <ul id="products-nav__list" class="products-nav__right">
-                <li class="products-nav__item hyst-nav__item">
-                    <a class="header-nav__active" href="../../history/1970s/1970s.php">1970's</a>
-                    <div class="hyst-bot-nav">
-                        <div class="hyst-bot-nav__container">
-                            <div class="hyst-bot-nav__item "><a class="hyst-bot-nav__img hyst-bot-nav__img1 " href="../../history/1970s/1970s.php"></a></div>
-                            <ul id="hyst-bot-nav__list" class="products-nav__right">
-                                <li class="hyst-bot-nav__item"><a href="#ens01"><div class="hyst-bot-nav__img hyst-bot-nav__img2"></div><p class="hyst-bot-nav__txt">ENS-1</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#ens02"><div class="hyst-bot-nav__img hyst-bot-nav__img3"></div><p class="hyst-bot-nav__txt">ENS-2</p></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li class="products-nav__item hyst-nav__item"><a href="../../history/1980s/1980s.php">1980's</a></li>
-                <li class="products-nav__item hyst-nav__item"><a href="../../history/1990s/1990s.php">1990's</a></li>
-                <li class="products-nav__item hyst-nav__item"><a href="../../history/2000s/2000s.php">2000's</a></li>
-                <li class="products-nav__item hyst-nav__item"><a href="../../history/2010s/2010s.php">2010's</a></li>
-            </ul>
-        </div>
-    </div>
-
-</nav>
-
 <div  class="content">
     <div  class="hyst-block-bigimg hyst-block9 hyst-block-top">
         <div class="content__container">

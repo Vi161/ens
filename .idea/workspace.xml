@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/1970s/1970s.php" afterPath="$PROJECT_DIR$/history/1970s/1970s.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/1980s/1980s.php" afterPath="$PROJECT_DIR$/history/1980s/1980s.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header/header.php" afterPath="$PROJECT_DIR$/header/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
@@ -34,29 +35,36 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3490" column="63" selection-start="79978" selection-end="79978" vertical-scroll-proportion="-7.7843137" vertical-offset="58933" max-vertical-offset="74426">
+                <state line="3511" column="70" selection-start="80726" selection-end="80726" vertical-scroll-proportion="-8.473684" vertical-offset="58193" max-vertical-offset="73933">
                   <folding>
-                    <element signature="e#87997#88021#0" expanded="false" />
-                    <element signature="e#98344#104535#0" expanded="false" />
-                    <element signature="e#104572#125190#0" expanded="false" />
+                    <element signature="e#43041#43145#0" expanded="false" />
+                    <element signature="e#43160#43327#0" expanded="false" />
+                    <element signature="e#43353#43467#0" expanded="false" />
+                    <element signature="e#43488#43541#0" expanded="false" />
+                    <element signature="e#43562#43766#0" expanded="false" />
+                    <element signature="e#43912#44028#0" expanded="false" />
+                    <element signature="e#45124#45222#0" expanded="false" />
+                    <element signature="e#88746#88770#0" expanded="false" />
+                    <element signature="e#99093#105284#0" expanded="false" />
+                    <element signature="e#105321#125939#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="31" selection-start="569" selection-end="569" vertical-scroll-proportion="0.39666668" vertical-offset="0" max-vertical-offset="2737">
+                <state line="25" column="27" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2737">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/header/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="66" column="98" selection-start="7346" selection-end="7387" vertical-scroll-proportion="-14.923077" vertical-offset="54" max-vertical-offset="1224">
+                <state line="81" column="126" selection-start="9861" selection-end="9861" vertical-scroll-proportion="0.48664343" vertical-offset="278" max-vertical-offset="1343">
                   <folding>
                     <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
                     <element signature="tag#li#1;tag#div#0;tag#ul#0;tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
@@ -72,10 +80,9 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5676" column="11" selection-start="124405" selection-end="124405" vertical-scroll-proportion="-1.4509804" vertical-offset="90910" max-vertical-offset="91783">
+                <state line="2230" column="69" selection-start="48458" selection-end="48503" vertical-scroll-proportion="-12.784314" vertical-offset="37258" max-vertical-offset="97614">
                   <folding>
-                    <element signature="e#87997#88021#0" expanded="false" />
-                    <element signature="e#98344#104535#0" expanded="false" />
+                    <element signature="e#88746#88770#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -84,7 +91,7 @@
           <file leaf-file-name="1980s.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/history/1980s/1980s.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="0" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.20209059" vertical-offset="285" max-vertical-offset="4437">
+                <state line="29" column="0" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.57259" vertical-offset="0" max-vertical-offset="3757">
                   <folding />
                 </state>
               </provider>
@@ -127,8 +134,6 @@
         <option value="$PROJECT_DIR$/aboutus/aboutus.php" />
         <option value="$PROJECT_DIR$/products/products.php" />
         <option value="$PROJECT_DIR$/history/history.php" />
-        <option value="$PROJECT_DIR$/history/1970s/1970s.php" />
-        <option value="$PROJECT_DIR$/history/1980s/1980s.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/aboutus/legal/legal.php" />
         <option value="$PROJECT_DIR$/products/accessories/ag/ag.php" />
@@ -153,9 +158,11 @@
         <option value="$PROJECT_DIR$/technology/technology.php" />
         <option value="$PROJECT_DIR$/products/ens/ens.php" />
         <option value="$PROJECT_DIR$/products/ps705/ps705.php" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/history/1970s/1970s.php" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/header/header.php" />
+        <option value="$PROJECT_DIR$/history/1980s/1980s.php" />
       </list>
     </option>
   </component>
@@ -524,11 +531,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="23" selection-start="3375" selection-end="3395" vertical-scroll-proportion="0.33258173" vertical-offset="1949" max-vertical-offset="8228" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="604" selection-start="769" selection-end="769" vertical-scroll-proportion="0.11929824" vertical-offset="0" max-vertical-offset="570" />
@@ -845,16 +847,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="27" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2737">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/history/1970s/1970s.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="65" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.533101" vertical-offset="0" max-vertical-offset="2567">
+        <state line="24" column="0" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.4738676" vertical-offset="0" max-vertical-offset="2006">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/history/1980s/1987-patent_electrostimulator.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2230" column="69" selection-start="48458" selection-end="48503" vertical-scroll-proportion="-12.784314" vertical-offset="37258" max-vertical-offset="97614">
+          <folding>
+            <element signature="e#88746#88770#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="98" selection-start="7346" selection-end="7387" vertical-scroll-proportion="-14.923077" vertical-offset="54" max-vertical-offset="1224">
+        <state line="81" column="126" selection-start="9861" selection-end="9861" vertical-scroll-proportion="0.48664343" vertical-offset="278" max-vertical-offset="1343">
           <folding>
             <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
             <element signature="tag#li#1;tag#div#0;tag#ul#0;tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
@@ -862,26 +885,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="31" selection-start="569" selection-end="569" vertical-scroll-proportion="0.39666668" vertical-offset="0" max-vertical-offset="2737">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5676" column="11" selection-start="124405" selection-end="124405" vertical-scroll-proportion="-1.4509804" vertical-offset="90910" max-vertical-offset="91783">
-          <folding>
-            <element signature="e#87997#88021#0" expanded="false" />
-            <element signature="e#98344#104535#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/history/1980s/1980s.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.20209059" vertical-offset="285" max-vertical-offset="4437">
+        <state line="29" column="0" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.57259" vertical-offset="0" max-vertical-offset="3757">
           <folding />
         </state>
       </provider>
