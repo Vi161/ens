@@ -85,10 +85,12 @@ $(document).ready(function(){
     }else {
         $('.header-nav__item1').mouseover(function(){
             $(".header-nav__list1-1").show();
+            $(this).css("border-bottom","2px solid black");
             return false;
         });
         $('.header-nav__item1').mouseout(function(){
             $(".header-nav__list1-1").hide();
+            $(this).css("border","none");
             return false;
         });
     }
