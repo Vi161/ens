@@ -79,12 +79,12 @@ $(document).ready(function(){
 
     if($(window).width() < mibile_width) {
         $('.header-nav__item1').click(function(){
-            $(".header-nav__list1-1").toggle(display);
+            $(this).children(".header-nav__list1-1").toggle(display);
 
         });
     }else {
         $('.header-nav__item1').mouseover(function(){
-            $(".header-nav__list1-1").show();
+            $(this).children(".header-nav__list1-1").show();
             $(this).css("border-bottom","2px solid black");
             return false;
         });
