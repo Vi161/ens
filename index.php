@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+
 <?php include_once 'header/header.php'; ?>
 <div class="content">
     <ul class="main-carousel owl-carousel owl-theme">

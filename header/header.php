@@ -1,5 +1,5 @@
 <?
-    $link="/ens/history/1970s/1970s.php";
+$link1970="/ens/history/1970s/1970s.php";
 ?>
 <header>
     <div class="header-left"></div>
@@ -70,8 +70,8 @@
                                 <li class="header-nav__item1-1">
                                     <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/history/1970s/1970s.php">Hystory 1970's</a>
                                     <ul class="header-nav__list2-1">
-                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href=" <?echo $link?>#ens01">ENS-01</a><div class="header-nav__item-img header-nav__item-img19"></div></li>
-                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="<?echo $link?>#ens02">ENS-02</a><div class="header-nav__item-img header-nav__item-img20"></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href=" <?echo $link1970?>#ens01">ENS-01</a><div class="header-nav__item-img header-nav__item-img19"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="<?echo $link1970?>#ens02">ENS-02</a><div class="header-nav__item-img header-nav__item-img20"></li>
                                     </ul>
                                 </li>
                                 <li class="header-nav__item1-1 header-nav__item1-1-2">
