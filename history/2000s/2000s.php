@@ -26,44 +26,6 @@
 </head>
 <body>
 <?php include_once '../../header/header.php'; ?>
-<nav class="hyst-nav__wrap">
-    <div class="products-nav hyst-nav">
-        <div class="products-nav__container hyst-nav__container">
-            <div class="products-nav__left">
-                <a class="products-nav__left-a" products-nav__left-ahref="../../history/2000s/2000s.php">2000's</a>
-            </div>
-            <div class="slicknav-menu">
-                <div class="slicknav-menu__but"><span class="icon-angle-down"></span></div>
-            </div>
-            <ul id="products-nav__list" class="products-nav__right">
-                <li class="products-nav__item hyst-nav__item"><a href="../../history/1970s/1970s.php">1970's</a></li>
-                <li class="products-nav__item hyst-nav__item">
-                    <a href="../../history/1980s/1980s.php">1980's</a>
-                </li>
-                <li class="products-nav__item hyst-nav__item"><a href="../../history/1990s/1990s.php">1990's</a></li>
-                <li class="products-nav__item hyst-nav__item"><a class="header-nav__active" href="../../history/2000s/2000s.php">2000's</a>
-                    <div class="hyst-bot-nav">
-                        <div class="hyst-bot-nav__container">
-                            <div class="hyst-bot-nav__item"><a href="../../history/2000s/2000s.php" class="hyst-bot-nav__img hyst-bot-nav2000__img1" ></a></div>
-                            <ul id="hyst-bot-nav__list" class="owl-carousel owl-theme products-nav__right">
-                                <li class="hyst-bot-nav__item"><a href="#ps704"><div class="hyst-bot-nav__img hyst-bot-nav2000__img2"></div><p class="hyst-bot-nav__txt">PS704</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#vx735"><div class="hyst-bot-nav__img hyst-bot-nav2000__img3"></div><p class="hyst-bot-nav__txt">VX735</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#ev01-er01"><div class="hyst-bot-nav__img hyst-bot-nav2000__img4"></div><p class="hyst-bot-nav__txt">EV01</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#ev01-er01"><div class="hyst-bot-nav__img hyst-bot-nav2000__img5"></div><p class="hyst-bot-nav__txt">ER01</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#ex715"><div class="hyst-bot-nav__img hyst-bot-nav2000__img6"></div><p class="hyst-bot-nav__txt">EX715</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#ps705ag"><div class="hyst-bot-nav__img hyst-bot-nav2000__img7"></div><p class="hyst-bot-nav__txt">PS705</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#ps705mini"><div class="hyst-bot-nav__img hyst-bot-nav2000__img8"></div><p class="hyst-bot-nav__txt">PS705mini</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#patent"><div class="hyst-bot-nav__img hyst-bot-nav2000__img9"></div><p class="hyst-bot-nav__txt">SCENAR-therapy</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#ex735"><div class="hyst-bot-nav__img hyst-bot-nav2000__img10"></div><p class="hyst-bot-nav__txt">EX735</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#tablet03"><div class="hyst-bot-nav__img hyst-bot-nav2000__img11"></div><p class="hyst-bot-nav__txt">Tablet03</p></a></li>
-                            </ul>
-                        </div>
-                    </div></li>
-                <li class="products-nav__item hyst-nav__item"><a href="../../history/2010s/2010s.php">2010's</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
 
 <div  class="content">
     <div  class="hyst-block-bigimg hyst-block3 hyst-block-top">
