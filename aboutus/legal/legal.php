@@ -21,10 +21,10 @@
     <![endif]-->
 </head>
 <body>
-<?php include_once '../header/header.php'; ?>
+<?php include_once '../../header/header.php'; ?>
 
 
-<nav class="products-nav hyst-nav">
+<nav class="products-nav">
     <div class="products-nav__container">
         <div class="products-nav__left">
             <a class="products-nav__left-a" href="../../index.php">ens.com</a>
@@ -57,7 +57,7 @@
 
 <script>
     $(document).ready(function(){
-        navmenu('.hyst-nav');
+        navmenu('');
 //        navmenu('.tech-nav');
     });
 </script>

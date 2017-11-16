@@ -58,78 +58,81 @@
 
                 </li>
                 <li class="header-nav__item"><a class="header-nav__item-a"  href="/ens/technology/technology.php">About Technology</a></li>
-                <li class="header-nav__item header-nav__item1"><a class="header-nav__item-a"  href="#">History</a>
+                <li class="header-nav__item header-nav__item1 header-nav__item1-hyst"><a class="header-nav__item-a"  href="#">History</a>
                     <ul class="header-nav__list1-1">
                         <div class="content__container">
-                            <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/history/history.php">Hystory</a>
-                            <li class="header-nav__item1-1">
-                                <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/history/1970s/1970s.php">Hystory 1970's</a>
-                                <ul class="header-nav__list2-1">
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1970s/1970s.php#ens01">ENS-01</a><div class="header-nav__item-img header-nav__item-img19"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1970s/1970s.php#ens02">ENS-02</a><div class="header-nav__item-img header-nav__item-img20"></li>
-                                </ul>
-                            </li>
-                            <li class="header-nav__item1-1 header-nav__item1-1-2">
-                                <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/history/1980s/1980s.php">Hystory 1980's</a>
-                                <ul class="header-nav__list2-2">
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#ens02t">ENS-02T</a><div class="header-nav__item-img header-nav__item-img21"></div> </li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#ens02">ENS-02</a><div class="header-nav__item-img header-nav__item-img22"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#ens03">ENS-03</a><div class="header-nav__item-img header-nav__item-img23"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#ens03c">ENS-03-C</a><div class="header-nav__item-img header-nav__item-img24"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#scenar033">SCENAR-033</a><div class="header-nav__item-img header-nav__item-img25"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#patent">Author’s certificate</a><div class="header-nav__item-img header-nav__item-img26"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#t4-01">T4-01 “Lhotse”</a><div class="header-nav__item-img header-nav__item-img27"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#t4-02">SCENAR T4-02</a><div class="header-nav__item-img header-nav__item-img28"></div></li>
-                                </ul>
-                            </li>
-                            <li class="header-nav__item1-1 header-nav__item1-1-2">
-                                <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/history/1990s/1990s.php">Hystory 1990's</a>
-                                <ul class="header-nav__list2-2">
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#letmedical">“LET Medical” Research Lab</a><div class="header-nav__item-img header-nav__item-img29"></div> </li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar032">SCENAR 032</a><div class="header-nav__item-img header-nav__item-img30"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar035">SCENAR 035</a><div class="header-nav__item-img header-nav__item-img31"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar513">SCENAR DS513</a><div class="header-nav__item-img header-nav__item-img32"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#newspaper">Newspaper</a><div class="header-nav__item-img header-nav__item-img33"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar611">SCENAR D-VX611</a><div class="header-nav__item-img header-nav__item-img34"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar603">SCENAR DPS603”</a><div class="header-nav__item-img header-nav__item-img35"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar735">SCENAR VX735v3.5</a><div class="header-nav__item-img header-nav__item-img36"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar703">SCENAR PS703</a><div class="header-nav__item-img header-nav__item-img37"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar713">SCENAR PS713</a><div class="header-nav__item-img header-nav__item-img38"></div></li>
-                                </ul>
-                            </li>
-                            <li class="header-nav__item1-1 header-nav__item1-1-2">
-                                <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/history/2000s/2000s.php">Hystory 2000's</a>
-                                <ul class="header-nav__list2-2">
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#ps704">PS704</a><div class="header-nav__item-img header-nav__item-img39"></div> </li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#vx735">VX735</a><div class="header-nav__item-img header-nav__item-img40"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#ev01-er01">EV01</a><div class="header-nav__item-img header-nav__item-img41"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#ev01-er01">ER01</a><div class="header-nav__item-img header-nav__item-img42"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#ex715">EX715</a><div class="header-nav__item-img header-nav__item-img43"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#ps705ag">PS705</a><div class="header-nav__item-img header-nav__item-img44"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#ps705mini">PS705mini</a><div class="header-nav__item-img header-nav__item-img45"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#patent">SCENAR-therapy</a><div class="header-nav__item-img header-nav__item-img46"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#ex735">EX735</a><div class="header-nav__item-img header-nav__item-img47"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#tablet03">Tablet03</a><div class="header-nav__item-img header-nav__item-img48"></div></li>
-                                </ul>
-                            </li>
-                            <li class="header-nav__item1-1 header-nav__item1-1-2">
-                                <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/history/2010s/2010s.php">Hystory 2010's</a>
-                                <ul class="header-nav__list2-2">
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#ex735slider">EX735 Slider</a><div class="header-nav__item-img header-nav__item-img49"></div> </li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#ex715">EX715</a><div class="header-nav__item-img header-nav__item-img50"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#ex735x2">EX735 Slider x2</a><div class="header-nav__item-img header-nav__item-img51"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#ec01">EC01</a><div class="header-nav__item-img header-nav__item-img52"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#myoscendisplay-myoscenled">Myoscen</a><div class="header-nav__item-img header-nav__item-img53"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#myoscendisplay-myoscenled">Myoscen</a><div class="header-nav__item-img header-nav__item-img54"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#ex735x3">EX735 Slider x3</a><div class="header-nav__item-img header-nav__item-img55"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#dx1">DX1</a><div class="header-nav__item-img header-nav__item-img56"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#dx2">DX2</a><div class="header-nav__item-img header-nav__item-img57"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#ens">ENS</a><div class="header-nav__item-img header-nav__item-img58"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#emc01">EMC01</a><div class="header-nav__item-img header-nav__item-img59"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#ent01">ENT01</a><div class="header-nav__item-img header-nav__item-img60"></div></li>
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#oko">OKO</a><div class="header-nav__item-img header-nav__item-img61"></div></li>
-                                </ul>
-                            </li>
+                            <div class="header-nav__list__hyst-container">
+                                <li class="header-nav__item1-1"><a class="header-nav__item-a header-nav__item1-1-a" href="/ens/history/history.php">Hystory</a></li>
+
+                                <li class="header-nav__item1-1">
+                                    <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/history/1970s/1970s.php">Hystory 1970's</a>
+                                    <ul class="header-nav__list2-1">
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1970s/1970s.php#ens01">ENS-01</a><div class="header-nav__item-img header-nav__item-img19"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1970s/1970s.php#ens02">ENS-02</a><div class="header-nav__item-img header-nav__item-img20"></li>
+                                    </ul>
+                                </li>
+                                <li class="header-nav__item1-1 header-nav__item1-1-2">
+                                    <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/history/1980s/1980s.php">Hystory 1980's</a>
+                                    <ul class="header-nav__list2-2">
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#ens02t">ENS-02T</a><div class="header-nav__item-img header-nav__item-img21"></div> </li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#ens02">ENS-02</a><div class="header-nav__item-img header-nav__item-img22"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#ens03">ENS-03</a><div class="header-nav__item-img header-nav__item-img23"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#ens03c">ENS-03-C</a><div class="header-nav__item-img header-nav__item-img24"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#scenar033">SCENAR-033</a><div class="header-nav__item-img header-nav__item-img25"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#patent">Author’s certificate</a><div class="header-nav__item-img header-nav__item-img26"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#t4-01">T4-01 “Lhotse”</a><div class="header-nav__item-img header-nav__item-img27"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1980s/1980s.php#t4-02">SCENAR T4-02</a><div class="header-nav__item-img header-nav__item-img28"></div></li>
+                                    </ul>
+                                </li>
+                                <li class="header-nav__item1-1 header-nav__item1-1-2">
+                                    <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/history/1990s/1990s.php">Hystory 1990's</a>
+                                    <ul class="header-nav__list2-2">
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#letmedical">LET Medical LCC</a><div class="header-nav__item-img header-nav__item-img29"></div> </li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar032">SCENAR 032</a><div class="header-nav__item-img header-nav__item-img30"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar035">SCENAR 035</a><div class="header-nav__item-img header-nav__item-img31"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar513">SCENAR DS513</a><div class="header-nav__item-img header-nav__item-img32"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#newspaper">Newspaper</a><div class="header-nav__item-img header-nav__item-img33"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar611">SCENAR D-VX611</a><div class="header-nav__item-img header-nav__item-img34"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar603">SCENAR DPS603”</a><div class="header-nav__item-img header-nav__item-img35"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar735">SCENAR VX735v3.5</a><div class="header-nav__item-img header-nav__item-img36"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar703">SCENAR PS703</a><div class="header-nav__item-img header-nav__item-img37"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1990s/1990s.php#scenar713">SCENAR PS713</a><div class="header-nav__item-img header-nav__item-img38"></div></li>
+                                    </ul>
+                                </li>
+                                <li class="header-nav__item1-1 header-nav__item1-1-2">
+                                    <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/history/2000s/2000s.php">Hystory 2000's</a>
+                                    <ul class="header-nav__list2-2">
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#ps704">PS704</a><div class="header-nav__item-img header-nav__item-img39"></div> </li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#vx735">VX735</a><div class="header-nav__item-img header-nav__item-img40"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#ev01-er01">EV01</a><div class="header-nav__item-img header-nav__item-img41"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#ev01-er01">ER01</a><div class="header-nav__item-img header-nav__item-img42"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#ex715">EX715</a><div class="header-nav__item-img header-nav__item-img43"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#ps705ag">PS705</a><div class="header-nav__item-img header-nav__item-img44"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#ps705mini">PS705mini</a><div class="header-nav__item-img header-nav__item-img45"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#patent">SCENAR-therapy</a><div class="header-nav__item-img header-nav__item-img46"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#ex735">EX735</a><div class="header-nav__item-img header-nav__item-img47"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2000s/2000s.php#tablet03">Tablet03</a><div class="header-nav__item-img header-nav__item-img48"></div></li>
+                                    </ul>
+                                </li>
+                                <li class="header-nav__item1-1 header-nav__item1-1-2">
+                                    <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/history/2010s/2010s.php">Hystory 2010's</a>
+                                    <ul class="header-nav__list2-2">
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#ex735slider">EX735 Slider</a><div class="header-nav__item-img header-nav__item-img49"></div> </li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#ex715">EX715</a><div class="header-nav__item-img header-nav__item-img50"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#ex735x2">EX735 Slider x2</a><div class="header-nav__item-img header-nav__item-img51"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#ec01">EC01</a><div class="header-nav__item-img header-nav__item-img52"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#myoscendisplay-myoscenled">Myoscen</a><div class="header-nav__item-img header-nav__item-img53"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#myoscendisplay-myoscenled">Myoscen</a><div class="header-nav__item-img header-nav__item-img54"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#ex735x3">EX735 Slider x3</a><div class="header-nav__item-img header-nav__item-img55"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#dx1">DX1</a><div class="header-nav__item-img header-nav__item-img56"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#dx2">DX2</a><div class="header-nav__item-img header-nav__item-img57"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#ens">ENS</a><div class="header-nav__item-img header-nav__item-img58"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#emc01">EMC01</a><div class="header-nav__item-img header-nav__item-img59"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#ent01">ENT01</a><div class="header-nav__item-img header-nav__item-img60"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/2010s/2010s.php#oko">OKO</a><div class="header-nav__item-img header-nav__item-img61"></div></li>
+                                    </ul>
+                                </li>
+                            </div>
                         </div>
                     </ul>
                 </li>
