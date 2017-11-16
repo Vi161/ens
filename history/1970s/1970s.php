@@ -21,7 +21,10 @@
     <![endif]-->
 </head>
 <body>
-<?php include_once '../../header/header.php'; ?>
+<?php
+ $link="/ens/history/1980s/1980s.php";
+    include_once '../../header/header.php';
+?>
 <div  class="content">
     <div  class="hyst-block-bigimg hyst-block9 hyst-block-top">
         <div class="content__container">

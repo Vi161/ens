@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboutus/aboutus.php" afterPath="$PROJECT_DIR$/aboutus/aboutus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/1970s/1970s.php" afterPath="$PROJECT_DIR$/history/1970s/1970s.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header/header.php" afterPath="$PROJECT_DIR$/header/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboutus/legal/legal.php" afterPath="$PROJECT_DIR$/aboutus/legal/legal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +49,15 @@
           <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/header/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="89" column="149" selection-start="10700" selection-end="10700" vertical-scroll-proportion="0.5576923" vertical-offset="1020" max-vertical-offset="2584">
-                  <folding />
+                <state line="1" column="33" selection-start="36" selection-end="36" vertical-scroll-proportion="0.01923077" vertical-offset="0" max-vertical-offset="2635">
+                  <folding>
+                    <marker date="1510828438286" expanded="true" signature="8152:8289" placeholder="..." />
+                    <marker date="1510828438286" expanded="true" signature="8364:10233" placeholder="..." />
+                    <marker date="1510828438286" expanded="true" signature="10358:10495" placeholder="..." />
+                    <marker date="1510828438286" expanded="true" signature="13073:13210" placeholder="..." />
+                    <marker date="1510828438286" expanded="true" signature="13285:15580" placeholder="..." />
+                    <marker date="1510828438286" expanded="true" signature="15705:15842" placeholder="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -74,15 +75,24 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3700" column="11" selection-start="85137" selection-end="85137" vertical-scroll-proportion="0.6841492" vertical-offset="62313" max-vertical-offset="63240">
+                <state line="3668" column="33" selection-start="84166" selection-end="84166" vertical-scroll-proportion="-0.8269231" vertical-offset="62313" max-vertical-offset="63240">
                   <folding>
                     <element signature="e#85360#95664#0" expanded="false" />
                     <element signature="e#95714#101905#0" expanded="false" />
                     <element signature="e#101942#122514#0" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="1970s.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/history/1970s/1970s.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="24" column="0" selection-start="988" selection-end="1027" vertical-scroll-proportion="0.46153846" vertical-offset="0" max-vertical-offset="2057">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -144,7 +154,6 @@
         <option value="$PROJECT_DIR$/technology/technology.php" />
         <option value="$PROJECT_DIR$/products/ens/ens.php" />
         <option value="$PROJECT_DIR$/products/ps705/ps705.php" />
-        <option value="$PROJECT_DIR$/history/1970s/1970s.php" />
         <option value="$PROJECT_DIR$/history/1980s/1980s.php" />
         <option value="$PROJECT_DIR$/history/1990s/1990s.php" />
         <option value="$PROJECT_DIR$/history/2000s/2000s.php" />
@@ -152,6 +161,7 @@
         <option value="$PROJECT_DIR$/aboutus/legal/legal.php" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/history/1970s/1970s.php" />
         <option value="$PROJECT_DIR$/header/header.php" />
       </list>
     </option>
@@ -865,11 +875,6 @@
         <state line="27" column="14" selection-start="1077" selection-end="1077" vertical-scroll-proportion="-7.0384617" vertical-offset="276" max-vertical-offset="8381" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/history/1970s/1970s.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.4738676" vertical-offset="0" max-vertical-offset="2006" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/history/1980s/1987-patent_electrostimulator.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -936,10 +941,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/history/1970s/1970s.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="988" selection-end="1027" vertical-scroll-proportion="0.46153846" vertical-offset="0" max-vertical-offset="2057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/header/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="149" selection-start="10700" selection-end="10700" vertical-scroll-proportion="0.5576923" vertical-offset="1020" max-vertical-offset="2584">
-          <folding />
+        <state line="1" column="33" selection-start="36" selection-end="36" vertical-scroll-proportion="0.01923077" vertical-offset="0" max-vertical-offset="2635">
+          <folding>
+            <marker date="1510828438286" expanded="true" signature="8152:8289" placeholder="..." />
+            <marker date="1510828438286" expanded="true" signature="8364:10233" placeholder="..." />
+            <marker date="1510828438286" expanded="true" signature="10358:10495" placeholder="..." />
+            <marker date="1510828438286" expanded="true" signature="13073:13210" placeholder="..." />
+            <marker date="1510828438286" expanded="true" signature="13285:15580" placeholder="..." />
+            <marker date="1510828438286" expanded="true" signature="15705:15842" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
