@@ -25,24 +25,6 @@
 <body>
 <?php include_once '../header/header.php'; ?>
 
-
-<nav class="products-nav hyst-nav">
-    <div class="products-nav__container">
-        <div class="products-nav__left ">
-            <a class="products-nav__left-a" href="../history/history.php">history</a>
-        </div>
-        <div class="slicknav-menu">
-            <div class="slicknav-menu__but"><span class="icon-angle-down"></span></div>
-        </div>
-        <ul id="products-nav__list" class="products-nav__right">
-            <li class="products-nav__item hyst-nav__item"><a href="../history/1970s/1970s.php">1970's</a></li>
-            <li class="products-nav__item hyst-nav__item"><a href="../history/1980s/1980s.php">1980's</a></li>
-            <li class="products-nav__item hyst-nav__item"><a href="../history/1990s/1990s.php">1990's</a></li>
-            <li class="products-nav__item hyst-nav__item"><a href="../history/2000s/2000s.php">2000's</a></li>
-            <li class="products-nav__item hyst-nav__item"><a href="../history/2010s/2010s.php">2010's</a></li>
-        </ul>
-    </div>
-</nav>
 <div class="content content__hystory">
     <div class="hyst-block-bigimg hyst-block1">
         <div class="content__container">
@@ -60,10 +42,10 @@
         <div class="content__container">
             <div class="hyst-block2__wrap">
                 <div class="hyst-block__wrap-1-3">
-                    <a href="#" class="block-buttons__link hyst-block2__link1"></a>
+                    <a href="/ens/history/2010s/2010s.php" class="block-buttons__link hyst-block2__link1"></a>
                 </div>
                 <div class="hyst-block__wrap-2-3">
-                    <a href="#" class="block-buttons__link hyst-block2__link2">
+                    <a href="/ens/history/2010s/2010s.php#dx2" class="block-buttons__link hyst-block2__link2">
                         <div class="block-buttons__link__txt">
                             <p class="block-buttons__link__txt1">
                                 Electrode DX2
@@ -77,7 +59,7 @@
             </div>
             <div class="hyst-block2__wrap">
                 <div class="hyst-block__wrap-1-3">
-                    <a href="#" class="block-buttons__link hyst-block2__link3">
+                    <a href="/ens/history/2010s/2010s.php#ex735slider" class="block-buttons__link hyst-block2__link3">
                         <div class="block-buttons__link__txt">
                             <p class="block-buttons__link__txt1">
                                 EX735 Slider
@@ -89,7 +71,7 @@
                     </a>
                 </div>
                 <div class="hyst-block__wrap-1-3">
-                    <a href="#" class="block-buttons__link hyst-block2__link4">
+                    <a href="/ens/history/2010s/2010s.php#ex735x2" class="block-buttons__link hyst-block2__link4">
                         <div class="block-buttons__link__txt">
                             <p class="block-buttons__link__txt1">
                                 EX735 Slider x2
@@ -101,7 +83,7 @@
                     </a>
                 </div>
                 <div class="hyst-block__wrap-1-3">
-                    <a href="#" class="block-buttons__link hyst-block2__link5">
+                    <a href="/ens/history/2010s/2010s.php#ens" class="block-buttons__link hyst-block2__link5">
                         <div class="block-buttons__link__txt">
                             <p class="block-buttons__link__txt1">
                                 ENS
@@ -115,7 +97,7 @@
             </div>
             <div class="hyst-block2__wrap">
                 <div class="hyst-block__wrap-2-3">
-                    <a href="#" class="block-buttons__link hyst-block2__link6">
+                    <a href="/ens/history/2010s/2010s.php#ent01" class="block-buttons__link hyst-block2__link6">
                         <div class="block-buttons__link__txt hyst-block2__link__txt11">
                             <p class="block-buttons__link__txt1 ">
                                 EMC01
@@ -136,7 +118,7 @@
                     </a>
                 </div>
                 <div class="hyst-block__wrap-1-3">
-                    <a href="#" class="block-buttons__link hyst-block2__link7">
+                    <a href="/ens/history/2010s/2010s.php#ec01" class="block-buttons__link hyst-block2__link7">
                         <div class="block-buttons__link__txt">
                         <p class="block-buttons__link__txt1">
                             Electrode EC01
@@ -150,7 +132,7 @@
             </div>
             <div class="hyst-block2__wrap">
                 <div class="hyst-block__wrap-1-4">
-                    <a href="#" class="block-buttons__link hyst-block2__link8">
+                    <a href="/ens/history/2010s/2010s.php#dx1" class="block-buttons__link hyst-block2__link8">
                         <div class="block-buttons__link__txt">
                         <p class="block-buttons__link__txt1">
                             Electrode DX1
@@ -162,7 +144,7 @@
                     </a>
                 </div>
                 <div class="hyst-block__wrap-1-4">
-                    <a href="#" class="block-buttons__link hyst-block2__link9">
+                    <a href="/ens/history/2010s/2010s.php#myoscendisplay-myoscenled" class="block-buttons__link hyst-block2__link9">
                         <div class="block-buttons__link__txt">
                         <p class="block-buttons__link__txt1">
                             Myoscen
@@ -174,7 +156,7 @@
                     </a>
                 </div>
                 <div class="hyst-block__wrap-1-4">
-                    <a href="#" class="block-buttons__link hyst-block2__link10">
+                    <a href="/ens/history/2010s/2010s.php#myoscendisplay-myoscenled" class="block-buttons__link hyst-block2__link10">
                         <div class="block-buttons__link__txt">
                         <p class="block-buttons__link__txt1">
                             Myoscen
@@ -186,7 +168,7 @@
                     </a>
                 </div>
                 <div class="hyst-block__wrap-1-4">
-                    <a href="#" class="block-buttons__link hyst-block2__link11    ">
+                    <a href="/ens/history/2010s/2010s.php#oko" class="block-buttons__link hyst-block2__link11    ">
                         <div class="block-buttons__link__txt">
                         <p class="block-buttons__link__txt1">
                             Electrode OKO
@@ -200,7 +182,7 @@
             </div>
             <div class="hyst-block2__wrap">
                 <div class="hyst-block__wrap-1-2">
-                    <a href="#" class="block-buttons__link hyst-block2__link12">
+                    <a href="/ens/history/2010s/2010s.php#ev01z" class="block-buttons__link hyst-block2__link12">
                         <div class="block-buttons__link__txt">
                         <p class="block-buttons__link__txt1">
                             Remote probes for vaginal action EV01(z)
@@ -212,7 +194,7 @@
                     </a>
                 </div>
                 <div class="hyst-block__wrap-1-2">
-                    <a href="#" class="block-buttons__link hyst-block2__link13">
+                    <a href="/ens/history/2010s/2010s.php#ex715" class="block-buttons__link hyst-block2__link13">
                         <div class="block-buttons__link__txt">
                         <p class="block-buttons__link__txt1">
                             EX715

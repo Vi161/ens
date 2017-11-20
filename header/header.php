@@ -19,20 +19,20 @@ $link1970="/ens/history/1970s/1970s.php";
                 </a>
             </div>
             <ul id="header-nav__list" class="header-nav__wrap">
-                <li class="header-nav__item header-nav__item1"><a class="header-nav__item-a" href="#">R&D Products</a>
+                <li class="header-nav__item header-nav__item1 header-nav__item1-products"><a class="header-nav__item-a" href="#">R&D Products</a>
                     <ul class="header-nav__list1-1">
                         <div class="content__container">
                             <li class="header-nav__item1-1">
                                 <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/products/products.php">Devices</a>
                                 <ul class="header-nav__list2-1">
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/products/ens/ens.php">ENS</a></li>
+                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/products/ens/ens.php">ENS</a></li>
                                     <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/products/Es735/ex735.php">Ex735 Slider x2</a></li>
                                     <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/products/ex715/ex715.php">Ex715</a></li>
                                     <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/products/ps705/ps705.php">PS705</a></li>
                                 </ul>
                             </li>
                             <li class="header-nav__item1-1 header-nav__item1-1-2">
-                                <a class="header-nav__item-a header-nav__item1-1-a" href="products/accessories/accessories.php">Accesories</a>
+                                <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/products/accessories/accessories.php">Accesories</a>
                                 <ul class="header-nav__list2-2">
                                     <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/products/accessories/dx1/dx1.php">Electrode DX1</a><div class="header-nav__item-img header-nav__item-img1"></div> </li>
                                     <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/products/accessories/dx2/dx2.php">Electrode DX2</a><div class="header-nav__item-img header-nav__item-img2"></div></li>

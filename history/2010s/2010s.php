@@ -26,48 +26,6 @@
 </head>
 <body>
 <?php include_once '../../header/header.php'; ?>
-<nav class="hyst-nav__wrap">
-    <div class="products-nav hyst-nav">
-        <div class="products-nav__container hyst-nav__container">
-            <div class="products-nav__left">
-                <a class="products-nav__left-a" products-nav__left-ahref="../../history/1990s/1990s.php">2010's</a>
-            </div>
-            <div class="slicknav-menu">
-                <div class="slicknav-menu__but"><span class="icon-angle-down"></span></div>
-            </div>
-            <ul id="products-nav__list" class="products-nav__right">
-                <li class="products-nav__item hyst-nav__item"><a href="../../history/1970s/1970s.php">1970's</a></li>
-                <li class="products-nav__item hyst-nav__item">
-                    <a href="../../history/1980s/1980s.php">1980's</a>
-                </li>
-                <li class="products-nav__item hyst-nav__item"><a href="../../history/1990s/1990s.php">1990's</a>                </li>
-                <li class="products-nav__item hyst-nav__item"><a href="../../history/2000s/2000s.php">2000's</a></li>
-                <li class="products-nav__item hyst-nav__item"><a class="header-nav__active" href="../../history/2010s/2010s.php">2010's</a>
-                    <div class="hyst-bot-nav">
-                        <div class="hyst-bot-nav__container">
-                            <div class="hyst-bot-nav__item"><a href="../../history/2010s/2010s.php" class="hyst-bot-nav__img hyst-bot-nav2010__img1" ></a></div>
-                            <ul id="hyst-bot-nav__list" class="owl-carousel owl-theme products-nav__right">
-                                <li class="hyst-bot-nav__item"><a href="#ex735slider"><div class="hyst-bot-nav__img hyst-bot-nav2010__img2"></div><p class="hyst-bot-nav__txt">EX735 Slider</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#ex715"><div class="hyst-bot-nav__img hyst-bot-nav2010__img3"></div><p class="hyst-bot-nav__txt">EX715</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#ex735x2"><div class="hyst-bot-nav__img hyst-bot-nav2010__img4"></div><p class="hyst-bot-nav__txt">EX735 Slider x2</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#ec01"><div class="hyst-bot-nav__img hyst-bot-nav2010__img5"></div><p class="hyst-bot-nav__txt">EC01</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#myoscendisplay-myoscenled"><div class="hyst-bot-nav__img hyst-bot-nav2010__img6"></div><p class="hyst-bot-nav__txt">Myoscen</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#myoscendisplay-myoscenled"><div class="hyst-bot-nav__img hyst-bot-nav2010__img7"></div><p class="hyst-bot-nav__txt">Myoscen</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#ex735x3"><div class="hyst-bot-nav__img hyst-bot-nav2010__img8"></div><p class="hyst-bot-nav__txt">EX735 Slider x3</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#dx1"><div class="hyst-bot-nav__img hyst-bot-nav2010__img9"></div><p class="hyst-bot-nav__txt">DX1</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#dx2"><div class="hyst-bot-nav__img hyst-bot-nav2010__img10"></div><p class="hyst-bot-nav__txt">DX2</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#ens"><div class="hyst-bot-nav__img hyst-bot-nav2010__img11"></div><p class="hyst-bot-nav__txt">ENS</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#emc01"><div class="hyst-bot-nav__img hyst-bot-nav2010__img12"></div><p class="hyst-bot-nav__txt">EMC01</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#ent01"><div class="hyst-bot-nav__img hyst-bot-nav2010__img13"></div><p class="hyst-bot-nav__txt">ENT01</p></a></li>
-                                <li class="hyst-bot-nav__item"><a href="#oko"><div class="hyst-bot-nav__img hyst-bot-nav2010__img14"></div><p class="hyst-bot-nav__txt">OKO</p></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
 
 <div  class="content">
     <div  class="hyst-block-bigimg hyst-block1">
