@@ -9,10 +9,15 @@
     <title>“LET Medical” Research Lab | ENS</title>
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <script src="js/owl.carousel.js"></script>
+    <script src="js/slick.min.js"></script>
+
     <script type="text/javascript" src="js/script.js"></script>
 
     <link rel="stylesheet" href="css/owl.carousel.css" />
     <link rel="stylesheet" href="css/owl.theme.default.css" />
+
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
 
 
     <link rel="stylesheet" type="text/css" href="css/styleico.css">
@@ -22,7 +27,7 @@
 
 <?php include_once 'header/header.php'; ?>
 <div class="content">
-    <ul class="main-carousel owl-carousel owl-theme">
+    <ul class="main-carousel owl-carousel owl-theme slick">
         <li class="main-carousel__item">
             <div class="main-block1">
                 <a href="products/ps705/ps705.php" class="content__container">
@@ -51,7 +56,7 @@
 
         </li>
         <li class="main-carousel__item main-carousel__item-temp">
-            <div class="main-block1">
+            <div class="main-block1 main-block1-2">
                 <a href="products/ps705/ps705.php" class="content__container">
                     <div class="main-block1__txt1__wrap">
                         <div class="main-block1__txt1">
@@ -78,7 +83,7 @@
 
         </li>
         <li class="main-carousel__item main-carousel__item-temp">
-            <div class="main-block1">
+            <div class="main-block1 main-block1-3">
                 <a href="products/ps705/ps705.php" class="content__container">
                     <div class="main-block1__txt1__wrap">
                         <div class="main-block1__txt1">
@@ -121,51 +126,60 @@
 
 <script>
     $(document).ready(function(){
-
-        function windowSize(){
-            if($(window).width() > 768){
-
-                $('.owl-carousel').owlCarousel({
-
-//        loop:true, //Зацикливаем слайдер
-                    margin:0, //Отступ от элемента справа в 50px
-                    nav: false, //Отключение навигации
-                    autoplay: true,
-                    loop: true,
-//                    autoplay:true, //Автозапуск слайдера
-                    smartSpeed:1000, //Время движения слайда
-//                    autoplayTimeout: 1000, //Время смены слайда
-//                    autoplayHoverPause: true,
-                    autoplaySpeed: 500,
-                    mouseDrag: true,
-                    touchDrag: true,
-                    navText: false,
-                    dots: true,
-//                    dotsEach: 3,
-                    responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
-                        0:{
-                        },
-                        780:{
-                            items:1
-                        },
-                        1000:{
-                            items:1
-                        }
-                    }
-                });
-                
-                $('.owl-carousel').owlCarousel({
-
-//        loop:true, //Зацикливаем слайдер
-                    margin:0, //Отступ от элемента справа в 50px
-                    nav: false, //Отключение навигации
-                    autoplay: true
-                }
-
-            }
-        }
-        $(window).load(windowSize); // при загрузке
-        $(window).resize(windowSize)
+        $('.slick').slick({
+            autoplay: true,
+            autoplaySpeed: 500,
+            appendArrows: false,
+            dots: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+//        function windowSize(){
+//            if($(window).width() > 768){
+//
+//                $('.owl-carousel').owlCarousel({
+//
+////        loop:true, //Зацикливаем слайдер
+//                    margin:0, //Отступ от элемента справа в 50px
+//                    nav: false, //Отключение навигации
+//                    autoplay: true,
+//                    loop: true,
+////                    autoplay:true, //Автозапуск слайдера
+//                    smartSpeed:1000, //Время движения слайда
+////                    autoplayTimeout: 1000, //Время смены слайда
+////                    autoplayHoverPause: true,
+//                    autoplaySpeed: 500,
+//                    mouseDrag: true,
+//                    touchDrag: true,
+//                    navText: false,
+//                    dots: true,
+////                    dotsEach: 3,
+//                    responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
+//                        0:{
+//                        },
+//                        780:{
+//                            items:1
+//                        },
+//                        1000:{
+//                            items:1
+//                        }
+//                    }
+//                });
+//
+//                $('.owl-carousel').owlCarousel({
+//
+////        loop:true, //Зацикливаем слайдер
+//                    margin:0, //Отступ от элемента справа в 50px
+//                    nav: false, //Отключение навигации
+//                    autoplay: true
+//                }
+//
+//            }
+//        }
+//        $(window).load(windowSize); // при загрузке
+//        $(window).resize(windowSize)
     });
 </script>
 <script>

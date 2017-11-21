@@ -2596,6 +2596,12 @@ header {
   background-repeat: no-repeat;
   background-position: center;
 }
+.main-block1-2 {
+  background-image: url('../images/main/temp-banner1.jpg');
+}
+.main-block1-3 {
+  background-image: url('../images/main/temp-banner2.jpg');
+}
 .main-block1 .content__container {
   text-decoration: none;
 }
@@ -5428,6 +5434,11 @@ header {
   }
   .main-carousel__item-temp {
     display: none;
+  }
+  .main-block1 {
+    height: 0;
+    padding-top: 158%;
+    background-image: url('../images/main/m-ps705banner.jpg');
   }
   .main-block1 {
     height: 0;
