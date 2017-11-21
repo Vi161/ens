@@ -7,10 +7,7 @@
                     <br> “LET Medical”</p>
             </div>
             <div class="footer-top__block footer-top__block2">
-                <p class="footer-top__block2__txt">
-                    PATENTED
-                    TECHNOLOGY
-                </p>
+                <div class="footer-top__block1__ico2"></div>
             </div>
             <div class="footer-top__block footer-top__block3">
                 <p class="footer-top__block3__txt1">

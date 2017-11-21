@@ -40,7 +40,7 @@ include_once '../../header/header.php';
     </div>
     <div class="hyst-block-1970s">
         <div class="content__container">
-            <h2 class="content-h2">Idea <span class="hyst-block__year">1972</span></h2>
+            <h2 id="idea" class="content-h2">Idea <span class="hyst-block__year">1972</span></h2>
             <p class="content-p">
                 In the early 1970-s, new methods of treatment started filtering through to the Soviet Union. These
                 mainly were methods of ancient oriental medicine — reflexotherapy (needle reflexotherapy, acupuncture),
@@ -68,7 +68,7 @@ include_once '../../header/header.php';
                 impulses, it should be possible to make a universal “electrical” pill, why not? That is what Alexander
                 Karasev was thinking about in 1972.
             </p>
-            <h2 class="content-h2">Magneto <span class="year">1973</span></h2>
+            <h2 id="tens" class="content-h2">Magneto <span class="year">1973</span></h2>
             <p class="content-p">
                 The first device consisted of an engine (taken out of a children’s toy) with contact breaker. The engine
                 broke the contacts, which were connected to the transformer with battery (like magneto in a tractor).

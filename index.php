@@ -133,9 +133,10 @@
                     autoplay: true,
                     loop: true,
 //                    autoplay:true, //Автозапуск слайдера
-//                    smartSpeed:1000, //Время движения слайда
-                    autoplayTimeout: 2000, //Время смены слайда
-                    autoplaySpeed: 1000,
+                    smartSpeed:1000, //Время движения слайда
+//                    autoplayTimeout: 1000, //Время смены слайда
+//                    autoplayHoverPause: true,
+                    autoplaySpeed: 500,
                     mouseDrag: true,
                     touchDrag: true,
                     navText: false,
@@ -152,6 +153,14 @@
                         }
                     }
                 });
+                
+                $('.owl-carousel').owlCarousel({
+
+//        loop:true, //Зацикливаем слайдер
+                    margin:0, //Отступ от элемента справа в 50px
+                    nav: false, //Отключение навигации
+                    autoplay: true
+                }
 
             }
         }

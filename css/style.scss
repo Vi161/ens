@@ -1077,7 +1077,7 @@ header {
 
 .footer-top {
   width: 100%;
-  padding: 7vw 0;
+  padding: 75px 0;
   background-color: #222;
   color:#999;
   border-top:#ffd335 solid 4px;
@@ -1100,6 +1100,14 @@ header {
   height: 46px;
   background-image: url("../images/letmedical_777.png");
   background-repeat: no-repeat;
+  background-position: center;
+}
+.footer-top__block1__ico2 {
+  width: 112px;
+  height: 104px;
+  background-image: url("../images/patentedtechnology-en.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .footer-top__block1__txt {
   text-align: center;
@@ -4292,6 +4300,14 @@ header {
   }
   .header-nav__item1-hyst .header-nav__list1-1 {
     height: 60vw;
+  }
+  .footer-top {
+    padding: 6vw 0;
+  }
+  .footer-top__block1__ico2 {
+    height: 0;
+    padding-top: 42%;
+    background-size: cover;
   }
 }
 @media (min-width: 768px)and (max-width: 1060px) {

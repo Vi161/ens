@@ -42,7 +42,7 @@
     </div>
     <div class="hyst-block-2000s">
         <div class="content__container">
-            <h2 id="" class="content-h2">COSMODIC technology <span class="year">2002</span></h2>
+            <h2 id="cosmodic" class="content-h2">COSMODIC technology <span class="year">2002</span></h2>
             <p class="content-p">Technology of medication-free regeneration and recovery.</p>
             <h2 id="sky" class="content-h2">«Ski» <span class="year">2002</span></h2>
             <p class="content-p">New electrodes, also known as “ski”-electrodes, is one more unique invention of “LET&nbsp;Medical”.</p>

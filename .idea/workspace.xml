@@ -3,13 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/1970s/1970s.php" afterPath="$PROJECT_DIR$/history/1970s/1970s.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/2010s/2010s.php" afterPath="$PROJECT_DIR$/history/2010s/2010s.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/2000s/2000s.php" afterPath="$PROJECT_DIR$/history/2000s/2000s.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer/footer.php" afterPath="$PROJECT_DIR$/footer/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header/header.php" afterPath="$PROJECT_DIR$/header/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history/history.php" afterPath="$PROJECT_DIR$/history/history.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.php" afterPath="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
@@ -38,7 +40,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5337" column="32" selection-start="116379" selection-end="116379" vertical-scroll-proportion="-0.0" vertical-offset="90729" max-vertical-offset="96186">
+                <state line="5353" column="32" selection-start="116740" selection-end="116740" vertical-scroll-proportion="-0.0" vertical-offset="91001" max-vertical-offset="96458">
                   <folding />
                 </state>
               </provider>
@@ -47,25 +49,44 @@
           <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="82" column="38" selection-start="2651" selection-end="2651" vertical-scroll-proportion="-12.423077" vertical-offset="1071" max-vertical-offset="2856">
+                <state line="82" column="38" selection-start="2651" selection-end="2651" vertical-scroll-proportion="-53.615383" vertical-offset="0" max-vertical-offset="2856">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="155" column="16" selection-start="6190" selection-end="6190" vertical-scroll-proportion="0.71571904" vertical-offset="1993" max-vertical-offset="3128">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/header/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="123" column="108" selection-start="16299" selection-end="16333" vertical-scroll-proportion="0.5151515" vertical-offset="969" max-vertical-offset="1955">
-                  <folding>
-                    <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
-                    <marker date="1511178117280" expanded="true" signature="8188:8325" placeholder="..." />
-                    <marker date="1511178117280" expanded="true" signature="8400:10269" placeholder="..." />
-                    <marker date="1511178117280" expanded="true" signature="10394:10531" placeholder="..." />
-                    <marker date="1511178117280" expanded="true" signature="13109:13246" placeholder="..." />
-                    <marker date="1511178117280" expanded="true" signature="13321:15616" placeholder="..." />
-                    <marker date="1511178117280" expanded="true" signature="15741:15878" placeholder="..." />
-                  </folding>
+                <state line="14" column="56" selection-start="518" selection-end="518" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="2635">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="what_is_scenar-therapy.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="39" column="109" selection-start="2758" selection-end="2758" vertical-scroll-proportion="-17.884615" vertical-offset="198" max-vertical-offset="4403">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/footer/footer.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="23" selection-start="317" selection-end="317" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="697">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -77,18 +98,37 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5643" column="3" selection-start="122667" selection-end="122667" vertical-scroll-proportion="-12.903846" vertical-offset="89786" max-vertical-offset="90712">
+                <state line="4307" column="0" selection-start="95955" selection-end="95955" vertical-scroll-proportion="-13.884615" vertical-offset="72497" max-vertical-offset="73440">
                   <folding>
-                    <element signature="e#95714#101905#0" expanded="false" />
+                    <element signature="e#96075#102266#0" expanded="false" />
+                    <element signature="e#102303#123199#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="history.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="2010s.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/history/2010s/2010s.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="49" column="28" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.9423077" vertical-offset="0" max-vertical-offset="3349">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="history.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/history/history.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="196" column="63" selection-start="8967" selection-end="8967" vertical-scroll-proportion="0.61538464" vertical-offset="2804" max-vertical-offset="13957">
+                <state line="752" column="63" selection-start="34463" selection-end="34463" vertical-scroll-proportion="-5.8846154" vertical-offset="12478" max-vertical-offset="13804">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="1970s.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/history/1970s/1970s.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="70" column="24" selection-start="3430" selection-end="3430" vertical-scroll-proportion="-13.673077" vertical-offset="479" max-vertical-offset="2057">
                   <folding />
                 </state>
               </provider>
@@ -109,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/technology/how_it_work/how_it_work.phtml" />
         <option value="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.phtml" />
         <option value="$PROJECT_DIR$/technology/old_good_ens03/old_good_ens03.phtml" />
         <option value="$PROJECT_DIR$/technology/tens_scenar_cosmodic/tens_scenar_cosmodic.phtml" />
@@ -124,7 +163,6 @@
         <option value="$PROJECT_DIR$/technology/tens_scenar_cosmodic/tens_scenar_cosmodic.php" />
         <option value="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health/transferring_to_a_different_level_of_health.php" />
         <option value="$PROJECT_DIR$/technology/using/using.php" />
-        <option value="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.php" />
         <option value="$PROJECT_DIR$/products/products.php" />
         <option value="$PROJECT_DIR$/products/accessories/ag/ag.php" />
         <option value="$PROJECT_DIR$/products/accessories/au/au.php" />
@@ -150,16 +188,18 @@
         <option value="$PROJECT_DIR$/products/ps705/ps705.php" />
         <option value="$PROJECT_DIR$/history/1980s/1980s.php" />
         <option value="$PROJECT_DIR$/history/1990s/1990s.php" />
-        <option value="$PROJECT_DIR$/history/2000s/2000s.php" />
         <option value="$PROJECT_DIR$/aboutus/aboutus.php" />
         <option value="$PROJECT_DIR$/aboutus/legal/legal.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/history/1970s/1970s.php" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
-        <option value="$PROJECT_DIR$/header/header.php" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/history/2010s/2010s.php" />
+        <option value="$PROJECT_DIR$/history/2000s/2000s.php" />
+        <option value="$PROJECT_DIR$/history/1970s/1970s.php" />
         <option value="$PROJECT_DIR$/history/history.php" />
+        <option value="$PROJECT_DIR$/footer/footer.php" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/header/header.php" />
+        <option value="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -250,7 +290,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="what_is_scenar-therapy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,43 +354,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="history" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2000s" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="history" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1990s" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="header" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="footer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -440,7 +476,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -520,13 +556,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/applications.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="261" column="21" selection-start="6024" selection-end="6024" vertical-scroll-proportion="0.0" vertical-offset="4243" max-vertical-offset="6290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="18" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119" />
@@ -568,11 +597,6 @@
     <entry file="file://$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health/transferring_to_a_different_level_of_health.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="42" selection-start="1023" selection-end="1023" vertical-scroll-proportion="-6.5" vertical-offset="205" max-vertical-offset="3043" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="42" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.35059762" vertical-offset="215" max-vertical-offset="4403" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/technology/using/using.php">
@@ -732,39 +756,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/history/1970s/1970s.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="7" selection-start="6019" selection-end="6019" vertical-scroll-proportion="0.62541807" vertical-offset="0" max-vertical-offset="897">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="10" selection-start="805" selection-end="848" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="2975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="132" column="23" selection-start="3392" selection-end="3392" vertical-scroll-proportion="0.3133484" vertical-offset="1967" max-vertical-offset="8228">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5643" column="3" selection-start="122667" selection-end="122667" vertical-scroll-proportion="-12.903846" vertical-offset="89786" max-vertical-offset="90712">
-          <folding>
-            <element signature="e#95714#101905#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/history/2000s/2000s.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="26" selection-start="13542" selection-end="13542" vertical-scroll-proportion="-98.07692" vertical-offset="34" max-vertical-offset="3094">
           <folding />
         </state>
       </provider>
@@ -776,38 +770,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/history/2000s/2000s.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="38" selection-start="2651" selection-end="2651" vertical-scroll-proportion="-12.423077" vertical-offset="1071" max-vertical-offset="2856">
+        <state line="61" column="29" selection-start="3990" selection-end="3990" vertical-scroll-proportion="-5.5" vertical-offset="751" max-vertical-offset="3094">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history/1970s/1970s.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="24" selection-start="3430" selection-end="3430" vertical-scroll-proportion="-13.673077" vertical-offset="479" max-vertical-offset="2057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history/history.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="752" column="63" selection-start="34463" selection-end="34463" vertical-scroll-proportion="-5.8846154" vertical-offset="12478" max-vertical-offset="13804">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5353" column="32" selection-start="116740" selection-end="116740" vertical-scroll-proportion="-0.0" vertical-offset="91001" max-vertical-offset="96458">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/history/2010s/2010s.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="28" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.33333334" vertical-offset="547" max-vertical-offset="3349">
+        <state line="49" column="28" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.9423077" vertical-offset="0" max-vertical-offset="3349">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="317" selection-end="317" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="108" selection-start="16299" selection-end="16333" vertical-scroll-proportion="0.5151515" vertical-offset="969" max-vertical-offset="1955">
-          <folding>
-            <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
-            <marker date="1511178117280" expanded="true" signature="8188:8325" placeholder="..." />
-            <marker date="1511178117280" expanded="true" signature="8400:10269" placeholder="..." />
-            <marker date="1511178117280" expanded="true" signature="10394:10531" placeholder="..." />
-            <marker date="1511178117280" expanded="true" signature="13109:13246" placeholder="..." />
-            <marker date="1511178117280" expanded="true" signature="13321:15616" placeholder="..." />
-            <marker date="1511178117280" expanded="true" signature="15741:15878" placeholder="..." />
-          </folding>
+        <state line="14" column="56" selection-start="518" selection-end="518" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="2635">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/history/history.php">
+    <entry file="file://$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="63" selection-start="8967" selection-end="8967" vertical-scroll-proportion="0.61538464" vertical-offset="2804" max-vertical-offset="13957">
+        <state line="39" column="109" selection-start="2758" selection-end="2758" vertical-scroll-proportion="-17.884615" vertical-offset="198" max-vertical-offset="4403">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="38" selection-start="2651" selection-end="2651" vertical-scroll-proportion="-53.615383" vertical-offset="0" max-vertical-offset="2856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="16" selection-start="6190" selection-end="6190" vertical-scroll-proportion="0.71571904" vertical-offset="1993" max-vertical-offset="3128">
           <folding />
         </state>
       </provider>

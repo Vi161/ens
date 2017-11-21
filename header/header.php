@@ -25,7 +25,7 @@ $link1970="/ens/history/1970s/1970s.php";
                             <li class="header-nav__item1-1">
                                 <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/products/products.php">Devices</a>
                                 <ul class="header-nav__list2-1">
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/products/ens/ens.php">ENS</a></li>
+                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/products/ens/ens.php">ENS</a></li>
                                     <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/products/Es735/ex735.php">Ex735 Slider x2</a></li>
                                     <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/products/ex715/ex715.php">Ex715</a></li>
                                     <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/products/ps705/ps705.php">PS705</a></li>
@@ -70,8 +70,8 @@ $link1970="/ens/history/1970s/1970s.php";
                                 <li class="header-nav__item1-1">
                                     <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/history/1970s/1970s.php">Hystory 1970's</a>
                                     <ul class="header-nav__list2-1">
-                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href=" <?echo $link1970?>#ens01">ENS-01</a><div class="header-nav__item-img header-nav__item-img19"></div></li>
-                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="<?echo $link1970?>#ens02">ENS-02</a><div class="header-nav__item-img header-nav__item-img20"></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/history/1970s/1970s.php#ens01">ENS-01</a><div class="header-nav__item-img header-nav__item-img19"></div></li>
+                                        <li class="header-nav__item2-1"><a class="header-nav__item-a" href="<?echo $link1970?>/ens/history/1970s/1970s.php#ens02">ENS-02</a><div class="header-nav__item-img header-nav__item-img20"></li>
                                     </ul>
                                 </li>
                                 <li class="header-nav__item1-1 header-nav__item1-1-2">

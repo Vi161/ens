@@ -30,14 +30,14 @@
             <div class="slicknav-menu__but"><span class="icon-angle-down"></span></div>
         </div>
         <ul id="products-nav__list" class="products-nav__right tech-nav__list">
-            <li class="tech-nav__item"><a class="products-nav__item-a" href="../../technology/tens_scenar_cosmodic.php">TENS, SCENAR, COSMODIC technologies</a></li>
-            <li class="tech-nav__item"><a class="products-nav__item-a" href="../../technology/not_all_secrets_of_scenar-cosmodic.php">Not all secrets of SCENAR-COSMODIC	</a></li>
-            <li class="tech-nav__item"><a class="products-nav__item-a tech-nav__active" href="../../technology/what_is_scenar-therapy.php">What is SCENAR-therapy?</a></li>
-            <li class="tech-nav__item"><a class="products-nav__item-a" href="../../technology/using.php">Using SCENAR</a></li>
-            <li class="tech-nav__item"><a class="products-nav__item-a" href="../../technology/how_it_work.php">How it works</a></li>
-            <li class="tech-nav__item"><a class="products-nav__item-a" href="../../technology/medication-free_treatment.php">Medication-free treatment</a></li>
-            <li class="tech-nav__item"><a class="products-nav__item-a" href="../../technology/transferring_to_a_different_level_of_health.php">Transferring to a different level of health</a></li>
-            <li class="tech-nav__item"><a class="products-nav__item-a" href="../../technology/old_good_ens03.php">Old good ENS-03</a></li>
+            <li class="tech-nav__item"><a class="products-nav__item-a" href="../../technology/tens_scenar_cosmodic/tens_scenar_cosmodic.php">TENS, SCENAR, COSMODIC technologies</a></li>
+            <li class="tech-nav__item"><a class="products-nav__item-a" href="../../technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.php">Not all secrets of SCENAR-COSMODIC	</a></li>
+            <li class="tech-nav__item"><a class="products-nav__item-a tech-nav__active" href="../../technology/what_is_scenar-therapy/what_is_scenar-therapy.php">What is SCENAR-therapy?</a></li>
+            <li class="tech-nav__item"><a class="products-nav__item-a" href="../../technology/using/using.php">Using SCENAR</a></li>
+            <li class="tech-nav__item"><a class="products-nav__item-a" href="../../technology/how_it_work/how_it_work.php">How it works</a></li>
+            <li class="tech-nav__item"><a class="products-nav__item-a" href="../../technology/medication-free_treatment/medication-free_treatment.php">Medication-free treatment</a></li>
+            <li class="tech-nav__item"><a class="products-nav__item-a" href="../../technology/transferring_to_a_different_level_of_health.transferring_to_a_different_level_of_health.php">Transferring to a different level of health</a></li>
+            <li class="tech-nav__item"><a class="products-nav__item-a" href="../../technology/old_good_ens03/old_good_ens03.php">Old good ENS-03</a></li>
         </ul>
     </div>
 </nav>
