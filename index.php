@@ -53,7 +53,6 @@
                     </div>
                 </a>
             </div>
-
         </li>
         <li class="main-carousel__item main-carousel__item-temp">
             <div class="main-block1 main-block1-2">
@@ -126,16 +125,22 @@
 
 <script>
     $(document).ready(function(){
-        $('.slick').slick({
-            autoplay: true,
-            autoplaySpeed: 500,
-            appendArrows: false,
-            dots: true,
-            infinite: true,
-            speed: 500,
-            fade: true,
-            cssEase: 'linear'
-        });
+        function windowSize(){
+            if($(window).width() > 768){
+                $('.slick').slick({
+                    autoplay: true,
+                    autoplaySpeed: 900,
+        //            appendArrows: true,
+                    dots: true,
+                    infinite: true,
+                    speed: 800,
+                    fade: true
+                });
+            };
+        };
+        $(window).load(windowSize); // при загрузке
+        $(window).resize(windowSize)
+        $('.slick').slick('unslick');
 //        function windowSize(){
 //            if($(window).width() > 768){
 //

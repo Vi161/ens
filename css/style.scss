@@ -3723,6 +3723,22 @@ header {
 .header-nav__item1-hyst .header-nav__list2-2 {
   column-count: 1;
 }
+.slick-next:before, .slick-prev:before {
+  color: black;
+}
+.slick-next {
+  rigth: 20px;
+}
+.slick-prev {
+  left: 20px;
+  z-index: 1000;
+}
+.slick-dots {
+  bottom: 20px;
+}
+.slick-dots li button:before {
+  font-size: 0.7vw;
+}
 @media screen and (max-width: 1060px) {
   .ens-block16__link {
     margin: 0.4vw;
@@ -4314,6 +4330,9 @@ header {
     height: 0;
     padding-top: 42%;
     background-size: cover;
+  }
+  .slick-dots li button:before {
+    font-size: 1.7vw;
   }
 }
 @media (min-width: 768px)and (max-width: 1060px) {
@@ -5433,7 +5452,7 @@ header {
     flex-direction: column;
   }
   .main-carousel__item-temp {
-    display: none;
+//    display: none;
   }
   .main-block1 {
     height: 0;

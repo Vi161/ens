@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/slick-theme.css" afterPath="$PROJECT_DIR$/css/slick-theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +34,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5359" column="32" selection-start="116898" selection-end="116898" vertical-scroll-proportion="-0.0" vertical-offset="91103" max-vertical-offset="96645">
+                <state line="5378" column="32" selection-start="117179" selection-end="117179" vertical-scroll-proportion="-0.0" vertical-offset="91426" max-vertical-offset="96968">
                   <folding />
                 </state>
               </provider>
@@ -49,11 +49,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="130" column="28" selection-start="5256" selection-end="5256" vertical-scroll-proportion="0.5901263" vertical-offset="1696" max-vertical-offset="3366">
-                  <folding />
+                <state line="56" column="63" selection-start="2331" selection-end="2355" vertical-scroll-proportion="0.37543055" vertical-offset="234" max-vertical-offset="3060">
+                  <folding>
+                    <element signature="tag#div#0;tag#li#0;tag#ul#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -62,11 +64,13 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2602" column="52" selection-start="56288" selection-end="56288" vertical-scroll-proportion="0.4125874" vertical-offset="43880" max-vertical-offset="96645">
-                  <folding />
+                <state line="5454" column="19" selection-start="118574" selection-end="118578" vertical-scroll-proportion="0.2937063" vertical-offset="86992" max-vertical-offset="91494">
+                  <folding>
+                    <element signature="e#96514#102705#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -74,7 +78,7 @@
           <file leaf-file-name="slick-theme.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/slick-theme.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="78" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3570">
+                <state line="104" column="10" selection-start="1772" selection-end="1772" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="3570">
                   <folding />
                 </state>
               </provider>
@@ -143,9 +147,9 @@
         <option value="$PROJECT_DIR$/footer/footer.php" />
         <option value="$PROJECT_DIR$/header/header.php" />
         <option value="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.php" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/css/slick-theme.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
   </component>
@@ -732,22 +736,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/slick-theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="78" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5359" column="32" selection-start="116898" selection-end="116898" vertical-scroll-proportion="-0.0" vertical-offset="91103" max-vertical-offset="96645">
+        <state line="104" column="10" selection-start="1772" selection-end="1772" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="3570">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="28" selection-start="5256" selection-end="5256" vertical-scroll-proportion="0.5901263" vertical-offset="1696" max-vertical-offset="3366">
-          <folding />
+        <state line="56" column="63" selection-start="2331" selection-end="2355" vertical-scroll-proportion="0.37543055" vertical-offset="234" max-vertical-offset="3060">
+          <folding>
+            <element signature="tag#div#0;tag#li#0;tag#ul#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5454" column="19" selection-start="118574" selection-end="118578" vertical-scroll-proportion="0.2937063" vertical-offset="86992" max-vertical-offset="91494">
+          <folding>
+            <element signature="e#96514#102705#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
