@@ -3739,6 +3739,9 @@ header {
 .slick-dots li button:before {
   font-size: 0.7vw;
 }
+.slick-prev:before, .slick-next:before {
+  font-size: 30px;
+}
 @media screen and (max-width: 1060px) {
   .ens-block16__link {
     margin: 0.4vw;
