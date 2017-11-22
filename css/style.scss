@@ -125,11 +125,13 @@ header, .products-nav, footer {
   max-width: 1920px;
   margin: 0 auto;
   position: relative;
+  padding-top: 55px;
 }
 header {
-  position: relative;
+  position: absolute;
   background-color: white;
   border-bottom: 1px solid black;
+  z-index: 1000;
 }
 .header-left {
   position: absolute;
@@ -261,6 +263,19 @@ header {
   background-color: rgb(249, 249, 249);
   opacity: 0.95;
   z-index: 100;
+  top: 55px;
+}
+.nav-lip0 {
+  top: 0px;
+}
+.nav-lip1 {
+  top: 0px;
+  transition: top 0.5s;
+}
+.nav-lip2 {
+  top: 55px;
+  transition: top 0.5s;
+
 }
 .products-nav__container {
   margin:0 auto;
@@ -318,9 +333,13 @@ header {
 }
 .header-wrap-fixed {
   position: fixed;
-  top:0;
-  transition: top 1s;
+  top:-55px;
+  transition: top 0.5s;
   z-index: 1000;
+}
+.header-wrap-fixed-top {
+  top: 0px;
+  transition: top 0.5s;
 }
 
 .ens-block1__txt p {
@@ -1152,7 +1171,7 @@ header {
 }
 
 .tech-nav {
-  z-index: 1000;
+  z-index: 100;
   background-color: rgb(249, 249, 249);
   opacity: 0.95;
 
@@ -2691,7 +2710,7 @@ header {
 }
 .nav-fixed {
   position:fixed;
-  top:0px;
+//  top:0px;
   width: 100%;
 //  transition: top 1s;
   z-index: 100;
@@ -4706,7 +4725,7 @@ header {
   }
   header {
     border-bottom: 0;
-    position: static;
+    position: fixed;
   }
   .header-nav__container {
     background-color: #556B2F;
@@ -5283,7 +5302,7 @@ header {
     position:fixed;
     top:0px;
     width: 100%;
-//    transition: top 1s;
+    transition: top 1s;
   }
   .ens-block3.main-carousel__ico1, .ens-block3__ico2, .ens-block3__ico3 {
     margin: 0;

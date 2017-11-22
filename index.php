@@ -13,9 +13,6 @@
 
     <script type="text/javascript" src="js/script.js"></script>
 
-    <link rel="stylesheet" href="css/owl.carousel.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.css" />
-
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/slick-theme.css" />
 
@@ -125,6 +122,7 @@
 
 <script>
     $(document).ready(function(){
+        navmenu('.products-nav');
         function windowSize(){
             if($(window).width() > 768){
                 $('.slick').slick({
@@ -189,8 +187,6 @@
 </script>
 <script>
     $(document).ready(function(){
-        navmenu('.products-nav');
-//        navmenu('.tech-nav');
     });
 </script>
 

@@ -14,9 +14,9 @@
 </head>
 <body>
 
+<?php include_once '../../header/header.php'; ?>
 
 <div class="content">
-    <?php include_once '../../header/header.php'; ?>
 
 <nav class="products-nav ens-nav">
     <div class="products-nav__container">
