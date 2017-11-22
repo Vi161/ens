@@ -13,11 +13,8 @@
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
 </head>
 <body>
-
-
+<?php include_once '../../header/header.php'; ?>
 <div class="content">
-    <?php include_once '../../header/header.php'; ?>
-
 <nav class="products-nav ens-nav">
     <div class="products-nav__container">
         <div class="products-nav__left">

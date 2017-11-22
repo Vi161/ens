@@ -225,7 +225,7 @@ header {
 //.header-nav__item>.header-nav__item-a:hover, .header-nav__item>.header-nav__item-a:active, .header-nav__item>.header-nav__item-a:focus, .header-nav__item>.header-nav__item-a[aria-selected="true"] {
 //  border-bottom: 2px solid black;
 //}
-  .header-nav__lang-wrap {
+.header-nav__lang-wrap:hover{
   white-space: nowrap;
 }
 .header-nav__lang:hover {
@@ -267,6 +267,7 @@ header {
 }
 .nav-lip0 {
   top: 0px;
+
 }
 .nav-lip1 {
   top: 0px;
@@ -334,7 +335,6 @@ header {
 .header-wrap-fixed {
   position: fixed;
   top:-55px;
-  transition: top 0.5s;
   z-index: 1000;
 }
 .header-wrap-fixed-top {
@@ -2710,9 +2710,7 @@ header {
 }
 .nav-fixed {
   position:fixed;
-//  top:0px;
   width: 100%;
-//  transition: top 1s;
   z-index: 100;
 }
 .header-wrap-fixed__off {
@@ -5302,7 +5300,7 @@ header {
     position:fixed;
     top:0px;
     width: 100%;
-    transition: top 1s;
+//    transition: top 1s;
   }
   .ens-block3.main-carousel__ico1, .ens-block3__ico2, .ens-block3__ico3 {
     margin: 0;

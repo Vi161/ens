@@ -140,7 +140,7 @@ $link1970="/ens/history/1970s/1970s.php";
                     </ul>
                 </li>
                 <li class="header-nav__item"><a class="header-nav__item-a" href="/ens/aboutus/aboutus.php">About Us</a></li>
-                <li class="header-nav__item header-nav__lang-wrap">
+                <li class="header-nav__lang-wrap">
                     <a class="header-nav__lang" href="#"><span class="lang-desktop">en</span><span class="lang-mob">in english</span></a>
                     <a class="header-nav__lang" href="#"><span class="lang-desktop">ru</span><span class="lang-mob">по-русски</span></a>
                 </li>
