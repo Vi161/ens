@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/ens/ens.php" afterPath="$PROJECT_DIR$/products/ens/ens.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header/header.php" afterPath="$PROJECT_DIR$/header/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
@@ -34,7 +32,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5398" column="32" selection-start="117435" selection-end="117435" vertical-scroll-proportion="-0.0" vertical-offset="91766" max-vertical-offset="97308">
+                <state line="5399" column="32" selection-start="117445" selection-end="117445" vertical-scroll-proportion="-0.0" vertical-offset="91783" max-vertical-offset="97325">
                   <folding />
                 </state>
               </provider>
@@ -60,10 +58,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ens.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="ens.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/products/ens/ens.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="626" column="0" selection-start="30520" selection-end="30520" vertical-scroll-proportion="0.8076923" vertical-offset="9928" max-vertical-offset="10846">
+                <state line="626" column="0" selection-start="30520" selection-end="30520" vertical-scroll-proportion="0.8018648" vertical-offset="9954" max-vertical-offset="10846">
                   <folding />
                 </state>
               </provider>
@@ -84,11 +82,14 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4742" column="17" selection-start="104166" selection-end="104166" vertical-scroll-proportion="0.4125874" vertical-offset="80260" max-vertical-offset="97308">
-                  <folding />
+                <state line="4357" column="18" selection-start="96749" selection-end="96749" vertical-scroll-proportion="0.7622378" vertical-offset="73415" max-vertical-offset="74273">
+                  <folding>
+                    <element signature="e#96829#102969#0" expanded="false" />
+                    <element signature="e#103006#124028#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -156,9 +157,9 @@
         <option value="$PROJECT_DIR$/products/products.php" />
         <option value="$PROJECT_DIR$/products/ps705/ps705.php" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/header/header.php" />
         <option value="$PROJECT_DIR$/products/ens/ens.php" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
   </component>
@@ -773,13 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5398" column="32" selection-start="117435" selection-end="117435" vertical-scroll-proportion="-0.0" vertical-offset="91766" max-vertical-offset="97308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="128" column="58" selection-start="4745" selection-end="4745" vertical-scroll-proportion="-13.730769" vertical-offset="1819" max-vertical-offset="3434">
@@ -807,8 +801,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/products/ens/ens.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="626" column="0" selection-start="30520" selection-end="30520" vertical-scroll-proportion="0.8076923" vertical-offset="9928" max-vertical-offset="10846">
+        <state line="626" column="0" selection-start="30520" selection-end="30520" vertical-scroll-proportion="0.8018648" vertical-offset="9954" max-vertical-offset="10846">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4357" column="18" selection-start="96749" selection-end="96749" vertical-scroll-proportion="0.7622378" vertical-offset="73415" max-vertical-offset="74273">
+          <folding>
+            <element signature="e#96829#102969#0" expanded="false" />
+            <element signature="e#103006#124028#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
