@@ -5688,6 +5688,9 @@ header {
   .header-nav__list2-1 {
     column-count: 2;
   }
+  .header-nav__item1-tech .header-nav__list2-1 {
+    column-count: 1;
+  }
   .header-nav__list1-1 .content__container {
     flex-direction: column;
     margin:0;

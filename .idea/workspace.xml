@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboutus/aboutus.php" afterPath="$PROJECT_DIR$/aboutus/aboutus.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header/header.php" afterPath="$PROJECT_DIR$/header/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/how_it_work/how_it_work.php" afterPath="$PROJECT_DIR$/technology/how_it_work/how_it_work.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboutus/legal/legal.php" afterPath="$PROJECT_DIR$/aboutus/legal/legal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/medication-free_treatment/medication-free_treatment.php" afterPath="$PROJECT_DIR$/technology/medication-free_treatment/medication-free_treatment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.php" afterPath="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/old_good_ens03/old_good_ens03.php" afterPath="$PROJECT_DIR$/technology/old_good_ens03/old_good_ens03.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/technology.php" afterPath="$PROJECT_DIR$/technology/technology.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/tens_scenar_cosmodic/tens_scenar_cosmodic.php" afterPath="$PROJECT_DIR$/technology/tens_scenar_cosmodic/tens_scenar_cosmodic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health/transferring_to_a_different_level_of_health.php" afterPath="$PROJECT_DIR$/technology/transferring_to_a_different_level_of_health/transferring_to_a_different_level_of_health.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/using/using.php" afterPath="$PROJECT_DIR$/technology/using/using.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.php" afterPath="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.php" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,19 +34,32 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5401" column="32" selection-start="117488" selection-end="117488" vertical-scroll-proportion="-0.0" vertical-offset="91817" max-vertical-offset="97359">
+                <state line="5314" column="19" selection-start="115577" selection-end="115577" vertical-scroll-proportion="-3.2692308" vertical-offset="90253" max-vertical-offset="97410">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="130" column="38" selection-start="5017" selection-end="5017" vertical-scroll-proportion="0.53412783" vertical-offset="1717" max-vertical-offset="3723">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/header/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="158" column="61" selection-start="21343" selection-end="21343" vertical-scroll-proportion="0.71290714" vertical-offset="548" max-vertical-offset="1598">
+                <state line="158" column="87" selection-start="21391" selection-end="21391" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="646">
                   <folding>
+                    <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
+                    <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
                     <element signature="tag#ul#0;tag#li#1;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
+                    <element signature="tag#li#2;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
                     <element signature="tag#ul#0;tag#li#2;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
+                    <element signature="tag#li#3;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -66,14 +69,13 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3701" column="24" selection-start="84898" selection-end="84898" vertical-scroll-proportion="-1.1538461" vertical-offset="62857" max-vertical-offset="64022">
+                <state line="5691" column="19" selection-start="123511" selection-end="123511" vertical-scroll-proportion="0.43240094" vertical-offset="80668" max-vertical-offset="81702">
                   <folding>
                     <element signature="e#86141#96822#0" expanded="false" />
                     <element signature="e#96872#103012#0" expanded="false" />
-                    <element signature="e#103049#124071#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -88,10 +90,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="legal.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="legal.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/aboutus/legal/legal.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.3846154" vertical-offset="85" max-vertical-offset="969">
+                <state line="25" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="-13.076923" vertical-offset="85" max-vertical-offset="969">
                   <folding />
                 </state>
               </provider>
@@ -148,10 +150,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/products/products.php" />
         <option value="$PROJECT_DIR$/products/ps705/ps705.php" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/products/ens/ens.php" />
         <option value="$PROJECT_DIR$/technology/technology.php" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/technology/how_it_work/how_it_work.php" />
         <option value="$PROJECT_DIR$/technology/medication-free_treatment/medication-free_treatment.php" />
         <option value="$PROJECT_DIR$/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.php" />
@@ -163,6 +163,8 @@
         <option value="$PROJECT_DIR$/aboutus/aboutus.php" />
         <option value="$PROJECT_DIR$/aboutus/legal/legal.php" />
         <option value="$PROJECT_DIR$/header/header.php" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
   </component>
@@ -448,6 +450,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -861,13 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="58" selection-start="4745" selection-end="4745" vertical-scroll-proportion="-13.730769" vertical-offset="1819" max-vertical-offset="3434">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="33" selection-start="270" selection-end="270" vertical-scroll-proportion="-1.3076923" vertical-offset="34" max-vertical-offset="2992">
@@ -947,13 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5401" column="32" selection-start="117488" selection-end="117488" vertical-scroll-proportion="-0.0" vertical-offset="91817" max-vertical-offset="97359">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/structural.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="22" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.33261105" vertical-offset="271" max-vertical-offset="2397">
@@ -970,17 +972,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aboutus/legal/legal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.3846154" vertical-offset="85" max-vertical-offset="969">
+        <state line="25" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="-13.076923" vertical-offset="85" max-vertical-offset="969">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="61" selection-start="21343" selection-end="21343" vertical-scroll-proportion="0.71290714" vertical-offset="548" max-vertical-offset="1598">
+        <state line="158" column="87" selection-start="21391" selection-end="21391" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="646">
           <folding>
+            <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
+            <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
             <element signature="tag#ul#0;tag#li#1;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
+            <element signature="tag#li#2;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
             <element signature="tag#ul#0;tag#li#2;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
+            <element signature="tag#li#3;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="38" selection-start="5017" selection-end="5017" vertical-scroll-proportion="0.53412783" vertical-offset="1717" max-vertical-offset="3723">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5691" column="19" selection-start="123511" selection-end="123511" vertical-scroll-proportion="0.43240094" vertical-offset="80668" max-vertical-offset="81702">
+          <folding>
+            <element signature="e#86141#96822#0" expanded="false" />
+            <element signature="e#96872#103012#0" expanded="false" />
           </folding>
         </state>
       </provider>

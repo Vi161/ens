@@ -59,7 +59,7 @@
                         </div>
                     </ul>
                 </li>
-                <li class="header-nav__item header-nav__item1 "><a class="header-nav__item-a"  href="#">About Technology</a>
+                <li class="header-nav__item header-nav__item1 header-nav__item1-tech"><a class="header-nav__item-a"  href="#">About Technology</a>
                     <ul class="header-nav__list1-1">
                         <div class="content__container">
                             <li class="header-nav__item1-1 header-nav__item1-1-tech">
@@ -156,7 +156,7 @@
                         </div>
                     </ul>
                 </li>
-                <li class="header-nav__item header-nav__item1"><a class="header-nav__item-a" href="#">About Us</a>
+                <li class="header-nav__item header-nav__item1 header-nav__item1-aboutus"><a class="header-nav__item-a" href="#">About Us</a>
                     <ul class="header-nav__list1-1">
                         <div class="content__container">
                             <li class="header-nav__item1-1">

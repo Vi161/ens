@@ -115,12 +115,29 @@ $(document).ready(function(){
         $('.header-nav__item1-products').click(function(){
             $(".header-nav__item1-products>.header-nav__list1-1").toggle(display);
             $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
-
+            $(".header-nav__item1-tech>.header-nav__list1-1").hide();
+            $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
+            $(this).css("border","none  ");
+        });
+        $('.header-nav__item1-tech').click(function(){
+            $(".header-nav__item1-tech>.header-nav__list1-1").toggle(display);
+            $(".header-nav__item1-products>.header-nav__list1-1").hide();
+            $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
+            $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
             $(this).css("border","none  ");
         });
         $('.header-nav__item1-hyst').click(function(){
             $(".header-nav__item1-hyst>.header-nav__list1-1").toggle(display);
             $(".header-nav__item1-products>.header-nav__list1-1").hide();
+            $(".header-nav__item1-tech>.header-nav__list1-1").hide();
+            $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
+            $(this).css("border","none  ");
+        });
+        $('.header-nav__item1-aboutus').click(function(){
+            $(".header-nav__item1-aboutus>.header-nav__list1-1").toggle(display);
+            $(".header-nav__item1-products>.header-nav__list1-1").hide();
+            $(".header-nav__item1-tech>.header-nav__list1-1").hide();
+            $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
             $(this).css("border","none  ");
         });
     }else {
