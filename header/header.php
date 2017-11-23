@@ -1,12 +1,5 @@
 <?
-//function getUrl() {
-//    $url  = @( $_SERVER["HTTPS"] != 'on' ) ? 'http://'.$_SERVER["SERVER_NAME"] :  'https://'.$_SERVER["SERVER_NAME"];
-//    $url .= ( $_SERVER["SERVER_PORT"] != 80 ) ? ":".$_SERVER["SERVER_PORT"] : "";
-//    $url .= $_SERVER["REQUEST_URI"];
-//    return $url;
-//}
-//echo getUrl();
-//$link1970="/ens/history/1970s/1970s.php";
+
 ?>
 <header>
     <div class="header-left"></div>
@@ -65,9 +58,26 @@
                             </li>
                         </div>
                     </ul>
-
                 </li>
-                <li class="header-nav__item"><a class="header-nav__item-a"  href="/ens/technology/technology.php">About Technology</a></li>
+                <li class="header-nav__item header-nav__item1 "><a class="header-nav__item-a"  href="#">About Technology</a>
+                    <ul class="header-nav__list1-1">
+                        <div class="content__container">
+                            <li class="header-nav__item1-1 header-nav__item1-1-tech">
+                                <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/technology/technology.php">About Technology</a>
+                                <ul class="header-nav__list2-1">
+                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/technology/tens_scenar_cosmodic/tens_scenar_cosmodic.php">TENS, SCENAR, COSMODIC technologies</a></li>
+                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/technology/not_all_secrets_of_scenar-cosmodic/not_all_secrets_of_scenar-cosmodic.php">Not all secrets of SCENAR-COSMODIC	</a></li>
+                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/technology/what_is_scenar-therapy/what_is_scenar-therapy.php">What is SCENAR-therapy?</a></li>
+                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/technology/using/using.php">Using SCENAR</a></li>
+                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/technology/how_it_work/how_it_work.php">How it works</a></li>
+                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/technology/medication-free_treatment/medication-free_treatment.php">Medication-free treatment</a></li>
+                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/technology/transferring_to_a_different_level_of_health/transferring_to_a_different_level_of_health.php">Transferring to a different level of health</a></li>
+                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/technology/old_good_ens03/old_good_ens03.php">Old good ENS-03</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+                </li>
                 <li class="header-nav__item header-nav__item1 header-nav__item1-hyst"><a class="header-nav__item-a"  href="#">History</a>
                     <ul class="header-nav__list1-1">
                         <div class="content__container">
@@ -146,7 +156,20 @@
                         </div>
                     </ul>
                 </li>
-                <li class="header-nav__item"><a class="header-nav__item-a" href="/ens/aboutus/aboutus.php">About Us</a></li>
+                <li class="header-nav__item header-nav__item1"><a class="header-nav__item-a" href="#">About Us</a>
+                    <ul class="header-nav__list1-1">
+                        <div class="content__container">
+                            <li class="header-nav__item1-1">
+                                <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/aboutus/aboutus.php">About Us</a>
+                                <ul class="header-nav__list2-1">
+                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/index.php">ens.com</a></li>
+                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/aboutus/legal/legal.php">Legal information</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+
+                </li>
                 <li class="header-nav__lang-wrap">
                     <a class="header-nav__lang" href="#"><span class="lang-desktop">en</span><span class="lang-mob">in english</span></a>
                     <a class="header-nav__lang" href="#"><span class="lang-desktop">ru</span><span class="lang-mob">по-русски</span></a>

@@ -3219,7 +3219,6 @@ header {
 }
 .header-nav__item1-1, .header-nav__list2-1, .header-nav__list2-2 {
   margin-top: 15px;
-
 }
 .header-nav__item1-1 {
   width: 20%;
@@ -3752,6 +3751,9 @@ header {
 }
 .slick-prev:before, .slick-next:before {
   font-size: 30px;
+}
+.header-nav__item1-1-tech {
+  width: 50%;
 }
 @media screen and (max-width: 1060px) {
   .ens-block16__link {

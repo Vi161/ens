@@ -23,19 +23,6 @@
 <body>
 <?php include_once '../../header/header.php'; ?>
 
-
-<nav class="products-nav">
-    <div class="products-nav__container">
-        <div class="products-nav__left">
-            <a class="products-nav__left-a" href="../../index.php">ens.com</a>
-        </div>
-        <ul id="products-nav__list" class="products-nav__right about-nav__rigth">
-            <li class="products-nav__item"><a class="products-nav__item-a header-nav__active" href="legal/legal.php">Legal information</a></li>
-        </ul>
-    </div>
-</nav>
-
-
 <div class="content">
     <div class="legal-block1">
         <div class="content__container">
