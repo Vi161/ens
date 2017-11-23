@@ -1,5 +1,12 @@
 <?
-$link1970="/ens/history/1970s/1970s.php";
+//function getUrl() {
+//    $url  = @( $_SERVER["HTTPS"] != 'on' ) ? 'http://'.$_SERVER["SERVER_NAME"] :  'https://'.$_SERVER["SERVER_NAME"];
+//    $url .= ( $_SERVER["SERVER_PORT"] != 80 ) ? ":".$_SERVER["SERVER_PORT"] : "";
+//    $url .= $_SERVER["REQUEST_URI"];
+//    return $url;
+//}
+//echo getUrl();
+//$link1970="/ens/history/1970s/1970s.php";
 ?>
 <header>
     <div class="header-left"></div>

@@ -4723,7 +4723,7 @@ header {
   }
   header {
     border-bottom: 0;
-    position: fixed;
+    position: absolute;
   }
   .header-nav__container {
     background-color: #556B2F;
@@ -4740,7 +4740,7 @@ header {
     display:none;
     background-color: #556B2F;
     width: 100%;
-    height: 100%;
+    height: 60vw;
     border-top: none;
     padding: 0;
     padding-top: 54px;
