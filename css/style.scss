@@ -3755,6 +3755,9 @@ header {
 .header-nav__item1-1-tech {
   width: 50%;
 }
+.header-nav__item1 {
+  border-bottom: 2px solid transparent;
+}
 @media screen and (max-width: 1060px) {
   .ens-block16__link {
     margin: 0.4vw;

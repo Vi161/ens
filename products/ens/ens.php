@@ -623,9 +623,6 @@
     $(document).ready(function(){
         navmenu('.products-nav');
 //        navmenu('.tech-nav');
-        alert(document.location.href);
-
-
     });
 </script>
 

@@ -148,7 +148,7 @@ $(document).ready(function(){
         });
         $('.header-nav__item1').mouseout(function(){
             $(".header-nav__list1-1").hide();
-            $(this).css("border","none  ");
+            $(this).css("border-bottom","2px solid transparent");
             return false;
         });
     }
