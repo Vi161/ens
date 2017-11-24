@@ -210,15 +210,8 @@ $(document).ready(function(){
 //
 //    });
 
-        //var thisUrl = document.location.href.split("/");
         var thisUrl = document.location.pathname.split("/");
-        console.log(thisUrl);
-        //console.log(location.pathname);
         $(".header-nav__item-a").each(function(){
-            //console.log(thisUrl[4]);
-            console.log($(this).attr("href").split("/"));
-            console.log(thisUrl[4]);
-
             if ($(this).attr("href").split("/")[4] == thisUrl[4]){
                 $(".header-nav-active").removeClass("header-nav-active");
                 $(this).addClass("header-nav-active");

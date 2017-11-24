@@ -33,30 +33,30 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5322" column="19" selection-start="115723" selection-end="115723" vertical-scroll-proportion="-3.2692308" vertical-offset="90389" max-vertical-offset="97546">
+                <state line="5317" column="19" selection-start="115463" selection-end="115463" vertical-scroll-proportion="-3.2692308" vertical-offset="90304" max-vertical-offset="97461">
                   <folding>
-                    <marker date="1511519005478" expanded="true" signature="5471:5510" placeholder="{...}" />
-                    <marker date="1511519005478" expanded="true" signature="5521:5562" placeholder="{...}" />
-                    <marker date="1511519005478" expanded="true" signature="86105:86122" placeholder="{...}" />
-                    <marker date="1511519005478" expanded="true" signature="123441:123463" placeholder="{...}" />
+                    <marker date="1511521303483" expanded="true" signature="5141:5180" placeholder="{...}" />
+                    <marker date="1511521303483" expanded="true" signature="5191:5232" placeholder="{...}" />
+                    <marker date="1511521303483" expanded="true" signature="85805:85822" placeholder="{...}" />
+                    <marker date="1511521303483" expanded="true" signature="123181:123203" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="221" column="63" selection-start="8573" selection-end="8573" vertical-scroll-proportion="0.71571904" vertical-offset="3115" max-vertical-offset="4012">
+                <state line="211" column="0" selection-start="8132" selection-end="8132" vertical-scroll-proportion="-22.73077" vertical-offset="2996" max-vertical-offset="3893">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/header/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="151" column="208" selection-start="21098" selection-end="21098" vertical-scroll-proportion="-12.576923" vertical-offset="1267" max-vertical-offset="2278">
+                <state line="151" column="208" selection-start="21098" selection-end="21098" vertical-scroll-proportion="0.7622378" vertical-offset="1267" max-vertical-offset="2278">
                   <folding>
                     <element signature="tag#ul#0;tag#li#1;tag#div#0;tag#ul#0;tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
                     <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
@@ -71,14 +71,12 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3762" column="18" selection-start="86245" selection-end="86245" vertical-scroll-proportion="0.77577937" vertical-offset="63307" max-vertical-offset="64158">
+                <state line="3755" column="20" selection-start="85906" selection-end="85906" vertical-scroll-proportion="0.33333334" vertical-offset="63557" max-vertical-offset="87176">
                   <folding>
-                    <element signature="e#86287#96968#0" expanded="false" />
-                    <element signature="e#97018#103158#0" expanded="false" />
-                    <element signature="e#103195#124311#0" expanded="false" />
+                    <element signature="e#86027#96708#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -175,8 +173,8 @@
         <option value="$PROJECT_DIR$/aboutus/legal/legal.php" />
         <option value="$PROJECT_DIR$/products/ens/ens.php" />
         <option value="$PROJECT_DIR$/header/header.php" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
   </component>
@@ -943,9 +941,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="211" column="0" selection-start="8132" selection-end="8132" vertical-scroll-proportion="-22.73077" vertical-offset="2996" max-vertical-offset="3893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/header/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="208" selection-start="21098" selection-end="21098" vertical-scroll-proportion="-12.576923" vertical-offset="1267" max-vertical-offset="2278">
+        <state line="151" column="208" selection-start="21098" selection-end="21098" vertical-scroll-proportion="0.7622378" vertical-offset="1267" max-vertical-offset="2278">
           <folding>
             <element signature="tag#ul#0;tag#li#1;tag#div#0;tag#ul#0;tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
             <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
@@ -957,20 +962,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5322" column="19" selection-start="115723" selection-end="115723" vertical-scroll-proportion="-3.2692308" vertical-offset="90389" max-vertical-offset="97546">
+        <state line="3755" column="20" selection-start="85906" selection-end="85906" vertical-scroll-proportion="0.33333334" vertical-offset="63557" max-vertical-offset="87176">
           <folding>
-            <marker date="1511519005478" expanded="true" signature="5471:5510" placeholder="{...}" />
-            <marker date="1511519005478" expanded="true" signature="5521:5562" placeholder="{...}" />
-            <marker date="1511519005478" expanded="true" signature="86105:86122" placeholder="{...}" />
-            <marker date="1511519005478" expanded="true" signature="123441:123463" placeholder="{...}" />
+            <element signature="e#86027#96708#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="63" selection-start="8573" selection-end="8573" vertical-scroll-proportion="0.71571904" vertical-offset="3115" max-vertical-offset="4012">
-          <folding />
         </state>
       </provider>
     </entry>
