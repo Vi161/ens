@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d3bfca3-70a4-446e-b6c4-9b86d2cd9bae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/ens/ens.php" afterPath="$PROJECT_DIR$/products/ens/ens.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header/header.php" afterPath="$PROJECT_DIR$/header/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,16 +34,21 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5317" column="19" selection-start="115640" selection-end="115640" vertical-scroll-proportion="-3.2692308" vertical-offset="90304" max-vertical-offset="97461">
-                  <folding />
+                <state line="5323" column="19" selection-start="115764" selection-end="115764" vertical-scroll-proportion="-3.2692308" vertical-offset="90406" max-vertical-offset="97563">
+                  <folding>
+                    <marker date="1511515748220" expanded="true" signature="5471:5510" placeholder="{...}" />
+                    <marker date="1511515748220" expanded="true" signature="5521:5562" placeholder="{...}" />
+                    <marker date="1511515748220" expanded="true" signature="86105:86122" placeholder="{...}" />
+                    <marker date="1511515748220" expanded="true" signature="123482:123504" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="145" column="31" selection-start="5820" selection-end="5820" vertical-scroll-proportion="0.28169015" vertical-offset="2205" max-vertical-offset="3723">
+                <state line="148" column="0" selection-start="5889" selection-end="6091" vertical-scroll-proportion="0.4882943" vertical-offset="2078" max-vertical-offset="4063">
                   <folding />
                 </state>
               </provider>
@@ -53,13 +57,11 @@
           <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/header/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="158" column="87" selection-start="21391" selection-end="21391" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="646">
+                <state line="151" column="208" selection-start="21098" selection-end="21098" vertical-scroll-proportion="-12.576923" vertical-offset="1267" max-vertical-offset="2278">
                   <folding>
-                    <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
+                    <element signature="tag#ul#0;tag#li#1;tag#div#0;tag#ul#0;tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
                     <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
                     <element signature="tag#ul#0;tag#li#1;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
-                    <element signature="tag#li#2;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
-                    <element signature="tag#ul#0;tag#li#2;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
                     <element signature="tag#li#3;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
                   </folding>
                 </state>
@@ -70,14 +72,13 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3757" column="0" selection-start="86103" selection-end="86165" vertical-scroll-proportion="0.82167834" vertical-offset="63164" max-vertical-offset="64073">
+                <state line="3245" column="21" selection-start="71758" selection-end="71758" vertical-scroll-proportion="0.33333334" vertical-offset="54887" max-vertical-offset="81855">
                   <folding>
-                    <element signature="e#86204#96885#0" expanded="false" />
-                    <element signature="e#96935#103075#0" expanded="false" />
-                    <element signature="e#103112#124208#0" expanded="false" />
+                    <element signature="e#86328#97009#0" expanded="false" />
+                    <element signature="e#97059#103199#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -172,10 +173,10 @@
         <option value="$PROJECT_DIR$/technology/what_is_scenar-therapy/what_is_scenar-therapy.php" />
         <option value="$PROJECT_DIR$/aboutus/aboutus.php" />
         <option value="$PROJECT_DIR$/aboutus/legal/legal.php" />
-        <option value="$PROJECT_DIR$/header/header.php" />
         <option value="$PROJECT_DIR$/products/ens/ens.php" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/header/header.php" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -935,20 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="87" selection-start="21391" selection-end="21391" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="646">
-          <folding>
-            <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
-            <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
-            <element signature="tag#ul#0;tag#li#1;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
-            <element signature="tag#li#2;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
-            <element signature="tag#ul#0;tag#li#2;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
-            <element signature="tag#li#3;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/products/ens/ens.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="625" column="0" selection-start="30481" selection-end="30481" vertical-scroll-proportion="-27.461538" vertical-offset="9911" max-vertical-offset="10795">
@@ -956,21 +943,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="31" selection-start="5820" selection-end="5820" vertical-scroll-proportion="0.28169015" vertical-offset="2205" max-vertical-offset="3723">
-          <folding />
+        <state line="5323" column="19" selection-start="115764" selection-end="115764" vertical-scroll-proportion="-3.2692308" vertical-offset="90406" max-vertical-offset="97563">
+          <folding>
+            <marker date="1511515748220" expanded="true" signature="5471:5510" placeholder="{...}" />
+            <marker date="1511515748220" expanded="true" signature="5521:5562" placeholder="{...}" />
+            <marker date="1511515748220" expanded="true" signature="86105:86122" placeholder="{...}" />
+            <marker date="1511515748220" expanded="true" signature="123482:123504" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/header/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3757" column="0" selection-start="86103" selection-end="86165" vertical-scroll-proportion="0.82167834" vertical-offset="63164" max-vertical-offset="64073">
+        <state line="151" column="208" selection-start="21098" selection-end="21098" vertical-scroll-proportion="-12.576923" vertical-offset="1267" max-vertical-offset="2278">
           <folding>
-            <element signature="e#86204#96885#0" expanded="false" />
-            <element signature="e#96935#103075#0" expanded="false" />
-            <element signature="e#103112#124208#0" expanded="false" />
+            <element signature="tag#ul#0;tag#li#1;tag#div#0;tag#ul#0;tag#li#0;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
+            <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
+            <element signature="tag#ul#0;tag#li#1;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
+            <element signature="tag#li#3;tag#ul#0;tag#div#0;tag#nav#0;tag#header#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="0" selection-start="5889" selection-end="6091" vertical-scroll-proportion="0.4882943" vertical-offset="2078" max-vertical-offset="4063">
+          <folding />
         </state>
       </provider>
     </entry>

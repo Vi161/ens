@@ -209,5 +209,25 @@ $(document).ready(function(){
 //        };
 //
 //    });
+
+    $().ready(function(){
+        //var thisUrl = document.location.href.split("/");
+        var thisUrl = document.location.pathname.split("/");
+        console.log(thisUrl);
+        //console.log(location.pathname);
+
+        $(".menu li a").each(function(){
+            //console.log(thisUrl[4]);
+            console.log($(this).attr("href").split("/"));
+            console.log(thisUrl[4]);
+
+            if ($(this).attr("href").split("/")[2] == thisUrl[2]){
+                $(".active").removeClass("active");
+                $(this).addClass("active");
+                return false;
+            }
+        });
+    });
+
 });
 
