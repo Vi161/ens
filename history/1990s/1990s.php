@@ -28,6 +28,29 @@
 <?php include_once '../../header/header.php'; ?>
 
 <div  class="content">
+<nav class="products-nav ens-nav">
+    <div class="products-nav__container">
+        <div class="products-nav__left">
+            <a class="products-nav__left-a" href="ens.php">ENS</a>
+        </div>
+        <div class="slicknav-menu">
+            <div class="slicknav-menu__but"><span class="icon-angle-down"></span></div>
+        </div>
+        <ul id="products-nav__list" class="products-nav__right ">
+            <li class="products-nav__item"><a class="products-nav__item-a" href="#letmedical">LET Medical LCC</a></li>
+            <li class="products-nav__item"><a class="products-nav__item-a" href="#scenar032">SCENAR 032</a></li>
+            <li class="products-nav__item"><a class="products-nav__item-a" href="#scenar035">SCENAR 035</a></li>
+            <li class="products-nav__item"><a class="products-nav__item-a" href="#scenar513">SCENAR DS513</a></li>
+            <li class="products-nav__item"><a class="products-nav__item-a" href="#newspaper">Newspaper</a></li>
+            <li class="products-nav__item"><a class="products-nav__item-a" href="#scenar611">SCENAR D-VX611</a></li>
+            <li class="products-nav__item"><a class="products-nav__item-a" href="#scenar603">SCENAR DPS603”</a></li>
+            <li class="products-nav__item"><a class="products-nav__item-a" href="#scenar735">SCENAR VX735v3.5</a></li>
+            <li class="products-nav__item"><a class="products-nav__item-a" href="#scenar703">SCENAR PS703</a></li>
+            <li class="products-nav__item"><a class="products-nav__item-a" href="#scenar713">SCENAR PS713</a></li>
+        </ul>
+    </div>
+</nav>
+
     <div  class="hyst-block-bigimg hyst-block5 hyst-block-top">
         <div class="content__container">
             <div class="hyst-block1__txt">
@@ -273,44 +296,7 @@
 <?php include_once '../../footer/footer.php'; ?>
 <script>
     $(document).ready(function(){
-        function windowSize(){
-            if($(window).width() > 768){
-                $('.owl-carousel').owlCarousel({
-
-//        loop:true, //Зацикливаем слайдер
-                    margin:00, //Отступ от элемента справа в 50px
-                    nav:true, //Отключение навигации
-//        autoplay:true, //Автозапуск слайдера
-                    smartSpeed:1000, //Время движения слайда
-                    autoplayTimeout:2000, //Время смены слайда
-                    mouseDrag:true,
-                    touchDrag:true,
-                    navText:false,
-                    dots:false,
-                    responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
-                        0:{
-                        },
-                        780:{
-                            items:4
-                        },
-                        1000:{
-                            items:5
-                        }
-                    }
-                });
-
-            }
-        }
-        $(window).load(windowSize); // при загрузке
-        $(window).resize(windowSize)
-    });
-</script>
-
-
-
-<script>
-    $(document).ready(function(){
-        navmenu('.hyst-nav__wrap');
+        navmenu('.products-nav');
     });
 </script>
 </body>

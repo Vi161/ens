@@ -17,27 +17,25 @@
 <?php include_once '../../header/header.php'; ?>
 
 <div class="content">
-
-<nav class="products-nav ens-nav">
-    <div class="products-nav__container">
-        <div class="products-nav__left">
-            <a class="products-nav__left-a" href="ens.php">ENS</a>
+    <nav class="products-nav ens-nav">
+        <div class="products-nav__container">
+            <div class="products-nav__left">
+                <a class="products-nav__left-a" href="ens.php">ENS</a>
+            </div>
+            <div class="slicknav-menu">
+                <div class="slicknav-menu__but"><span class="icon-angle-down"></span></div>
+            </div>
+            <ul id="products-nav__list" class="products-nav__right ">
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#technology">Technology</a></li>
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#indication">Indication</a></li>
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#control">Control</a></li>
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#readings">Readings</a></li>
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#electrodes">Electrodes</a></li>
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#features">Main features</a></li>
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#accessories">Accessories</a></li>
+            </ul>
         </div>
-        <div class="slicknav-menu">
-            <div class="slicknav-menu__but"><span class="icon-angle-down"></span></div>
-        </div>
-        <ul id="products-nav__list" class="products-nav__right ">
-            <li class="products-nav__item"><a class="products-nav__item-a" href="#technology">Technology</a></li>
-            <li class="products-nav__item"><a class="products-nav__item-a" href="#indication">Indication</a></li>
-            <li class="products-nav__item"><a class="products-nav__item-a" href="#control">Control</a></li>
-            <li class="products-nav__item"><a class="products-nav__item-a" href="#readings">Readings</a></li>
-            <li class="products-nav__item"><a class="products-nav__item-a" href="#electrodes">Electrodes</a></li>
-            <li class="products-nav__item"><a class="products-nav__item-a" href="#features">Main features</a></li>
-            <li class="products-nav__item"><a class="products-nav__item-a" href="#accessories">Accessories</a></li>
-        </ul>
-    </div>
-</nav>
-</div>
+    </nav>
     <div class="ens-block1">
         <div class="content__container">
             <div class="ens-block1__txt">

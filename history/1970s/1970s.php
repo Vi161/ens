@@ -26,6 +26,21 @@
 include_once '../../header/header.php';
 ?>
 <div  class="content">
+    <nav class="products-nav ens-nav">
+        <div class="products-nav__container">
+            <div class="products-nav__left">
+                <a class="products-nav__left-a" href="ens.php">ENS</a>
+            </div>
+            <div class="slicknav-menu">
+                <div class="slicknav-menu__but"><span class="icon-angle-down"></span></div>
+            </div>
+            <ul id="products-nav__list" class="products-nav__right ">
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#ens01">ENS-01</a></li>
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#ens02">ENS-02</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <div  class="hyst-block-bigimg hyst-block9 hyst-block-top">
         <div class="content__container">
             <div class="hyst-block1__txt">
@@ -109,7 +124,7 @@ include_once '../../header/header.php';
 
 <script>
     $(document).ready(function(){
-        navmenu('.hyst-nav__wrap');
+        navmenu('.products-nav');
     });
 </script>
 </body>

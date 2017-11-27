@@ -211,11 +211,15 @@ $(document).ready(function(){
 //    });
 
         var thisUrl = document.location.pathname.split("/");
-        $(".header-nav__item-a").each(function(){
-            if ($(this).attr("href").split("/")[4] == thisUrl[4]){
-                $(".header-nav-active").removeClass("header-nav-active");
+    console.log(thisUrl[thisUrl.length - 1]);
+
+    $(".header-nav__item-a").each(function(){
+            var thisLink = $(this).attr("href").split("/");
+            if (thisLink[thisLink.length - 1] == thisUrl[thisUrl.length - 1]){
+//                $(".header-nav-active").removeClass("header-nav-active");
                 $(this).addClass("header-nav-active");
-                $(this).parents('.header-nav__item1').addClass("header-nav-active");
+                console.log($(this).parents('.header-nav__item').addClass("header-nav-active"));
+                $(this).parents('.header-nav__item').addClass("header-nav-active");
                 return false;
             }
         });

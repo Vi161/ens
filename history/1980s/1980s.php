@@ -28,6 +28,27 @@
 <?php include_once '../../header/header.php'; ?>
 
 <div  class="content">
+    <nav class="products-nav ens-nav">
+        <div class="products-nav__container">
+            <div class="products-nav__left">
+                <a class="products-nav__left-a" href="ens.php">ENS</a>
+            </div>
+            <div class="slicknav-menu">
+                <div class="slicknav-menu__but"><span class="icon-angle-down"></span></div>
+            </div>
+            <ul id="products-nav__list" class="products-nav__right ">
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#ens02t">ENS-02T</a></li>
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#ens02">ENS-02</a></li>
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#ens03">ENS-03</a></li>
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#ens03c">ENS-03-C</a></li>
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#scenar033">SCENAR-033</a></li>
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#patent">Author’s certificate</a></li>
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#t4-01">T4-01 “Lhotse”</a></li>
+                <li class="products-nav__item"><a class="products-nav__item-a" href="#t4-02">SCENAR T4-02</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <div  class="hyst-block-bigimg hyst-block7 hyst-block-top">
         <div class="content__container">
             <div class="hyst-block1__txt">
@@ -173,42 +194,10 @@
     </div>
 </div>
 <?php include_once '../../footer/footer.php'; ?>
-<script>
-    $(document).ready(function(){
-        function windowSize(){
-            if($(window).width() > 768){
-                $('.owl-carousel').owlCarousel({
-
-//        loop:true, //Зацикливаем слайдер
-                    margin: 0, //Отступ от элемента справа в 50px
-                    nav: true, //Отключение навигации
-//        autoplay:true, //Автозапуск слайдера
-                    mouseDrag:true,
-                    touchDrag:true,
-                    navText:false,
-                    dots:false,
-                    responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
-                        0:{
-                        },
-                        780:{
-                            items:4
-                        },
-                        1000:{
-                            items:5
-                        }
-                    }
-                });
-
-            }
-        }
-        $(window).load(windowSize); // при загрузке
-        $(window).resize(windowSize)
-    });
-</script>
 
 <script>
     $(document).ready(function(){
-        navmenu('.hyst-nav__wrap');
+        navmenu('.products-nav');
     });
 
 </script>
