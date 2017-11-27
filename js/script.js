@@ -215,9 +215,11 @@ $(document).ready(function(){
             if ($(this).attr("href").split("/")[4] == thisUrl[4]){
                 $(".header-nav-active").removeClass("header-nav-active");
                 $(this).addClass("header-nav-active");
+                $(this).parents('.header-nav__item1').addClass("header-nav-active");
                 return false;
             }
         });
+
 
 });
 
