@@ -44,7 +44,7 @@ var adapmenu = function(){
 
             $("#header-nav__list").css("display","block");
             $("#header-nav__list").hide();
-            $("#products-nav__list").show();
+            $("#products-nav__list").hide();
 
 
             $(".icon-bars").removeClass("icon-close");
