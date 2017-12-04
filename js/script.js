@@ -29,12 +29,14 @@ var adapmenu = function(){
         if($(window).width() < mibile_width) {
             $(window).scroll(function () {
                 var iCurScrollPos = $(this).scrollTop();
+                $('header').removeClass('header-wrap-fixed');//rem2
+
                 if($(this).scrollTop() >= 55) {
                     $(".products-nav").addClass('nav-fixed'); //add2
                 }
                 else if ((iCurScrollPos < iScrollPos)  ) {
                     $(".products-nav").removeClass('nav-fixed');//rem2
-                    $('header').removeClass('header-wrap-fixed');//add1
+//                    $('header').removeClass('header-wrap-fixed');//add1
                 }
                 var lastScrollTop = 0;
                 iScrollPos = iCurScrollPos;
@@ -44,24 +46,25 @@ var adapmenu = function(){
 
             $("#header-nav__list").css("display","block");
             $("#header-nav__list").hide();
+            $("#products-nav__list").css("display","block");
             $("#products-nav__list").hide();
 
 
             $(".icon-bars").removeClass("icon-close");
-            $('.header-nav__item1-products').mouseover(function(){
-                $(".header-nav__item1-products>.header-nav__list1-1").show();
-                $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
-                $(".header-nav__item1-tech>.header-nav__list1-1").hide();
-                $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
-                $(this).css("border","none  ");
-            });
 //            $('.header-nav__item1-products').click(function(){
-//                $(".header-nav__item1-products>.header-nav__list1-1").toggle(display);
+//                $(".header-nav__item1-products>.header-nav__list1-1").show();
 //                $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
 //                $(".header-nav__item1-tech>.header-nav__list1-1").hide();
 //                $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
 //                $(this).css("border","none  ");
 //            });
+            $('.header-nav__item1-products').click(function(){
+                $(".header-nav__item1-products>.header-nav__list1-1").toggle(display);
+                $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
+                $(".header-nav__item1-tech>.header-nav__list1-1").hide();
+                $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
+                $(this).css("border","none  ");
+            });
             $('.header-nav__item1-tech').mouseover(function(){
                 $(".header-nav__item1-tech>.header-nav__list1-1").show();
                 $(".header-nav__item1-products>.header-nav__list1-1").hide();
