@@ -44,12 +44,6 @@
     </div>
 </div>
 <?php include_once '../footer/footer.php'; ?>
-<script>
-    $(document).ready(function(){
-        navmenu('.products-nav');
-//        navmenu('.tech-nav');
-    });
-</script>
 
 </body>
 </html>

@@ -27,11 +27,11 @@
 <body>
 <?php include_once '../../header/header.php'; ?>
 
-<div  class="content">
+<div  id='hyst1980s' class="content">
     <nav class="products-nav ens-nav">
         <div class="products-nav__container">
             <div class="products-nav__left">
-                <a class="products-nav__left-a" href="ens.php">ENS</a>
+                <a class="products-nav__left-a" href="#hyst1980s">Hystory 1980's</a>
             </div>
             <div class="slicknav-menu">
                 <div class="slicknav-menu__but"><span class="icon-angle-down"></span></div>
@@ -195,11 +195,5 @@
 </div>
 <?php include_once '../../footer/footer.php'; ?>
 
-<script>
-    $(document).ready(function(){
-        navmenu('.products-nav');
-    });
-
-</script>
 </body>
 </html>

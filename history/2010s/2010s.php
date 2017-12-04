@@ -27,11 +27,11 @@
 <body>
 <?php include_once '../../header/header.php'; ?>
 
-<div  class="content">
+<div id="hyst2010s" class="content">
     <nav class="products-nav ens-nav">
         <div class="products-nav__container">
             <div class="products-nav__left">
-                <a class="products-nav__left-a" href="ens.php">ENS</a>
+                <a class="products-nav__left-a" href="#hyst2010s">Hystory 2010's</a>
             </div>
             <div class="slicknav-menu">
                 <div class="slicknav-menu__but"><span class="icon-angle-down"></span></div>
@@ -54,7 +54,7 @@
         </div>
     </nav>
 
-    <div  class="hyst-block-bigimg hyst-block1">
+    <div class="hyst-block-bigimg hyst-block1">
         <div class="content__container">
             <div class="hyst-block1__txt">
                 <span class="hyst-block1__txt1">
@@ -174,10 +174,6 @@
     <div  class="hyst-block-bigimg hyst-block-2010s__16"></div>
 </div>
 <?php include_once '../../footer/footer.php'; ?>
-<script>
-    $(document).ready(function(){
-        navmenu('.products-nav');
-    });
-</script>
+
 </body>
 </html>

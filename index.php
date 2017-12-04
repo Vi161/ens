@@ -122,7 +122,6 @@
 
 <script>
     $(document).ready(function(){
-        navmenu('.products-nav');
         function windowSize(){
             if($(window).width() > 768){
                 $('.slick').slick({
@@ -139,54 +138,7 @@
         $(window).load(windowSize); // при загрузке
         $(window).resize(windowSize)
         $('.slick').slick('unslick');
-//        function windowSize(){
-//            if($(window).width() > 768){
-//
-//                $('.owl-carousel').owlCarousel({
-//
-////        loop:true, //Зацикливаем слайдер
-//                    margin:0, //Отступ от элемента справа в 50px
-//                    nav: false, //Отключение навигации
-//                    autoplay: true,
-//                    loop: true,
-////                    autoplay:true, //Автозапуск слайдера
-//                    smartSpeed:1000, //Время движения слайда
-////                    autoplayTimeout: 1000, //Время смены слайда
-////                    autoplayHoverPause: true,
-//                    autoplaySpeed: 500,
-//                    mouseDrag: true,
-//                    touchDrag: true,
-//                    navText: false,
-//                    dots: true,
-////                    dotsEach: 3,
-//                    responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
-//                        0:{
-//                        },
-//                        780:{
-//                            items:1
-//                        },
-//                        1000:{
-//                            items:1
-//                        }
-//                    }
-//                });
-//
-//                $('.owl-carousel').owlCarousel({
-//
-////        loop:true, //Зацикливаем слайдер
-//                    margin:0, //Отступ от элемента справа в 50px
-//                    nav: false, //Отключение навигации
-//                    autoplay: true
-//                }
-//
-//            }
-//        }
-//        $(window).load(windowSize); // при загрузке
-//        $(window).resize(windowSize)
-    });
-</script>
-<script>
-    $(document).ready(function(){
+
     });
 </script>
 
