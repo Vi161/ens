@@ -94,11 +94,9 @@ var adapmenu = function(){
                 $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
                 $(this).css("border","none  ");
             });
-            $('.header-nav__item1').click(function(){
-                $(".header-nav__item1-products>.header-nav__list1-1").toggle();
-
+            $('.header-nav__item1').mouseout(function(){
+                $(".header-nav__item1-products>.header-nav__list1-1").hide();
             });
-
 
 //            $('.header-nav__item1-products').click(function(){
 //                $(".header-nav__item1-products>.header-nav__list1-1").toggle(display);
