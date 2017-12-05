@@ -1,56 +1,59 @@
 //  ---------перелистывание к якорям-------------
 
 $(document).ready(function() {
-    golink();
-    adapmenu();
-//    $(window).load(navmenu('.products-nav')); // при загрузке
-//    $(window).resize(navmenu('.products-nav'))
-//    $(window).load(adapmenu()); // при загрузке
-//    $(window).resize(adapmenu())
-});
-var display;
+    var display;
 
-var golink = function(){
-    $("a[href*=#]").on("click", function(e){
-        var anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $(anchor.attr('href')).offset().top
-        }, 777);
-        e.preventDefault();
-        return false;
-    });
-};
+    var golink = function(){
+        $("a[href*=#]").on("click", function(e){
+            var anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $(anchor.attr('href')).offset().top
+            }, 777);
+            e.preventDefault();
+            return false;
+        });
+    };
+    var mark_menu = function(){
+        //    -------выделение пункта меню в хэдере на странице которого находишься----------
+        var thisUrl = document.location.pathname.split("/");
+        //    console.log(thisUrl[thisUrl.length - 1]);
+        $(".header-nav__item-a").each(function(){
+            var thisLink = $(this).attr("href").split("/");
+            if (thisLink[thisLink.length - 1] == thisUrl[thisUrl.length - 1]){
+                //                $(".header-nav-active").removeClass("header-nav-active");
+                $(this).addClass("header-nav-active");
+                $(this).parents('.header-nav__item').addClass("header-nav-active");
+                return false;
+            }
+        });
+    };
+    function scroll_mobile(){
+        console.log("<<<scroll");
 
-//    ----адаптивное меню----------
-var adapmenu = function(){
-    function adap(){
         var iScrollPos = 0;
-        var mibile_width = 767;
-        if($(window).width() < mibile_width) {
-            $(window).scroll(function () {
-                var iCurScrollPos = $(this).scrollTop();
-                $('header').removeClass('header-wrap-fixed');//rem2
+        $(window).scroll(function () {
+            var iCurScrollPos = $(this).scrollTop();
+            $('header').removeClass('header-wrap-fixed');//rem2
 
-                if($(this).scrollTop() >= 55) {
-                    $(".products-nav").addClass('nav-fixed'); //add2
-                }
-                else if ((iCurScrollPos < iScrollPos)  ) {
-                    $(".products-nav").removeClass('nav-fixed');//rem2
+            if($(this).scrollTop() >= 55) {
+                $(".products-nav").addClass('nav-fixed'); //add2
+            }
+            else if ((iCurScrollPos < iScrollPos)  ) {
+                $(".products-nav").removeClass('nav-fixed');//rem2
 //                    $('header').removeClass('header-wrap-fixed');//add1
-                }
-                var lastScrollTop = 0;
-                iScrollPos = iCurScrollPos;
+            }
+            var lastScrollTop = 0;
+            iScrollPos = iCurScrollPos;
+        });
+    };
+    function menu_click_mobile(){
 
-            });
-//************************************************
+        $("#header-nav__list").css("display","block");
+        $("#header-nav__list").hide();
+        $("#products-nav__list").css("display","block");
+        $("#products-nav__list").hide();
 
-            $("#header-nav__list").css("display","block");
-            $("#header-nav__list").hide();
-            $("#products-nav__list").css("display","block");
-            $("#products-nav__list").hide();
-
-
-            $(".icon-bars").removeClass("icon-close");
+        $(".icon-bars").removeClass("icon-close");
 //            $('.header-nav__item1-products').click(function(){
 //                $(".header-nav__item1-products>.header-nav__list1-1").show();
 //                $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
@@ -58,59 +61,62 @@ var adapmenu = function(){
 //                $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
 //                $(this).css("border","none  ");
 //            });
-            $('.header-nav__item1-products').click(function(){
-                $(".header-nav__item1-products>.header-nav__list1-1").toggle(display);
-                $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
-                $(".header-nav__item1-tech>.header-nav__list1-1").hide();
-                $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
-                $(this).css("border","none  ");
-            });
-            $('.header-nav__item1-tech').mouseover(function(){
-                $(".header-nav__item1-tech>.header-nav__list1-1").show();
-                $(".header-nav__item1-products>.header-nav__list1-1").hide();
-                $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
-                $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
-                $(this).css("border","none  ");
-            });
-            $('.header-nav__item1-hyst').mouseover(function(){
-                $(".header-nav__item1-hyst>.header-nav__list1-1").show();
-                $(".header-nav__item1-products>.header-nav__list1-1").hide();
-                $(".header-nav__item1-tech>.header-nav__list1-1").hide();
-                $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
-                $(this).css("border","none  ");
-            });
-            $('.header-nav__item1-aboutus').mouseover(function(){
-                $(".header-nav__item1-aboutus>.header-nav__list1-1").show();
-                $(".header-nav__item1-products>.header-nav__list1-1").hide();
-                $(".header-nav__item1-tech>.header-nav__list1-1").hide();
-                $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
-                $(this).css("border","none  ");
-            });
-            $('.slicknav-menu__but').click(function(){
-                $(  "#products-nav__list").toggle(display);
-                return false;
-            });
-            $('body').click(function(){
-                $("#products-nav__list").hide();
-            });
-            $(window).scroll(function() {
-                if ($(this).scrollTop() > 0) {
-                    $("#products-nav__list").slideUp();
-                }
-            });
-            $('.slicknav-menu1__but').click(function(){
-                $(".icon-bars").toggleClass("icon-close");
-                $("#header-nav__list").toggle(display);
-                return false;
-            });
-            $("body").click(function(e) {
-                if(($(e.target).closest("#header-nav__list").length==0)&&
-                    ($(e.target).closest(".header-nav__logo").length==0)){
-                    $("#header-nav__list").css("display","none");
-                    $('.icon-bars').removeClass('icon-close');
-                }
-            });
+        $('.header-nav__item1-products').click(function(){
+            $(".header-nav__item1-products>.header-nav__list1-1").toggle(display);
+            $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
+            $(".header-nav__item1-tech>.header-nav__list1-1").hide();
+            $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
+            $(this).css("border","none  ");
+        });
+        $('.header-nav__item1-tech').click(function(){
+            $(".header-nav__item1-tech>.header-nav__list1-1").toggle(display);
+            $(".header-nav__item1-products>.header-nav__list1-1").hide();
+            $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
+            $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
+            $(this).css("border","none  ");
+        });
+        $('.header-nav__item1-hyst').click(function(){
+            $(".header-nav__item1-hyst>.header-nav__list1-1").toggle(display);
+            $(".header-nav__item1-products>.header-nav__list1-1").hide();
+            $(".header-nav__item1-tech>.header-nav__list1-1").hide();
+            $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
+            $(this).css("border","none  ");
+        });
+        $('.header-nav__item1-aboutus').click(function(){
+            $(".header-nav__item1-aboutus>.header-nav__list1-1").toggle(display);
+            $(".header-nav__item1-products>.header-nav__list1-1").hide();
+            $(".header-nav__item1-tech>.header-nav__list1-1").hide();
+            $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
+            $(this).css("border","none  ");
+        });
+        $('.slicknav-menu__but').click(function(){
+            $(  "#products-nav__list").toggle(display);
+            return false;
+        });
+        $('body').click(function(){
+            $("#products-nav__list").hide();
+        });
+
+        $('.slicknav-menu1__but').click(function(){
+            $(".icon-bars").toggleClass("icon-close");
+            $("#header-nav__list").toggle(display);
+            return false;
+        });
+        $("body").click(function(e) {
+            if(($(e.target).closest("#header-nav__list").length==0)&&
+                ($(e.target).closest(".header-nav__logo").length==0)){
+                $("#header-nav__list").css("display","none");
+                $('.icon-bars').removeClass('icon-close');
             }
+        });
+    };
+
+    var adapt = function (){
+        var mibile_width = 767;
+        if($(window).width() < mibile_width) {
+            scroll_mobile();
+            menu_click_mobile()
+        }
         else if($(window).width() >= mibile_width) {
             var tempScrollTop, currentScrollTop = 0;
 
@@ -159,20 +165,10 @@ var adapmenu = function(){
             });
         }
     }
-    adap();
-    $(window).on('resize',function () {
-        adap();
-    });
-    //    -------выделение пункта меню в хэдере на странице которого находишься----------
-    var thisUrl = document.location.pathname.split("/");
-    //    console.log(thisUrl[thisUrl.length - 1]);
-    $(".header-nav__item-a").each(function(){
-        var thisLink = $(this).attr("href").split("/");
-        if (thisLink[thisLink.length - 1] == thisUrl[thisUrl.length - 1]){
-            //                $(".header-nav-active").removeClass("header-nav-active");
-            $(this).addClass("header-nav-active");
-            $(this).parents('.header-nav__item').addClass("header-nav-active");
-            return false;
-        }
-    });
-};
+
+
+//*************************************/
+    golink();
+    mark_menu();
+    adapt();
+});
