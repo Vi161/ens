@@ -5735,4 +5735,7 @@ header {
     display: inline-block;
     width: 100%;
   }
+  .header-nav__item:hover {
+    border-bottom: none;
+  }
 }
