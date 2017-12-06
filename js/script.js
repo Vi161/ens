@@ -162,8 +162,9 @@ $(document).ready(function() {
                 $("body").click(function(e) {
                     if(($(e.target).closest("#header-nav__list").length==0)&&
                         ($(e.target).closest(".header-nav__logo").length==0)){
-                        $("#header-nav__list").css("display","none");
+                        $("#header-nav__list").removeClass('header-nav__block');
                         $('.icon-bars').removeClass('icon-close');
+                        checkblock = true;
                     }
                 });
             }
