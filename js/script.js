@@ -40,53 +40,57 @@ $(document).ready(function() {
     function scroll_window(){
         var iScrollPos = 0;
         var tempScrollTop, currentScrollTop = 0;
-        function scroll_mobile(){
-            var iCurScrollPos = $(this).scrollTop();
+        if (isMobileWidth == true){
             $('header').removeClass('header-wrap-fixed');//rem1
             $('header').removeClass('header-wrap-fixed-top');//rem2
             $(".products-nav").removeClass('nav-lip0');//rem3
             $(".products-nav").removeClass('nav-lip2');//rem4
             $(".products-nav").removeClass('nav-fixed');//rem5
-            if($(this).scrollTop() >= 55) {
-                $(".products-nav").addClass('nav-fixed'); //add5
+            function scroll_mobile(){
+                var iCurScrollPos = $(this).scrollTop();
+
+                if($(this).scrollTop() >= 55) {
+                    $(".products-nav").addClass('nav-fixed'); //add5
+                }
+                else if ((iCurScrollPos < iScrollPos)  ) {
+                    $(".products-nav").removeClass('nav-fixed');//rem5
+                }
+                var lastScrollTop = 0;
+                iScrollPos = iCurScrollPos;
             }
-            else if ((iCurScrollPos < iScrollPos)  ) {
-                $(".products-nav").removeClass('nav-fixed');//rem5
-            }
-            var lastScrollTop = 0;
-            iScrollPos = iCurScrollPos;
-        }
-        function scroll_desktop(){
-            console.log('tydydydyn');
-            currentScrollTop = $(window).scrollTop();
-            $('header').addClass('header-wrap-fixed');//add1
-            $('header').addClass('header-wrap-fixed-top');//add2
-            if ((tempScrollTop < currentScrollTop ) && (tempScrollTop > 55)){
-                $('header').addClass('header-wrap-fixed');//add1
-                $('header').removeClass('header-wrap-fixed-top');//rem2
-                $(".products-nav").addClass('nav-fixed'); //add5
-                $(".products-nav").removeClass('nav-lip2');//rem4
-                $(".products-nav").addClass('nav-lip0');//add3
-            }
-            else if (tempScrollTop > currentScrollTop ){
-                $('header').addClass('header-wrap-fixed');//add1
-                $('header').addClass('header-wrap-fixed-top');//add2
-                $(".products-nav").addClass('nav-lip2');//add4
-            }
-            else if (tempScrollTop < 85){
-                $('header').removeClass('header-wrap-fixed');//rem1
-                $('header').removeClass('header-wrap-fixed-top');//rem2
-                $(".products-nav").removeClass('nav-lip0');//rem3
-                $(".products-nav").removeClass('nav-lip2');//rem4
-                $(".products-nav").removeClass('nav-fixed');//rem5
-            }
-            tempScrollTop = currentScrollTop;
-        }
-        if (isMobileWidth == true){
+
             $(window).unbind('scroll',scroll_desktop);
             $(window).bind('scroll',scroll_mobile);
         }
         else if (isMobileWidth == false){
+            $('header').addClass('header-wrap-fixed');//add1
+            $('header').addClass('header-wrap-fixed-top');//add2
+            function scroll_desktop(){
+                console.log('tydydydyn');
+                currentScrollTop = $(window).scrollTop();
+
+                if ((tempScrollTop < currentScrollTop ) && (tempScrollTop > 55)){
+                    $('header').addClass('header-wrap-fixed');//add1
+                    $('header').removeClass('header-wrap-fixed-top');//rem2
+                    $(".products-nav").addClass('nav-fixed'); //add5
+                    $(".products-nav").removeClass('nav-lip2');//rem4
+                    $(".products-nav").addClass('nav-lip0');//add3
+                }
+                else if (tempScrollTop > currentScrollTop ){
+                    $('header').addClass('header-wrap-fixed');//add1
+                    $('header').addClass('header-wrap-fixed-top');//add2
+                    $(".products-nav").addClass('nav-lip2');//add4
+                }
+                else if (tempScrollTop < 85){
+                    $('header').removeClass('header-wrap-fixed');//rem1
+                    $('header').removeClass('header-wrap-fixed-top');//rem2
+                    $(".products-nav").removeClass('nav-lip0');//rem3
+                    $(".products-nav").removeClass('nav-lip2');//rem4
+                    $(".products-nav").removeClass('nav-fixed');//rem5
+                }
+                tempScrollTop = currentScrollTop;
+            }
+
             $(window).unbind('scroll',scroll_mobile);
             $(window).bind('scroll',scroll_desktop);
         }
