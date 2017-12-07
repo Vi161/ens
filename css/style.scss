@@ -3725,6 +3725,9 @@ header {
 .header-nav__item1-hyst .header-nav__list1-1 {
   height: auto;
 }
+.header-nav__list1-1.header-nav__block {
+  display: block;
+}
 .header-nav__item1-hyst .header-nav__list2-2 {
   column-count: 1;
 }
@@ -3757,6 +3760,7 @@ header {
   font-weight: bold;
   color: #000000;
 }
+
 @media screen and (max-width: 1200px) {
   .header-left {
     width: 7%
@@ -4349,6 +4353,7 @@ header {
   .header-nav__item1-hyst .header-nav__list1-1 {
     height: auto;
   }
+
   .footer-top {
     padding: 6vw 0;
   }

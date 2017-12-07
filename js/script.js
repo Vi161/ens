@@ -103,36 +103,43 @@ $(document).ready(function() {
 //                $(".icon-bars").removeClass("icon-close");
                 $('.slicknav-menu__but').click(function(){
                         $("#products-nav__list").toggle(display);
-                    console.log('click');
                 });
-                $('.header-nav__item1-products').click(function(){
-                    $(".header-nav__item1-products>.header-nav__list1-1").toggle(display);
-                    $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
-                    $(".header-nav__item1-tech>.header-nav__list1-1").hide();
-                    $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
-                    $(this).css("border","none  ");
-                });
-                $('.header-nav__item1-tech').click(function(){
-                    $(".header-nav__item1-tech>.header-nav__list1-1").toggle(display);
-                    $(".header-nav__item1-products>.header-nav__list1-1").hide();
-                    $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
-                    $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
-                    $(this).css("border","none  ");
-                });
-                $('.header-nav__item1-hyst').click(function(){
-                    $(".header-nav__item1-hyst>.header-nav__list1-1").toggle(display);
-                    $(".header-nav__item1-products>.header-nav__list1-1").hide();
-                    $(".header-nav__item1-tech>.header-nav__list1-1").hide();
-                    $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
-                    $(this).css("border","none  ");
-                });
-                $('.header-nav__item1-aboutus').click(function(){
-                    $(".header-nav__item1-aboutus>.header-nav__list1-1").toggle(display);
-                    $(".header-nav__item1-products>.header-nav__list1-1").hide();
-                    $(".header-nav__item1-tech>.header-nav__list1-1").hide();
-                    $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
-                    $(this).css("border","none  ");
-                });
+            $('.header-nav__item1').bind( 'click', function(){
+                var thisclass = $(this).find(".header-nav__list1-1");
+                $('.header-nav__item1>.header-nav__block').removeClass('header-nav__block');
+                thisclass.addClass('header-nav__block');
+                $(this).css("border","none  ");
+                console.log('click');
+            });
+//
+//            $('.header-nav__item1-products').click(function(){
+//                    $(".header-nav__item1-products>.header-nav__list1-1").toggle(display);
+//                    $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
+//                    $(".header-nav__item1-tech>.header-nav__list1-1").hide();
+//                    $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
+//                    $(this).css("border","none  ");
+//                });
+//                $('.header-nav__item1-tech').click(function(){
+//                    $(".header-nav__item1-tech>.header-nav__list1-1").toggle(display);
+//                    $(".header-nav__item1-products>.header-nav__list1-1").hide();
+//                    $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
+//                    $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
+//                    $(this).css("border","none  ");
+//                });
+//                $('.header-nav__item1-hyst').click(function(){
+//                    $(".header-nav__item1-hyst>.header-nav__list1-1").toggle(display);
+//                    $(".header-nav__item1-products>.header-nav__list1-1").hide();
+//                    $(".header-nav__item1-tech>.header-nav__list1-1").hide();
+//                    $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
+//                    $(this).css("border","none  ");
+//                });
+//                $('.header-nav__item1-aboutus').click(function(){
+//                    $(".header-nav__item1-aboutus>.header-nav__list1-1").toggle(display);
+//                    $(".header-nav__item1-products>.header-nav__list1-1").hide();
+//                    $(".header-nav__item1-tech>.header-nav__list1-1").hide();
+//                    $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
+//                    $(this).css("border","none  ");
+//                });
 
                 $('body').click(function(){
 //                    $("#products-nav__list").hide();
@@ -145,13 +152,11 @@ $(document).ready(function() {
                     if (checkblock){
                         $("#header-nav__list").addClass('header-nav__block');
                         $(".icon-bars").addClass("icon-close");
-                        console.log(checkblock);
 //                    $("#header-nav__list").toggleClass('header-nav__block');
                     }
                     else {
                         $("#header-nav__list").removeClass('header-nav__block');
                         $(".icon-bars").removeClass("icon-close");
-                        console.log(checkblock);
 
                     }
                     checkblock = !checkblock;
@@ -171,7 +176,9 @@ $(document).ready(function() {
             else if (isMobileWidth == false){
                 console.log(">>>click");
                 checkblock = false;
-                $('.icon-bars').removeClass('icon-close');
+            $('.header-nav__item1-products').unbind('click')
+
+            $('.icon-bars').removeClass('icon-close');
                 $("#header-nav__list").removeClass('header-nav__block');
 //                $("#products-nav__list").show();
 //                $("#products-nav__list").css("display","flex");
@@ -179,11 +186,13 @@ $(document).ready(function() {
 //                $("#header-nav__list").css("display","flex");
 //                $(".header-nav__list1-1").hide();
                 $('.header-nav__item1').mouseover(function(){
-                    $(this).children(".header-nav__list1-1").show();
+//                    $(this).children(".header-nav__list1-1").show();
+                    $(this).children(".header-nav__list1-1").addClass('header-nav__block');
                     $(this).css("border-bottom","2px solid #556B2F");
                 });
                 $('.header-nav__item1').mouseout(function(){
-                    $(".header-nav__list1-1").hide();
+//                    $(".header-nav__list1-1").hide();
+                    $(this).children(".header-nav__list1-1").removeClass('header-nav__block');
                     $(this).css("border-bottom","2px solid transparent");
                 });
             }
