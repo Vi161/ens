@@ -4806,6 +4806,7 @@ header {
     padding:0;
   }
   #products-nav__list{
+    display: none;
     background-color: rgb(249, 249, 249);
     position: absolute;
     width: 100%;
@@ -4814,6 +4815,9 @@ header {
     padding: 0;
     left: 0;
     flex-direction: column;
+  }
+  #products-nav__list.header-nav__block {
+    display: block;
   }
   .about-nav__rigth {
     display: block;
