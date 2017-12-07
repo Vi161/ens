@@ -37,63 +37,64 @@ $(document).ready(function() {
 //            menu_click_desctop();
         }
     }
-    function scroll_mobile(){
-            var iScrollPos = 0;
-            var tempScrollTop, currentScrollTop = 0;
-
-        $(window).scroll(function () {
-            if (isMobileWidth == true)
-                {
-                    var iCurScrollPos = $(this).scrollTop();
-                    $('header').removeClass('header-wrap-fixed');//rem1
-                    $('header').removeClass('header-wrap-fixed-top');//rem2
-                    $(".products-nav").removeClass('nav-lip0');//rem3
-                    $(".products-nav").removeClass('nav-lip2');//rem4
-                    $(".products-nav").removeClass('nav-fixed');//rem5
-                    if($(this).scrollTop() >= 55) {
-                        $(".products-nav").addClass('nav-fixed'); //add5
-                    }
-                    else if ((iCurScrollPos < iScrollPos)  ) {
-                        $(".products-nav").removeClass('nav-fixed');//rem5
-                        //                    $('header').removeClass('header-wrap-fixed');//add1
-                    }
-                    var lastScrollTop = 0;
-                    iScrollPos = iCurScrollPos;
-                }
-                else if (isMobileWidth == false){
-                    currentScrollTop = $(window).scrollTop();
+    function scroll_window(){
+        var iScrollPos = 0;
+        var tempScrollTop, currentScrollTop = 0;
+        function scroll_mobile(){
+            var iCurScrollPos = $(this).scrollTop();
+            $('header').removeClass('header-wrap-fixed');//rem1
+            $('header').removeClass('header-wrap-fixed-top');//rem2
+            $(".products-nav").removeClass('nav-lip0');//rem3
+            $(".products-nav").removeClass('nav-lip2');//rem4
+            $(".products-nav").removeClass('nav-fixed');//rem5
+            if($(this).scrollTop() >= 55) {
+                $(".products-nav").addClass('nav-fixed'); //add5
+            }
+            else if ((iCurScrollPos < iScrollPos)  ) {
+                $(".products-nav").removeClass('nav-fixed');//rem5
+            }
+            var lastScrollTop = 0;
+            iScrollPos = iCurScrollPos;
+        }
+        function scroll_desktop(){
+            console.log('tydydydyn');
+            currentScrollTop = $(window).scrollTop();
+            $('header').addClass('header-wrap-fixed');//add1
+            $('header').addClass('header-wrap-fixed-top');//add2
+            if ((tempScrollTop < currentScrollTop ) && (tempScrollTop > 55)){
+                $('header').addClass('header-wrap-fixed');//add1
+                $('header').removeClass('header-wrap-fixed-top');//rem2
+                $(".products-nav").addClass('nav-fixed'); //add5
+                $(".products-nav").removeClass('nav-lip2');//rem4
+                $(".products-nav").addClass('nav-lip0');//add3
+            }
+            else if (tempScrollTop > currentScrollTop ){
                 $('header').addClass('header-wrap-fixed');//add1
                 $('header').addClass('header-wrap-fixed-top');//add2
-
-                if ((tempScrollTop < currentScrollTop ) && (tempScrollTop > 55)){
-                        $('header').addClass('header-wrap-fixed');//add1
-                        $('header').removeClass('header-wrap-fixed-top');//rem2
-                        $(".products-nav").addClass('nav-fixed'); //add5
-                        $(".products-nav").removeClass('nav-lip2');//rem4
-                        $(".products-nav").addClass('nav-lip0');//add3
-                    }
-                    else if (tempScrollTop > currentScrollTop ){
-                        $('header').addClass('header-wrap-fixed');//add1
-                        $('header').addClass('header-wrap-fixed-top');//add2
-                        $(".products-nav").addClass('nav-lip2');//add4
-                    }
-                    else if (tempScrollTop < 85){
-                        $('header').removeClass('header-wrap-fixed');//rem1
-                        $('header').removeClass('header-wrap-fixed-top');//rem2
-                        $(".products-nav").removeClass('nav-lip0');//rem3
-                        $(".products-nav").removeClass('nav-lip2');//rem4
-                        $(".products-nav").removeClass('nav-fixed');//rem5
-                    }
-                    tempScrollTop = currentScrollTop;
-                }
-        });
+                $(".products-nav").addClass('nav-lip2');//add4
+            }
+            else if (tempScrollTop < 85){
+                $('header').removeClass('header-wrap-fixed');//rem1
+                $('header').removeClass('header-wrap-fixed-top');//rem2
+                $(".products-nav").removeClass('nav-lip0');//rem3
+                $(".products-nav").removeClass('nav-lip2');//rem4
+                $(".products-nav").removeClass('nav-fixed');//rem5
+            }
+            tempScrollTop = currentScrollTop;
+        }
+        if (isMobileWidth == true){
+            $(window).unbind('scroll',scroll_desktop);
+            $(window).bind('scroll',scroll_mobile);
+        }
+        else if (isMobileWidth == false){
+            $(window).unbind('scroll',scroll_mobile);
+            $(window).bind('scroll',scroll_desktop);
+        }
     };
     function menu_mobile(){
         var checkblock;
         var checkblock1;
         var checkblock2;
-
-
         if (isMobileWidth == true){
             checkblock = true;
             function click_slick(){
@@ -162,7 +163,6 @@ $(document).ready(function() {
             checkblock = false;
             $('.header-nav__item1').unbind( 'click', click_header_menu);
             $('.slicknav-menu__but').unbind( 'click', click_slick_prod );
-
             $('.icon-bars').removeClass('icon-close');
             $("#header-nav__list").removeClass('header-nav__block');
             function mouseover_header_menu(){
@@ -173,7 +173,6 @@ $(document).ready(function() {
             function mouseout_header_menu(){
                 $(this).children(".header-nav__list1-1").removeClass('header-nav__block');
                 $(this).css("border-bottom","2px solid transparent");
-
             };
             $('.header-nav__item1').bind('mouseover',mouseover_header_menu);
             $('.header-nav__item1').bind('mouseout',mouseout_header_menu);
@@ -186,9 +185,10 @@ $(document).ready(function() {
     window_width();
     $( window ).resize(function() {
         window_width();
+        scroll_window();
         menu_mobile()
     });
     menu_mobile();
-//    scroll_mobile();
+    scroll_window();
 
 });
