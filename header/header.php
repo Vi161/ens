@@ -96,9 +96,8 @@
                     <ul class="header-nav__list1-1">
                         <div class="content__container">
                             <li class="header-nav__item1-1">
-                                <a class="header-nav__item-a header-nav__item1-1-a" href="/ens/aboutus/aboutus.php">About Us</a>
                                 <ul class="header-nav__list2-1">
-                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/index.php">ens.com</a></li>
+                                    <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/aboutus/aboutus.php">LET Medical Research Lab.</a></li>
                                     <li class="header-nav__item2-1"><a class="header-nav__item-a" href="/ens/aboutus/legal/legal.php">Legal information</a></li>
                                 </ul>
                             </li>

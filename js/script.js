@@ -123,6 +123,8 @@ $(document).ready(function() {
                     ($(e.target).closest(".header-nav__logo").length==0)){
                     $("#header-nav__list").removeClass('header-nav__block');
                     $('.icon-bars').removeClass('icon-close');
+                    $(".header-nav__list1-1").removeClass('header-nav__block');
+
                     checkblock = true;
                 }
             });
@@ -138,21 +140,42 @@ $(document).ready(function() {
                 return false;
             };
             $('.slicknav-menu__but').bind( 'click', click_slick_prod );
-
-            checkblock1 = true;
+//            checkblock1 = true;
+            var checkclass;
             function click_header_menu(){
                 $('.header-nav__item1').unbind( 'mouseover',mouseover_header_menu);
                 $('.header-nav__item1').unbind( 'mouseout',mouseout_header_menu);
-                var thisclass = $(this).find(".header-nav__list1-1");
-                $(this).css("border","none  ");
                 $('.header-nav__item1>.header-nav__block').removeClass('header-nav__block');
-                if (checkblock1){
-                    thisclass.addClass('header-nav__block');
-                }
-                else {
-                    thisclass.removeClass('header-nav__block');
-                }
-                checkblock1 = !checkblock1;
+                var thisclass = $(this).find(".header-nav__list1-1");
+                var notthisclass = $('.header-nav__item1').not(this).find(".header-nav__list1-1");
+                notthisclass.hide();
+//                thisclass.removeClass('header-nav__block');
+                $(this).css("border","none");
+                thisclass.toggle(display);
+//                else {
+//                    thisclass.addClass('header-nav__block');
+//                    console.log('2');
+//
+//                }
+//                thisclass.addClass('header-nav__block');
+//
+//                if (checkblock1){
+//                    thisclass.toggleClass('header-nav__block');
+//                    console.log('add')
+//                }
+//                else {
+//                    console.log('rem')
+//                }
+//                if (thisclass.hasClass('header-nav__block')){
+//                    checkclass = true;
+////                    thisclass.removeClass('header-nav__block');
+//                }
+//                else {
+//                    checkclass = false;
+//                }
+
+                console.log(checkclass);
+//                checkblock1 = !checkblock1;
             };
             $('.header-nav__item1').bind( 'click',
                 click_header_menu
