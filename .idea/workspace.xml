@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffe3c2e7-3852-4cb1-ad1e-f5b19a3ac297" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header/header.php" afterPath="$PROJECT_DIR$/header/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
@@ -29,15 +31,15 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="162" column="39" selection-start="7239" selection-end="7239" vertical-scroll-proportion="0.81040084" vertical-offset="425" max-vertical-offset="1972">
+                <state line="106" column="0" selection-start="4497" selection-end="4497" vertical-scroll-proportion="0.66305524" vertical-offset="0" max-vertical-offset="1972">
                   <folding>
                     <element signature="e#1070#1428#0" expanded="false" />
                     <element signature="e#1457#4142#0" expanded="false" />
-                    <element signature="e#4322#4991#0" expanded="false" />
-                    <element signature="e#5734#6071#0" expanded="false" />
+                    <element signature="e#4598#5363#0" expanded="false" />
+                    <element signature="e#5537#6127#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -46,7 +48,7 @@
           <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/header/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="59" column="25" selection-start="6656" selection-end="6656" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="2040">
+                <state line="7" column="35" selection-start="153" selection-end="153" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="2057">
                   <folding />
                 </state>
               </provider>
@@ -55,7 +57,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="97988">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="98141">
                   <folding />
                 </state>
               </provider>
@@ -65,10 +67,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5719" column="19" selection-start="123797" selection-end="123797" vertical-scroll-proportion="0.28671327" vertical-offset="96977" max-vertical-offset="97988">
+                <state line="5751" column="17" selection-start="124475" selection-end="124475" vertical-scroll-proportion="0.5641026" vertical-offset="97283" max-vertical-offset="98141">
                   <folding />
                 </state>
               </provider>
@@ -92,8 +94,8 @@
         <option value="$PROJECT_DIR$/node_modules/js-base64/base64.html" />
         <option value="$PROJECT_DIR$/js/tempscript.js" />
         <option value="$PROJECT_DIR$/header/header.php" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -344,8 +346,8 @@
           <folding>
             <element signature="e#1070#1428#0" expanded="false" />
             <element signature="e#1457#4142#0" expanded="false" />
-            <element signature="e#4322#4991#0" expanded="false" />
-            <element signature="e#5734#6071#0" expanded="false" />
+            <element signature="e#4598#5363#0" expanded="false" />
+            <element signature="e#5537#6127#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -370,8 +372,8 @@
           <folding>
             <element signature="e#1070#1428#0" expanded="false" />
             <element signature="e#1457#4142#0" expanded="false" />
-            <element signature="e#4322#4991#0" expanded="false" />
-            <element signature="e#5734#6071#0" expanded="false" />
+            <element signature="e#4598#5363#0" expanded="false" />
+            <element signature="e#5537#6127#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -406,8 +408,8 @@
           <folding>
             <element signature="e#1070#1428#0" expanded="false" />
             <element signature="e#1457#4142#0" expanded="false" />
-            <element signature="e#4322#4991#0" expanded="false" />
-            <element signature="e#5734#6071#0" expanded="false" />
+            <element signature="e#4598#5363#0" expanded="false" />
+            <element signature="e#5537#6127#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -447,8 +449,8 @@
           <folding>
             <element signature="e#1070#1428#0" expanded="false" />
             <element signature="e#1457#4142#0" expanded="false" />
-            <element signature="e#4322#4991#0" expanded="false" />
-            <element signature="e#5734#6071#0" expanded="false" />
+            <element signature="e#4598#5363#0" expanded="false" />
+            <element signature="e#5537#6127#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -483,8 +485,8 @@
           <folding>
             <element signature="e#1070#1428#0" expanded="false" />
             <element signature="e#1457#4142#0" expanded="false" />
-            <element signature="e#4322#4991#0" expanded="false" />
-            <element signature="e#5734#6071#0" expanded="false" />
+            <element signature="e#4598#5363#0" expanded="false" />
+            <element signature="e#5537#6127#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -507,8 +509,8 @@
           <folding>
             <element signature="e#1070#1428#0" expanded="false" />
             <element signature="e#1457#4142#0" expanded="false" />
-            <element signature="e#4322#4991#0" expanded="false" />
-            <element signature="e#5734#6071#0" expanded="false" />
+            <element signature="e#4598#5363#0" expanded="false" />
+            <element signature="e#5537#6127#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -531,8 +533,8 @@
           <folding>
             <element signature="e#1070#1428#0" expanded="false" />
             <element signature="e#1457#4142#0" expanded="false" />
-            <element signature="e#4322#4991#0" expanded="false" />
-            <element signature="e#5734#6071#0" expanded="false" />
+            <element signature="e#4598#5363#0" expanded="false" />
+            <element signature="e#5537#6127#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -560,8 +562,8 @@
           <folding>
             <element signature="e#1070#1428#0" expanded="false" />
             <element signature="e#1457#4142#0" expanded="false" />
-            <element signature="e#4322#4991#0" expanded="false" />
-            <element signature="e#5734#6071#0" expanded="false" />
+            <element signature="e#4598#5363#0" expanded="false" />
+            <element signature="e#5537#6127#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -598,34 +600,34 @@
         <state line="71" column="50" selection-start="3214" selection-end="3214" vertical-scroll-proportion="0.35005575" vertical-offset="893" max-vertical-offset="2567" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="25" selection-start="6656" selection-end="6656" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="945" column="18" selection-start="14481" selection-end="14527" vertical-scroll-proportion="0.33261105" vertical-offset="15758" max-vertical-offset="64821" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/header/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="39" selection-start="7239" selection-end="7239" vertical-scroll-proportion="0.81040084" vertical-offset="425" max-vertical-offset="1972">
-          <folding>
-            <element signature="e#1070#1428#0" expanded="false" />
-            <element signature="e#1457#4142#0" expanded="false" />
-            <element signature="e#4322#4991#0" expanded="false" />
-            <element signature="e#5734#6071#0" expanded="false" />
-          </folding>
+        <state line="7" column="35" selection-start="153" selection-end="153" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="2057">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5719" column="19" selection-start="123797" selection-end="123797" vertical-scroll-proportion="0.28671327" vertical-offset="96977" max-vertical-offset="97988">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="98141">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="0" selection-start="4497" selection-end="4497" vertical-scroll-proportion="0.66305524" vertical-offset="0" max-vertical-offset="1972">
+          <folding>
+            <element signature="e#1070#1428#0" expanded="false" />
+            <element signature="e#1457#4142#0" expanded="false" />
+            <element signature="e#4598#5363#0" expanded="false" />
+            <element signature="e#5537#6127#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

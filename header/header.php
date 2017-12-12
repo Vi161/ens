@@ -5,6 +5,7 @@
     <div class="header-left"></div>
     <div class="header-right"></div>
     <nav class="header-nav">
+        <div class="background_op"></div>
         <div class="header-nav__container">
             <div class="slicknav-menu1">
                 <div class="slicknav-menu1__but"><span class="icon-bars"></span></div>

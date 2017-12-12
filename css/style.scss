@@ -5749,10 +5749,19 @@ header {
 //    column-count: 2;
   }
   .header-nav__item2-1 > .header-nav__item-a {
-    display: inline-block;
-    width: 100%;
+    display: flex;
   }
   .header-nav__item:hover {
     border-bottom: none;
+  }
+  .background_op {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: .5;
   }
 }

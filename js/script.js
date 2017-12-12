@@ -98,12 +98,19 @@ $(document).ready(function() {
     function menu_mobile(){
         var checkblock;
         var checkblock2;
+        $(".background_op").hide();
+        checkblock = false;
+        checkblock2 = false;
+        $("#header-nav__list").removeClass('header-nav__block');
+        $("#products-nav__list").removeClass('header-nav__block');
+        $(".icon-bars").removeClass("icon-close");
         if (isMobileWidth == true){
             checkblock = true;
             function click_slick(){
                 if (checkblock){
                     $("#header-nav__list").addClass('header-nav__block');
                     $(".icon-bars").addClass("icon-close");
+                    $(".background_op").show();
                     console.log('cliKc');
                     $('.header-nav__item1').unbind( 'mouseover',mouseover_header_menu);
                     $('.header-nav__item1').unbind( 'mouseout',mouseout_header_menu);
@@ -111,6 +118,7 @@ $(document).ready(function() {
                 else {
                     $("#header-nav__list").removeClass('header-nav__block');
                     $(".icon-bars").removeClass("icon-close");
+                    $(".background_op").hide();
                 }
                 checkblock = !checkblock;
                 return false;
@@ -122,8 +130,10 @@ $(document).ready(function() {
                     ($(e.target).closest(".header-nav__logo").length==0)){
                     $("#header-nav__list").removeClass('header-nav__block');
                     $('.icon-bars').removeClass('icon-close');
-//                    $(".header-nav__list1-1").removeClass('header-nav__block');
-//                    $(".header-nav__list1-1").();
+                    $(".background_op").hide();
+                    $("#products-nav__list").removeClass('header-nav__block');
+                    $(".header-nav__list1-1").hide();
+                    $(".background_op").hide();
                     checkblock = true;
                 }
             });
@@ -154,14 +164,8 @@ $(document).ready(function() {
 
                 notthisclass.hide();
                 thisclass.toggle(display);
-                return false;
-
             };
             $('.header-nav__item1').bind( 'click',click_header_menu);
-            $('body').click(function(){
-                $("#products-nav__list").removeClass('header-nav__block');
-                $(".header-nav__list1-1").hide();
-            });
         }
 
         else if (isMobileWidth == false){
