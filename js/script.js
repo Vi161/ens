@@ -23,20 +23,71 @@ $(document).ready(function() {
             }
         });
     };
+
     var window_width = function (){
         var mibile_width = 767;
         if($(window).width() < mibile_width) {
             isMobileWidth=true;
+
 //            scroll_mobile();
 //            menu_click_mobile()
         }
         else if($(window).width() >= mibile_width) {
             isMobileWidth=false;
-
 //            scroll_desctop();
 //            menu_click_desctop();
         }
     }
+    function mouseover_header_menu(){
+//                $(this).children(".header-nav__list1-1").addClass('header-nav__block');
+        $(this).children(".header-nav__list1-1").show();
+        $(this).css("border-bottom","2px solid #556B2F");
+        console.log("mouse")
+    };
+    function mouseout_header_menu(){
+//                $(this).children(".header-nav__list1-1").removeClass('header-nav__block');
+        $(this).children(".header-nav__list1-1").hide();
+        $(this).css("border-bottom","2px solid transparent");
+    };
+    function click_header_menu(){
+        console.log('click mob')
+//        $('.header-nav__item1>.header-nav__block').removeClass('header-nav__block');
+        var thisclass = $(this).find(".header-nav__list1-1");
+        var notthisclass = $('.header-nav__item1').not(this).find(".header-nav__list1-1");
+        $(this).css("border","none");
+//        notthisclass.removeClass('header-nav__block');
+//                thisclass.removeClass('header-nav__block');
+//                thisclass.toggleClass('header-nav__block');
+//                notthisclass.hide();
+//                thisclass.toggle(display);
+//        thisclass.toggleClass('qwe1123');
+
+        $('.header-nav__item1-products').click(function(){
+            $(".header-nav__item1-products>.header-nav__list1-1").toggle(display);
+            $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
+            $(".header-nav__item1-tech>.header-nav__list1-1").hide();
+            $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
+        });
+        $('.header-nav__item1-tech').click(function(){
+            $(".header-nav__item1-tech>.header-nav__list1-1").toggle(display);
+            $(".header-nav__item1-products>.header-nav__list1-1").hide();
+            $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
+            $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
+        });
+        $('.header-nav__item1-hyst').click(function(){
+            $(".header-nav__item1-hyst>.header-nav__list1-1").toggle(display);
+            $(".header-nav__item1-products>.header-nav__list1-1").hide();
+            $(".header-nav__item1-tech>.header-nav__list1-1").hide();
+            $(".header-nav__item1-aboutus>.header-nav__list1-1").hide();
+        });
+        $('.header-nav__item1-aboutus').click(function(){
+            $(".header-nav__item1-aboutus>.header-nav__list1-1").toggle(display);
+            $(".header-nav__item1-products>.header-nav__list1-1").hide();
+            $(".header-nav__item1-tech>.header-nav__list1-1").hide();
+            $(".header-nav__item1-hyst>.header-nav__list1-1").hide();
+        });
+    };
+
     function scroll_window(){
         var iScrollPos = 0;
         var tempScrollTop, currentScrollTop = 0;
@@ -66,9 +117,7 @@ $(document).ready(function() {
             $('header').addClass('header-wrap-fixed');//add1
             $('header').addClass('header-wrap-fixed-top');//add2
             function scroll_desktop(){
-                console.log('tydydydyn');
                 currentScrollTop = $(window).scrollTop();
-
                 if ((tempScrollTop < currentScrollTop ) && (tempScrollTop > 55)){
                     $('header').addClass('header-wrap-fixed');//add1
                     $('header').removeClass('header-wrap-fixed-top');//rem2
@@ -90,7 +139,6 @@ $(document).ready(function() {
                 }
                 tempScrollTop = currentScrollTop;
             }
-
             $(window).unbind('scroll',scroll_mobile);
             $(window).bind('scroll',scroll_desktop);
         }
@@ -98,13 +146,20 @@ $(document).ready(function() {
     function menu_mobile(){
         var checkblock;
         var checkblock2;
-        $(".background_op").hide();
+//        $(".background_op").hide();
         checkblock = false;
         checkblock2 = false;
-        $("#header-nav__list").removeClass('header-nav__block');
-        $("#products-nav__list").removeClass('header-nav__block');
-        $(".icon-bars").removeClass("icon-close");
+
+//        $("#header-nav__list").removeClass('header-nav__block');
+//        $("#products-nav__list").removeClass('header-nav__block');
+//        $(".icon-bars").removeClass("icon-close");
         if (isMobileWidth == true){
+            console.log('width mob')
+            $('.header-nav__item1').unbind( 'mouseover',mouseover_header_menu);
+            $('.header-nav__item1').unbind( 'mouseout',mouseout_header_menu);
+            $('.header-nav__item1').bind( 'click',click_header_menu);
+
+            $('.slicknav-menu__but').bind( 'click', click_slick_prod );
             checkblock = true;
             function click_slick(){
                 if (checkblock){
@@ -112,8 +167,6 @@ $(document).ready(function() {
                     $(".icon-bars").addClass("icon-close");
                     $(".background_op").show();
                     console.log('cliKc');
-                    $('.header-nav__item1').unbind( 'mouseover',mouseover_header_menu);
-                    $('.header-nav__item1').unbind( 'mouseout',mouseout_header_menu);
                 }
                 else {
                     $("#header-nav__list").removeClass('header-nav__block');
@@ -148,48 +201,16 @@ $(document).ready(function() {
                 checkblock2 = !checkblock2;
                 return false;
             };
-            $('.slicknav-menu__but').bind( 'click', click_slick_prod );
-
-            function click_header_menu(){
-                console.log('mob')
-                $('.header-nav__item1').unbind( 'mouseover',mouseover_header_menu);
-                $('.header-nav__item1').unbind( 'mouseout',mouseout_header_menu);
-                $('.header-nav__item1>.header-nav__block').removeClass('header-nav__block');
-                var thisclass = $(this).find(".header-nav__list1-1");
-                var notthisclass = $('.header-nav__item1').not(this).find(".header-nav__list1-1");
-//                notthisclass.removeClass('header-nav__block');
-//                thisclass.removeClass('header-nav__block');
-//                $(this).css("border","none");
-//                thisclass.toggleClass('header-nav__block');
-
-                notthisclass.hide();
-                thisclass.toggle(display);
-            };
-            $('.header-nav__item1').bind( 'click',click_header_menu);
         }
-
         else if (isMobileWidth == false){
+            console.log('width desct')
+            $('.header-nav__item1').unbind( 'click',click_header_menu);
             checkblock = false;
-            $('.header-nav__item1').unbind( 'click', click_header_menu);
-            $('.slicknav-menu__but').unbind( 'click', click_slick_prod );
             $('.icon-bars').removeClass('icon-close');
             $("#header-nav__list").removeClass('header-nav__block');
-            function mouseover_header_menu(){
-//                $(this).children(".header-nav__list1-1").addClass('header-nav__block');
-                $(this).children(".header-nav__list1-1").show();
-                $(this).css("border-bottom","2px solid #556B2F");
-                console.log("mouse")
-            };
-            function mouseout_header_menu(){
-//                $(this).children(".header-nav__list1-1").removeClass('header-nav__block');
-                $(this).children(".header-nav__list1-1").hide();
-
-                $(this).css("border-bottom","2px solid transparent");
-            };
             $('.header-nav__item1').bind('mouseover',mouseover_header_menu);
             $('.header-nav__item1').bind('mouseout',mouseout_header_menu);
         }
-
     };
 
 //*************************************/
@@ -198,10 +219,10 @@ $(document).ready(function() {
     window_width();
     $( window ).resize(function() {
         window_width();
-        scroll_window();
+//        scroll_window();
         menu_mobile()
     });
     menu_mobile();
-    scroll_window();
+//    scroll_window();
 
 });
