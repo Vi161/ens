@@ -151,7 +151,7 @@ $(document).ready(function() {
     function menu_mobile(){
         var checkblock;
         var checkblock2;
-//        $(".background_op").hide();
+        $(".background_op").hide();
         checkblock = false;
         checkblock2 = false;
         function click_slick(){
