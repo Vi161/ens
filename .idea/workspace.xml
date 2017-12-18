@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffe3c2e7-3852-4cb1-ad1e-f5b19a3ac297" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\ag\ag.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\au\au.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\cu\cu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\dx1\dx1_inverted.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\ev01\ev01.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/dx1/dx1.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/dx1/dx1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/dx2/dx2.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/dx2/dx2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/ec01/ec01.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/ec01/ec01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/emc01/emc01.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/emc01/emc01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/ent01/ent01.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/ent01/ent01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/ev01o/ev01o.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/ev01o/ev01o.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/ev01z/ev01z.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/ev01z/ev01z.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/oko/oko.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/oko/oko.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/tablet02/tablet02.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/tablet02/tablet02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/accessories/tablet03/tablet03.jpg" afterPath="$PROJECT_DIR$/images/products/accessories/tablet03/tablet03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,10 +29,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="188" column="7" selection-start="8305" selection-end="8305" vertical-scroll-proportion="0.79129463" vertical-offset="957" max-vertical-offset="1853">
+                <state line="159" column="62" selection-start="7273" selection-end="7273" vertical-scroll-proportion="-8.64" vertical-offset="957" max-vertical-offset="1853">
                   <folding>
                     <element signature="e#75#364#0" expanded="false" />
                     <element signature="e#396#1034#0" expanded="false" />
@@ -69,10 +52,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ens.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="ens.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/products/ens/ens.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="17" selection-start="2007" selection-end="2007" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="10676">
+                <state line="35" column="17" selection-start="2007" selection-end="2007" vertical-scroll-proportion="0.46258503" vertical-offset="187" max-vertical-offset="10676">
                   <folding />
                 </state>
               </provider>
@@ -103,7 +86,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1053" column="24" selection-start="20691" selection-end="20691" vertical-scroll-proportion="0.3809524" vertical-offset="17565" max-vertical-offset="98158">
+                <state line="3735" column="1" selection-start="85643" selection-end="85643" vertical-scroll-proportion="0.3722287" vertical-offset="63176" max-vertical-offset="98158">
                   <folding />
                 </state>
               </provider>
@@ -127,8 +110,8 @@
         <option value="$PROJECT_DIR$/node_modules/js-base64/base64.html" />
         <option value="$PROJECT_DIR$/js/tempscript.js" />
         <option value="$PROJECT_DIR$/header/header.php" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
   </component>
@@ -649,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products/ens/ens.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="17" selection-start="2007" selection-end="2007" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="10676">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="98158">
@@ -665,13 +641,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="7" selection-start="8305" selection-end="8305" vertical-scroll-proportion="0.79129463" vertical-offset="957" max-vertical-offset="1853">
+        <state line="159" column="62" selection-start="7273" selection-end="7273" vertical-scroll-proportion="-8.64" vertical-offset="957" max-vertical-offset="1853">
           <folding>
             <element signature="e#75#364#0" expanded="false" />
             <element signature="e#396#1034#0" expanded="false" />
             <element signature="e#2455#5094#0" expanded="false" />
             <element signature="e#6110#6874#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/ens/ens.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="17" selection-start="2007" selection-end="2007" vertical-scroll-proportion="0.46258503" vertical-offset="187" max-vertical-offset="10676">
+          <folding />
         </state>
       </provider>
     </entry>
