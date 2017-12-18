@@ -224,7 +224,7 @@ $(document).ready(function() {
     $(window).on('resize', function() {
 //        window_width();
         scroll_window();
-//        menu_mobile()
+        menu_mobile()
     });
     medias();
     menu_mobile();
