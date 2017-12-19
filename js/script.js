@@ -41,6 +41,7 @@ $(document).ready(function() {
         $(this).css("border","none");
         notthisclass.hide();
         thisclass.toggle(display);
+        $(this).toggleClass('weight_bold');
     };
     function scroll_window(){
         var iScrollPos = 0;
