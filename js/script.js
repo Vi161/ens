@@ -189,9 +189,19 @@ $(document).ready(function() {
             checkblock2 = !checkblock2;
             return false;
         };
-        $("body").click(function(e) {
-            if(($(e.target).closest("#header-nav__list").length==0)&&
-                ($(e.target).closest(".header-nav__logo").length==0)){
+//        $("body").click(function(e) {
+//            if(($(e.target).closest("#header-nav__list").length==0)&&
+//                ($(e.target).closest(".header-nav__logo").length==0)){
+//                $("#header-nav__list").removeClass('header-nav__block');
+//                $('.icon-bars').removeClass('icon-close');
+//                $(".background_op").hide();
+//                $("#products-nav__list").removeClass('header-nav__block');
+//                $(".header-nav__list1-1").hide();
+//                $(".background_op").hide();
+//                checkblock = true;
+//            }
+//        });
+        $(".background_op").click(function() {
                 $("#header-nav__list").removeClass('header-nav__block');
                 $('.icon-bars').removeClass('icon-close');
                 $(".background_op").hide();
@@ -199,7 +209,6 @@ $(document).ready(function() {
                 $(".header-nav__list1-1").hide();
                 $(".background_op").hide();
                 checkblock = true;
-            }
         });
 
         if (isMobileWidth == true){
