@@ -153,7 +153,7 @@ $(document).ready(function() {
     function menu_mobile(){
         var checkblock;
         var checkblock2;
-        $(".background_op").hide();
+//        $(".background_op").hide();
         checkblock = false;
         checkblock2 = false;
         function click_slick(){
@@ -201,6 +201,7 @@ $(document).ready(function() {
                 checkblock = true;
             }
         });
+
         if (isMobileWidth == true){
 //            $('.header-nav__item1').unbind('mouseover',mouseover_header_menu);
 //            $('.header-nav__item1').unbind('mouseout',mouseout_header_menu);
@@ -216,6 +217,8 @@ $(document).ready(function() {
             checkblock = false;
             $('.icon-bars').removeClass('icon-close');
             $("#header-nav__list").removeClass('header-nav__block');
+                    $(".background_op").hide();
+
 //            $('.header-nav__item1').bind('mouseover',mouseover_header_menu);
 //            $('.header-nav__item1').bind('mouseout',mouseout_header_menu);
         }
