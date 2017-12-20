@@ -27,6 +27,9 @@ $ps705-block7-height: 1300px;
 $ps705-block8-height: 700px;
 $ps705-block9-height: 700px;
 $ps705-block10-height: 350px;
+$acc1-block-height-255: 255px;
+$acc1-block-height-350: 350px;
+$acc1-block-height-400: 400px;
 $acc1-block-height-450:  450px;
 $acc1-block-height-500:  500px;
 $acc1-block-height-600:  600px;
@@ -3647,6 +3650,7 @@ header {
 }
 .acc1-block3__img2-oko-col {
   background-image: url(../images/products/accessories/oko/oko-colour.jpg);
+  height: $acc1-block-height-350;
 }
 .acc1-block3__img2-ent01 {
   background-image: url(../images/products/accessories/ent01/ent01-size.jpg);
@@ -3656,24 +3660,31 @@ header {
 }
 .acc1-block3__img2-tablet03 {
   background-image: url(../images/products/accessories/tablet03/tablet03-size.jpg);
+  height: $acc1-block-height-255;
 }
 .acc1-block3__img2-tablet03-col {
   background-image: url(../images/products/accessories/tablet03/tablet03-colour.jpg);
+  height: $acc1-block-height-255;
 }
 .acc1-block3__img2-tablet02 {
   background-image: url(../images/products/accessories/tablet02/tablet02-size.jpg);
+  height: $acc1-block-height-255;
 }
 .acc1-block3__img2-tablet02-col {
   background-image: url(../images/products/accessories/tablet02/tablet02-colour.jpg);
+  height: $acc1-block-height-255;
 }
 .acc1-block3__img2-ec01 {
   background-image: url(../images/products/accessories/ec01/ec01-size.jpg);
+  height: $acc1-block-height-255;
 }
 .acc1-block3__img2-ec01-col {
   background-image: url(../images/products/accessories/ec01/ec01-colour.jpg);
+  height: $acc1-block-height-255;
 }
 .acc1-block3__img2-ev01 {
   background-image: url(../images/products/accessories/ev01/ev01w-size.jpg);
+  height: $acc1-block-height-600;
 }
 .acc1-block3__img2-ev01-col {
   background-image: url(../images/products/accessories/ev01/ev01w-colour.jpg);
@@ -3681,6 +3692,7 @@ header {
 }
 .acc1-block3__img2-ev01z {
   background-image: url(../images/products/accessories/ev01z/ev01z-size.jpg);
+  height: $acc1-block-height-600;
 }
 .acc1-block3__img2-ev01z-col {
   background-image: url(../images/products/accessories/ev01z/ev01z-colour.jpg);
@@ -3688,6 +3700,7 @@ header {
 }
 .acc1-block3__img2-ev01o {
   background-image: url(../images/products/accessories/ev01o/ev01o-size.jpg);
+  height: $acc1-block-height-600;
 }
 .acc1-block3__img2-ev01o-col {
   background-image: url(../images/products/accessories/ev01o/ev01o-colour.jpg);
@@ -3695,6 +3708,7 @@ header {
 }
 .acc1-block3__img2-er01 {
   background-image: url(../images/products/accessories/er01/er01-size.jpg);
+  height: $acc1-block-height-600;
 }
 .acc1-block3__img2-er01-col {
   background-image: url(../images/products/accessories/er01/er01-colour.jpg);
@@ -3702,12 +3716,15 @@ header {
 }
 .acc1-block3__img2-cu {
   background-image: url(../images/products/accessories/ag/detachable735-size.jpg);
+  height: $acc1-block-height-400;
 }
 .acc1-block3__img2-ag {
   background-image: url(../images/products/accessories/ag/detachable735-size.jpg);
+  height: $acc1-block-height-400;
 }
 .acc1-block3__img2-au {
   background-image: url(../images/products/accessories/ag/detachable735-size.jpg);
+  height: $acc1-block-height-400;
 }
 .header-nav__list1-1 .content__container {
   margin-bottom: 15px;
