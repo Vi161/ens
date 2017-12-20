@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ffe3c2e7-3852-4cb1-ad1e-f5b19a3ac297" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
@@ -33,7 +31,7 @@
           <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="160" column="0" selection-start="7206" selection-end="7206" vertical-scroll-proportion="0.37611607" vertical-offset="3" max-vertical-offset="1734">
+                <state line="191" column="8" selection-start="8416" selection-end="8416" vertical-scroll-proportion="0.63839287" vertical-offset="295" max-vertical-offset="1751">
                   <folding>
                     <element signature="e#75#364#0" expanded="false" />
                     <element signature="e#396#1034#0" expanded="false" />
@@ -747,7 +745,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="0" selection-start="7206" selection-end="7206" vertical-scroll-proportion="0.37611607" vertical-offset="3" max-vertical-offset="1734">
+        <state line="191" column="8" selection-start="8416" selection-end="8416" vertical-scroll-proportion="0.63839287" vertical-offset="295" max-vertical-offset="1751">
           <folding>
             <element signature="e#75#364#0" expanded="false" />
             <element signature="e#396#1034#0" expanded="false" />
