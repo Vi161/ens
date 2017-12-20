@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffe3c2e7-3852-4cb1-ad1e-f5b19a3ac297" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\dx1\size-dx1.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\ag\size-ag.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\dx2\size-dx2.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\ec01\size-ec01.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\emc01\size-emc01.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\ent01\size-ent01.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\er01\size-er01.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\ev01\size-ev01.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\ev01o\size-ev01o.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\ev01z\size-ev01z.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\oko\size-oko.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\tablet02\size-tablet02.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\HTML\ens\images\products\accessories\tablet03\size-tablet03.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ens.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,7 +83,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="98243">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="99586">
                   <folding />
                 </state>
               </provider>
@@ -89,7 +96,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3709" column="80" selection-start="85215" selection-end="85215" vertical-scroll-proportion="0.8016336" vertical-offset="62366" max-vertical-offset="98243">
+                <state line="5849" column="84" selection-start="127877" selection-end="127877" vertical-scroll-proportion="0.82147026" vertical-offset="98729" max-vertical-offset="99586">
                   <folding />
                 </state>
               </provider>
@@ -656,7 +663,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3709" column="80" selection-start="85215" selection-end="85215" vertical-scroll-proportion="0.8016336" vertical-offset="62366" max-vertical-offset="98243">
+        <state line="5849" column="84" selection-start="127877" selection-end="127877" vertical-scroll-proportion="0.82147026" vertical-offset="98729" max-vertical-offset="99586">
           <folding />
         </state>
       </provider>
