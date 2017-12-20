@@ -41,6 +41,7 @@ $(document).ready(function() {
         $(this).css("border","none");
         notthisclass.hide();
         thisclass.toggle(display);
+        $('.header-nav__item1').not(this).removeClass('weight_bold');
         $(this).toggleClass('weight_bold');
     };
     function scroll_window(){
@@ -156,6 +157,7 @@ $(document).ready(function() {
         checkblock = false;
         checkblock2 = false;
         function click_slick(){
+            $('.header-nav__item1').not(this).removeClass('weight_bold');
             if (checkblock){
                 $("#header-nav__list").addClass('header-nav__block');
                 $(".icon-bars").addClass("icon-close");
